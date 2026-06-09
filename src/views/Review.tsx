@@ -24,11 +24,11 @@ export default function Review({ api, startPractice }: Props) {
   return (
     <div className="space-y-4">
       <header className="pt-2">
-        <h1 className="text-2xl font-black text-slate-800">Review</h1>
-        <p className="text-slate-500">Revisit the questions you missed or bookmarked.</p>
+        <h1 className="text-2xl font-black text-ink">Review</h1>
+        <p className="text-ink-soft">Revisit the questions you missed or bookmarked.</p>
       </header>
 
-      <div className="flex gap-2 rounded-2xl bg-slate-100 p-1">
+      <div className="flex gap-2 rounded-2xl bg-surface-2 p-1">
         <TabButton active={tab === 'work'} onClick={() => setTab('work')}>
           💪 Needs work ({work.length})
         </TabButton>
@@ -40,10 +40,10 @@ export default function Review({ api, startPractice }: Props) {
       {list.length === 0 ? (
         <div className="clay-card p-8 text-center">
           <div className="text-4xl">{tab === 'work' ? '🎯' : '🔖'}</div>
-          <p className="mt-3 font-bold text-slate-700">
+          <p className="mt-3 font-bold text-ink">
             {tab === 'work' ? 'No missed questions — nice!' : 'No bookmarks yet.'}
           </p>
-          <p className="mt-1 text-sm text-slate-500">
+          <p className="mt-1 text-sm text-ink-soft">
             {tab === 'work'
               ? 'Answers you get wrong in Practice or a Mock will appear here.'
               : 'Tap the 🏷️ on any question to save it for later.'}
@@ -95,7 +95,7 @@ function TabButton({
     <button
       onClick={onClick}
       className={`flex-1 rounded-xl px-3 py-2 text-sm font-bold transition-all ${
-        active ? 'bg-white text-brand-700 shadow-clay-sm' : 'text-slate-500'
+        active ? 'bg-surface text-brand-700 shadow-clay-sm' : 'text-ink-soft'
       }`}
     >
       {children}

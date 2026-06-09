@@ -23,8 +23,8 @@ export default function Learn({ startPractice }: Props) {
 
         <header className="clay-card p-5">
           <div className="text-4xl">{topic.icon}</div>
-          <h1 className="mt-2 text-2xl font-black text-slate-800">{topic.title}</h1>
-          <p className="mt-1 text-slate-500">{topic.blurb}</p>
+          <h1 className="mt-2 text-2xl font-black text-ink">{topic.title}</h1>
+          <p className="mt-1 text-ink-soft">{topic.blurb}</p>
         </header>
 
         <div className="space-y-3">
@@ -46,24 +46,25 @@ export default function Learn({ startPractice }: Props) {
   return (
     <div className="space-y-4">
       <header className="pt-2">
-        <h1 className="text-2xl font-black text-slate-800">Learn</h1>
-        <p className="text-slate-500">Nine bite-sized revision topics for Grade 5.</p>
+        <h1 className="text-2xl font-black text-ink">Learn</h1>
+        <p className="text-ink-soft">Nine bite-sized revision topics for Grade 5.</p>
       </header>
-      <div className="grid gap-3">
-        {TOPICS.map((t) => {
+      <div className="grid gap-3 stagger">
+        {TOPICS.map((t, i) => {
           const count = QUESTIONS.filter((q) => q.topic === t.id).length
           return (
             <button
               key={t.id}
+              style={{ ['--i' as string]: i }}
               onClick={() => setOpenId(t.id)}
               className="clay-card flex items-center gap-4 p-4 text-left transition-transform hover:-translate-y-0.5 active:scale-[0.99]"
             >
               <span className="text-3xl">{t.icon}</span>
               <span className="flex-1">
-                <span className="block text-lg font-extrabold text-slate-800">{t.title}</span>
-                <span className="block text-sm text-slate-500">{t.blurb}</span>
+                <span className="block text-lg font-extrabold text-ink">{t.title}</span>
+                <span className="block text-sm text-ink-soft">{t.blurb}</span>
               </span>
-              <span className="chip bg-slate-100 text-slate-500">{count} Q</span>
+              <span className="chip bg-surface-2 text-ink-soft">{count} Q</span>
             </button>
           )
         })}
@@ -78,7 +79,7 @@ function NoteCard({ note }: { note: TopicNote }) {
       <h3 className="text-lg font-extrabold text-brand-700">{note.heading}</h3>
       <NoteBody body={note.body} />
       {note.abc && (
-        <div className="mt-3 rounded-2xl bg-slate-50 px-3 py-3">
+        <div className="paper mt-3 px-3 py-3">
           <Notation abc={note.abc} scale={1.3} />
         </div>
       )}
@@ -105,7 +106,7 @@ function NoteBody({ body }: { body: string }) {
     }
   }
   return (
-    <div className="mt-2 space-y-2 text-[15px] leading-relaxed text-slate-600">
+    <div className="mt-2 space-y-2 text-[15px] leading-relaxed text-ink-soft">
       {blocks.map((b, i) =>
         b.type === 'ul' ? (
           <ul key={i} className="space-y-1.5">

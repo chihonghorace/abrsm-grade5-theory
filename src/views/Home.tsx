@@ -29,8 +29,8 @@ export default function Home({ api, goTo, startPractice }: Props) {
     <div className="space-y-6">
       <header className="pt-2">
         <p className="text-sm font-bold uppercase tracking-wider text-brand-500">ABRSM · Grade 5</p>
-        <h1 className="mt-1 text-3xl font-black leading-tight text-slate-800">Music Theory Trainer</h1>
-        <p className="mt-1 text-slate-500">Study the topics, practise with instant feedback, then sit a timed mock.</p>
+        <h1 className="mt-1 text-3xl font-black leading-tight text-ink">Music Theory Trainer</h1>
+        <p className="mt-1 text-ink-soft">Study the topics, practise with instant feedback, then sit a timed mock.</p>
       </header>
 
       {/* Progress ring + headline stats */}
@@ -77,8 +77,8 @@ export default function Home({ api, goTo, startPractice }: Props) {
 
       {/* Quick start */}
       <section className="clay-soft p-5">
-        <h2 className="mb-1 text-lg font-extrabold text-slate-800">Jump straight in</h2>
-        <p className="mb-3 text-sm text-slate-500">A quick mixed set across every topic.</p>
+        <h2 className="mb-1 text-lg font-extrabold text-ink">Jump straight in</h2>
+        <p className="mb-3 text-sm text-ink-soft">A quick mixed set across every topic.</p>
         <button
           className="btn-primary w-full"
           onClick={() => startPractice({ kind: 'topic', topic: 'all', label: 'Mixed (20)', limit: 20 })}
@@ -90,17 +90,17 @@ export default function Home({ api, goTo, startPractice }: Props) {
       {/* Recent mocks */}
       {progress.mockHistory.length > 0 && (
         <section className="clay-soft p-5">
-          <h2 className="mb-3 text-lg font-extrabold text-slate-800">Recent mock exams</h2>
+          <h2 className="mb-3 text-lg font-extrabold text-ink">Recent mock exams</h2>
           <ul className="space-y-2">
             {progress.mockHistory.slice(0, 5).map((m, i) => {
               const pct = Math.round((m.score / m.total) * 100)
               return (
                 <li
                   key={i}
-                  className="flex items-center justify-between rounded-xl bg-white px-3 py-2 text-sm"
+                  className="flex items-center justify-between rounded-xl bg-surface-2 px-3 py-2 text-sm"
                 >
-                  <span className="text-slate-500">{new Date(m.date).toLocaleDateString()}</span>
-                  <span className="font-bold text-slate-700">
+                  <span className="text-ink-soft">{new Date(m.date).toLocaleDateString()}</span>
+                  <span className="font-bold text-ink">
                     {m.score}/{m.total}
                   </span>
                   <Grade pct={pct} />
@@ -116,9 +116,9 @@ export default function Home({ api, goTo, startPractice }: Props) {
 
 function Stat({ label, value, accent }: { label: string; value: string; accent?: boolean }) {
   return (
-    <div className={`rounded-2xl px-3 py-2 ${accent ? 'bg-amber-50' : 'bg-slate-50'}`}>
-      <div className={`text-xl font-black ${accent ? 'text-amber-600' : 'text-slate-800'}`}>{value}</div>
-      <div className="text-xs font-bold uppercase tracking-wide text-slate-400">{label}</div>
+    <div className={`rounded-2xl px-3 py-2 ${accent ? 'bg-amber-50' : 'bg-surface-2'}`}>
+      <div className={`text-xl font-black ${accent ? 'text-amber-600' : 'text-ink'}`}>{value}</div>
+      <div className="text-xs font-bold uppercase tracking-wide text-ink-faint">{label}</div>
     </div>
   )
 }
@@ -144,8 +144,8 @@ function ActionCard({
       }`}
     >
       <span className="text-3xl">{icon}</span>
-      <span className="mt-1 text-lg font-extrabold text-slate-800">{title}</span>
-      <span className="text-xs font-semibold text-slate-400">{subtitle}</span>
+      <span className="mt-1 text-lg font-extrabold text-ink">{title}</span>
+      <span className="text-xs font-semibold text-ink-faint">{subtitle}</span>
     </button>
   )
 }
@@ -157,7 +157,7 @@ function ProgressRing({ percent }: { percent: number }) {
   return (
     <div className="relative h-24 w-24 flex-none">
       <svg viewBox="0 0 80 80" className="h-24 w-24 -rotate-90">
-        <circle cx="40" cy="40" r={r} fill="none" stroke="#eef0ff" strokeWidth="8" />
+        <circle cx="40" cy="40" r={r} fill="none" stroke="currentColor" strokeWidth="8" className="text-line" />
         <circle
           cx="40"
           cy="40"
@@ -172,8 +172,8 @@ function ProgressRing({ percent }: { percent: number }) {
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span className="text-xl font-black text-slate-800">{percent}%</span>
-        <span className="text-[10px] font-bold uppercase text-slate-400">seen</span>
+        <span className="text-xl font-black text-ink">{percent}%</span>
+        <span className="text-[10px] font-bold uppercase text-ink-faint">seen</span>
       </div>
     </div>
   )

@@ -3,43 +3,114 @@
 @tailwind utilities;
 
 @layer base {
+  /* ---- Light theme tokens (RGB triplets for `rgb(var() / alpha)`) ---- */
+  :root {
+    --app: 251 248 243; /* warm cream */
+    --surface: 255 255 255;
+    --surface-2: 244 244 250;
+    --ink: 30 33 53;
+    --ink-soft: 100 110 135;
+    --ink-faint: 150 158 180;
+    --line: 230 230 242;
+
+    --shadow-clay: 0 10px 30px -12px rgba(77, 57, 209, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.65);
+    --shadow-clay-sm: 0 6px 18px -10px rgba(77, 57, 209, 0.28);
+
+    --glow-a: rgba(107, 102, 247, 0.1);
+    --glow-b: rgba(255, 176, 102, 0.1);
+  }
+
+  /* ---- Dark theme tokens ---- */
+  .dark {
+    --app: 15 16 32; /* deep indigo-slate */
+    --surface: 27 28 47;
+    --surface-2: 37 39 62;
+    --ink: 232 233 245;
+    --ink-soft: 166 170 198;
+    --ink-faint: 116 121 154;
+    --line: 47 49 82;
+
+    --shadow-clay: 0 14px 34px -16px rgba(0, 0, 0, 0.7), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+    --shadow-clay-sm: 0 10px 24px -14px rgba(0, 0, 0, 0.6);
+
+    --glow-a: rgba(107, 102, 247, 0.16);
+    --glow-b: rgba(255, 176, 102, 0.07);
+  }
+
   html {
     -webkit-tap-highlight-color: transparent;
   }
   body {
-    @apply bg-cream text-slate-800 font-sans antialiased;
+    @apply bg-app text-ink font-sans antialiased;
     background-image:
-      radial-gradient(60rem 60rem at 110% -10%, rgba(107, 102, 247, 0.10), transparent 60%),
-      radial-gradient(50rem 50rem at -10% 110%, rgba(255, 176, 102, 0.10), transparent 60%);
+      radial-gradient(60rem 60rem at 110% -10%, var(--glow-a), transparent 60%),
+      radial-gradient(50rem 50rem at -10% 110%, var(--glow-b), transparent 60%);
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 100dvh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  h1, h2, h3 {
+    @apply font-display;
   }
 }
 
 @layer components {
   .clay-card {
-    @apply rounded-3xl bg-white shadow-clay border border-white/70;
+    @apply rounded-3xl bg-surface border border-line;
+    box-shadow: var(--shadow-clay);
   }
   .clay-soft {
-    @apply rounded-2xl bg-white shadow-clay-sm border border-slate-100;
+    @apply rounded-2xl bg-surface border border-line;
+    box-shadow: var(--shadow-clay-sm);
   }
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-bold transition-all
-           active:scale-[0.97] disabled:opacity-50 disabled:pointer-events-none select-none;
+           active:scale-[0.97] disabled:opacity-50 disabled:pointer-events-none select-none
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 focus-visible:ring-offset-app;
   }
   .btn-primary {
-    @apply btn bg-brand-600 text-white shadow-clay-sm hover:bg-brand-700;
+    @apply btn bg-brand-600 text-white hover:bg-brand-500;
+    box-shadow: var(--shadow-clay-sm);
   }
   .btn-ghost {
-    @apply btn bg-white text-brand-700 border border-brand-100 hover:bg-brand-50;
+    @apply btn bg-surface text-brand-600 dark:text-brand-300 border border-line hover:bg-surface-2;
   }
   .chip {
     @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold;
   }
+  /* Music notation always sits on light "paper" so staves stay crisp in dark mode. */
+  .paper {
+    @apply rounded-2xl border border-line;
+    background: #fcfbf7;
+    box-shadow: inset 0 1px 3px rgba(15, 16, 32, 0.06);
+  }
 }
 
-/* abcjs renders inline SVG; keep notation crisp and centered */
+/* abcjs renders inline SVG; keep notation crisp, dark ink on paper in both themes */
 .abc-notation svg {
   max-width: 100%;
   height: auto;
+}
+.abc-notation svg .abcjs-staff,
+.abc-notation path,
+.abc-notation text,
+.abc-notation .abcjs-note {
+  fill: #1a1c2e;
+  stroke: #1a1c2e;
+}
+
+/* Staggered list entrance — set --i on each item */
+.stagger > * {
+  animation: rise-in 0.4s ease-out both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

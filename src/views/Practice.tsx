@@ -85,19 +85,19 @@ export default function Practice({ api, pool }: Props) {
     return (
       <div className="space-y-4">
         <header className="pt-2">
-          <h1 className="text-2xl font-black text-slate-800">Practice</h1>
-          <p className="text-slate-500">Pick a length and topic — instant feedback on every answer.</p>
+          <h1 className="text-2xl font-black text-ink">Practice</h1>
+          <p className="text-ink-soft">Pick a length and topic — instant feedback on every answer.</p>
         </header>
 
         <div className="clay-soft flex items-center justify-between p-3">
-          <span className="pl-1 text-sm font-bold text-slate-500">Questions per set</span>
-          <div className="flex gap-1 rounded-xl bg-slate-100 p-1">
+          <span className="pl-1 text-sm font-bold text-ink-soft">Questions per set</span>
+          <div className="flex gap-1 rounded-xl bg-surface-2 p-1">
             {LENGTHS.map((l) => (
               <button
                 key={l.value}
                 onClick={() => setLenChoice(l.value)}
                 className={`rounded-lg px-4 py-1.5 text-sm font-bold transition-all ${
-                  lenChoice === l.value ? 'bg-white text-brand-700 shadow-clay-sm' : 'text-slate-500'
+                  lenChoice === l.value ? 'bg-surface text-brand-700 shadow-clay-sm' : 'text-ink-soft'
                 }`}
               >
                 {l.label}
@@ -112,8 +112,8 @@ export default function Practice({ api, pool }: Props) {
         >
           <span className="text-3xl">✨</span>
           <span className="flex-1">
-            <span className="block text-lg font-extrabold text-slate-800">All topics (mixed)</span>
-            <span className="block text-sm text-slate-500">{QUESTIONS.length} questions, shuffled</span>
+            <span className="block text-lg font-extrabold text-ink">All topics (mixed)</span>
+            <span className="block text-sm text-ink-soft">{QUESTIONS.length} questions, shuffled</span>
           </span>
         </button>
         <div className="grid gap-3">
@@ -126,8 +126,8 @@ export default function Practice({ api, pool }: Props) {
                 className="clay-soft flex items-center gap-4 p-4 text-left transition-transform hover:-translate-y-0.5"
               >
                 <span className="text-2xl">{t.icon}</span>
-                <span className="flex-1 font-bold text-slate-700">{t.title}</span>
-                <span className="chip bg-slate-100 text-slate-500">{count} Q</span>
+                <span className="flex-1 font-bold text-ink">{t.title}</span>
+                <span className="chip bg-surface-2 text-ink-soft">{count} Q</span>
               </button>
             )
           })}
@@ -141,7 +141,7 @@ export default function Practice({ api, pool }: Props) {
     return (
       <div className="clay-card mt-6 p-8 text-center">
         <div className="text-4xl">🗒️</div>
-        <p className="mt-3 font-bold text-slate-700">Nothing to practise here yet.</p>
+        <p className="mt-3 font-bold text-ink">Nothing to practise here yet.</p>
         <button className="btn-ghost mt-4" onClick={() => setPhase('setup')}>
           Choose a topic
         </button>
@@ -156,11 +156,11 @@ export default function Practice({ api, pool }: Props) {
       <div className="space-y-4">
         <div className="clay-card p-8 text-center animate-pop-in">
           <div className="text-5xl">{pct >= 80 ? '🌟' : pct >= 60 ? '👍' : '💪'}</div>
-          <h1 className="mt-3 text-2xl font-black text-slate-800">Set complete!</h1>
-          <p className="mt-1 text-slate-500">{label}</p>
+          <h1 className="mt-3 text-2xl font-black text-ink">Set complete!</h1>
+          <p className="mt-1 text-ink-soft">{label}</p>
           <div className="mt-4 text-5xl font-black text-brand-600">
             {correct}
-            <span className="text-2xl text-slate-400">/{questions.length}</span>
+            <span className="text-2xl text-ink-faint">/{questions.length}</span>
           </div>
           <div className="mt-3 flex justify-center">
             <Grade pct={pct} />
@@ -187,11 +187,11 @@ export default function Practice({ api, pool }: Props) {
     <div className="space-y-4">
       <div className="flex items-center justify-between pt-1">
         <span className="chip bg-brand-50 text-brand-700">{label}</span>
-        <span className="text-sm font-bold text-slate-500">
+        <span className="text-sm font-bold text-ink-soft">
           Score {correct}/{answered}
         </span>
       </div>
-      <div className="h-2 overflow-hidden rounded-full bg-slate-100">
+      <div className="h-2 overflow-hidden rounded-full bg-surface-2">
         <div
           className="h-full rounded-full bg-brand-500 transition-all duration-300"
           style={{ width: `${((i + (revealed ? 1 : 0)) / questions.length) * 100}%` }}

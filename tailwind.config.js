@@ -1,13 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
       fontFamily: {
+        // Body: friendly + highly readable. Display: rounded, characterful headings.
         sans: ['Nunito', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['"Baloo 2"', 'Nunito', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
-        // Warm, encouraging study palette
+        // Semantic tokens — backed by CSS vars that flip in light/dark.
+        // Written as `rgb(var(--x) / <alpha-value>)` so opacity utilities work.
+        app: 'rgb(var(--app) / <alpha-value>)',
+        surface: 'rgb(var(--surface) / <alpha-value>)',
+        'surface-2': 'rgb(var(--surface-2) / <alpha-value>)',
+        ink: 'rgb(var(--ink) / <alpha-value>)',
+        'ink-soft': 'rgb(var(--ink-soft) / <alpha-value>)',
+        'ink-faint': 'rgb(var(--ink-faint) / <alpha-value>)',
+        line: 'rgb(var(--line) / <alpha-value>)',
+        // Brand (violet) + the warm "musical" amber accent.
         brand: {
           50: '#f1f3ff',
           100: '#e4e8ff',
@@ -20,11 +32,10 @@ export default {
           800: '#4030a8',
           900: '#372e85',
         },
-        cream: '#fbf8f3',
       },
       boxShadow: {
-        clay: '0 10px 30px -12px rgba(77, 57, 209, 0.35), inset 0 1px 0 0 rgba(255,255,255,0.6)',
-        'clay-sm': '0 6px 18px -10px rgba(77, 57, 209, 0.30)',
+        clay: 'var(--shadow-clay)',
+        'clay-sm': 'var(--shadow-clay-sm)',
         soft: '0 8px 24px -14px rgba(31, 41, 55, 0.25)',
       },
       borderRadius: {
@@ -36,15 +47,20 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(8px) scale(0.98)' },
           '100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
         },
-        'shake': {
+        shake: {
           '0%,100%': { transform: 'translateX(0)' },
           '20%,60%': { transform: 'translateX(-5px)' },
           '40%,80%': { transform: 'translateX(5px)' },
         },
+        'rise-in': {
+          '0%': { opacity: '0', transform: 'translateY(10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       animation: {
         'pop-in': 'pop-in 0.28s ease-out',
-        'shake': 'shake 0.4s ease-in-out',
+        shake: 'shake 0.4s ease-in-out',
+        'rise-in': 'rise-in 0.4s ease-out both',
       },
     },
   },
