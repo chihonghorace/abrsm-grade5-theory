@@ -81,7 +81,7 @@ export default function Home({ api, goTo, startPractice }: Props) {
         <p className="mb-3 text-sm text-slate-500">A quick mixed set across every topic.</p>
         <button
           className="btn-primary w-full"
-          onClick={() => startPractice({ kind: 'topic', topic: 'all', label: 'All topics' })}
+          onClick={() => startPractice({ kind: 'topic', topic: 'all', label: 'Mixed (20)', limit: 20 })}
         >
           ✨ Start mixed practice
         </button>

@@ -542,4 +542,561 @@ export const QUESTIONS: Question[] = [
     choices: ['Woodwind', 'Brass', 'Strings', 'Percussion'], answer: 0,
     explanation: 'The cor anglais (English horn) is a larger, lower double-reed woodwind relative of the oboe.',
   },
+
+  // ===========================================================================
+  // Expansion pack — original questions aligned to the Grade 5 (2020+) syllabus.
+  // Written from the public syllabus & exam format, not copied from ABRSM papers.
+  // ===========================================================================
+
+  // ----- Keys, Scales & Degrees (more) ------------------------------------
+  {
+    id: 'ks-14', topic: 'keys-and-scales', difficulty: 1,
+    prompt: 'The technical name for the 7th degree of a major scale is the:',
+    choices: ['leading note', 'subdominant', 'submediant', 'mediant'], answer: 0,
+    explanation: 'The 7th degree is the leading note — it "leads" up to the tonic.',
+  },
+  {
+    id: 'ks-15', topic: 'keys-and-scales', difficulty: 2,
+    prompt: 'How many sharps does B major have?',
+    choices: ['5', '4', '6', '3'], answer: 0,
+    explanation: 'B major: F♯ C♯ G♯ D♯ A♯ — five sharps.',
+  },
+  {
+    id: 'ks-16', topic: 'keys-and-scales', difficulty: 2,
+    prompt: 'The relative minor of E♭ major is:',
+    choices: ['C minor', 'G minor', 'E♭ minor', 'A minor'], answer: 0,
+    explanation: 'A minor 3rd below E♭ is C, so the relative minor is C minor (same three flats).',
+  },
+  {
+    id: 'ks-17', topic: 'keys-and-scales', difficulty: 2,
+    prompt: 'Which major key has three flats?',
+    choices: ['E♭ major', 'A♭ major', 'B♭ major', 'F major'], answer: 0,
+    explanation: 'E♭ major has B♭ E♭ A♭ — three flats. (C minor shares these but is a minor key.)',
+  },
+  {
+    id: 'ks-18', topic: 'keys-and-scales', difficulty: 3,
+    prompt: 'C♯ major is enharmonically equivalent to:',
+    choices: ['D♭ major', 'B major', 'C major', 'D major'], answer: 0,
+    explanation: 'C♯ (7 sharps) and D♭ (5 flats) are the same pitch, so the keys sound identical.',
+  },
+  {
+    id: 'ks-19', topic: 'keys-and-scales', difficulty: 3,
+    prompt: 'In G♯ harmonic minor, the raised 7th degree is written as:',
+    choices: ['F double sharp', 'F♯', 'G natural', 'F natural'], answer: 0,
+    explanation: 'The 7th degree of G♯ minor is F♯; raising it a semitone for the harmonic minor gives F double sharp (F𝄪).',
+  },
+  {
+    id: 'ks-20', topic: 'keys-and-scales', difficulty: 1,
+    prompt: 'The chromatic scale is made up entirely of:',
+    choices: ['semitones', 'tones', 'tones and semitones', 'major 2nds'], answer: 0,
+    explanation: 'A chromatic scale moves by semitone throughout, using every note.',
+  },
+  {
+    id: 'ks-21', topic: 'keys-and-scales', difficulty: 2,
+    prompt: 'The submediant of A major is the note:',
+    choices: ['F♯', 'D', 'E', 'C♯'], answer: 0,
+    explanation: 'The submediant is the 6th degree; the 6th note of A major is F♯.',
+  },
+  {
+    id: 'ks-22', topic: 'keys-and-scales', difficulty: 2,
+    prompt: 'Which minor key has just one sharp in its key signature?',
+    choices: ['E minor', 'B minor', 'D minor', 'A minor'], answer: 0,
+    explanation: 'E minor is the relative minor of G major, which has one sharp (F♯).',
+  },
+  {
+    id: 'ks-23', topic: 'keys-and-scales', difficulty: 3,
+    prompt: 'Which major key has six flats?',
+    choices: ['G♭ major', 'C♭ major', 'D♭ major', 'F major'], answer: 0,
+    explanation: 'G♭ major has B♭ E♭ A♭ D♭ G♭ C♭ — six flats. (It is the enharmonic of F♯ major.)',
+  },
+
+  // ----- Intervals (more) -------------------------------------------------
+  {
+    id: 'iv-13', topic: 'intervals', difficulty: 1,
+    prompt: 'E up to G is a:',
+    choices: ['Minor 3rd', 'Major 3rd', 'Perfect 4th', 'Major 2nd'], answer: 0,
+    explanation: 'E–G is three letter names and three semitones — a minor 3rd.',
+  },
+  {
+    id: 'iv-14', topic: 'intervals', difficulty: 1,
+    prompt: 'F up to A is a:',
+    choices: ['Major 3rd', 'Minor 3rd', 'Perfect 4th', 'Augmented 3rd'], answer: 0,
+    explanation: 'F–A is three letter names and four semitones — a major 3rd.',
+  },
+  {
+    id: 'iv-15', topic: 'intervals', difficulty: 2,
+    prompt: 'G up to F is a:',
+    choices: ['Minor 7th', 'Major 7th', 'Major 6th', 'Perfect 5th'], answer: 0,
+    explanation: 'G–F spans seven letter names and ten semitones — a minor 7th.',
+  },
+  {
+    id: 'iv-16', topic: 'intervals', difficulty: 2,
+    prompt: 'D up to B is a:',
+    choices: ['Major 6th', 'Minor 6th', 'Major 7th', 'Perfect 5th'], answer: 0,
+    explanation: 'B is the 6th note of the D major scale, so D–B is a major 6th.',
+  },
+  {
+    id: 'iv-17', topic: 'intervals', difficulty: 3,
+    prompt: 'B up to F is a:',
+    choices: ['Diminished 5th', 'Perfect 5th', 'Augmented 4th', 'Minor 6th'], answer: 0,
+    explanation: 'B–F is five letter names but only six semitones (a perfect 5th is seven), so it is a diminished 5th.',
+  },
+  {
+    id: 'iv-18', topic: 'intervals', difficulty: 2,
+    prompt: 'An octave plus a 2nd is correctly called a:',
+    choices: ['9th', '10th', '7th', 'compound 3rd'], answer: 0,
+    explanation: 'Counting past the octave: 8 + a 2nd = a 9th.',
+  },
+  {
+    id: 'iv-19', topic: 'intervals', difficulty: 2,
+    prompt: 'An octave plus a 5th is correctly called a:',
+    choices: ['12th', '13th', '11th', '10th'], answer: 0,
+    explanation: 'An octave (8) plus a 5th = a 12th.',
+  },
+  {
+    id: 'iv-20', topic: 'intervals', difficulty: 2,
+    prompt: 'A minor 6th, when inverted, becomes a:',
+    choices: ['Major 3rd', 'Minor 3rd', 'Major 6th', 'Perfect 4th'], answer: 0,
+    explanation: '6 + 3 = 9 and minor flips to major, so a minor 6th inverts to a major 3rd.',
+  },
+  {
+    id: 'iv-21', topic: 'intervals', difficulty: 3,
+    prompt: 'A diminished 5th, when inverted, becomes a(n):',
+    choices: ['Augmented 4th', 'Perfect 4th', 'Diminished 4th', 'Major 5th'], answer: 0,
+    explanation: '5 + 4 = 9 and diminished flips to augmented, so a diminished 5th inverts to an augmented 4th.',
+  },
+  {
+    id: 'iv-22', topic: 'intervals', difficulty: 1,
+    prompt: 'Name this interval (G up to D).', abc: '[Gd]',
+    choices: ['Perfect 5th', 'Perfect 4th', 'Major 6th', 'Diminished 5th'], answer: 0,
+    explanation: 'G–D is five letter names and seven semitones — a perfect 5th.',
+  },
+  {
+    id: 'iv-23', topic: 'intervals', difficulty: 2,
+    prompt: 'Name this interval (D up to F).', abc: '[DF]',
+    choices: ['Minor 3rd', 'Major 3rd', 'Perfect 4th', 'Diminished 3rd'], answer: 0,
+    explanation: 'D–F is three letter names and three semitones — a minor 3rd.',
+  },
+  {
+    id: 'iv-24', topic: 'intervals', difficulty: 3,
+    prompt: 'C up to D♯ is a(n):',
+    choices: ['Augmented 2nd', 'Minor 3rd', 'Major 2nd', 'Diminished 3rd'], answer: 0,
+    explanation: 'C–D is a 2nd; raising D to D♯ stretches it to three semitones, giving an augmented 2nd (it sounds like a minor 3rd but is spelled as a 2nd).',
+  },
+
+  // ----- Chords & Cadences (more) -----------------------------------------
+  {
+    id: 'cc-13', topic: 'chords-and-cadences', difficulty: 2,
+    prompt: 'The supertonic triad (chord ii) in C major is:',
+    choices: ['D F A', 'C E G', 'G B D', 'D F♯ A'], answer: 0,
+    explanation: 'Chord ii is built on the 2nd degree (D): D–F–A, a minor triad. Chord ii is new at Grade 5.',
+  },
+  {
+    id: 'cc-14', topic: 'chords-and-cadences', difficulty: 1,
+    prompt: 'Chord ii is built on which degree of the scale?',
+    choices: ['Supertonic', 'Subdominant', 'Submediant', 'Mediant'], answer: 0,
+    explanation: 'ii is the triad on the 2nd degree, the supertonic.',
+  },
+  {
+    id: 'cc-15', topic: 'chords-and-cadences', difficulty: 1,
+    prompt: 'In C major, chord IV is built from:',
+    choices: ['F A C', 'G B D', 'C E G', 'D F A'], answer: 0,
+    explanation: 'Chord IV is the triad on the subdominant (F): F–A–C.',
+  },
+  {
+    id: 'cc-16', topic: 'chords-and-cadences', difficulty: 2,
+    prompt: 'The tonic triad of G minor is:',
+    choices: ['G B♭ D', 'G B D', 'G B♭ D♯', 'D F♯ A'], answer: 0,
+    explanation: 'A minor tonic triad has a minor 3rd: G–B♭–D.',
+  },
+  {
+    id: 'cc-17', topic: 'chords-and-cadences', difficulty: 2,
+    prompt: 'In D major, chord V is:',
+    choices: ['A C♯ E', 'D F♯ A', 'G B D', 'A C E'], answer: 0,
+    explanation: 'The dominant of D is A; its triad is A–C♯–E.',
+  },
+  {
+    id: 'cc-18', topic: 'chords-and-cadences', difficulty: 2,
+    prompt: 'A second-inversion triad has which note in the bass?',
+    choices: ['The 5th', 'The 3rd', 'The root', 'The 7th'], answer: 0,
+    explanation: 'Second inversion (labelled "c") puts the 5th of the chord in the bass.',
+  },
+  {
+    id: 'cc-19', topic: 'chords-and-cadences', difficulty: 1,
+    prompt: 'In ABRSM labelling, a root-position chord is marked:',
+    choices: ['a', 'b', 'c', 'd'], answer: 0,
+    explanation: 'Root position = a, first inversion = b, second inversion = c.',
+  },
+  {
+    id: 'cc-20', topic: 'chords-and-cadences', difficulty: 1,
+    prompt: 'A first-inversion chord is labelled:',
+    choices: ['b', 'a', 'c', 'i'], answer: 0,
+    explanation: 'First inversion (3rd in the bass) is labelled "b" — e.g. Vb.',
+  },
+  {
+    id: 'cc-21', topic: 'chords-and-cadences', difficulty: 2,
+    prompt: 'A phrase ending I–V makes which cadence?',
+    choices: ['Imperfect', 'Perfect', 'Plagal', 'Interrupted'], answer: 0,
+    explanation: 'Any progression finishing on chord V is an imperfect cadence — it sounds unfinished.',
+  },
+  {
+    id: 'cc-22', topic: 'chords-and-cadences', difficulty: 2,
+    prompt: 'Which position is this C major triad in (G in the bass)?', abc: '[Gce]',
+    choices: ['Second inversion', 'First inversion', 'Root position', 'Dominant 7th'], answer: 0,
+    explanation: 'With the 5th (G) in the bass, the triad is in second inversion ("c").',
+  },
+  {
+    id: 'cc-23', topic: 'chords-and-cadences', difficulty: 3,
+    prompt: 'The supertonic triad in G major is:',
+    choices: ['A C E', 'D F♯ A', 'G B D', 'A C♯ E'], answer: 0,
+    explanation: 'The supertonic of G is A; the triad A–C–E is a minor triad.',
+  },
+  {
+    id: 'cc-24', topic: 'chords-and-cadences', difficulty: 1,
+    prompt: 'A dominant 7th chord is built on the dominant with what added?',
+    choices: ['A minor 7th above the root', 'A major 7th above the root', 'A 6th', 'Nothing'], answer: 0,
+    explanation: 'It is chord V plus a minor 7th above the root — a four-note chord that pulls to the tonic.',
+  },
+
+  // ----- Time, Rhythm & Grouping (more) -----------------------------------
+  {
+    id: 'tr-12', topic: 'time-and-rhythm', difficulty: 2,
+    prompt: '5/4 time is an example of:',
+    choices: ['irregular time', 'simple duple time', 'compound triple time', 'simple quadruple time'], answer: 0,
+    explanation: '5/4 (and 7/8 etc.) is irregular: it does not divide evenly into duple, triple or quadruple beats.',
+  },
+  {
+    id: 'tr-13', topic: 'time-and-rhythm', difficulty: 3,
+    prompt: '7/8 is most often grouped into beats adding up to seven, for example:',
+    choices: ['2 + 2 + 3 quavers', '3 + 3 quavers', '2 + 2 + 2 quavers', '4 + 4 quavers'], answer: 0,
+    explanation: 'Irregular 7/8 is commonly grouped 2+2+3 (or 3+2+2) quavers per bar.',
+  },
+  {
+    id: 'tr-14', topic: 'time-and-rhythm', difficulty: 2,
+    prompt: 'How many demisemiquavers equal one quaver?',
+    choices: ['4', '2', '8', '3'], answer: 0,
+    explanation: 'A demisemiquaver is a 32nd note; four of them make one quaver (an 8th note).',
+  },
+  {
+    id: 'tr-15', topic: 'time-and-rhythm', difficulty: 3,
+    prompt: 'A double-dotted crotchet is equal to how many semiquavers?',
+    choices: ['7', '6', '8', '5'], answer: 0,
+    explanation: 'Crotchet = 4 semiquavers; the first dot adds 2, the second dot adds 1 → 7 semiquavers.',
+  },
+  {
+    id: 'tr-16', topic: 'time-and-rhythm', difficulty: 1,
+    prompt: 'Which note lasts exactly twice as long as a minim?',
+    choices: ['Semibreve', 'Crotchet', 'Quaver', 'Breve'], answer: 0,
+    explanation: 'A semibreve equals two minims. (A breve equals four minims.)',
+  },
+  {
+    id: 'tr-17', topic: 'time-and-rhythm', difficulty: 2,
+    prompt: 'An unaccented note (or notes) before the first complete bar is called an:',
+    choices: ['anacrusis', 'appoggiatura', 'ostinato', 'interval'], answer: 0,
+    explanation: 'An anacrusis (or "upbeat") leads into the first full bar.',
+  },
+  {
+    id: 'tr-18', topic: 'time-and-rhythm', difficulty: 1,
+    prompt: 'How many quavers are there in one complete bar of 9/8?',
+    choices: ['9', '3', '6', '12'], answer: 0,
+    explanation: 'The lower 8 means quavers; the upper 9 means nine of them per bar.',
+  },
+  {
+    id: 'tr-19', topic: 'time-and-rhythm', difficulty: 1,
+    prompt: 'A curved line joining two notes of the SAME pitch, adding their values, is a:',
+    choices: ['tie', 'slur', 'phrase mark', 'glissando'], answer: 0,
+    explanation: 'A tie joins two notes of the same pitch into one longer sound. A slur joins different pitches.',
+  },
+  {
+    id: 'tr-20', topic: 'time-and-rhythm', difficulty: 1,
+    prompt: 'A pause sign (fermata) tells the performer to:',
+    choices: ['hold the note longer than its written value', 'play it short', 'repeat it', 'play it quietly'], answer: 0,
+    explanation: 'A fermata (𝄐) means hold the note or rest longer than written.',
+  },
+  {
+    id: 'tr-21', topic: 'time-and-rhythm', difficulty: 1,
+    prompt: 'How many quavers make up one dotted-crotchet beat?',
+    choices: ['3', '2', '4', '6'], answer: 0,
+    explanation: 'A dotted crotchet = a crotchet (2 quavers) plus a dot (1 quaver) = 3 quavers — the beat in compound time.',
+  },
+  {
+    id: 'tr-22', topic: 'time-and-rhythm', difficulty: 1,
+    prompt: '2/4, 3/4 and 4/4 are all examples of:',
+    choices: ['simple time', 'compound time', 'irregular time', 'free time'], answer: 0,
+    explanation: 'Their beats each divide into two, so they are all simple time.',
+  },
+  {
+    id: 'tr-23', topic: 'time-and-rhythm', difficulty: 2,
+    prompt: 'A semiquaver is equal to how many demisemiquavers?',
+    choices: ['2', '4', '8', '1'], answer: 0,
+    explanation: 'A semiquaver (16th) is twice the length of a demisemiquaver (32nd).',
+  },
+
+  // ----- The Four Clefs (more) --------------------------------------------
+  {
+    id: 'cl-7', topic: 'clefs', difficulty: 2,
+    prompt: 'On the alto clef, the note on the bottom line is:',
+    choices: ['F', 'E', 'G', 'D'], answer: 0,
+    explanation: 'Alto-clef lines from the bottom up are F A C E G.',
+  },
+  {
+    id: 'cl-8', topic: 'clefs', difficulty: 3,
+    prompt: 'On the tenor clef, the note on the top line is:',
+    choices: ['E', 'F', 'C', 'A'], answer: 0,
+    explanation: 'Tenor-clef lines from the bottom up are D F A C E, so the top line is E.',
+  },
+  {
+    id: 'cl-9', topic: 'clefs', difficulty: 2,
+    prompt: 'Which clef is used for the higher notes of the cello and bassoon?',
+    choices: ['Tenor clef', 'Alto clef', 'Treble clef', 'Bass clef'], answer: 0,
+    explanation: 'The tenor clef keeps high cello/bassoon/trombone passages near the staff, avoiding ledger lines.',
+  },
+  {
+    id: 'cl-10', topic: 'clefs', difficulty: 1,
+    prompt: 'On the treble clef, the note on the bottom line is:',
+    choices: ['E', 'G', 'F', 'D'], answer: 0,
+    explanation: 'Treble-clef lines spell E G B D F (from the bottom): "Every Good Boy Deserves Favour".',
+  },
+  {
+    id: 'cl-11', topic: 'clefs', difficulty: 1,
+    prompt: 'On the bass clef, the note on the top line is:',
+    choices: ['A', 'G', 'F', 'C'], answer: 0,
+    explanation: 'Bass-clef lines spell G B D F A (from the bottom), so the top line is A.',
+  },
+  {
+    id: 'cl-12', topic: 'clefs', difficulty: 1,
+    prompt: 'On the alto clef shown, which note is this?', abc: 'X:1\nL:1/1\nM:none\nK:C clef=alto\nC',
+    choices: ['Middle C', 'The C an octave below middle C', 'G', 'E'], answer: 0,
+    explanation: 'The alto C-clef centres on the middle line, which is middle C.',
+  },
+
+  // ----- Transposition (more) ---------------------------------------------
+  {
+    id: 'tp-7', topic: 'transposition', difficulty: 3,
+    prompt: 'A clarinet in A sounds how far from the written note?',
+    choices: ['a minor 3rd lower', 'a major 2nd lower', 'a minor 3rd higher', 'a perfect 4th lower'], answer: 0,
+    explanation: 'An A clarinet sounds a minor 3rd below the written pitch.',
+  },
+  {
+    id: 'tp-8', topic: 'transposition', difficulty: 2,
+    prompt: 'A trumpet in B♭ sounds:',
+    choices: ['a major 2nd lower than written', 'a major 2nd higher', 'a perfect 5th lower', 'the same as written'], answer: 0,
+    explanation: 'Like the B♭ clarinet, the B♭ trumpet sounds a major 2nd lower than written.',
+  },
+  {
+    id: 'tp-9', topic: 'transposition', difficulty: 3,
+    prompt: 'To make a B♭ clarinet sound music in C major, the written part must be in:',
+    choices: ['D major', 'B♭ major', 'C major', 'A major'], answer: 0,
+    explanation: 'Because it sounds a major 2nd lower, you write a major 2nd higher than concert pitch: C → D major.',
+  },
+  {
+    id: 'tp-10', topic: 'transposition', difficulty: 2,
+    prompt: 'Transposing a melody DOWN a major 2nd from C major puts it in:',
+    choices: ['B♭ major', 'D major', 'A major', 'C major'], answer: 0,
+    explanation: 'A major 2nd below C is B♭, so the new key is B♭ major.',
+  },
+  {
+    id: 'tp-11', topic: 'transposition', difficulty: 1,
+    prompt: 'The piccolo sounds:',
+    choices: ['an octave higher than written', 'an octave lower', 'a 5th higher', 'as written'], answer: 0,
+    explanation: 'Piccolo parts sound an octave higher than written.',
+  },
+  {
+    id: 'tp-12', topic: 'transposition', difficulty: 1,
+    prompt: 'When transposing by interval, every note must move by:',
+    choices: ['the same interval (number and quality)', 'a different interval each', 'the same number of letters only', 'a semitone'], answer: 0,
+    explanation: 'Keep the interval identical for every note — same number AND quality — then fit the new key signature.',
+  },
+
+  // ----- Ornaments (more) -------------------------------------------------
+  {
+    id: 'or-7', topic: 'ornaments', difficulty: 2,
+    prompt: 'A lower mordent plays:',
+    choices: ['note, note below, note', 'note, note above, note', 'note below, note above, note', 'two notes below'], answer: 0,
+    explanation: 'A lower mordent is a quick flip down: the written note, the note below, then back.',
+  },
+  {
+    id: 'or-8', topic: 'ornaments', difficulty: 1,
+    prompt: 'Which ornament is a single, rapid flip up to the note above and straight back?',
+    choices: ['Upper mordent', 'Turn', 'Trill', 'Acciaccatura'], answer: 0,
+    explanation: 'An upper mordent flips once to the note above and returns; a trill alternates many times.',
+  },
+  {
+    id: 'or-9', topic: 'ornaments', difficulty: 2,
+    prompt: 'An appoggiatura is written as a grace note that has:',
+    choices: ['no stroke through its tail', 'a stroke through its tail', 'a wavy line above', 'a dot beside it'], answer: 0,
+    explanation: 'The appoggiatura is a normal-looking grace note with NO stroke; the acciaccatura has the stroke.',
+  },
+
+  // ----- Terms & Signs (more) ---------------------------------------------
+  {
+    id: 'ts-13', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"adagio" means:',
+    choices: ['slow', 'quick', 'moderate', 'very fast'], answer: 0,
+    explanation: 'Adagio = slow (slower than andante).',
+  },
+  {
+    id: 'ts-14', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"andante" means:',
+    choices: ['at a walking pace', 'very fast', 'very slow', 'getting slower'], answer: 0,
+    explanation: 'Andante = at a walking pace.',
+  },
+  {
+    id: 'ts-15', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"presto" means:',
+    choices: ['very fast', 'slow', 'moderate', 'at a walking pace'], answer: 0,
+    explanation: 'Presto = very fast (faster than allegro).',
+  },
+  {
+    id: 'ts-16', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"accelerando" (accel.) means:',
+    choices: ['getting gradually faster', 'getting gradually slower', 'getting louder', 'in strict time'], answer: 0,
+    explanation: 'Accelerando = gradually speeding up.',
+  },
+  {
+    id: 'ts-17', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"legato" means:',
+    choices: ['smoothly', 'detached', 'loudly', 'quickly'], answer: 0,
+    explanation: 'Legato = smoothly, with notes connected.',
+  },
+  {
+    id: 'ts-18', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"staccato" means:',
+    choices: ['detached (short)', 'smooth', 'loud', 'slow'], answer: 0,
+    explanation: 'Staccato = detached, each note shortened.',
+  },
+  {
+    id: 'ts-19', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"crescendo" (cresc.) means:',
+    choices: ['getting gradually louder', 'getting softer', 'getting faster', 'smoothly'], answer: 0,
+    explanation: 'Crescendo = gradually getting louder.',
+  },
+  {
+    id: 'ts-20', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"mezzo-forte" (mf) means:',
+    choices: ['moderately loud', 'very loud', 'moderately soft', 'very soft'], answer: 0,
+    explanation: 'Mezzo = half/moderately; mf = moderately loud.',
+  },
+  {
+    id: 'ts-21', topic: 'terms-and-signs', difficulty: 2,
+    prompt: '"da capo" (D.C.) means:',
+    choices: ['from the beginning', 'from the sign', 'the end', 'a little'], answer: 0,
+    explanation: 'Da capo = (go back to and repeat) from the beginning.',
+  },
+  {
+    id: 'ts-22', topic: 'terms-and-signs', difficulty: 2,
+    prompt: '"dal segno" (D.S.) means:',
+    choices: ['from the sign', 'from the beginning', 'to the end', 'gradually'], answer: 0,
+    explanation: 'Dal segno = repeat from the sign (𝄋).',
+  },
+  {
+    id: 'ts-23', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"fine" means:',
+    choices: ['the end', 'the beginning', 'a little', 'always'], answer: 0,
+    explanation: 'Fine = the end (where the piece finishes, often after a D.C.).',
+  },
+  {
+    id: 'ts-24', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"molto" means:',
+    choices: ['very / much', 'a little', 'less', 'smoothly'], answer: 0,
+    explanation: 'Molto = very/much (e.g. molto allegro = very fast).',
+  },
+  {
+    id: 'ts-25', topic: 'terms-and-signs', difficulty: 2,
+    prompt: '"meno mosso" means:',
+    choices: ['less movement (slower)', 'more movement (faster)', 'very fast', 'smoothly'], answer: 0,
+    explanation: 'Meno mosso = less motion, i.e. slower.',
+  },
+  {
+    id: 'ts-26', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"più" means:',
+    choices: ['more', 'less', 'a little', 'always'], answer: 0,
+    explanation: 'Più = more (e.g. più mosso = more movement, faster).',
+  },
+  {
+    id: 'ts-27', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"sempre" means:',
+    choices: ['always', 'sometimes', 'never', 'a little'], answer: 0,
+    explanation: 'Sempre = always (e.g. sempre staccato).',
+  },
+  {
+    id: 'ts-28', topic: 'terms-and-signs', difficulty: 2,
+    prompt: 'The German word "schnell" means:',
+    choices: ['fast', 'slow', 'loud', 'soft'], answer: 0,
+    explanation: 'Schnell (German) = fast.',
+  },
+  {
+    id: 'ts-29', topic: 'terms-and-signs', difficulty: 2,
+    prompt: 'The German word "mässig" means:',
+    choices: ['moderate(ly)', 'fast', 'slow', 'loud'], answer: 0,
+    explanation: 'Mässig (German) = moderate, at a moderate speed.',
+  },
+  {
+    id: 'ts-30', topic: 'terms-and-signs', difficulty: 2,
+    prompt: 'The French word "lent" means:',
+    choices: ['slow', 'fast', 'sweet', 'lively'], answer: 0,
+    explanation: 'Lent (French) = slow.',
+  },
+  {
+    id: 'ts-31', topic: 'terms-and-signs', difficulty: 2,
+    prompt: 'The French word "vif" means:',
+    choices: ['lively', 'slow', 'soft', 'heavy'], answer: 0,
+    explanation: 'Vif (French) = lively, brisk.',
+  },
+  {
+    id: 'ts-32', topic: 'terms-and-signs', difficulty: 1,
+    prompt: '"con moto" means:',
+    choices: ['with movement', 'without movement', 'with mute', 'very slow'], answer: 0,
+    explanation: 'Con moto = with movement (a flowing, moving feel).',
+  },
+
+  // ----- Instruments & Voices (more) --------------------------------------
+  {
+    id: 'in-9', topic: 'instruments-and-voices', difficulty: 1,
+    prompt: 'Which of these is NOT a member of the string family?',
+    choices: ['Flute', 'Viola', 'Cello', 'Double bass'], answer: 0,
+    explanation: 'The flute is woodwind; viola, cello and double bass are strings.',
+  },
+  {
+    id: 'in-10', topic: 'instruments-and-voices', difficulty: 1,
+    prompt: 'The bassoon belongs to which family?',
+    choices: ['Woodwind', 'Brass', 'Strings', 'Percussion'], answer: 0,
+    explanation: 'The bassoon is the lowest standard double-reed woodwind instrument.',
+  },
+  {
+    id: 'in-11', topic: 'instruments-and-voices', difficulty: 1,
+    prompt: 'Which is the LOWEST of the four standard voices?',
+    choices: ['Bass', 'Tenor', 'Alto', 'Soprano'], answer: 0,
+    explanation: 'From low to high: bass, tenor, alto, soprano.',
+  },
+  {
+    id: 'in-12', topic: 'instruments-and-voices', difficulty: 1,
+    prompt: 'The harp belongs to which family?',
+    choices: ['Strings', 'Percussion', 'Woodwind', 'Brass'], answer: 0,
+    explanation: 'The harp is a (plucked) string instrument.',
+  },
+  {
+    id: 'in-13', topic: 'instruments-and-voices', difficulty: 2,
+    prompt: '"senza sordino" tells a player to:',
+    choices: ['remove the mute', 'put on the mute', 'put down the bow', 'play silently'], answer: 0,
+    explanation: 'Senza sordino = without the mute (i.e. take it off); con sordino = with the mute.',
+  },
+  {
+    id: 'in-14', topic: 'instruments-and-voices', difficulty: 1,
+    prompt: 'Which of these is a brass instrument?',
+    choices: ['Tuba', 'Bassoon', 'Harp', 'Clarinet'], answer: 0,
+    explanation: 'The tuba is the lowest brass instrument; the others are woodwind or strings.',
+  },
+  {
+    id: 'in-15', topic: 'instruments-and-voices', difficulty: 3,
+    prompt: 'In a standard orchestral score, which family is written at the TOP of the page?',
+    choices: ['Woodwind', 'Strings', 'Brass', 'Percussion'], answer: 0,
+    explanation: 'Score order top-to-bottom is woodwind, brass, percussion, then strings.',
+  },
+  {
+    id: 'in-16', topic: 'instruments-and-voices', difficulty: 1,
+    prompt: 'The xylophone belongs to which family?',
+    choices: ['Percussion', 'Brass', 'Strings', 'Woodwind'], answer: 0,
+    explanation: 'The xylophone is a tuned percussion instrument.',
+  },
 ]

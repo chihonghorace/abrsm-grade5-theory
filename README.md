@@ -11,8 +11,8 @@ server, no cost. Progress is saved locally on the device.
 - **Learn** — 9 concise revision topics (keys & scales, intervals, chords &
   cadences, time & rhythm, clefs, transposition, ornaments, terms & signs,
   instruments & voices) with real music notation rendered on a stave.
-- **Practice** — answer questions by topic or mixed, with **instant feedback**
-  and an explanation for every answer.
+- **Practice** — 175+ questions; answer by topic or mixed (choose a 10 / 20 /
+  All set length), with **instant feedback** and an explanation for every answer.
 - **Mock exam** — timed (Quick / Standard / Full), no peeking, flag-and-revisit,
   a question palette, auto-submit when the clock runs out, then a **per-topic
   score breakdown** using the real ABRSM thresholds (66% Pass · 80% Merit ·
@@ -56,7 +56,10 @@ config needed.
 
 ## ➕ Adding or editing questions
 
-The whole app is data-driven. To add questions, append to
+The whole app is data-driven. See [`docs/QUESTIONS.md`](docs/QUESTIONS.md) for the
+full authoring guide, the Grade 5 coverage checklist, the "举一反三" recipe, and an
+important **copyright note** (we reference ABRSM's public syllabus/format, never
+their actual questions). To add questions, append to
 [`src/data/questions.ts`](src/data/questions.ts):
 
 ```ts

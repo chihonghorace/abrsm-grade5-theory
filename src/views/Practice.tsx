@@ -20,12 +20,27 @@ function buildQuestions(pool: PracticePool): Question[] {
   return pool.ids.map((id) => QUESTION_BY_ID[id]).filter(Boolean)
 }
 
+/** Shuffle the pool and cap to `limit` (0 / undefined = keep all). */
+function buildSession(pool: PracticePool, limit?: number): Prepared[] {
+  const all = shuffle(buildQuestions(pool))
+  const capped = limit && limit > 0 ? all.slice(0, limit) : all
+  return prepareMany(capped)
+}
+
+const LENGTHS: { label: string; value: number }[] = [
+  { label: '10', value: 10 },
+  { label: '20', value: 20 },
+  { label: 'All', value: 0 },
+]
+
 export default function Practice({ api, pool }: Props) {
   const [phase, setPhase] = useState<'setup' | 'run' | 'done'>(pool ? 'run' : 'setup')
   const [activePool, setActivePool] = useState<PracticePool | null>(pool)
+  const [activeLimit, setActiveLimit] = useState<number>(pool?.limit ?? 0)
+  const [lenChoice, setLenChoice] = useState<number>(20)
   const label = activePool?.label ?? ''
   const [questions, setQuestions] = useState<Prepared[]>(() =>
-    pool ? prepareMany(shuffle(buildQuestions(pool))) : [],
+    pool ? buildSession(pool, pool.limit) : [],
   )
   const [i, setI] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
@@ -33,10 +48,10 @@ export default function Practice({ api, pool }: Props) {
   const [correct, setCorrect] = useState(0)
   const [answered, setAnswered] = useState(0)
 
-  function start(p: PracticePool) {
-    const qs = prepareMany(shuffle(buildQuestions(p)))
-    setQuestions(qs)
+  function start(p: PracticePool, limit: number) {
+    setQuestions(buildSession(p, limit))
     setActivePool(p)
+    setActiveLimit(limit)
     setI(0)
     setSelected(null)
     setRevealed(false)
@@ -71,11 +86,29 @@ export default function Practice({ api, pool }: Props) {
       <div className="space-y-4">
         <header className="pt-2">
           <h1 className="text-2xl font-black text-slate-800">Practice</h1>
-          <p className="text-slate-500">Pick a topic and answer with instant feedback.</p>
+          <p className="text-slate-500">Pick a length and topic — instant feedback on every answer.</p>
         </header>
+
+        <div className="clay-soft flex items-center justify-between p-3">
+          <span className="pl-1 text-sm font-bold text-slate-500">Questions per set</span>
+          <div className="flex gap-1 rounded-xl bg-slate-100 p-1">
+            {LENGTHS.map((l) => (
+              <button
+                key={l.value}
+                onClick={() => setLenChoice(l.value)}
+                className={`rounded-lg px-4 py-1.5 text-sm font-bold transition-all ${
+                  lenChoice === l.value ? 'bg-white text-brand-700 shadow-clay-sm' : 'text-slate-500'
+                }`}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
         <button
           className="clay-card flex w-full items-center gap-4 p-4 text-left transition-transform hover:-translate-y-0.5"
-          onClick={() => start({ kind: 'topic', topic: 'all', label: 'All topics' })}
+          onClick={() => start({ kind: 'topic', topic: 'all', label: 'All topics' }, lenChoice)}
         >
           <span className="text-3xl">✨</span>
           <span className="flex-1">
@@ -89,7 +122,7 @@ export default function Practice({ api, pool }: Props) {
             return (
               <button
                 key={t.id}
-                onClick={() => start({ kind: 'topic', topic: t.id, label: t.title })}
+                onClick={() => start({ kind: 'topic', topic: t.id, label: t.title }, lenChoice)}
                 className="clay-soft flex items-center gap-4 p-4 text-left transition-transform hover:-translate-y-0.5"
               >
                 <span className="text-2xl">{t.icon}</span>
@@ -136,7 +169,7 @@ export default function Practice({ api, pool }: Props) {
         <div className="grid grid-cols-2 gap-3">
           <button
             className="btn-primary"
-            onClick={() => activePool && start(activePool)}
+            onClick={() => activePool && start(activePool, activeLimit)}
           >
             ↻ Again
           </button>
