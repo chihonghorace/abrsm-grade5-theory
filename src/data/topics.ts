@@ -313,6 +313,31 @@ export const TOPICS: Topic[] = [
       },
     ],
   },
+  {
+    id: 'score-analysis',
+    title: 'Score Analysis',
+    blurb: 'Read a short passage and answer questions — key, intervals, terms, cadence.',
+    icon: '🔍',
+    notes: [
+      {
+        heading: 'Work from the page',
+        body:
+          'A passage gives you everything at once. A reliable order:\n' +
+          '- Read the clef, key signature and time signature first.\n' +
+          '- Name the key (the last note and the overall pull usually confirm the tonic).\n' +
+          '- Then answer the local questions: an interval between two marked notes, the meaning of a term written above the music, or the cadence at the end.',
+      },
+      {
+        heading: 'Common questions on a passage',
+        body:
+          '- Key / key signature.\n' +
+          '- The interval between two specific notes (count letter names, then quality).\n' +
+          '- The meaning of an Italian/French/German term printed above the stave.\n' +
+          '- The cadence formed by the final chords.\n' +
+          'Each is just a Grade 5 skill applied to real music — practise them in context here.',
+      },
+    ],
+  },
 ]
 
 export const TOPIC_BY_ID = Object.fromEntries(TOPICS.map((t) => [t.id, t])) as Record<

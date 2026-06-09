@@ -1138,5 +1138,72 @@
         "answer": "12"
       }
     ]
+  },
+  {
+    "id": "tr-86",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A minim rest is worth how many crotchet beats?",
+    "explanation": "A minim rest lasts two crotchet beats.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "tr-87",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "How many crotchet rests equal a semibreve rest?",
+    "explanation": "A semibreve rest = four crotchet rests.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "tr-88",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "How many quaver rests equal a minim rest?",
+    "explanation": "A minim = four quavers, so four quaver rests.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "tr-89",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "Which rest hangs DOWN from the 4th line of the staff?",
+    "explanation": "The semibreve rest hangs below the 4th line; the minim rest sits on the 3rd line.",
+    "choices": [
+      "semibreve rest",
+      "minim rest",
+      "crotchet rest",
+      "quaver rest"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-90",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "When beaming in 4/4, you should NOT beam across:",
+    "explanation": "Keep the half-bar visible — group beats 1–2 and 3–4 separately in 4/4.",
+    "choices": [
+      "the middle of the bar (beats 2–3)",
+      "beats 1–2",
+      "beats 3–4",
+      "any two quavers"
+    ],
+    "answer": 0
   }
 ]

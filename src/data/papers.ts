@@ -17,7 +17,12 @@ const modules = import.meta.glob<{ default: Paper }>('../../data/papers/*.json',
   eager: true,
 })
 
-export const PAPERS: Paper[] = Object.values(modules)
-  .map((m) => m.default)
-  .filter((p): p is Paper => !!p && Array.isArray(p.questions) && p.questions.length > 0)
-  .sort((a, b) => a.title.localeCompare(b.title))
+// Past papers are a LOCAL-ONLY study aid: only ever surfaced under `npm run dev`.
+// A production build exposes none of them, so the hosted site can never display
+// ABRSM copyright material even if someone builds with local papers present.
+export const PAPERS: Paper[] = import.meta.env.DEV
+  ? Object.values(modules)
+      .map((m) => m.default)
+      .filter((p): p is Paper => !!p && Array.isArray(p.questions) && p.questions.length > 0)
+      .sort((a, b) => a.title.localeCompare(b.title))
+  : []

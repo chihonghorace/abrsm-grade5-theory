@@ -1,14 +1,23 @@
-import { useState } from 'react'
-import type { Paper } from '../types'
+import { useEffect, useRef, useState } from 'react'
+import type { Paper, TopicId } from '../types'
 import type { ProgressApi } from '../lib/storage'
 import { PAPERS } from '../data/papers'
 import { prepareMany, type Prepared } from '../lib/quiz'
-import { blankAnswer, isAnswered, isCorrect, revealsOnChange, type Answer } from '../lib/answer'
-import QuestionView from '../components/QuestionView'
+import { blankAnswer, isCorrect, type Answer } from '../lib/answer'
+import { tally } from '../lib/stats'
+import ExamShell, { type PaletteCell } from '../components/exam/ExamShell'
+import ExamQuestion from '../components/exam/ExamQuestion'
+import TopicBreakdown from '../components/TopicBreakdown'
 import { Grade } from './Home'
 
 interface Props {
   api: ProgressApi
+}
+
+function fmt(sec: number): string {
+  const m = Math.floor(sec / 60)
+  const s = sec % 60
+  return `${m}:${s.toString().padStart(2, '0')}`
 }
 
 export default function Papers({ api }: Props) {
@@ -19,7 +28,17 @@ export default function Papers({ api }: Props) {
   const [answer, setAnswer] = useState<Answer>(null)
   const [revealed, setRevealed] = useState(false)
   const [correct, setCorrect] = useState(0)
-  const [answered, setAnswered] = useState(0)
+  const [marks, setMarks] = useState<{ topic: TopicId; correct: boolean }[]>([])
+  const [flags, setFlags] = useState<boolean[]>([])
+  const [elapsed, setElapsed] = useState(0)
+  const startedAt = useRef(0)
+
+  // Count-up exam timer while a paper is in progress.
+  useEffect(() => {
+    if (phase !== 'run') return
+    const id = setInterval(() => setElapsed(Math.floor((Date.now() - startedAt.current) / 1000)), 1000)
+    return () => clearInterval(id)
+  }, [phase])
 
   function start(p: Paper) {
     // Keep the paper's own question order (it's a real exam); prepare() still
@@ -31,7 +50,10 @@ export default function Papers({ api }: Props) {
     setAnswer(qs.length ? blankAnswer(qs[0].question) : null)
     setRevealed(false)
     setCorrect(0)
-    setAnswered(0)
+    setMarks([])
+    setFlags(new Array(qs.length).fill(false))
+    setElapsed(0)
+    startedAt.current = Date.now()
     setPhase('run')
   }
 
@@ -39,15 +61,9 @@ export default function Papers({ api }: Props) {
     if (revealed) return
     const ok = isCorrect(questions[i], a)
     setRevealed(true)
-    setAnswered((n) => n + 1)
     if (ok) setCorrect((n) => n + 1)
+    setMarks((m) => [...m, { topic: questions[i].question.topic, correct: ok }])
     api.recordAttempt(questions[i].question.id, ok)
-  }
-
-  function handleChange(a: Answer) {
-    if (revealed) return
-    setAnswer(a)
-    if (revealsOnChange(questions[i].question)) reveal(a)
   }
 
   function next() {
@@ -73,25 +89,39 @@ export default function Papers({ api }: Props) {
         </header>
 
         {PAPERS.length === 0 ? (
-          <div className="clay-card p-6">
-            <div className="text-4xl">📄</div>
-            <p className="mt-3 font-bold text-ink">No local papers yet.</p>
-            <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-              Past papers stay on <span className="font-semibold">your machine only</span> — ABRSM
-              papers are copyright and are never published. To turn one of your own downloaded PDFs
-              into practice questions, run:
-            </p>
-            <pre className="mt-3 overflow-x-auto rounded-xl bg-surface-2 px-4 py-3 text-xs font-semibold text-ink-soft">
+          // The "how to add a paper" instructions are author-only and reference local,
+          // copyright material — keep them OUT of the published build. `import.meta.env.DEV`
+          // is statically false in production, so Vite drops this whole branch (and its
+          // strings) from the public bundle. Visitors just see the neutral message below.
+          import.meta.env.DEV ? (
+            <div className="clay-card p-6">
+              <div className="text-4xl">📄</div>
+              <p className="mt-3 font-bold text-ink">No local papers yet.</p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                Past papers stay on <span className="font-semibold">your machine only</span> and are
+                never published (copyright). To turn one of your own downloaded PDFs into practice
+                questions, run:
+              </p>
+              <pre className="mt-3 overflow-x-auto rounded-xl bg-surface-2 px-4 py-3 text-xs font-semibold text-ink-soft">
 {`npm run questions:extract -- \\
-  --pdf "ABRSM 官网材料/music-theory-grade-5-sample-paper-200722.pdf" \\
-  --id grade5-2020-sample \\
-  --title "Grade 5 — 2020 sample paper"`}
-            </pre>
-            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-              Review the generated <span className="font-semibold">data/papers/&lt;id&gt;.json</span>{' '}
-              (fix anything the model got wrong), then reopen this tab.
-            </p>
-          </div>
+  --pdf "path/to/your-paper.pdf" \\
+  --id my-paper \\
+  --title "My paper"`}
+              </pre>
+              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                Review the generated <span className="font-semibold">data/papers/&lt;id&gt;.json</span>{' '}
+                (fix anything the model got wrong), then reopen this tab.
+              </p>
+            </div>
+          ) : (
+            <div className="clay-card p-8 text-center">
+              <div className="text-4xl">📄</div>
+              <p className="mt-3 font-bold text-ink">No papers available.</p>
+              <p className="mt-2 text-sm text-ink-soft">
+                Head to Practice or Mock exam from the top menu to keep revising.
+              </p>
+            </div>
+          )
         ) : (
           <div className="grid gap-3">
             {PAPERS.map((p) => (
@@ -130,7 +160,11 @@ export default function Papers({ api }: Props) {
           <div className="mt-3 flex justify-center">
             <Grade pct={pct} />
           </div>
+          <p className="mt-3 text-sm text-ink-faint">Time used: {fmt(elapsed)}</p>
         </div>
+
+        <TopicBreakdown tallies={tally(marks)} />
+
         <div className="grid grid-cols-2 gap-3">
           <button className="btn-primary" onClick={() => paper && start(paper)}>
             ↻ Again
@@ -143,51 +177,43 @@ export default function Papers({ api }: Props) {
     )
   }
 
-  // ---- Run ---------------------------------------------------------------
+  // ---- Run (exam shell) --------------------------------------------------
   const current = questions[i]
-  const needsCheck = !revealed && !revealsOnChange(current.question)
-  return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between pt-1">
-        <button className="chip bg-surface-2 text-ink-soft" onClick={() => setPhase('pick')}>
-          ← {paper?.title}
-        </button>
-        <span className="text-sm font-bold text-ink-soft tabular-nums">
-          Score {correct}/{answered}
-        </span>
-      </div>
-      <div className="h-2 overflow-hidden rounded-full bg-surface-2">
-        <div
-          className="h-full rounded-full bg-brand-500 transition-all duration-300"
-          style={{ width: `${((i + (revealed ? 1 : 0)) / questions.length) * 100}%` }}
-        />
-      </div>
+  const cellState = (idx: number): PaletteCell['state'] =>
+    idx === i ? 'current' : flags[idx] ? 'flagged' : idx < i ? 'answered' : 'plain'
 
-      <QuestionView
+  return (
+    <ExamShell
+      timer={fmt(elapsed)}
+      onEnd={() => setPhase('pick')}
+      onNext={revealed ? next : undefined}
+      onFlag={() =>
+        setFlags((f) => {
+          const n = f.slice()
+          n[i] = !n[i]
+          return n
+        })
+      }
+      onClear={() => {
+        if (!revealed) setAnswer(blankAnswer(current.question))
+      }}
+      palette={questions.map((_, idx) => ({ label: String(idx + 1), state: cellState(idx) }))}
+    >
+      <ExamQuestion
         prepared={current}
         answer={answer}
-        onChange={handleChange}
+        onChange={(a) => !revealed && setAnswer(a)}
         revealed={revealed}
-        bookmarked={api.progress.bookmarks.includes(current.question.id)}
-        onToggleBookmark={() => api.toggleBookmark(current.question.id)}
-        index={i}
-        total={questions.length}
+        onAnswer={() => reveal(answer)}
       />
-
-      {needsCheck && (
-        <button
-          className="btn-primary w-full"
-          disabled={!isAnswered(current.question, answer)}
-          onClick={() => reveal(answer)}
-        >
-          Check answer
-        </button>
-      )}
       {revealed && (
-        <button className="btn-primary w-full animate-pop-in" onClick={next}>
-          {i + 1 < questions.length ? 'Next question →' : 'See results'}
+        <button
+          onClick={next}
+          className="rounded-md bg-rose-500 px-6 py-2 text-sm font-semibold text-white transition hover:bg-rose-600"
+        >
+          {i + 1 < questions.length ? 'Continue' : 'See results'}
         </button>
       )}
-    </div>
+    </ExamShell>
   )
 }

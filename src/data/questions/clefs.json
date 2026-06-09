@@ -158,7 +158,7 @@
     "topic": "clefs",
     "difficulty": 1,
     "prompt": "On the alto clef shown, which note is this?",
-    "abc": "X:1\nL:1/1\nM:none\nK:C clef=alto\nC",
+    "abc": "X:1\nL:1/1\nM:none\nK:C clefalto\nC",
     "choices": [
       "Middle C",
       "The C an octave below middle C",
@@ -445,6 +445,1026 @@
       "C",
       "A",
       "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-33",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nB",
+    "explanation": "Read from the treble clef: this note is B.",
+    "choices": [
+      "B",
+      "G",
+      "D",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-34",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nD,",
+    "explanation": "Read from the bass clef: this note is D.",
+    "choices": [
+      "D",
+      "A",
+      "C",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-35",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nf",
+    "explanation": "Read from the treble clef: this note is F.",
+    "choices": [
+      "F",
+      "B",
+      "A",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-36",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nE,",
+    "explanation": "Read from the bass clef: this note is E.",
+    "choices": [
+      "E",
+      "A",
+      "G",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-37",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nF,",
+    "explanation": "Read from the bass clef: this note is F.",
+    "choices": [
+      "F",
+      "B",
+      "C",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-38",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nF",
+    "explanation": "Read from the alto clef: this note is F.",
+    "choices": [
+      "F",
+      "D",
+      "B",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-39",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nB,",
+    "explanation": "Read from the alto clef: this note is B.",
+    "choices": [
+      "B",
+      "E",
+      "F",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-40",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nA,,",
+    "explanation": "Read from the bass clef: this note is A.",
+    "choices": [
+      "A",
+      "G",
+      "F",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-41",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nE,",
+    "explanation": "Read from the tenor clef: this note is E.",
+    "choices": [
+      "E",
+      "B",
+      "A",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-42",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nG,",
+    "explanation": "Read from the tenor clef: this note is G.",
+    "choices": [
+      "G",
+      "C",
+      "E",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-43",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nG",
+    "explanation": "Read from the alto clef: this note is G.",
+    "choices": [
+      "G",
+      "D",
+      "A",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-44",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nD,",
+    "explanation": "Read from the tenor clef: this note is D.",
+    "choices": [
+      "D",
+      "E",
+      "B",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-45",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nA",
+    "explanation": "Read from the treble clef: this note is A.",
+    "choices": [
+      "A",
+      "E",
+      "F",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-46",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nE",
+    "explanation": "Read from the treble clef: this note is E.",
+    "choices": [
+      "E",
+      "F",
+      "A",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-47",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nF,",
+    "explanation": "Read from the tenor clef: this note is F.",
+    "choices": [
+      "F",
+      "B",
+      "D",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-48",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nE",
+    "explanation": "Read from the tenor clef: this note is E.",
+    "choices": [
+      "E",
+      "D",
+      "C",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-49",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nB,,",
+    "explanation": "Read from the bass clef: this note is B.",
+    "choices": [
+      "B",
+      "G",
+      "E",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-50",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nG,",
+    "explanation": "Read from the bass clef: this note is G.",
+    "choices": [
+      "G",
+      "C",
+      "E",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-51",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nc",
+    "explanation": "Read from the treble clef: this note is C.",
+    "choices": [
+      "C",
+      "B",
+      "E",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-52",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nC,",
+    "explanation": "Read from the bass clef: this note is C.",
+    "choices": [
+      "C",
+      "F",
+      "B",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-53",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nE",
+    "explanation": "Read from the alto clef: this note is E.",
+    "choices": [
+      "E",
+      "F",
+      "G",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-54",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nG,",
+    "explanation": "Read from the alto clef: this note is G.",
+    "choices": [
+      "G",
+      "E",
+      "F",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-55",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nA,",
+    "explanation": "Read from the alto clef: this note is A.",
+    "choices": [
+      "A",
+      "C",
+      "E",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-56",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nA,",
+    "explanation": "Read from the tenor clef: this note is A.",
+    "choices": [
+      "A",
+      "G",
+      "F",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-57",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nD",
+    "explanation": "Read from the alto clef: this note is D.",
+    "choices": [
+      "D",
+      "G",
+      "C",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-58",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nA,",
+    "explanation": "Read from the bass clef: this note is A.",
+    "choices": [
+      "A",
+      "E",
+      "B",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-59",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nD",
+    "explanation": "Read from the tenor clef: this note is D.",
+    "choices": [
+      "D",
+      "G",
+      "B",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-60",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nC",
+    "explanation": "Read from the alto clef: this note is C.",
+    "choices": [
+      "C",
+      "G",
+      "D",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-61",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nd",
+    "explanation": "Read from the treble clef: this note is D.",
+    "choices": [
+      "D",
+      "F",
+      "A",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-62",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clefalto\nF,",
+    "explanation": "Read from the alto clef: this note is F.",
+    "choices": [
+      "F",
+      "A",
+      "C",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-63",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clefbass\nG,,",
+    "explanation": "Read from the bass clef: this note is G.",
+    "choices": [
+      "G",
+      "F",
+      "B",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-64",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C cleftreble\nG",
+    "explanation": "Read from the treble clef: this note is G.",
+    "choices": [
+      "G",
+      "D",
+      "B",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-65",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nC",
+    "explanation": "Read from the tenor clef: this note is C.",
+    "choices": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-66",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C cleftenor\nB,",
+    "explanation": "Read from the tenor clef: this note is B.",
+    "choices": [
+      "B",
+      "F",
+      "A",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-67",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nB,",
+    "explanation": "Read from the tenor clef: this note is B.",
+    "choices": [
+      "B",
+      "A",
+      "G",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-68",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nD",
+    "explanation": "Read from the tenor clef: this note is D.",
+    "choices": [
+      "D",
+      "C",
+      "G",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-69",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nE",
+    "explanation": "Read from the treble clef: this note is E.",
+    "choices": [
+      "E",
+      "B",
+      "C",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-70",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nE,",
+    "explanation": "Read from the bass clef: this note is E.",
+    "choices": [
+      "E",
+      "F",
+      "D",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-71",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nC",
+    "explanation": "Read from the tenor clef: this note is C.",
+    "choices": [
+      "C",
+      "A",
+      "F",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-72",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nG,",
+    "explanation": "Read from the tenor clef: this note is G.",
+    "choices": [
+      "G",
+      "F",
+      "C",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-73",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nG",
+    "explanation": "Read from the alto clef: this note is G.",
+    "choices": [
+      "G",
+      "E",
+      "D",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-74",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nD",
+    "explanation": "Read from the alto clef: this note is D.",
+    "choices": [
+      "D",
+      "B",
+      "A",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-75",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nD,",
+    "explanation": "Read from the bass clef: this note is D.",
+    "choices": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-76",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nB,",
+    "explanation": "Read from the alto clef: this note is B.",
+    "choices": [
+      "B",
+      "G",
+      "F",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-77",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nA,",
+    "explanation": "Read from the bass clef: this note is A.",
+    "choices": [
+      "A",
+      "E",
+      "F",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-78",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nD,",
+    "explanation": "Read from the tenor clef: this note is D.",
+    "choices": [
+      "D",
+      "G",
+      "E",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-79",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nB,,",
+    "explanation": "Read from the bass clef: this note is B.",
+    "choices": [
+      "B",
+      "G",
+      "F",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-80",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nE,",
+    "explanation": "Read from the tenor clef: this note is E.",
+    "choices": [
+      "E",
+      "B",
+      "A",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-81",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nE",
+    "explanation": "Read from the tenor clef: this note is E.",
+    "choices": [
+      "E",
+      "D",
+      "F",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-82",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nA,",
+    "explanation": "Read from the alto clef: this note is A.",
+    "choices": [
+      "A",
+      "B",
+      "F",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-83",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nf",
+    "explanation": "Read from the treble clef: this note is F.",
+    "choices": [
+      "F",
+      "B",
+      "C",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-84",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nc",
+    "explanation": "Read from the treble clef: this note is C.",
+    "choices": [
+      "C",
+      "E",
+      "F",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-85",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nE",
+    "explanation": "Read from the alto clef: this note is E.",
+    "choices": [
+      "E",
+      "B",
+      "C",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-86",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nC,",
+    "explanation": "Read from the bass clef: this note is C.",
+    "choices": [
+      "C",
+      "G",
+      "D",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-87",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nB",
+    "explanation": "Read from the treble clef: this note is B.",
+    "choices": [
+      "B",
+      "A",
+      "E",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-88",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nG",
+    "explanation": "Read from the treble clef: this note is G.",
+    "choices": [
+      "G",
+      "D",
+      "F",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-89",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nA,,",
+    "explanation": "Read from the bass clef: this note is A.",
+    "choices": [
+      "A",
+      "E",
+      "C",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-90",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nA",
+    "explanation": "Read from the treble clef: this note is A.",
+    "choices": [
+      "A",
+      "F",
+      "D",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-91",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nG,",
+    "explanation": "Read from the bass clef: this note is G.",
+    "choices": [
+      "G",
+      "E",
+      "B",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-92",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Name this note (treble clef).",
+    "abc": "K:C clef=treble\nd",
+    "explanation": "Read from the treble clef: this note is D.",
+    "choices": [
+      "D",
+      "A",
+      "G",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-93",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nF",
+    "explanation": "Read from the alto clef: this note is F.",
+    "choices": [
+      "F",
+      "E",
+      "G",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-94",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nF,",
+    "explanation": "Read from the tenor clef: this note is F.",
+    "choices": [
+      "F",
+      "G",
+      "A",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-95",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nG,",
+    "explanation": "Read from the alto clef: this note is G.",
+    "choices": [
+      "G",
+      "F",
+      "D",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-96",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nG,,",
+    "explanation": "Read from the bass clef: this note is G.",
+    "choices": [
+      "G",
+      "D",
+      "A",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-97",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (tenor clef).",
+    "abc": "K:C clef=tenor\nA,",
+    "explanation": "Read from the tenor clef: this note is A.",
+    "choices": [
+      "A",
+      "G",
+      "C",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-98",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nC",
+    "explanation": "Read from the alto clef: this note is C.",
+    "choices": [
+      "C",
+      "G",
+      "E",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-99",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Name this note (bass clef).",
+    "abc": "K:C clef=bass\nF,",
+    "explanation": "Read from the bass clef: this note is F.",
+    "choices": [
+      "F",
+      "A",
+      "B",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-100",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "Name this note (alto clef).",
+    "abc": "K:C clef=alto\nF,",
+    "explanation": "Read from the alto clef: this note is F.",
+    "choices": [
+      "F",
+      "G",
+      "C",
+      "B"
     ],
     "answer": 0
   }

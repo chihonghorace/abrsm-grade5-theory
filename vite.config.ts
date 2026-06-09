@@ -8,4 +8,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: './',
   plugins: [react()],
+  // Only scan the app's own entry for dependencies. Without this, Vite's dep
+  // scanner crawls every *.html in the project — including the huge local
+  // UIUX/ design-skill repo (WebGL test suites) — which breaks `npm run dev`.
+  optimizeDeps: { entries: ['index.html'] },
+  server: {
+    // Don't watch the big local-only folders (saves CPU and file-watch handles).
+    watch: { ignored: ['**/UIUX/**', '**/data/papers/**', '**/public/papers/**'] },
+  },
 })

@@ -1,9 +1,10 @@
-import type { FillQuestion, MultiQuestion, Question } from '../types'
+import type { BuildQuestion, FillQuestion, MultiQuestion, Question } from '../types'
 import { questionType } from '../types'
+import { samePitch } from './pitch'
 import type { Prepared } from './quiz'
 
 /** A learner's in-progress answer, shaped per question type. */
-export type Answer = number | null | string[] | (string | null)[]
+export type Answer = number | null | string | string[] | (string | null)[]
 
 export function blankAnswer(q: Question): Answer {
   switch (questionType(q)) {
@@ -11,6 +12,8 @@ export function blankAnswer(q: Question): Answer {
       return (q as FillQuestion).blanks.map(() => '')
     case 'multi':
       return (q as MultiQuestion).items.map(() => null)
+    case 'build':
+      return (q as BuildQuestion).startAbc
     default:
       return null
   }
@@ -24,6 +27,9 @@ export function isAnswered(q: Question, a: Answer): boolean {
       return Array.isArray(a) && (a as string[]).every((s) => typeof s === 'string' && s.trim() !== '')
     case 'multi':
       return Array.isArray(a) && (a as (string | null)[]).every((s) => s != null && s !== '')
+    case 'build':
+      // Answered once the learner has moved the note off its starting position.
+      return typeof a === 'string' && a !== (q as BuildQuestion).startAbc
     default:
       return typeof a === 'number'
   }
@@ -47,6 +53,8 @@ export function isCorrect(prepared: Prepared, a: Answer): boolean {
       const arr = a as (string | null)[]
       return items.every((it, i) => arr[i] === it.answer)
     }
+    case 'build':
+      return typeof a === 'string' && samePitch(a, (q as BuildQuestion).answerAbc)
     default:
       return typeof a === 'number' && a === prepared.mc!.answer
   }

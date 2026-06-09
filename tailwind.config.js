@@ -7,7 +7,7 @@ export default {
       fontFamily: {
         // Body: friendly + highly readable. Display: rounded, characterful headings.
         sans: ['Nunito', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['"Baloo 2"', 'Nunito', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Outfit', 'Nunito', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
         // Semantic tokens — backed by CSS vars that flip in light/dark.

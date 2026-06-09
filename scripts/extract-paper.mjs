@@ -10,23 +10,27 @@
 //
 //   npm run questions:extract -- \
 //     --pdf "ABRSM 官网材料/music-theory-grade-5-sample-paper-200722.pdf" \
+//     --answers "ABRSM 官网材料/music-theory-grade-5-sample-model-answers.pdf" \
 //     --id grade5-2020-sample \
 //     --title "Grade 5 — 2020 sample paper"
 //
-// Optional: --pages 1-6  --dpi 200  --model claude-opus-4-8  --source "..."
+// Optional: --answers <model-answers.pdf>  --pages 1-6  --dpi 200  --source "..."
 //
 // HOW IT WORKS
 //   1. Renders each PDF page to PNG with `pdftoppm` (poppler).
-//   2. Sends the page images to Claude, which returns structured questions,
-//      each tagged with its page + the vertical band the notation occupies.
-//   3. Crops that band out of the page into a PNG and links it to the question.
+//   2. Sends the question pages — and, if --answers is given, the official
+//      MODEL ANSWER pages — to the model. It returns structured questions and,
+//      when answers are provided, sets each correct answer FROM the official key
+//      rather than guessing.
+//   3. Crops the notation band out of each question page into a PNG.
 //
 // THE OUTPUT IS A FIRST DRAFT. Music notation and wording are hard to read
 // perfectly — ALWAYS review data/papers/<id>.json and the crops before relying
 // on them. Re-run with a tighter --dpi or fix the JSON by hand as needed.
 //
-// Requires: poppler (`brew install poppler`) and ANTHROPIC_API_KEY in .env.
-import Anthropic from '@anthropic-ai/sdk'
+// Requires: poppler (`brew install poppler`) and an API key in .env — either
+// ANTHROPIC_API_KEY or GEMINI_API_KEY (pick with --provider anthropic|google).
+import { generateJSON, resolveProvider, requireKey, DEFAULT_MODEL } from './lib/llm.mjs'
 import { spawnSync } from 'node:child_process'
 import { readFileSync, readdirSync, mkdirSync, writeFileSync, openSync, readSync, closeSync, rmSync, mkdtempSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
@@ -51,25 +55,43 @@ const title = arg('title')
 const source = arg('source', pdf ? `${basename(pdf)} (local copy)` : undefined)
 const dpi = parseInt(arg('dpi', '150'), 10)
 const pagesArg = arg('pages') // e.g. "1-6"
-const model = arg('model', 'claude-opus-4-8')
+const answers = arg('answers') // optional: official model-answer PDF for ground-truth
 
 function die(msg) {
   console.error(msg)
   process.exit(1)
 }
 
+let provider
+try {
+  provider = resolveProvider(arg('provider'))
+} catch (e) {
+  die(e.message)
+}
+const model = arg('model', DEFAULT_MODEL[provider])
+
 if (!pdf || !id || !title) {
-  die('Usage: --pdf <path> --id <slug> --title "<name>" [--pages 1-6] [--dpi 150] [--source "..."]')
+  die('Usage: --pdf <path> --id <slug> --title "<name>" [--answers <model-answers.pdf>] [--provider anthropic|google] [--pages 1-6] [--dpi 150] [--source "..."]')
 }
 if (!/^[a-z0-9-]+$/.test(id)) die(`--id must be kebab-case [a-z0-9-]; got "${id}"`)
-if (!process.env.ANTHROPIC_API_KEY) {
-  die('ANTHROPIC_API_KEY not set. Create a .env file (see .env.example) — it is gitignored.')
+try {
+  requireKey(provider)
+} catch (e) {
+  die(e.message)
 }
 const pdfPath = join(ROOT, pdf)
 try {
   readFileSync(pdfPath)
 } catch {
   die(`Cannot read PDF: ${pdf}`)
+}
+const answersPath = answers ? join(ROOT, answers) : null
+if (answersPath) {
+  try {
+    readFileSync(answersPath)
+  } catch {
+    die(`Cannot read answers PDF: ${answers}`)
+  }
 }
 
 // ---- poppler check -------------------------------------------------------
@@ -125,15 +147,35 @@ const pageFiles = readdirSync(tmp)
 const totalPages = pageFiles.length
 if (totalPages === 0) die('No pages rendered from the PDF.')
 
+// Render the official model-answer pages too (context only — never cropped).
+let ansFiles = []
+if (answersPath) {
+  const r = spawnSync('pdftoppm', ['-png', '-r', String(dpi), answersPath, join(tmp, 'ans')], { encoding: 'utf8' })
+  if (r.status !== 0) die(`pdftoppm failed on answers PDF: ${r.stderr || r.error?.message || 'unknown'}`)
+  ansFiles = readdirSync(tmp)
+    .filter((f) => f.startsWith('ans') && f.endsWith('.png'))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    .map((f) => join(tmp, f))
+}
+
 const wanted = pageRange.length ? pageRange.filter((p) => p >= 1 && p <= totalPages) : pageFiles.map((_, i) => i + 1)
-console.log(`Rendered ${totalPages} page(s) at ${dpi} DPI; sending ${wanted.length} to ${model}…`)
+console.log(
+  `Rendered ${totalPages} question page(s)${ansFiles.length ? ` + ${ansFiles.length} answer page(s)` : ''} at ${dpi} DPI; sending ${wanted.length} to ${model}…`,
+)
 
 // ---- 2. ask Claude for structured questions ------------------------------
 const SYSTEM = `You extract questions from a music-theory exam paper that the user has
 legally downloaded, turning them into structured practice items for their own study.
 
-You are given the rendered pages of ONE paper. Read every question and transcribe
-it faithfully and accurately. For each question return:
+You are given the rendered pages of ONE paper and, when available, the official
+MODEL ANSWER pages for that same paper. When model-answer pages are present, treat
+them as the AUTHORITATIVE source for each question's correct answer — read the
+official answer and use it; do NOT guess or override it.
+
+Capture EVERY question and every numbered sub-part on these pages — do NOT skip,
+merge or summarise any. A full Grade 5 paper has about 58 questions; if you are
+seeing a whole paper, expect a count near that. Transcribe each one faithfully
+and accurately. For each question return:
 - page: the 1-based page number it appears on (as labelled in the input).
 - yTop / yBottom: the vertical extent of the printed MUSIC / DIAGRAM for this
   question, as fractions of the page height (0 = top edge, 1 = bottom edge).
@@ -147,13 +189,20 @@ it faithfully and accurately. For each question return:
   (several labelled blanks sharing one option list).
 - prompt: the question as the student should read it. If the original relies on
   the printed music, keep the wording but assume the image is shown above it.
-- For type "mc": "choices" = 2–4 options, with the CORRECT option FIRST.
+- For type "mc": "choices" = ALL the answer options printed for that question,
+  copied EXACTLY and in full. Never drop, shorten, reword, merge or invent an
+  option — include every option the paper shows (commonly 3–4). Put the CORRECT
+  option FIRST (the correct one is whatever the official model answer states,
+  when provided). If the question has NO printed options (a written-answer
+  question), use "fill" with the correct answer rather than inventing choices.
 - For type "fill": "blanks" = [{ answer, alt?, prefix?, suffix? }] (alt = other
   accepted spellings; prefix/suffix = fixed text around the input).
 - For type "multi": "options" = the shared choice list, "items" = [{ label, answer }].
 - explanation: one or two sentences on WHY the answer is correct.
 
 Rules:
+- When model-answer pages are provided, the answer / blanks / items you output
+  MUST agree with them, and the explanation should reflect the official answer.
 - Be musically accurate; double-check keys, intervals, chords and rhythm.
 - If a question can't be turned into a self-contained item (e.g. "compose a
   melody"), skip it rather than inventing an answer.
@@ -207,35 +256,36 @@ const schema = {
   required: ['questions'],
 }
 
-const content = [{ type: 'text', text: `Paper: "${title}". Extract every answerable question.` }]
+const parts = [{ text: `Paper: "${title}". Extract every answerable question.` }]
 for (const p of wanted) {
   const b64 = readFileSync(pageFiles[p - 1]).toString('base64')
-  content.push({ type: 'text', text: `--- Page ${p} ---` })
-  content.push({ type: 'image', source: { type: 'base64', media_type: 'image/png', data: b64 } })
+  parts.push({ text: `--- Question page ${p} ---` })
+  parts.push({ imageBase64: b64, mediaType: 'image/png' })
+}
+if (ansFiles.length) {
+  parts.push({
+    text: '--- OFFICIAL MODEL ANSWERS (authoritative — set each correct answer to match these) ---',
+  })
+  ansFiles.forEach((f, k) => {
+    parts.push({ text: `--- Answer page ${k + 1} ---` })
+    parts.push({ imageBase64: readFileSync(f).toString('base64'), mediaType: 'image/png' })
+  })
 }
 
-const client = new Anthropic()
-const response = await client.messages.create({
-  model,
-  max_tokens: 32000,
-  thinking: { type: 'adaptive' },
-  system: SYSTEM,
-  output_config: { format: { type: 'json_schema', schema } },
-  messages: [{ role: 'user', content }],
-})
-
-if (response.stop_reason === 'refusal') die('Model refused the request.')
-if (response.stop_reason === 'max_tokens') die('Output hit max_tokens — try fewer --pages.')
-const textBlock = response.content.find((b) => b.type === 'text')
-if (!textBlock) die('No text block in response.')
-
-let items
+let data, usage
 try {
-  items = JSON.parse(textBlock.text).questions
+  ;({ data, usage } = await generateJSON({ provider, model, system: SYSTEM, parts, schema, maxTokens: 32000 }))
 } catch (e) {
-  die(`Could not parse model output as JSON: ${e.message}`)
+  die(e.message)
 }
-if (!Array.isArray(items) || items.length === 0) die('Model returned no questions.')
+const items = data.questions
+if (!Array.isArray(items) || items.length === 0) {
+  console.error('Model returned no questions for these page(s).')
+  console.error('  What the model returned:', JSON.stringify(data).slice(0, 800))
+  console.error('  Tip: page 1 of ABRSM papers is the cover/instructions — point at content')
+  console.error('       pages instead, e.g. --pages 2-4 (or omit --pages for the whole paper).')
+  process.exit(1)
+}
 
 // ---- 3. crop notation + assemble the paper -------------------------------
 mkdirSync(PAPERS_DIR, { recursive: true })
@@ -291,9 +341,8 @@ const outFile = join(PAPERS_DIR, `${id}.json`)
 writeFileSync(outFile, JSON.stringify(paper, null, 2) + '\n')
 rmSync(tmp, { recursive: true, force: true })
 
-const usage = response.usage
 console.log(`\n✓ Extracted ${questions.length} question(s); cropped ${cropped} notation image(s).`)
 console.log(`  ${outFile.replace(ROOT + '/', '')}`)
 console.log(`  images → ${imgDir.replace(ROOT + '/', '')}/`)
-console.log(`  (tokens: in ${usage.input_tokens}, out ${usage.output_tokens})`)
+console.log(`  (${provider}/${model} — tokens: in ${usage.input}, out ${usage.output})`)
 console.log('\n⚠ FIRST DRAFT — review the JSON and crops, fix anything wrong, then open the Papers tab.')

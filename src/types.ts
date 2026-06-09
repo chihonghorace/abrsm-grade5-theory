@@ -24,10 +24,11 @@ export type TopicId =
   | 'ornaments'
   | 'terms-and-signs'
   | 'instruments-and-voices'
+  | 'score-analysis'
 
 export type Difficulty = 1 | 2 | 3
 
-export type QuestionType = 'mc' | 'fill' | 'multi'
+export type QuestionType = 'mc' | 'fill' | 'multi' | 'build'
 
 interface QuestionBase {
   id: string
@@ -78,7 +79,21 @@ export interface MultiQuestion extends QuestionBase {
   items: MultiItem[]
 }
 
-export type Question = MCQuestion | FillQuestion | MultiQuestion
+/**
+ * "Build a note" — the learner drags a note up/down on the staff (and sets its
+ * accidental) to form the required interval above `abc` (the given note).
+ * `abc` holds the given note; the draggable note starts at `startAbc`.
+ */
+export interface BuildQuestion extends QuestionBase {
+  type: 'build'
+  startAbc: string
+  /** Correct target note as an ABC token, e.g. "_e". */
+  answerAbc: string
+  /** Pretty name for feedback, e.g. "E♭". */
+  answerName: string
+}
+
+export type Question = MCQuestion | FillQuestion | MultiQuestion | BuildQuestion
 
 /** Narrowing helper — JSON MC questions omit `type`, so default to 'mc'. */
 export function questionType(q: Question): QuestionType {

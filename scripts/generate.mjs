@@ -12,7 +12,9 @@
 //
 // Questions are ORIGINAL, written from the public Grade 5 syllabus/format —
 // never copied from ABRSM's copyrighted papers.
-import Anthropic from '@anthropic-ai/sdk'
+//
+// Runs on Anthropic or Google — pick with --provider (or whichever key is set).
+import { generateJSON, resolveProvider, requireKey, DEFAULT_MODEL } from './lib/llm.mjs'
 import { readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
@@ -33,16 +35,20 @@ function arg(name, def) {
 const topic = arg('topic')
 const count = parseInt(arg('count', '10'), 10)
 const difficulty = arg('difficulty') // optional: "1" | "2" | "3"
-const model = arg('model', 'claude-opus-4-8')
 
 if (!topic || !VALID_TOPICS.includes(topic)) {
-  console.error(`Usage: --topic <one of: ${VALID_TOPICS.join(', ')}> --count N [--difficulty 1|2|3]`)
+  console.error(`Usage: --topic <one of: ${VALID_TOPICS.join(', ')}> --count N [--difficulty 1|2|3] [--provider anthropic|google]`)
   process.exit(1)
 }
-if (!process.env.ANTHROPIC_API_KEY) {
-  console.error('ANTHROPIC_API_KEY not set. Create a .env file (see .env.example) — it is gitignored.')
+let provider
+try {
+  provider = resolveProvider(arg('provider'))
+  requireKey(provider)
+} catch (e) {
+  console.error(e.message)
   process.exit(1)
 }
+const model = arg('model', DEFAULT_MODEL[provider])
 
 // ---- existing questions for context + de-duplication ---------------------
 const existing = JSON.parse(readFileSync(join(DB, `${topic}.json`), 'utf8'))
@@ -91,39 +97,26 @@ const schema = {
   required: ['questions'],
 }
 
-// ---- call Claude ---------------------------------------------------------
-const client = new Anthropic() // reads ANTHROPIC_API_KEY from env
-
-console.log(`Generating ${count} "${topic}" question(s) with ${model}…`)
-const response = await client.messages.create({
-  model,
-  max_tokens: 16000,
-  thinking: { type: 'adaptive' },
-  system: SYSTEM,
-  output_config: { format: { type: 'json_schema', schema } },
-  messages: [{ role: 'user', content: user }],
-})
-
-if (response.stop_reason === 'refusal') {
-  console.error('Model refused the request.', response.stop_details ?? '')
-  process.exit(1)
-}
-if (response.stop_reason === 'max_tokens') {
-  console.error('Output hit max_tokens — try a smaller --count.')
-  process.exit(1)
-}
-
-const textBlock = response.content.find((b) => b.type === 'text')
-if (!textBlock) {
-  console.error('No text block in response.')
-  process.exit(1)
-}
-
-let questions
+// ---- call the model ------------------------------------------------------
+console.log(`Generating ${count} "${topic}" question(s) with ${provider}/${model}…`)
+let data, usage
 try {
-  questions = JSON.parse(textBlock.text).questions
+  ;({ data, usage } = await generateJSON({
+    provider,
+    model,
+    system: SYSTEM,
+    parts: [{ text: user }],
+    schema,
+    maxTokens: 16000,
+  }))
 } catch (e) {
-  console.error('Could not parse model output as JSON:', e.message)
+  console.error(e.message)
+  process.exit(1)
+}
+
+const questions = data.questions
+if (!Array.isArray(questions)) {
+  console.error('Model did not return a questions array.')
   process.exit(1)
 }
 
@@ -135,9 +128,8 @@ const stamp = new Date().toISOString().replace(/[:.]/g, '-')
 const outFile = join(OUT, `${topic}-${stamp}.json`)
 writeFileSync(outFile, JSON.stringify(questions, null, 2) + '\n')
 
-const usage = response.usage
 console.log(`\n✓ Wrote ${questions.length} proposed question(s) to:`)
 console.log(`  ${outFile.replace(ROOT + '/', '')}`)
-console.log(`  (tokens: in ${usage.input_tokens}, out ${usage.output_tokens})`)
+console.log(`  (${provider}/${model} — tokens: in ${usage.input}, out ${usage.output})`)
 console.log('\nNext: REVIEW the file (delete/fix any weak or wrong items), then run:')
 console.log(`  npm run questions:import -- ${outFile.replace(ROOT + '/', '')}`)

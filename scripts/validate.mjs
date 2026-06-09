@@ -21,6 +21,7 @@ const TOPICS = new Set([
   'ornaments',
   'terms-and-signs',
   'instruments-and-voices',
+  'score-analysis',
 ])
 
 const errors = []
@@ -102,6 +103,11 @@ for (const file of files) {
             errors.push(`${at}: items[${j}].answer must be one of options`)
         })
       }
+    } else if (type === 'build') {
+      for (const f of ['startAbc', 'answerAbc', 'answerName']) {
+        if (typeof q[f] !== 'string' || !q[f].trim()) errors.push(`${at}: build needs a string "${f}"`)
+      }
+      if (typeof q.abc !== 'string' || !q.abc.trim()) errors.push(`${at}: build needs "abc" (the given note)`)
     } else {
       errors.push(`${at}: unknown type "${type}"`)
     }

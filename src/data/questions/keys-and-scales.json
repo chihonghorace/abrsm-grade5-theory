@@ -1554,5 +1554,47 @@
       "A"
     ],
     "answer": 0
+  },
+  {
+    "id": "ks-114",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "In the harmonic minor of G♯ minor, the raised 7th (leading note) is written as:",
+    "explanation": "The 7th degree of G♯ minor is raised a semitone for the harmonic minor, giving F double sharp.",
+    "choices": [
+      "F double sharp",
+      "C double sharp",
+      "G♯",
+      "G double sharp"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-115",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "In the harmonic minor of D♯ minor, the raised 7th (leading note) is written as:",
+    "explanation": "The 7th degree of D♯ minor is raised a semitone for the harmonic minor, giving C double sharp.",
+    "choices": [
+      "C double sharp",
+      "F double sharp",
+      "G double sharp",
+      "G♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-116",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "In the harmonic minor of A♯ minor, the raised 7th (leading note) is written as:",
+    "explanation": "The 7th degree of A♯ minor is raised a semitone for the harmonic minor, giving G double sharp.",
+    "choices": [
+      "G double sharp",
+      "F double sharp",
+      "C double sharp",
+      "F♯"
+    ],
+    "answer": 0
   }
 ]

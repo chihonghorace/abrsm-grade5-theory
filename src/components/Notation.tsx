@@ -7,6 +7,8 @@ interface Props {
   className?: string
   /** Staff scale; smaller for inline question prompts, larger for study notes. */
   scale?: number
+  /** Colour the Nth note (0-based) — used to highlight a placed/selected note. */
+  highlight?: { index: number; color: string }
 }
 
 /**
@@ -23,21 +25,38 @@ function normalize(abc: string): string {
   return [...header, trimmed].join('\n')
 }
 
-export default function Notation({ abc, className = '', scale = 1.2 }: Props) {
+export default function Notation({ abc, className = '', scale = 1.2, highlight }: Props) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     if (!ref.current) return
+    // NB: no `responsive: 'resize'`. That mode sets the SVG width to 100% of the
+    // parent, which collapses to nothing inside shrink-to-fit parents (inline-block
+    // wrappers, flex-item option chips, single-note staves) — the cause of the
+    // "notes won't display" bug. Rendering at natural pixel size always shows;
+    // `.abc-notation svg { max-width: 100% }` (index.css) still scales it down when
+    // the container is narrower.
     abcjs.renderAbc(ref.current, normalize(abc), {
-      responsive: 'resize',
       scale,
+      add_classes: true, // tags noteheads with .abcjs-note so we can colour them
       paddingtop: 6,
       paddingbottom: 6,
       paddingleft: 0,
       paddingright: 0,
       staffwidth: 320,
     })
-  }, [abc, scale])
+    if (highlight) {
+      const notes = ref.current.querySelectorAll<SVGGElement>('.abcjs-note')
+      const target = notes[highlight.index]
+      // Inline style beats the global stave-colour CSS rule, so the note shows
+      // green (correct), red (wrong) or brand (selected) while everything else
+      // stays dark ink on the light "paper".
+      target?.querySelectorAll<SVGElement>('path, ellipse').forEach((p) => {
+        p.style.fill = highlight.color
+        p.style.stroke = highlight.color
+      })
+    }
+  }, [abc, scale, highlight?.index, highlight?.color])
 
   return (
     <div

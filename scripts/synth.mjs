@@ -111,6 +111,21 @@ function triad(scale, deg) {
   const i = deg - 1
   return [scale[i], scale[(i + 2) % 7], scale[(i + 4) % 7]].map((n) => noteName(n.letter, n.acc)).join(' ')
 }
+function triadNotes(scale, deg) {
+  const i = deg - 1
+  return [scale[i], scale[(i + 2) % 7], scale[(i + 4) % 7]]
+}
+// Stack a triad on the staff in a chosen inversion (0 root, 1 first, 2 second).
+function chordAbcInv(notes, inv) {
+  const base = LETTERS.indexOf(notes[0].letter)
+  const idx = [base, base + 2, base + 4]
+  const acc = notes.map((n) => n.acc)
+  let order
+  if (inv === 1) order = [[idx[1], acc[1]], [idx[2], acc[2]], [idx[0] + 7, acc[0]]]
+  else if (inv === 2) order = [[idx[2], acc[2]], [idx[0] + 7, acc[0]], [idx[1] + 7, acc[1]]]
+  else order = [[idx[0], acc[0]], [idx[1], acc[1]], [idx[2], acc[2]]]
+  return `[${order.map(([ix, a]) => abcNote(ix, a)).join('')}]`
+}
 
 const DEGREE_NAME = ['tonic', 'supertonic', 'mediant', 'subdominant', 'dominant', 'submediant', 'leading note']
 const ROMAN = ['I', 'ii', 'iii', 'IV', 'V', 'vi', 'vii°']
@@ -122,7 +137,9 @@ function abcNote(absIdx, acc) {
   let letter = LETTERS[within]
   if (oct >= 1) letter = letter.toLowerCase()
   const mark = oct >= 2 ? "'".repeat(oct - 1) : oct <= -1 ? ','.repeat(-oct) : ''
-  const a = acc > 0 ? '^'.repeat(acc) : acc < 0 ? '_'.repeat(-acc) : '='
+  // No '=' for naturals: every generated stave uses K:C, so a natural sign would
+  // just be redundant clutter on a plain note.
+  const a = acc > 0 ? '^'.repeat(acc) : acc < 0 ? '_'.repeat(-acc) : ''
   return a + letter + mark
 }
 
@@ -207,6 +224,19 @@ function genIntervals() {
       const diff = name.includes('Augmented') || name.includes('Diminished') ? 3 : lo.acc || hi.acc ? 2 : 1
       out.push(mc('intervals', diff, `${loN} up to ${hiN} is a(n):`, name, ALL_INTERVALS,
         `${loN}–${hiN} spans ${ld + 1} letter names and ${se} semitones — a ${name.toLowerCase()}.`))
+    }
+  }
+  // mc: name the interval BELOW a note (the syllabus tests above AND below)
+  for (const lo of lows) {
+    for (const [ld, se] of INTERVAL_SPECS) {
+      const hi = makeHigh(lo, ld, se)
+      if (!hi) continue
+      const name = intervalName(lo, hi)
+      if (!name) continue
+      const loN = noteName(lo.letter, lo.acc), hiN = noteName(hi.letter, hi.acc)
+      const diff = name.includes('Augmented') || name.includes('Diminished') ? 3 : 2
+      out.push(mc('intervals', diff, `${hiN} down to ${loN} is a(n):`, name, ALL_INTERVALS,
+        `Measured downwards, ${hiN}–${loN} is the same ${name.toLowerCase()} (${ld + 1} letter names, ${se} semitones).`))
     }
   }
   // notebuild: choose the accidental that forms the interval above a natural note
@@ -309,6 +339,18 @@ function genChords() {
       items: degs.map((d, idx) => ({ label: String.fromCharCode(65 + idx) + ': ' + triad(scale, d), answer: ROMAN[d - 1] })),
       explanation: `Build each triad from the ${k.name} major scale and match it to its degree.`,
     })
+    // notation-based: name the chord shown by its Roman numeral
+    const ndeg = shuffle([1, 4, 5, 2, 6])[0]
+    out.push(mc('chords-and-cadences', diff, `In ${k.name} major, name this chord by its Roman numeral.`,
+      ROMAN[ndeg - 1], ROMAN, `The triad shown is ${triad(scale, ndeg)} — chord ${ROMAN[ndeg - 1]} of ${k.name} major.`,
+      { abc: chordAbcInv(triadNotes(scale, ndeg), 0) }))
+    // notation-based: identify the inversion (shows the tonic triad in a random inversion)
+    const inv = Math.floor(rng() * 3)
+    const POS = ['Root position', 'First inversion', 'Second inversion']
+    out.push(mc('chords-and-cadences', 2, `Which position (inversion) is this triad in? (${k.name} major)`,
+      POS[inv], POS,
+      'Look at the lowest note: root → root position (a), 3rd → first inversion (b), 5th → second inversion (c).',
+      { abc: chordAbcInv(triadNotes(scale, 1), inv) }))
   }
   // cadence true/false + mc
   const cad = [['Perfect', 'V–I'], ['Plagal', 'IV–I'], ['Imperfect', 'ends on V'], ['Interrupted', 'V–vi']]
@@ -423,6 +465,13 @@ const CLEF_LINES = {
   alto: ['F', 'A', 'C', 'E', 'G'], tenor: ['D', 'F', 'A', 'C', 'E'],
 }
 const ORDINALS = ['1st', '2nd', '3rd', '4th', '5th']
+// Diatonic indices (middle C = 0) for each clef's 5 lines and 4 spaces.
+const CLEF_POS = {
+  treble: { lines: [2, 4, 6, 8, 10], spaces: [3, 5, 7, 9] },
+  bass: { lines: [-10, -8, -6, -4, -2], spaces: [-9, -7, -5, -3] },
+  alto: { lines: [-4, -2, 0, 2, 4], spaces: [-3, -1, 1, 3] },
+  tenor: { lines: [-6, -4, -2, 0, 2], spaces: [-5, -3, -1, 1] },
+}
 function genClefs() {
   const out = []
   for (const [clef, lines] of Object.entries(CLEF_LINES)) {
@@ -431,6 +480,16 @@ function genClefs() {
         `On the ${clef} clef, the note on the ${ORDINALS[i]} line (counting up from the bottom) is:`, note, LETTERS,
         `${clef} clef lines spell ${lines.join(' ')} from the bottom, so the ${ORDINALS[i]} line is ${note}.`))
     })
+  }
+  // Notation: name the note shown on the staff — the Pitch module, all 4 clefs.
+  for (const [clef, pos] of Object.entries(CLEF_POS)) {
+    for (const abs of [...pos.lines, ...pos.spaces]) {
+      const letter = LETTERS[((abs % 7) + 7) % 7]
+      out.push(mc('clefs', clef === 'treble' ? 1 : clef === 'bass' ? 2 : 3,
+        `Name this note (${clef} clef).`, letter, LETTERS,
+        `Read from the ${clef} clef: this note is ${letter}.`,
+        { abc: `K:C clef=${clef}\n${abcNote(abs, 0)}` }))
+    }
   }
   return out
 }
@@ -450,17 +509,187 @@ function genInstruments() {
   return out
 }
 
+// Interactive "build a note" interval questions (drag on the staff).
+function genBuild() {
+  const out = []
+  for (const L of ['C', 'D', 'E', 'F', 'G', 'A']) {
+    for (const [ld, se] of INTERVAL_SPECS) {
+      const lo = { letter: L, acc: 0 }
+      const hi = makeHigh(lo, ld, se)
+      if (!hi) continue
+      const name = intervalName(lo, hi)
+      if (!name) continue
+      const lowAbs = LETTERS.indexOf(L)
+      const hiAbs = lowAbs + ld
+      const answerName = noteName(hi.letter, hi.acc)
+      out.push({
+        topic: 'intervals',
+        type: 'build',
+        difficulty: name.includes('Augmented') || name.includes('Diminished') ? 3 : 2,
+        prompt: `Drag the note up/down (and set the accidental) to form a ${name.toLowerCase()} above the given note.`,
+        abc: abcNote(lowAbs, 0),
+        startAbc: abcNote(lowAbs + 7, 0),
+        answerAbc: abcNote(hiAbs, hi.acc),
+        answerName,
+        explanation: `A ${name.toLowerCase()} above ${noteName(L, 0)} is ${answerName}.`,
+      })
+    }
+  }
+  return out
+}
+
 // ===== Assemble, dedup, cap ===============================================
 const GENERATORS = {
   intervals: genIntervals, 'keys-and-scales': genKeys, 'chords-and-cadences': genChords,
   'terms-and-signs': genTerms, 'time-and-rhythm': genTime, transposition: genTransposition,
-  clefs: genClefs, 'instruments-and-voices': genInstruments,
+  clefs: genClefs, 'instruments-and-voices': genInstruments, 'score-analysis': genScoreAnalysis,
 }
 
-// existing prompts (avoid duplicating the hand-written bank)
+// ----- Score analysis: original short phrases + sub-questions --------------
+function genScoreAnalysis() {
+  const out = []
+  const keys = ['C', 'G', 'F', 'D', 'B♭', 'A', 'E♭', 'E']
+  const PATTERNS = [
+    [0, 2, 3, 4, 3, 2, 1, 0],
+    [0, 3, 2, 4, 3, 2, 1, 0],
+    [0, 4, 3, 2, 3, 2, 1, 0],
+  ]
+  const MARKS = [
+    ['Andante', 'at a walking pace'], ['Allegro', 'quick, lively'], ['Adagio', 'slow'],
+    ['Moderato', 'at a moderate speed'], ['Cantabile', 'in a singing style'], ['Dolce', 'sweetly'],
+    ['Legato', 'smoothly'], ['Vivace', 'lively and fast'],
+  ]
+  keys.forEach((kn, ki) => {
+    const k = MAJOR_KEYS.find((x) => x.name === kn)
+    if (!k) return
+    const scale = majorScale(k)
+    const tonicAbs = LETTERS.indexOf(kn[0])
+    const pat = PATTERNS[ki % PATTERNS.length]
+    const [term, meaning] = MARKS[ki % MARKS.length]
+    const t = pat.map((d) => abcNote(tonicAbs + d, 0)) // bare tokens — key signature supplies accidentals
+    const abc = `K:${kn}\nM:4/4\nL:1/4\n"^${term}"${t[0]} ${t[1]} ${t[2]} ${t[3]} | ${t[4]} ${t[5]} ${t[6]} ${t[7]} |`
+    const diff = (k.sharps || k.flats) >= 3 ? 3 : 2
+    const sig = k.sharps ? `${k.sharps} sharp(s)` : k.flats ? `${k.flats} flat(s)` : 'no sharps or flats'
+    out.push(mc('score-analysis', diff, 'This melody is in a major key. Which key is it in?', `${kn} major`,
+      MAJOR_KEYS.map((x) => `${x.name} major`),
+      `The key signature shows ${sig} and the melody centres on ${kn}, so it is ${kn} major.`, { abc }))
+    const iv = intervalName(scale[0], scale[pat[1]])
+    out.push(mc('score-analysis', diff, 'In this melody, name the interval between the 1st and 2nd notes.', iv,
+      ALL_INTERVALS, `The first two notes form a ${iv.toLowerCase()}.`, { abc }))
+    out.push(mc('score-analysis', diff > 1 ? diff - 1 : 1, 'What does the term marked above this melody mean?', meaning,
+      MARKS.map((m) => m[1]).concat(['detached', 'getting louder', 'in unison']),
+      `"${term}" means ${meaning}.`, { abc }))
+  })
+  return out
+}
+
+// ----- Cadence shown on the staff (V–I etc.) -------------------------------
+function genCadenceNotation() {
+  const out = []
+  const CAD = [['Perfect', 5, 1], ['Plagal', 4, 1], ['Imperfect', 1, 5], ['Interrupted', 5, 6]]
+  for (const k of MAJOR_KEYS) {
+    const scale = majorScale(k)
+    const diff = (k.sharps || k.flats) >= 4 ? 3 : 2
+    for (const [name, d1, d2] of CAD) {
+      const c1 = chordAbcInv(triadNotes(scale, d1), 0)
+      const c2 = chordAbcInv(triadNotes(scale, d2), 0)
+      out.push(mc('chords-and-cadences', diff, `Name the cadence shown (key of ${k.name} major).`, name,
+        ['Perfect', 'Plagal', 'Imperfect', 'Interrupted'],
+        `The chords are ${ROMAN[d1 - 1]}–${ROMAN[d2 - 1]} — a ${name.toLowerCase()} cadence.`,
+        { abc: `${c1} ${c2}` }))
+    }
+  }
+  return out
+}
+
+// ----- Chord with full label (Ib, Vc …) ------------------------------------
+function genChordLabels() {
+  const out = []
+  const INVL = ['', 'b', 'c']
+  const POS = ['root position', 'first inversion (b)', 'second inversion (c)']
+  const pool = []
+  for (const d of [1, 4, 5, 2]) for (const iv of [0, 1, 2]) pool.push(ROMAN[d - 1] + INVL[iv])
+  for (const k of MAJOR_KEYS) {
+    const scale = majorScale(k)
+    const diff = (k.sharps || k.flats) >= 3 ? 3 : 2
+    const deg = shuffle([1, 4, 5])[0]
+    const inv = Math.floor(rng() * 3)
+    out.push(mc('chords-and-cadences', diff,
+      `Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: ${k.name} major.`,
+      ROMAN[deg - 1] + INVL[inv], pool,
+      `It is chord ${ROMAN[deg - 1]} in ${POS[inv]} → ${ROMAN[deg - 1] + INVL[inv]}.`,
+      { abc: chordAbcInv(triadNotes(scale, deg), inv) }))
+  }
+  return out
+}
+
+// ----- Compound intervals --------------------------------------------------
+function genCompound() {
+  const C = [
+    ['Major 2nd', 'Major 9th'], ['Major 3rd', 'Major 10th'], ['Minor 3rd', 'Minor 10th'],
+    ['Perfect 4th', 'Perfect 11th'], ['Perfect 5th', 'Perfect 12th'], ['Major 6th', 'Major 13th'],
+  ]
+  const pool = C.map((x) => x[1]).concat(['Minor 9th', 'Perfect 10th', 'Major 11th'])
+  return C.map(([simple, comp]) =>
+    mc('intervals', 2, `A ${simple.toLowerCase()} plus an octave is called a:`, comp, pool,
+      `Add 7 to the number, keep the quality: a ${simple.toLowerCase()} + an octave = a ${comp.toLowerCase()}.`),
+  )
+}
+
+// ----- Articulation / expression signs -------------------------------------
+function genSigns() {
+  const out = []
+  const pool = ['detached (short)', 'accented (stressed)', 'paused — held longer than written',
+    'held for its full value', 'play smoothly (legato)']
+  const SIGNS = [
+    ['!staccato!', 'detached (short)', 'a staccato dot'],
+    ['!accent!', 'accented (stressed)', 'an accent'],
+    ['!fermata!', 'paused — held longer than written', 'a pause (fermata)'],
+    ['!tenuto!', 'held for its full value', 'a tenuto line'],
+  ]
+  for (const [deco, meaning, nameOf] of SIGNS) {
+    out.push(mc('terms-and-signs', 1, 'What does the sign on this note mean?', meaning, pool,
+      `This is ${nameOf} — it means "${meaning}".`, { abc: `K:C\n${deco}G2` }))
+  }
+  out.push(mc('terms-and-signs', 1, 'What does the curved line over these two (different) notes mean?',
+    'play smoothly (legato)', pool, 'A slur over different pitches means play them smoothly (legato).',
+    { abc: 'K:C\n(G2 A2)' }))
+  return out
+}
+
+// ----- Rests & beaming -----------------------------------------------------
+function genRests() {
+  return [
+    fill('time-and-rhythm', 1, 'A minim rest is worth how many crotchet beats?', [{ answer: '2' }], 'A minim rest lasts two crotchet beats.'),
+    fill('time-and-rhythm', 2, 'How many crotchet rests equal a semibreve rest?', [{ answer: '4' }], 'A semibreve rest = four crotchet rests.'),
+    fill('time-and-rhythm', 2, 'How many quaver rests equal a minim rest?', [{ answer: '4' }], 'A minim = four quavers, so four quaver rests.'),
+    mc('time-and-rhythm', 1, 'Which rest hangs DOWN from the 4th line of the staff?', 'semibreve rest',
+      ['semibreve rest', 'minim rest', 'crotchet rest', 'quaver rest'],
+      'The semibreve rest hangs below the 4th line; the minim rest sits on the 3rd line.'),
+    mc('time-and-rhythm', 2, 'When beaming in 4/4, you should NOT beam across:', 'the middle of the bar (beats 2–3)',
+      ['the middle of the bar (beats 2–3)', 'beats 1–2', 'beats 3–4', 'any two quavers'],
+      'Keep the half-bar visible — group beats 1–2 and 3–4 separately in 4/4.'),
+  ]
+}
+
+// ----- Double-sharp leading notes (sharp minors) ---------------------------
+function genDoubleSharp() {
+  const DS = [['G♯ minor', 'F double sharp'], ['D♯ minor', 'C double sharp'], ['A♯ minor', 'G double sharp']]
+  const pool = ['F double sharp', 'C double sharp', 'G double sharp', 'F♯', 'C♯', 'G♯']
+  return DS.map(([key, ln]) =>
+    mc('keys-and-scales', 3, `In the harmonic minor of ${key}, the raised 7th (leading note) is written as:`, ln, pool,
+      `The 7th degree of ${key} is raised a semitone for the harmonic minor, giving ${ln}.`),
+  )
+}
+
+// De-dup on prompt + notation, so notation questions that share a prompt but
+// show a different stave (e.g. "Name this note." in many positions) are kept.
+const keyOf = (q) => (q.prompt + '||' + (q.abc || '')).trim().toLowerCase()
+
+// existing questions (avoid duplicating the hand-written / already-imported bank)
 const existing = new Set()
 for (const f of readdirSync(DB).filter((f) => f.endsWith('.json'))) {
-  for (const q of JSON.parse(readFileSync(join(DB, f), 'utf8'))) existing.add(q.prompt.trim().toLowerCase())
+  for (const q of JSON.parse(readFileSync(join(DB, f), 'utf8'))) existing.add(keyOf(q))
 }
 
 const all = []
@@ -470,7 +699,7 @@ for (const [topic, gen] of Object.entries(GENERATORS)) {
   const items = gen()
     .filter(Boolean)
     .filter((q) => {
-      const key = q.prompt.trim().toLowerCase()
+      const key = keyOf(q)
       if (existing.has(key) || seen.has(key)) return false
       seen.add(key)
       return true
@@ -478,6 +707,32 @@ for (const [topic, gen] of Object.entries(GENERATORS)) {
   const capped = shuffle(items).slice(0, MAX)
   summary[topic] = capped.length
   all.push(...capped)
+}
+
+// "Build a note" interval questions — capped separately so they always appear.
+{
+  const seen = new Set()
+  const items = genBuild().filter((q) => {
+    const k = keyOf(q)
+    if (existing.has(k) || seen.has(k)) return false
+    seen.add(k)
+    return true
+  })
+  const capped = shuffle(items).slice(0, 36)
+  summary['intervals (build)'] = capped.length
+  all.push(...capped)
+}
+
+// Standalone gap-fillers — appended uncapped so they always appear.
+for (const gen of [genCadenceNotation, genChordLabels, genCompound, genSigns, genRests, genDoubleSharp]) {
+  const seen = new Set()
+  for (const q of gen()) {
+    const k = keyOf(q)
+    if (existing.has(k) || seen.has(k)) continue
+    seen.add(k)
+    all.push(q)
+    summary[`+ ${q.topic}`] = (summary[`+ ${q.topic}`] || 0) + 1
+  }
 }
 
 mkdirSync(OUT, { recursive: true })

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "sa-1",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:F\nM:4/4\nL:1/4\n\"^Adagio\"F c B A | B A G F |",
+    "explanation": "The first two notes form a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 7th",
+      "Major 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-2",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:C\nM:4/4\nL:1/4\n\"^Andante\"C E F G | F E D C |",
+    "explanation": "The key signature shows no sharps or flats and the melody centres on C, so it is C major.",
+    "choices": [
+      "C major",
+      "F♯ major",
+      "E♭ major",
+      "B major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-3",
+    "topic": "score-analysis",
+    "difficulty": 1,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:G\nM:4/4\nL:1/4\n\"^Allegro\"G c B d | c B A G |",
+    "explanation": "\"Allegro\" means quick, lively.",
+    "choices": [
+      "quick, lively",
+      "in a singing style",
+      "at a walking pace",
+      "getting louder"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-4",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:D\nM:4/4\nL:1/4\n\"^Moderato\"D F G A | G F E D |",
+    "explanation": "The key signature shows 2 sharp(s) and the melody centres on D, so it is D major.",
+    "choices": [
+      "D major",
+      "D♭ major",
+      "G♭ major",
+      "C major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-5",
+    "topic": "score-analysis",
+    "difficulty": 3,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:E♭\nM:4/4\nL:1/4\n\"^Legato\"E G A B | A G F E |",
+    "explanation": "The first two notes form a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Minor 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-6",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:C\nM:4/4\nL:1/4\n\"^Andante\"C E F G | F E D C |",
+    "explanation": "The first two notes form a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Diminished 5th",
+      "Major 2nd",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-7",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:A\nM:4/4\nL:1/4\n\"^Dolce\"A e d c | d c B A |",
+    "explanation": "\"Dolce\" means sweetly.",
+    "choices": [
+      "sweetly",
+      "in unison",
+      "smoothly",
+      "slow"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-8",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:B♭\nM:4/4\nL:1/4\n\"^Cantabile\"B e d f | e d c B |",
+    "explanation": "The first two notes form a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Minor 7th",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-9",
+    "topic": "score-analysis",
+    "difficulty": 1,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:F\nM:4/4\nL:1/4\n\"^Adagio\"F c B A | B A G F |",
+    "explanation": "\"Adagio\" means slow.",
+    "choices": [
+      "slow",
+      "quick, lively",
+      "in unison",
+      "getting louder"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-10",
+    "topic": "score-analysis",
+    "difficulty": 1,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:C\nM:4/4\nL:1/4\n\"^Andante\"C E F G | F E D C |",
+    "explanation": "\"Andante\" means at a walking pace.",
+    "choices": [
+      "at a walking pace",
+      "quick, lively",
+      "in a singing style",
+      "sweetly"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-11",
+    "topic": "score-analysis",
+    "difficulty": 3,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:E\nM:4/4\nL:1/4\n\"^Vivace\"E A G B | A G F E |",
+    "explanation": "The key signature shows 4 sharp(s) and the melody centres on E, so it is E major.",
+    "choices": [
+      "E major",
+      "D♭ major",
+      "B♭ major",
+      "E♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-12",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:E\nM:4/4\nL:1/4\n\"^Vivace\"E A G B | A G F E |",
+    "explanation": "\"Vivace\" means lively and fast.",
+    "choices": [
+      "lively and fast",
+      "quick, lively",
+      "sweetly",
+      "in unison"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-13",
+    "topic": "score-analysis",
+    "difficulty": 1,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:B♭\nM:4/4\nL:1/4\n\"^Cantabile\"B e d f | e d c B |",
+    "explanation": "\"Cantabile\" means in a singing style.",
+    "choices": [
+      "in a singing style",
+      "smoothly",
+      "quick, lively",
+      "detached"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-14",
+    "topic": "score-analysis",
+    "difficulty": 3,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:E\nM:4/4\nL:1/4\n\"^Vivace\"E A G B | A G F E |",
+    "explanation": "The first two notes form a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 7th",
+      "Major 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-15",
+    "topic": "score-analysis",
+    "difficulty": 3,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:A\nM:4/4\nL:1/4\n\"^Dolce\"A e d c | d c B A |",
+    "explanation": "The first two notes form a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 6th",
+      "Minor 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-16",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:D\nM:4/4\nL:1/4\n\"^Moderato\"D F G A | G F E D |",
+    "explanation": "The first two notes form a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Minor 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-17",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:B♭\nM:4/4\nL:1/4\n\"^Cantabile\"B e d f | e d c B |",
+    "explanation": "The key signature shows 2 flat(s) and the melody centres on B♭, so it is B♭ major.",
+    "choices": [
+      "B♭ major",
+      "G♭ major",
+      "E♭ major",
+      "D♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-18",
+    "topic": "score-analysis",
+    "difficulty": 3,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:A\nM:4/4\nL:1/4\n\"^Dolce\"A e d c | d c B A |",
+    "explanation": "The key signature shows 3 sharp(s) and the melody centres on A, so it is A major.",
+    "choices": [
+      "A major",
+      "G major",
+      "F♯ major",
+      "G♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-19",
+    "topic": "score-analysis",
+    "difficulty": 3,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:E♭\nM:4/4\nL:1/4\n\"^Legato\"E G A B | A G F E |",
+    "explanation": "The key signature shows 3 flat(s) and the melody centres on E♭, so it is E♭ major.",
+    "choices": [
+      "E♭ major",
+      "D♭ major",
+      "B major",
+      "F♯ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-20",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:E♭\nM:4/4\nL:1/4\n\"^Legato\"E G A B | A G F E |",
+    "explanation": "\"Legato\" means smoothly.",
+    "choices": [
+      "smoothly",
+      "in unison",
+      "at a walking pace",
+      "quick, lively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-21",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:G\nM:4/4\nL:1/4\n\"^Allegro\"G c B d | c B A G |",
+    "explanation": "The key signature shows 1 sharp(s) and the melody centres on G, so it is G major.",
+    "choices": [
+      "G major",
+      "D♭ major",
+      "F♯ major",
+      "D major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-22",
+    "topic": "score-analysis",
+    "difficulty": 1,
+    "prompt": "What does the term marked above this melody mean?",
+    "abc": "K:D\nM:4/4\nL:1/4\n\"^Moderato\"D F G A | G F E D |",
+    "explanation": "\"Moderato\" means at a moderate speed.",
+    "choices": [
+      "at a moderate speed",
+      "getting louder",
+      "at a walking pace",
+      "lively and fast"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-23",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "In this melody, name the interval between the 1st and 2nd notes.",
+    "abc": "K:G\nM:4/4\nL:1/4\n\"^Allegro\"G c B d | c B A G |",
+    "explanation": "The first two notes form a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 7th",
+      "Major 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "sa-24",
+    "topic": "score-analysis",
+    "difficulty": 2,
+    "prompt": "This melody is in a major key. Which key is it in?",
+    "abc": "K:F\nM:4/4\nL:1/4\n\"^Adagio\"F c B A | B A G F |",
+    "explanation": "The key signature shows 1 flat(s) and the melody centres on F, so it is F major.",
+    "choices": [
+      "F major",
+      "B♭ major",
+      "A major",
+      "G major"
+    ],
+    "answer": 0
+  }
+]

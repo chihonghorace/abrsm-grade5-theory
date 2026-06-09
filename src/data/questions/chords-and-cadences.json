@@ -254,34 +254,6 @@
     "explanation": "Second inversion (labelled \"c\") puts the 5th of the chord in the bass."
   },
   {
-    "id": "cc-19",
-    "topic": "chords-and-cadences",
-    "difficulty": 1,
-    "prompt": "In ABRSM labelling, a root-position chord is marked:",
-    "choices": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "answer": 0,
-    "explanation": "Root position = a, first inversion = b, second inversion = c."
-  },
-  {
-    "id": "cc-20",
-    "topic": "chords-and-cadences",
-    "difficulty": 1,
-    "prompt": "A first-inversion chord is labelled:",
-    "choices": [
-      "b",
-      "a",
-      "c",
-      "i"
-    ],
-    "answer": 0,
-    "explanation": "First inversion (3rd in the bass) is labelled \"b\" — e.g. Vb."
-  },
-  {
     "id": "cc-21",
     "topic": "chords-and-cadences",
     "difficulty": 2,
@@ -1704,6 +1676,1476 @@
       "C♯ E♯ G♯",
       "G B D",
       "C E G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-107",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In G major, name this chord by its Roman numeral.",
+    "abc": "[CEG]",
+    "explanation": "The triad shown is C E G — chord IV of G major.",
+    "choices": [
+      "IV",
+      "vi",
+      "I",
+      "iii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-108",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, name this chord by its Roman numeral.",
+    "abc": "[D^FA]",
+    "explanation": "The triad shown is D F♯ A — chord I of D major.",
+    "choices": [
+      "I",
+      "IV",
+      "iii",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-109",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, name this chord by its Roman numeral.",
+    "abc": "[_DF_A]",
+    "explanation": "The triad shown is D♭ F A♭ — chord I of D♭ major.",
+    "choices": [
+      "I",
+      "ii",
+      "vi",
+      "IV"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-110",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, name this chord by its Roman numeral.",
+    "abc": "[CEG]",
+    "explanation": "The triad shown is C E G — chord V of F major.",
+    "choices": [
+      "V",
+      "IV",
+      "I",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-111",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, name this chord by its Roman numeral.",
+    "abc": "[^CE^G]",
+    "explanation": "The triad shown is C♯ E G♯ — chord ii of B major.",
+    "choices": [
+      "ii",
+      "I",
+      "V",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-112",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, name this chord by its Roman numeral.",
+    "abc": "[G_Bd]",
+    "explanation": "The triad shown is G B♭ D — chord vi of B♭ major.",
+    "choices": [
+      "vi",
+      "IV",
+      "vii°",
+      "iii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-113",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, name this chord by its Roman numeral.",
+    "abc": "[FAc]",
+    "explanation": "The triad shown is F A C — chord IV of C major.",
+    "choices": [
+      "IV",
+      "iii",
+      "vii°",
+      "I"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-114",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In E major, name this chord by its Roman numeral.",
+    "abc": "[^FA^c]",
+    "explanation": "The triad shown is F♯ A C♯ — chord ii of E major.",
+    "choices": [
+      "ii",
+      "I",
+      "IV",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-115",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In G♭ major, name this chord by its Roman numeral.",
+    "abc": "[_E_G_B]",
+    "explanation": "The triad shown is E♭ G♭ B♭ — chord vi of G♭ major.",
+    "choices": [
+      "vi",
+      "ii",
+      "vii°",
+      "V"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-116",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, name this chord by its Roman numeral.",
+    "abc": "[F_Ac]",
+    "explanation": "The triad shown is F A♭ C — chord ii of E♭ major.",
+    "choices": [
+      "ii",
+      "vii°",
+      "IV",
+      "V"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-117",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In A♭ major, name this chord by its Roman numeral.",
+    "abc": "[_DF_A]",
+    "explanation": "The triad shown is D♭ F A♭ — chord IV of A♭ major.",
+    "choices": [
+      "IV",
+      "vi",
+      "V",
+      "I"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-118",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In A major, name this chord by its Roman numeral.",
+    "abc": "[A^ce]",
+    "explanation": "The triad shown is A C♯ E — chord I of A major.",
+    "choices": [
+      "I",
+      "ii",
+      "V",
+      "vii°"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-119",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, name this chord by its Roman numeral.",
+    "abc": "[^D^F^A]",
+    "explanation": "The triad shown is D♯ F♯ A♯ — chord vi of F♯ major.",
+    "choices": [
+      "vi",
+      "iii",
+      "IV",
+      "V"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-120",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, name this chord by its Roman numeral.",
+    "abc": "[_B_df]",
+    "explanation": "The triad shown is B♭ D♭ F — chord vi of D♭ major.",
+    "choices": [
+      "vi",
+      "I",
+      "IV",
+      "vii°"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-121",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, name this chord by its Roman numeral.",
+    "abc": "[E^GB]",
+    "explanation": "The triad shown is E G♯ B — chord IV of B major.",
+    "choices": [
+      "IV",
+      "V",
+      "vii°",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-122",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, name this chord by its Roman numeral.",
+    "abc": "[A^ce]",
+    "explanation": "The triad shown is A C♯ E — chord V of D major.",
+    "choices": [
+      "V",
+      "vi",
+      "I",
+      "ii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-123",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In G major, name this chord by its Roman numeral.",
+    "abc": "[GBd]",
+    "explanation": "The triad shown is G B D — chord I of G major.",
+    "choices": [
+      "I",
+      "IV",
+      "vii°",
+      "iii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-124",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In G♭ major, name this chord by its Roman numeral.",
+    "abc": "[_A_c_e]",
+    "explanation": "The triad shown is A♭ C♭ E♭ — chord ii of G♭ major.",
+    "choices": [
+      "ii",
+      "iii",
+      "I",
+      "V"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-125",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, name this chord by its Roman numeral.",
+    "abc": "[G_Bd]",
+    "explanation": "The triad shown is G B♭ D — chord ii of F major.",
+    "choices": [
+      "ii",
+      "V",
+      "vii°",
+      "IV"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-126",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, name this chord by its Roman numeral.",
+    "abc": "[C_EG]",
+    "explanation": "The triad shown is C E♭ G — chord ii of B♭ major.",
+    "choices": [
+      "ii",
+      "I",
+      "vi",
+      "vii°"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-127",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In E major, name this chord by its Roman numeral.",
+    "abc": "[A^ce]",
+    "explanation": "The triad shown is A C♯ E — chord IV of E major.",
+    "choices": [
+      "IV",
+      "ii",
+      "vii°",
+      "iii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-128",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, name this chord by its Roman numeral.",
+    "abc": "[_EG_B]",
+    "explanation": "The triad shown is E♭ G B♭ — chord I of E♭ major.",
+    "choices": [
+      "I",
+      "vii°",
+      "ii",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-129",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In A♭ major, name this chord by its Roman numeral.",
+    "abc": "[_EG_B]",
+    "explanation": "The triad shown is E♭ G B♭ — chord V of A♭ major.",
+    "choices": [
+      "V",
+      "iii",
+      "I",
+      "IV"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-130",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, name this chord by its Roman numeral.",
+    "abc": "[B^d^f]",
+    "explanation": "The triad shown is B D♯ F♯ — chord IV of F♯ major.",
+    "choices": [
+      "IV",
+      "vii°",
+      "ii",
+      "I"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-131",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, name this chord by its Roman numeral.",
+    "abc": "[B^d^f]",
+    "explanation": "The triad shown is B D♯ F♯ — chord I of B major.",
+    "choices": [
+      "I",
+      "IV",
+      "vii°",
+      "iii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-132",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, name this chord by its Roman numeral.",
+    "abc": "[^C^E^G]",
+    "explanation": "The triad shown is C♯ E♯ G♯ — chord V of F♯ major.",
+    "choices": [
+      "V",
+      "vi",
+      "I",
+      "ii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-133",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, name this chord by its Roman numeral.",
+    "abc": "[_E_G_B]",
+    "explanation": "The triad shown is E♭ G♭ B♭ — chord ii of D♭ major.",
+    "choices": [
+      "ii",
+      "V",
+      "vii°",
+      "IV"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-134",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, name this chord by its Roman numeral.",
+    "abc": "[EGB]",
+    "explanation": "The triad shown is E G B — chord ii of D major.",
+    "choices": [
+      "ii",
+      "vi",
+      "iii",
+      "vii°"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-135",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, name this chord by its Roman numeral.",
+    "abc": "[_Ac_e]",
+    "explanation": "The triad shown is A♭ C E♭ — chord IV of E♭ major.",
+    "choices": [
+      "IV",
+      "V",
+      "vii°",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-136",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, name this chord by its Roman numeral.",
+    "abc": "[FAc]",
+    "explanation": "The triad shown is F A C — chord I of F major.",
+    "choices": [
+      "I",
+      "IV",
+      "V",
+      "ii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-137",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, name this chord by its Roman numeral.",
+    "abc": "[DFA]",
+    "explanation": "The triad shown is D F A — chord ii of C major.",
+    "choices": [
+      "ii",
+      "I",
+      "iii",
+      "vi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-138",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In A major, name this chord by its Roman numeral.",
+    "abc": "[^FA^c]",
+    "explanation": "The triad shown is F♯ A C♯ — chord vi of A major.",
+    "choices": [
+      "vi",
+      "iii",
+      "vii°",
+      "V"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-139",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, name this chord by its Roman numeral.",
+    "abc": "[_EG_B]",
+    "explanation": "The triad shown is E♭ G B♭ — chord IV of B♭ major.",
+    "choices": [
+      "IV",
+      "ii",
+      "vii°",
+      "iii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-140",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of C major).",
+    "abc": "[GBd] [CEG]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Interrupted",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-141",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of C major).",
+    "abc": "[FAc] [CEG]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Imperfect",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-142",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of C major).",
+    "abc": "[CEG] [GBd]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Interrupted",
+      "Plagal",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-143",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of C major).",
+    "abc": "[GBd] [Ace]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Plagal",
+      "Imperfect",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-144",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of G major).",
+    "abc": "[D^FA] [GBd]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-145",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of G major).",
+    "abc": "[CEG] [GBd]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Interrupted",
+      "Perfect",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-146",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of G major).",
+    "abc": "[GBd] [D^FA]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Plagal",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-147",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of G major).",
+    "abc": "[D^FA] [EGB]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Plagal",
+      "Perfect",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-148",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of D major).",
+    "abc": "[A^ce] [D^FA]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Plagal",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-149",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of D major).",
+    "abc": "[GBd] [D^FA]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Imperfect",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-150",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of D major).",
+    "abc": "[D^FA] [A^ce]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Plagal",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-151",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of D major).",
+    "abc": "[A^ce] [Bd^f]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Perfect",
+      "Imperfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-152",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of A major).",
+    "abc": "[E^GB] [A^ce]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-153",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of A major).",
+    "abc": "[D^FA] [A^ce]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Perfect",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-154",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of A major).",
+    "abc": "[A^ce] [E^GB]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Perfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-155",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of A major).",
+    "abc": "[E^GB] [^FA^c]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Perfect",
+      "Imperfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-156",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of E major).",
+    "abc": "[B^d^f] [E^GB]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Interrupted",
+      "Plagal",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-157",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of E major).",
+    "abc": "[A^ce] [E^GB]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Perfect",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-158",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of E major).",
+    "abc": "[E^GB] [B^d^f]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Plagal",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-159",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of E major).",
+    "abc": "[B^d^f] [^CE^G]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Perfect",
+      "Imperfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-160",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of B major).",
+    "abc": "[^F^A^c] [B^d^f]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Interrupted",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-161",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of B major).",
+    "abc": "[E^GB] [B^d^f]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Imperfect",
+      "Perfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-162",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of B major).",
+    "abc": "[B^d^f] [^F^A^c]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Perfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-163",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of B major).",
+    "abc": "[^F^A^c] [^GB^d]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Imperfect",
+      "Perfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-164",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of F♯ major).",
+    "abc": "[^C^E^G] [^F^A^c]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Plagal",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-165",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of F♯ major).",
+    "abc": "[B^d^f] [^F^A^c]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Perfect",
+      "Interrupted",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-166",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of F♯ major).",
+    "abc": "[^F^A^c] [^C^E^G]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Plagal",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-167",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of F♯ major).",
+    "abc": "[^C^E^G] [^D^F^A]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Plagal",
+      "Perfect",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-168",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of F major).",
+    "abc": "[CEG] [FAc]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Interrupted",
+      "Plagal",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-169",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of F major).",
+    "abc": "[_Bdf] [FAc]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Interrupted",
+      "Perfect",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-170",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of F major).",
+    "abc": "[FAc] [CEG]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Perfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-171",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of F major).",
+    "abc": "[CEG] [DFA]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Imperfect",
+      "Perfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-172",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of B♭ major).",
+    "abc": "[FAc] [_Bdf]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Interrupted",
+      "Imperfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-173",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of B♭ major).",
+    "abc": "[_EG_B] [_Bdf]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Imperfect",
+      "Interrupted",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-174",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of B♭ major).",
+    "abc": "[_Bdf] [FAc]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Perfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-175",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of B♭ major).",
+    "abc": "[FAc] [G_Bd]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Imperfect",
+      "Plagal",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-176",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of E♭ major).",
+    "abc": "[_Bdf] [_EG_B]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-177",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of E♭ major).",
+    "abc": "[_Ac_e] [_EG_B]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Imperfect",
+      "Perfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-178",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of E♭ major).",
+    "abc": "[_EG_B] [_Bdf]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Plagal",
+      "Perfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-179",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name the cadence shown (key of E♭ major).",
+    "abc": "[_Bdf] [C_EG]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Imperfect",
+      "Plagal",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-180",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of A♭ major).",
+    "abc": "[_EG_B] [_Ac_e]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Interrupted",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-181",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of A♭ major).",
+    "abc": "[_DF_A] [_Ac_e]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Interrupted",
+      "Perfect",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-182",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of A♭ major).",
+    "abc": "[_Ac_e] [_EG_B]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Interrupted",
+      "Plagal",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-183",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of A♭ major).",
+    "abc": "[_EG_B] [F_Ac]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Plagal",
+      "Perfect",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-184",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of D♭ major).",
+    "abc": "[_Ac_e] [_DF_A]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Imperfect",
+      "Interrupted",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-185",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of D♭ major).",
+    "abc": "[_G_B_d] [_DF_A]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Perfect",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-186",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of D♭ major).",
+    "abc": "[_DF_A] [_Ac_e]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Interrupted",
+      "Perfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-187",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of D♭ major).",
+    "abc": "[_Ac_e] [_B_df]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Imperfect",
+      "Plagal",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-188",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of G♭ major).",
+    "abc": "[_DF_A] [_G_B_d]",
+    "explanation": "The chords are V–I — a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Plagal",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-189",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of G♭ major).",
+    "abc": "[_C_E_G] [_G_B_d]",
+    "explanation": "The chords are IV–I — a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Perfect",
+      "Interrupted",
+      "Imperfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-190",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of G♭ major).",
+    "abc": "[_G_B_d] [_DF_A]",
+    "explanation": "The chords are I–V — a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Interrupted",
+      "Perfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-191",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name the cadence shown (key of G♭ major).",
+    "abc": "[_DF_A] [_E_G_B]",
+    "explanation": "The chords are V–vi — a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Perfect",
+      "Imperfect",
+      "Plagal"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-192",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: C major.",
+    "abc": "[EGc]",
+    "explanation": "It is chord I in first inversion (b) → Ib.",
+    "choices": [
+      "Ib",
+      "V",
+      "IVb",
+      "Ic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-193",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: G major.",
+    "abc": "[Bdg]",
+    "explanation": "It is chord I in first inversion (b) → Ib.",
+    "choices": [
+      "Ib",
+      "I",
+      "iib",
+      "Ic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-194",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: D major.",
+    "abc": "[^cea]",
+    "explanation": "It is chord V in first inversion (b) → Vb.",
+    "choices": [
+      "Vb",
+      "iic",
+      "IVc",
+      "iib"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-195",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: A major.",
+    "abc": "[^GBe]",
+    "explanation": "It is chord V in first inversion (b) → Vb.",
+    "choices": [
+      "Vb",
+      "IVb",
+      "Vc",
+      "IV"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-196",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: E major.",
+    "abc": "[^GBe]",
+    "explanation": "It is chord I in first inversion (b) → Ib.",
+    "choices": [
+      "Ib",
+      "iic",
+      "Vc",
+      "IVb"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-197",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: B major.",
+    "abc": "[Be^g]",
+    "explanation": "It is chord IV in second inversion (c) → IVc.",
+    "choices": [
+      "IVc",
+      "V",
+      "IVb",
+      "ii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-198",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: F♯ major.",
+    "abc": "[^G^c^e]",
+    "explanation": "It is chord V in second inversion (c) → Vc.",
+    "choices": [
+      "Vc",
+      "IVc",
+      "ii",
+      "Ic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-199",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: F major.",
+    "abc": "[Acf]",
+    "explanation": "It is chord I in first inversion (b) → Ib.",
+    "choices": [
+      "Ib",
+      "I",
+      "V",
+      "IVb"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-200",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: B♭ major.",
+    "abc": "[_EG_B]",
+    "explanation": "It is chord IV in root position → IV.",
+    "choices": [
+      "IV",
+      "Ic",
+      "V",
+      "IVb"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-201",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: E♭ major.",
+    "abc": "[f_bd']",
+    "explanation": "It is chord V in second inversion (c) → Vc.",
+    "choices": [
+      "Vc",
+      "iic",
+      "V",
+      "IVc"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-202",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: A♭ major.",
+    "abc": "[_EG_B]",
+    "explanation": "It is chord V in root position → V.",
+    "choices": [
+      "V",
+      "Vc",
+      "IVc",
+      "ii"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-203",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: D♭ major.",
+    "abc": "[_A_df]",
+    "explanation": "It is chord I in second inversion (c) → Ic.",
+    "choices": [
+      "Ic",
+      "Ib",
+      "I",
+      "iic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-204",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Name this chord in full — Roman numeral and inversion (e.g. Vb). Key: G♭ major.",
+    "abc": "[_G_B_d]",
+    "explanation": "It is chord I in root position → I.",
+    "choices": [
+      "I",
+      "Ic",
+      "iic",
+      "ii"
     ],
     "answer": 0
   }

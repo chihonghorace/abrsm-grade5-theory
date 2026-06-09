@@ -372,10 +372,10 @@
     "topic": "intervals",
     "difficulty": 2,
     "prompt": "Choose the note a major 2nd above the given note.",
-    "abc": "=C",
+    "abc": "C",
     "explanation": "A major 2nd above C is D (2 semitones, 2 letter names).",
     "choicesAbc": [
-      "=D",
+      "D",
       "__D",
       "_D",
       "^D",
@@ -477,12 +477,12 @@
     "topic": "intervals",
     "difficulty": 2,
     "prompt": "Choose the note a minor 2nd above the given note.",
-    "abc": "=C",
+    "abc": "C",
     "explanation": "A minor 2nd above C is D♭ (1 semitones, 2 letter names).",
     "choicesAbc": [
       "_D",
       "__D",
-      "=D",
+      "D",
       "^D",
       "^^D"
     ],
@@ -989,12 +989,12 @@
     "topic": "intervals",
     "difficulty": 2,
     "prompt": "Choose the note a minor 6th above the given note.",
-    "abc": "=C",
+    "abc": "C",
     "explanation": "A minor 6th above C is A♭ (8 semitones, 6 letter names).",
     "choicesAbc": [
       "_A",
       "__A",
-      "=A",
+      "A",
       "^A",
       "^^A"
     ],
@@ -1606,6 +1606,6320 @@
       "Major 3rd",
       "Minor 7th",
       "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-115",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F up to D♭ is a(n):",
+    "explanation": "F–D♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Perfect 5th",
+      "Major 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-116",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "F up to A is a(n):",
+    "explanation": "F–A spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 7th",
+      "Minor 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-117",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A up to B♭ is a(n):",
+    "explanation": "A–B♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Major 3rd",
+      "Major 6th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-118",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to D is a(n):",
+    "explanation": "E♭–D spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Minor 6th",
+      "Perfect 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-119",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D up to F♯ is a(n):",
+    "explanation": "D–F♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 7th",
+      "Minor 6th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-120",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to B is a(n):",
+    "explanation": "E–B spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 6th",
+      "Major 7th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-121",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B up to G♯ is a(n):",
+    "explanation": "B–G♯ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Major 7th",
+      "Augmented 4th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-122",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A♭ up to E♭♭ is a(n):",
+    "explanation": "A♭–E♭♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Major 7th",
+      "Perfect 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-123",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "A up to C is a(n):",
+    "explanation": "A–C spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Major 6th",
+      "Diminished 5th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-124",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a perfect 4th?",
+    "explanation": "A perfect 4th contains 5 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "iv-125",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D up to G♯ is a(n):",
+    "explanation": "D–G♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Minor 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-126",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A perfect 5th inverts to a perfect 4th — true or false?",
+    "explanation": "Inverting a perfect 5th gives a perfect 4th (the numbers add to 9 and the quality flips).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-127",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to E is a(n):",
+    "explanation": "D–E spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Major 3rd",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-128",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D♭ up to G is a(n):",
+    "explanation": "D♭–G spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Major 6th",
+      "Diminished 5th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-129",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a augmented 4th above the given note.",
+    "abc": "C",
+    "explanation": "A augmented 4th above C is F♯ (6 semitones, 4 letter names).",
+    "choicesAbc": [
+      "^F",
+      "__F",
+      "_F",
+      "F",
+      "^^F"
+    ],
+    "choices": [
+      "F♯",
+      "F♭♭",
+      "F♭",
+      "F",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-130",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to A is a(n):",
+    "explanation": "E–A spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Minor 7th",
+      "Perfect 5th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-131",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "B up to A is a(n):",
+    "explanation": "B–A spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Minor 3rd",
+      "Major 2nd",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-132",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to E is a(n):",
+    "explanation": "C♯–E spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Minor 2nd",
+      "Perfect 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-133",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to A♭ is a(n):",
+    "explanation": "D♭–A♭ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Perfect 4th",
+      "Major 3rd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-134",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B♭ up to E is a(n):",
+    "explanation": "B♭–E spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Diminished 5th",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-135",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "A up to D is a(n):",
+    "explanation": "A–D spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 6th",
+      "Minor 2nd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-136",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F♯ up to C is a(n):",
+    "explanation": "F♯–C spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Minor 2nd",
+      "Minor 3rd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-137",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F up to B♭ is a(n):",
+    "explanation": "F–B♭ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Perfect 5th",
+      "Minor 7th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-138",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a minor 7th?",
+    "explanation": "A minor 7th contains 10 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "iv-139",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A up to D♯ is a(n):",
+    "explanation": "A–D♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Diminished 5th",
+      "Perfect 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-140",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E up to F♯ is a(n):",
+    "explanation": "E–F♯ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Perfect 5th",
+      "Augmented 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-141",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 7th above the given note.",
+    "abc": "C",
+    "explanation": "A major 7th above C is B (11 semitones, 7 letter names).",
+    "choicesAbc": [
+      "B",
+      "__B",
+      "_B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B",
+      "B♭♭",
+      "B♭",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-142",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A up to G♯ is a(n):",
+    "explanation": "A–G♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Perfect 4th",
+      "Major 3rd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-143",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F up to C♭ is a(n):",
+    "explanation": "F–C♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Minor 6th",
+      "Perfect 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-144",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G up to D♭ is a(n):",
+    "explanation": "G–D♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Major 2nd",
+      "Minor 3rd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-145",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C♯ up to F♯♯ is a(n):",
+    "explanation": "C♯–F♯♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 6th",
+      "Perfect 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-146",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G♯ up to D is a(n):",
+    "explanation": "G♯–D spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Major 2nd",
+      "Minor 7th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-147",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to D♭ is a(n):",
+    "explanation": "A♭–D♭ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 2nd",
+      "Minor 3rd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-148",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to D is a(n):",
+    "explanation": "C–D spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Major 7th",
+      "Perfect 5th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-149",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "A up to G is a(n):",
+    "explanation": "A–G spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 6th",
+      "Minor 3rd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-150",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to B♭ is a(n):",
+    "explanation": "A♭–B♭ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Minor 3rd",
+      "Major 6th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-151",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to A♭ is a(n):",
+    "explanation": "E♭–A♭ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 7th",
+      "Perfect 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-152",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G up to B♭ is a(n):",
+    "explanation": "G–B♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Major 6th",
+      "Perfect 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-153",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to F is a(n):",
+    "explanation": "D–F spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Minor 7th",
+      "Perfect 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-154",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to A♭ is a(n):",
+    "explanation": "B♭–A♭ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Perfect 5th",
+      "Diminished 5th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-155",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "G up to F is a(n):",
+    "explanation": "G–F spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 3rd",
+      "Major 7th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-156",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B up to F is a(n):",
+    "explanation": "B–F spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-157",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to G is a(n):",
+    "explanation": "A♭–G spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Major 2nd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-158",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to B♭ is a(n):",
+    "explanation": "D♭–B♭ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 6th",
+      "Augmented 4th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-159",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to G is a(n):",
+    "explanation": "E♭–G spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Major 7th",
+      "Augmented 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-160",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "F up to G is a(n):",
+    "explanation": "F–G spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Major 6th",
+      "Augmented 4th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-161",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to B♭ is a(n):",
+    "explanation": "E♭–B♭ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Minor 3rd",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-162",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 5th above the given note.",
+    "abc": "C",
+    "explanation": "A perfect 5th above C is G (7 semitones, 5 letter names).",
+    "choicesAbc": [
+      "G",
+      "__G",
+      "_G",
+      "^G",
+      "^^G"
+    ],
+    "choices": [
+      "G",
+      "G♭♭",
+      "G♭",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-163",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to D♯ is a(n):",
+    "explanation": "C♯–D♯ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Major 7th",
+      "Major 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-164",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E up to G♯ is a(n):",
+    "explanation": "E–G♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Major 7th",
+      "Minor 3rd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-165",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to B♯ is a(n):",
+    "explanation": "C♯–B♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Augmented 4th",
+      "Perfect 4th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-166",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "A up to F is a(n):",
+    "explanation": "A–F spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Diminished 5th",
+      "Major 3rd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-167",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to D is a(n):",
+    "explanation": "E–D spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Minor 2nd",
+      "Major 7th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-168",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to F♯♯ is a(n):",
+    "explanation": "G♯–F♯♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Augmented 4th",
+      "Minor 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-169",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a minor 3rd?",
+    "explanation": "A minor 3rd contains 3 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "id": "iv-170",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D up to C♯ is a(n):",
+    "explanation": "D–C♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Augmented 4th",
+      "Diminished 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-171",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to G♯ is a(n):",
+    "explanation": "C♯–G♯ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-172",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to G♭ is a(n):",
+    "explanation": "D♭–G♭ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 6th",
+      "Minor 7th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-173",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 3rd inverts to a minor 6th — true or false?",
+    "explanation": "Inverting a major 3rd gives a minor 6th (the numbers add to 9 and the quality flips).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-174",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a augmented 4th?",
+    "explanation": "A augmented 4th contains 6 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "iv-175",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to G is a(n):",
+    "explanation": "F♯–G spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Perfect 5th",
+      "Diminished 5th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-176",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to D is a(n):",
+    "explanation": "C♯–D spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Minor 7th",
+      "Major 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-177",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to E is a(n):",
+    "explanation": "C–E spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 7th",
+      "Minor 6th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-178",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B♭ up to F♭ is a(n):",
+    "explanation": "B♭–F♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Perfect 5th",
+      "Major 7th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-179",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to C is a(n):",
+    "explanation": "E♭–C spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 2nd",
+      "Minor 3rd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-180",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to E♯ is a(n):",
+    "explanation": "F♯–E♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Perfect 4th",
+      "Minor 2nd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-181",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to F♯ is a(n):",
+    "explanation": "C♯–F♯ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 3rd",
+      "Minor 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-182",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to F is a(n):",
+    "explanation": "D♭–F spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 2nd",
+      "Major 7th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-183",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 3rd above the given note.",
+    "abc": "C",
+    "explanation": "A major 3rd above C is E (4 semitones, 3 letter names).",
+    "choicesAbc": [
+      "E",
+      "__E",
+      "_E",
+      "^E",
+      "^^E"
+    ],
+    "choices": [
+      "E",
+      "E♭♭",
+      "E♭",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-184",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to E♭ is a(n):",
+    "explanation": "D♭–E♭ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Perfect 4th",
+      "Major 6th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-185",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to C is a(n):",
+    "explanation": "B♭–C spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Minor 6th",
+      "Major 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-186",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 6th above the given note.",
+    "abc": "C",
+    "explanation": "A major 6th above C is A (9 semitones, 6 letter names).",
+    "choicesAbc": [
+      "A",
+      "__A",
+      "_A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A",
+      "A♭♭",
+      "A♭",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-187",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a diminished 5th above the given note.",
+    "abc": "C",
+    "explanation": "A diminished 5th above C is G♭ (6 semitones, 5 letter names).",
+    "choicesAbc": [
+      "_G",
+      "__G",
+      "G",
+      "^G",
+      "^^G"
+    ],
+    "choices": [
+      "G♭",
+      "G♭♭",
+      "G",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-188",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B up to A♯ is a(n):",
+    "explanation": "B–A♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Major 6th",
+      "Perfect 5th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-189",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to B is a(n):",
+    "explanation": "D–B spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 2nd",
+      "Major 3rd",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-190",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to C is a(n):",
+    "explanation": "A♭–C spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Diminished 5th",
+      "Minor 2nd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-191",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G♯ up to C♯♯ is a(n):",
+    "explanation": "G♯–C♯♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 7th",
+      "Minor 3rd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-192",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D up to B♭ is a(n):",
+    "explanation": "D–B♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Minor 3rd",
+      "Major 2nd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-193",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to F♭ is a(n):",
+    "explanation": "A♭–F♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-194",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to F is a(n):",
+    "explanation": "E–F spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Perfect 5th",
+      "Minor 6th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-195",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to E♯ is a(n):",
+    "explanation": "G♯–E♯ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-196",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to G♭ is a(n):",
+    "explanation": "E♭–G♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Major 3rd",
+      "Major 2nd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-197",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to D♯ is a(n):",
+    "explanation": "F♯–D♯ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 6th",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-198",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to A♯ is a(n):",
+    "explanation": "F♯–A♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Perfect 4th",
+      "Minor 7th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-199",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to G is a(n):",
+    "explanation": "B♭–G spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Major 2nd",
+      "Minor 7th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-200",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A perfect 5th inverts to a perfect 5th — true or false?",
+    "explanation": "A perfect 5th inverts to a perfect 4th, not to itself.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-201",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F up to G♭ is a(n):",
+    "explanation": "F–G♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Perfect 4th",
+      "Minor 7th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-202",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to E♯ is a(n):",
+    "explanation": "C♯–E♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Major 6th",
+      "Perfect 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-203",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "G up to D is a(n):",
+    "explanation": "G–D spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Minor 6th",
+      "Major 6th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-204",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "G up to E is a(n):",
+    "explanation": "G–E spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Major 3rd",
+      "Minor 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-205",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 4th above the given note.",
+    "abc": "C",
+    "explanation": "A perfect 4th above C is F.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "F",
+    "answerName": "F"
+  },
+  {
+    "id": "iv-206",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 6th above the given note.",
+    "abc": "C",
+    "explanation": "A major 6th above C is A.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "A",
+    "answerName": "A"
+  },
+  {
+    "id": "iv-207",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 7th above the given note.",
+    "abc": "C",
+    "explanation": "A minor 7th above C is B♭.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "_B",
+    "answerName": "B♭"
+  },
+  {
+    "id": "iv-208",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 3rd above the given note.",
+    "abc": "C",
+    "explanation": "A minor 3rd above C is E♭.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "_E",
+    "answerName": "E♭"
+  },
+  {
+    "id": "iv-209",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a diminished 5th above the given note.",
+    "abc": "C",
+    "explanation": "A diminished 5th above C is G♭.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "_G",
+    "answerName": "G♭"
+  },
+  {
+    "id": "iv-210",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 6th above the given note.",
+    "abc": "C",
+    "explanation": "A minor 6th above C is A♭.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "_A",
+    "answerName": "A♭"
+  },
+  {
+    "id": "iv-211",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 5th above the given note.",
+    "abc": "C",
+    "explanation": "A perfect 5th above C is G.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "G",
+    "answerName": "G"
+  },
+  {
+    "id": "iv-212",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 2nd above the given note.",
+    "abc": "C",
+    "explanation": "A major 2nd above C is D.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "D",
+    "answerName": "D"
+  },
+  {
+    "id": "iv-213",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a augmented 4th above the given note.",
+    "abc": "C",
+    "explanation": "A augmented 4th above C is F♯.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "^F",
+    "answerName": "F♯"
+  },
+  {
+    "id": "iv-214",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 3rd above the given note.",
+    "abc": "C",
+    "explanation": "A major 3rd above C is E.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "E",
+    "answerName": "E"
+  },
+  {
+    "id": "iv-215",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 7th above the given note.",
+    "abc": "C",
+    "explanation": "A major 7th above C is B.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "B",
+    "answerName": "B"
+  },
+  {
+    "id": "iv-216",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 2nd above the given note.",
+    "abc": "C",
+    "explanation": "A minor 2nd above C is D♭.",
+    "type": "build",
+    "startAbc": "c",
+    "answerAbc": "_D",
+    "answerName": "D♭"
+  },
+  {
+    "id": "iv-217",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to A♯ is a(n):",
+    "explanation": "C♯–A♯ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Augmented 4th",
+      "Major 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-218",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to E♭ is a(n):",
+    "explanation": "A♭–E♭ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 7th",
+      "Minor 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-219",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D♭ up to A♭♭ is a(n):",
+    "explanation": "D♭–A♭♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Major 7th",
+      "Major 2nd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-220",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 4th above the given note.",
+    "abc": "C",
+    "explanation": "A perfect 4th above C is F (5 semitones, 4 letter names).",
+    "choicesAbc": [
+      "F",
+      "__F",
+      "_F",
+      "^F",
+      "^^F"
+    ],
+    "choices": [
+      "F",
+      "F♭♭",
+      "F♭",
+      "F♯",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-221",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to F is a(n):",
+    "explanation": "C–F spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 6th",
+      "Major 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-222",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to B♭♭ is a(n):",
+    "explanation": "A♭–B♭♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Perfect 5th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-223",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a major 6th?",
+    "explanation": "A major 6th contains 9 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "iv-224",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to F is a(n):",
+    "explanation": "E♭–F spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Major 7th",
+      "Minor 6th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-225",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to D is a(n):",
+    "explanation": "B♭–D spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Major 2nd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-226",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E up to C♯ is a(n):",
+    "explanation": "E–C♯ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 7th",
+      "Augmented 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-227",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G up to F♯ is a(n):",
+    "explanation": "G–F♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-228",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "A up to E is a(n):",
+    "explanation": "A–E spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 3rd",
+      "Augmented 4th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-229",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 7th above the given note.",
+    "abc": "C",
+    "explanation": "A minor 7th above C is B♭ (10 semitones, 7 letter names).",
+    "choicesAbc": [
+      "_B",
+      "__B",
+      "B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B♭",
+      "B♭♭",
+      "B",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-230",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A augmented 4th inverts to a augmented 4th — true or false?",
+    "explanation": "A augmented 4th inverts to a diminished 5th, not to itself.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-231",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to A is a(n):",
+    "explanation": "G♯–A spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Augmented 4th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-232",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a diminished 5th?",
+    "explanation": "A diminished 5th contains 6 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "iv-233",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 3rd above the given note.",
+    "abc": "C",
+    "explanation": "A minor 3rd above C is E♭ (3 semitones, 3 letter names).",
+    "choicesAbc": [
+      "_E",
+      "__E",
+      "E",
+      "^E",
+      "^^E"
+    ],
+    "choices": [
+      "E♭",
+      "E♭♭",
+      "E",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-234",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to C♭ is a(n):",
+    "explanation": "A♭–C♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Minor 6th",
+      "Augmented 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-235",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a major 2nd?",
+    "explanation": "A major 2nd contains 2 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "iv-236",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to D♭ is a(n):",
+    "explanation": "B♭–D♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Minor 7th",
+      "Major 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-237",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E up to A♯ is a(n):",
+    "explanation": "E–A♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 6th",
+      "Perfect 5th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-238",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to A is a(n):",
+    "explanation": "D–A spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 7th",
+      "Perfect 4th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-239",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♯ down to B is a(n):",
+    "explanation": "Measured downwards, A♯–B is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Perfect 5th",
+      "Major 6th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-240",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, A♯–G♯ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Major 6th",
+      "Major 7th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-241",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to D is a(n):",
+    "explanation": "Measured downwards, G–D is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 6th",
+      "Minor 2nd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-242",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 2nd above the given note.",
+    "abc": "D",
+    "explanation": "A minor 2nd above D is E♭ (1 semitones, 2 letter names).",
+    "choicesAbc": [
+      "_E",
+      "__E",
+      "E",
+      "^E",
+      "^^E"
+    ],
+    "choices": [
+      "E♭",
+      "E♭♭",
+      "E",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-243",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to F♯ is a(n):",
+    "explanation": "Measured downwards, D–F♯ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 2nd",
+      "Minor 7th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-244",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to F is a(n):",
+    "explanation": "Measured downwards, C–F is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Diminished 5th",
+      "Minor 6th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-245",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 5th above the given note.",
+    "abc": "A",
+    "explanation": "A perfect 5th above A is E (7 semitones, 5 letter names).",
+    "choicesAbc": [
+      "e",
+      "__e",
+      "_e",
+      "^e",
+      "^^e"
+    ],
+    "choices": [
+      "E",
+      "E♭♭",
+      "E♭",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-246",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 4th above the given note.",
+    "abc": "E",
+    "explanation": "A perfect 4th above E is A (5 semitones, 4 letter names).",
+    "choicesAbc": [
+      "A",
+      "__A",
+      "_A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A",
+      "A♭♭",
+      "A♭",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-247",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A♭ down to D is a(n):",
+    "explanation": "Measured downwards, A♭–D is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Major 2nd",
+      "Minor 3rd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-248",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, E♯–G♯ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Perfect 4th",
+      "Augmented 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-249",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D down to G♯ is a(n):",
+    "explanation": "Measured downwards, D–G♯ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Augmented 4th",
+      "Minor 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-250",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a augmented 4th above the given note.",
+    "abc": "G",
+    "explanation": "A augmented 4th above G is C♯ (6 semitones, 4 letter names).",
+    "choicesAbc": [
+      "^c",
+      "__c",
+      "_c",
+      "c",
+      "^^c"
+    ],
+    "choices": [
+      "C♯",
+      "C♭♭",
+      "C♭",
+      "C",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-251",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ down to F♯ is a(n):",
+    "explanation": "Measured downwards, G♯–F♯ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Major 6th",
+      "Perfect 5th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-252",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 5th above the given note.",
+    "abc": "G",
+    "explanation": "A perfect 5th above G is D (7 semitones, 5 letter names).",
+    "choicesAbc": [
+      "d",
+      "__d",
+      "_d",
+      "^d",
+      "^^d"
+    ],
+    "choices": [
+      "D",
+      "D♭♭",
+      "D♭",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-253",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, F♯–C♯ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Perfect 5th",
+      "Minor 3rd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-254",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 7th above the given note.",
+    "abc": "A",
+    "explanation": "A major 7th above A is G♯ (11 semitones, 7 letter names).",
+    "choicesAbc": [
+      "^g",
+      "__g",
+      "_g",
+      "g",
+      "^^g"
+    ],
+    "choices": [
+      "G♯",
+      "G♭♭",
+      "G♭",
+      "G",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-255",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to F is a(n):",
+    "explanation": "Measured downwards, B♭–F is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 2nd",
+      "Minor 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-256",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to E is a(n):",
+    "explanation": "Measured downwards, C–E is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 7th",
+      "Diminished 5th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-257",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E down to B♭ is a(n):",
+    "explanation": "Measured downwards, E–B♭ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Minor 6th",
+      "Major 6th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-258",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to C is a(n):",
+    "explanation": "Measured downwards, A–C is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Diminished 5th",
+      "Minor 7th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-259",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 7th above the given note.",
+    "abc": "E",
+    "explanation": "A minor 7th above E is D (10 semitones, 7 letter names).",
+    "choicesAbc": [
+      "d",
+      "__d",
+      "_d",
+      "^d",
+      "^^d"
+    ],
+    "choices": [
+      "D",
+      "D♭♭",
+      "D♭",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-260",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to F is a(n):",
+    "explanation": "Measured downwards, A–F is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Minor 6th",
+      "Augmented 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-261",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to D♭ is a(n):",
+    "explanation": "Measured downwards, F–D♭ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Augmented 4th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-262",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to B♭ is a(n):",
+    "explanation": "Measured downwards, A–B♭ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 6th",
+      "Major 6th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-263",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to A is a(n):",
+    "explanation": "Measured downwards, B–A is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Minor 6th",
+      "Major 6th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-264",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to D is a(n):",
+    "explanation": "Measured downwards, E–D is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Augmented 4th",
+      "Minor 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-265",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 3rd above the given note.",
+    "abc": "D",
+    "explanation": "A minor 3rd above D is F (3 semitones, 3 letter names).",
+    "choicesAbc": [
+      "F",
+      "__F",
+      "_F",
+      "^F",
+      "^^F"
+    ],
+    "choices": [
+      "F",
+      "F♭♭",
+      "F♭",
+      "F♯",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-266",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, D♯–G♯ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Augmented 4th",
+      "Major 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-267",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, E♭♭–D♭ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Minor 7th",
+      "Augmented 4th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-268",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a augmented 4th above the given note.",
+    "abc": "A",
+    "explanation": "A augmented 4th above A is D♯ (6 semitones, 4 letter names).",
+    "choicesAbc": [
+      "^d",
+      "__d",
+      "_d",
+      "d",
+      "^^d"
+    ],
+    "choices": [
+      "D♯",
+      "D♭♭",
+      "D♭",
+      "D",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-269",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to D is a(n):",
+    "explanation": "Measured downwards, B♭–D is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Perfect 5th",
+      "Minor 3rd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-270",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 4th above the given note.",
+    "abc": "G",
+    "explanation": "A perfect 4th above G is C (5 semitones, 4 letter names).",
+    "choicesAbc": [
+      "c",
+      "__c",
+      "_c",
+      "^c",
+      "^^c"
+    ],
+    "choices": [
+      "C",
+      "C♭♭",
+      "C♭",
+      "C♯",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-271",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 3rd above the given note.",
+    "abc": "G",
+    "explanation": "A minor 3rd above G is B♭ (3 semitones, 3 letter names).",
+    "choicesAbc": [
+      "_B",
+      "__B",
+      "B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B♭",
+      "B♭♭",
+      "B",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-272",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, G♭–E♭ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Major 2nd",
+      "Major 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-273",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D down to A♭ is a(n):",
+    "explanation": "Measured downwards, D–A♭ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 3rd",
+      "Major 2nd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-274",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D♯ down to A is a(n):",
+    "explanation": "Measured downwards, D♯–A is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Minor 2nd",
+      "Major 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-275",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♯ down to F♯ is a(n):",
+    "explanation": "Measured downwards, E♯–F♯ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Minor 7th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-276",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, B♯–C♯ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 6th",
+      "Minor 3rd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-277",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B down to F is a(n):",
+    "explanation": "Measured downwards, B–F is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 7th",
+      "Minor 3rd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-278",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, B♯–G♯ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Augmented 4th",
+      "Diminished 5th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-279",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♭ down to B♭ is a(n):",
+    "explanation": "Measured downwards, G♭–B♭ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Augmented 4th",
+      "Minor 3rd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-280",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to B is a(n):",
+    "explanation": "Measured downwards, G–B is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 2nd",
+      "Minor 7th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-281",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, A♭–D♭ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 7th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-282",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to D is a(n):",
+    "explanation": "Measured downwards, C–D is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Perfect 4th",
+      "Augmented 4th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-283",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, F♯–G♯ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Diminished 5th",
+      "Perfect 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-284",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to A is a(n):",
+    "explanation": "Measured downwards, G–A is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Perfect 4th",
+      "Minor 6th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-285",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to E♭ is a(n):",
+    "explanation": "Measured downwards, G–E♭ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Minor 2nd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-286",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to G is a(n):",
+    "explanation": "Measured downwards, D–G is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-287",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ down to F is a(n):",
+    "explanation": "Measured downwards, D♭–F is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 2nd",
+      "Diminished 5th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-288",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to C is a(n):",
+    "explanation": "Measured downwards, E–C is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Major 6th",
+      "Augmented 4th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-289",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a diminished 5th above the given note.",
+    "abc": "G",
+    "explanation": "A diminished 5th above G is D♭ (6 semitones, 5 letter names).",
+    "choicesAbc": [
+      "_d",
+      "__d",
+      "d",
+      "^d",
+      "^^d"
+    ],
+    "choices": [
+      "D♭",
+      "D♭♭",
+      "D",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-290",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ down to E is a(n):",
+    "explanation": "Measured downwards, G♯–E is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Major 7th",
+      "Major 6th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-291",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B♭ down to E is a(n):",
+    "explanation": "Measured downwards, B♭–E is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Major 7th",
+      "Minor 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-292",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ down to B♭ is a(n):",
+    "explanation": "Measured downwards, D♭–B♭ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Major 6th",
+      "Major 2nd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-293",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, G♯–C♯ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Major 3rd",
+      "Augmented 4th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-294",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C down to F♯ is a(n):",
+    "explanation": "Measured downwards, C–F♯ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Minor 6th",
+      "Augmented 4th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-295",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a augmented 4th above the given note.",
+    "abc": "F",
+    "explanation": "A augmented 4th above F is B (6 semitones, 4 letter names).",
+    "choicesAbc": [
+      "B",
+      "__B",
+      "_B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B",
+      "B♭♭",
+      "B♭",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-296",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to E is a(n):",
+    "explanation": "Measured downwards, A–E is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 2nd",
+      "Minor 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-297",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 3rd above the given note.",
+    "abc": "E",
+    "explanation": "A major 3rd above E is G♯ (4 semitones, 3 letter names).",
+    "choicesAbc": [
+      "^G",
+      "__G",
+      "_G",
+      "G",
+      "^^G"
+    ],
+    "choices": [
+      "G♯",
+      "G♭♭",
+      "G♭",
+      "G",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-298",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to D♭ is a(n):",
+    "explanation": "Measured downwards, C–D♭ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Augmented 4th",
+      "Major 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-299",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to G is a(n):",
+    "explanation": "Measured downwards, E♭–G is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Major 6th",
+      "Minor 3rd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-300",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 7th above the given note.",
+    "abc": "G",
+    "explanation": "A minor 7th above G is F (10 semitones, 7 letter names).",
+    "choicesAbc": [
+      "f",
+      "__f",
+      "_f",
+      "^f",
+      "^^f"
+    ],
+    "choices": [
+      "F",
+      "F♭♭",
+      "F♭",
+      "F♯",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-301",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, C♭–D♭ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Diminished 5th",
+      "Augmented 4th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-302",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 4th above the given note.",
+    "abc": "A",
+    "explanation": "A perfect 4th above A is D (5 semitones, 4 letter names).",
+    "choicesAbc": [
+      "d",
+      "__d",
+      "_d",
+      "^d",
+      "^^d"
+    ],
+    "choices": [
+      "D",
+      "D♭♭",
+      "D♭",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-303",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to B♭ is a(n):",
+    "explanation": "Measured downwards, G–B♭ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Minor 2nd",
+      "Major 2nd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-304",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♯ down to F♯ is a(n):",
+    "explanation": "Measured downwards, A♯–F♯ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Major 2nd",
+      "Minor 3rd",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-305",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, F♭–D♭ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Major 7th",
+      "Major 6th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-306",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to G is a(n):",
+    "explanation": "Measured downwards, B–G is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Major 2nd",
+      "Major 7th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-307",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to B is a(n):",
+    "explanation": "Measured downwards, E–B is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Minor 7th",
+      "Major 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-308",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to F♯ is a(n):",
+    "explanation": "Measured downwards, A–F♯ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Perfect 5th",
+      "Perfect 4th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-309",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 7th above the given note.",
+    "abc": "F",
+    "explanation": "A major 7th above F is E (11 semitones, 7 letter names).",
+    "choicesAbc": [
+      "e",
+      "__e",
+      "_e",
+      "^e",
+      "^^e"
+    ],
+    "choices": [
+      "E",
+      "E♭♭",
+      "E♭",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-310",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to G♯ is a(n):",
+    "explanation": "Measured downwards, B–G♯ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Diminished 5th",
+      "Minor 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-311",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a augmented 4th above the given note.",
+    "abc": "E",
+    "explanation": "A augmented 4th above E is A♯ (6 semitones, 4 letter names).",
+    "choicesAbc": [
+      "^A",
+      "__A",
+      "_A",
+      "A",
+      "^^A"
+    ],
+    "choices": [
+      "A♯",
+      "A♭♭",
+      "A♭",
+      "A",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-312",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, G♭–D♭ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Minor 6th",
+      "Diminished 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-313",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♯ down to F♯ is a(n):",
+    "explanation": "Measured downwards, D♯–F♯ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Minor 7th",
+      "Minor 2nd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-314",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to A is a(n):",
+    "explanation": "Measured downwards, F♯–A is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Augmented 4th",
+      "Major 3rd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-315",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 5th above the given note.",
+    "abc": "F",
+    "explanation": "A perfect 5th above F is C (7 semitones, 5 letter names).",
+    "choicesAbc": [
+      "c",
+      "__c",
+      "_c",
+      "^c",
+      "^^c"
+    ],
+    "choices": [
+      "C",
+      "C♭♭",
+      "C♭",
+      "C♯",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-316",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to C is a(n):",
+    "explanation": "Measured downwards, D–C is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Major 7th",
+      "Diminished 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-317",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to C♯ is a(n):",
+    "explanation": "Measured downwards, B–C♯ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Perfect 4th",
+      "Perfect 5th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-318",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 2nd above the given note.",
+    "abc": "F",
+    "explanation": "A minor 2nd above F is G♭ (1 semitones, 2 letter names).",
+    "choicesAbc": [
+      "_G",
+      "__G",
+      "G",
+      "^G",
+      "^^G"
+    ],
+    "choices": [
+      "G♭",
+      "G♭♭",
+      "G",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-319",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to A is a(n):",
+    "explanation": "Measured downwards, C–A is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Major 7th",
+      "Major 6th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-320",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to E is a(n):",
+    "explanation": "Measured downwards, D–E is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Perfect 5th",
+      "Minor 6th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-321",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to E♭ is a(n):",
+    "explanation": "Measured downwards, C–E♭ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Minor 2nd",
+      "Perfect 5th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-322",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 6th above the given note.",
+    "abc": "E",
+    "explanation": "A major 6th above E is C♯ (9 semitones, 6 letter names).",
+    "choicesAbc": [
+      "^c",
+      "__c",
+      "_c",
+      "c",
+      "^^c"
+    ],
+    "choices": [
+      "C♯",
+      "C♭♭",
+      "C♭",
+      "C",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-323",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F♯ down to C is a(n):",
+    "explanation": "Measured downwards, F♯–C is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 3rd",
+      "Minor 6th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-324",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to C is a(n):",
+    "explanation": "Measured downwards, F–C is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 3rd",
+      "Major 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-325",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to C♯ is a(n):",
+    "explanation": "Measured downwards, A–C♯ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Diminished 5th",
+      "Augmented 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-326",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ down to F♯ is a(n):",
+    "explanation": "Measured downwards, C♯–F♯ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 3rd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-327",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E♭ down to A is a(n):",
+    "explanation": "Measured downwards, E♭–A is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Augmented 4th",
+      "Minor 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-328",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 6th above the given note.",
+    "abc": "D",
+    "explanation": "A major 6th above D is B (9 semitones, 6 letter names).",
+    "choicesAbc": [
+      "B",
+      "__B",
+      "_B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B",
+      "B♭♭",
+      "B♭",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-329",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to B♭ is a(n):",
+    "explanation": "Measured downwards, D–B♭ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Perfect 4th",
+      "Minor 7th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-330",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F♯♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, F♯♯–C♯ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 2nd",
+      "Perfect 5th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-331",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 4th above the given note.",
+    "abc": "F",
+    "explanation": "A perfect 4th above F is B♭ (5 semitones, 4 letter names).",
+    "choicesAbc": [
+      "_B",
+      "__B",
+      "B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B♭",
+      "B♭♭",
+      "B",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-332",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to C is a(n):",
+    "explanation": "Measured downwards, E♭–C is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Augmented 4th",
+      "Minor 7th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-333",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ down to E is a(n):",
+    "explanation": "Measured downwards, C♯–E is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Major 3rd",
+      "Major 7th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-334",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F down to B is a(n):",
+    "explanation": "Measured downwards, F–B is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Major 2nd",
+      "Perfect 5th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-335",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 6th above the given note.",
+    "abc": "D",
+    "explanation": "A minor 6th above D is B♭ (8 semitones, 6 letter names).",
+    "choicesAbc": [
+      "_B",
+      "__B",
+      "B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B♭",
+      "B♭♭",
+      "B",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-336",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, B♭♭–A♭ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 3rd",
+      "Perfect 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-337",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, C♭–A♭ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Minor 7th",
+      "Major 3rd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-338",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 6th above the given note.",
+    "abc": "E",
+    "explanation": "A minor 6th above E is C (8 semitones, 6 letter names).",
+    "choicesAbc": [
+      "c",
+      "__c",
+      "_c",
+      "^c",
+      "^^c"
+    ],
+    "choices": [
+      "C",
+      "C♭♭",
+      "C♭",
+      "C♯",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-339",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C♯ down to G is a(n):",
+    "explanation": "Measured downwards, C♯–G is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 6th",
+      "Diminished 5th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-340",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E♭♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, E♭♭–A♭ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Major 6th",
+      "Major 7th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-341",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 3rd above the given note.",
+    "abc": "G",
+    "explanation": "A major 3rd above G is B (4 semitones, 3 letter names).",
+    "choicesAbc": [
+      "B",
+      "__B",
+      "_B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B",
+      "B♭♭",
+      "B♭",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-342",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, B♭–A♭ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Minor 6th",
+      "Minor 3rd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-343",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A♯ down to E is a(n):",
+    "explanation": "Measured downwards, A♯–E is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Diminished 5th",
+      "Major 7th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-344",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to C is a(n):",
+    "explanation": "Measured downwards, B♭–C is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Diminished 5th",
+      "Major 6th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-345",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♯ down to E is a(n):",
+    "explanation": "Measured downwards, D♯–E is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Major 3rd",
+      "Minor 6th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-346",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to B is a(n):",
+    "explanation": "Measured downwards, C–B is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Diminished 5th",
+      "Minor 6th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-347",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to B♭ is a(n):",
+    "explanation": "Measured downwards, E♭–B♭ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Perfect 5th",
+      "Major 6th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-348",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A♭♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, A♭♭–D♭ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Perfect 5th",
+      "Augmented 4th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-349",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to E is a(n):",
+    "explanation": "Measured downwards, B–E is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Major 2nd",
+      "Minor 6th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-350",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B♭♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, B♭♭–E♭ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Minor 7th",
+      "Perfect 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-351",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, F♭–A♭ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Perfect 4th",
+      "Major 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-352",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G down to C♯ is a(n):",
+    "explanation": "Measured downwards, G–C♯ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Minor 6th",
+      "Major 7th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-353",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ down to C is a(n):",
+    "explanation": "Measured downwards, A♭–C is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 7th",
+      "Minor 3rd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-354",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to E♭ is a(n):",
+    "explanation": "Measured downwards, D–E♭ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-355",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A down to E♭ is a(n):",
+    "explanation": "Measured downwards, A–E♭ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Minor 3rd",
+      "Diminished 5th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-356",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to D is a(n):",
+    "explanation": "Measured downwards, A–D is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Major 3rd",
+      "Minor 7th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-357",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 2nd above the given note.",
+    "abc": "G",
+    "explanation": "A minor 2nd above G is A♭ (1 semitones, 2 letter names).",
+    "choicesAbc": [
+      "_A",
+      "__A",
+      "A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A♭",
+      "A♭♭",
+      "A",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-358",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 3rd above the given note.",
+    "abc": "F",
+    "explanation": "A major 3rd above F is A (4 semitones, 3 letter names).",
+    "choicesAbc": [
+      "A",
+      "__A",
+      "_A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A",
+      "A♭♭",
+      "A♭",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-359",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 7th above the given note.",
+    "abc": "D",
+    "explanation": "A major 7th above D is C♯.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "^c",
+    "answerName": "C♯"
+  },
+  {
+    "id": "iv-360",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a augmented 4th above the given note.",
+    "abc": "D",
+    "explanation": "A augmented 4th above D is G♯.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "^G",
+    "answerName": "G♯"
+  },
+  {
+    "id": "iv-361",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 3rd above the given note.",
+    "abc": "E",
+    "explanation": "A major 3rd above E is G♯.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "^G",
+    "answerName": "G♯"
+  },
+  {
+    "id": "iv-362",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 2nd above the given note.",
+    "abc": "D",
+    "explanation": "A major 2nd above D is E.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "E",
+    "answerName": "E"
+  },
+  {
+    "id": "iv-363",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 2nd above the given note.",
+    "abc": "A",
+    "explanation": "A major 2nd above A is B.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "B",
+    "answerName": "B"
+  },
+  {
+    "id": "iv-364",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 3rd above the given note.",
+    "abc": "F",
+    "explanation": "A minor 3rd above F is A♭.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "_A",
+    "answerName": "A♭"
+  },
+  {
+    "id": "iv-365",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 4th above the given note.",
+    "abc": "G",
+    "explanation": "A perfect 4th above G is C.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "c",
+    "answerName": "C"
+  },
+  {
+    "id": "iv-366",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 2nd above the given note.",
+    "abc": "G",
+    "explanation": "A minor 2nd above G is A♭.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "_A",
+    "answerName": "A♭"
+  },
+  {
+    "id": "iv-367",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 7th above the given note.",
+    "abc": "A",
+    "explanation": "A minor 7th above A is G.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "g",
+    "answerName": "G"
+  },
+  {
+    "id": "iv-368",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a augmented 4th above the given note.",
+    "abc": "A",
+    "explanation": "A augmented 4th above A is D♯.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "^d",
+    "answerName": "D♯"
+  },
+  {
+    "id": "iv-369",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 4th above the given note.",
+    "abc": "F",
+    "explanation": "A perfect 4th above F is B♭.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "_B",
+    "answerName": "B♭"
+  },
+  {
+    "id": "iv-370",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 5th above the given note.",
+    "abc": "F",
+    "explanation": "A perfect 5th above F is C.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "c",
+    "answerName": "C"
+  },
+  {
+    "id": "iv-371",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a diminished 5th above the given note.",
+    "abc": "A",
+    "explanation": "A diminished 5th above A is E♭.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "_e",
+    "answerName": "E♭"
+  },
+  {
+    "id": "iv-372",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 4th above the given note.",
+    "abc": "A",
+    "explanation": "A perfect 4th above A is D.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "d",
+    "answerName": "D"
+  },
+  {
+    "id": "iv-373",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 7th above the given note.",
+    "abc": "E",
+    "explanation": "A minor 7th above E is D.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "d",
+    "answerName": "D"
+  },
+  {
+    "id": "iv-374",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 3rd above the given note.",
+    "abc": "A",
+    "explanation": "A major 3rd above A is C♯.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "^c",
+    "answerName": "C♯"
+  },
+  {
+    "id": "iv-375",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 4th above the given note.",
+    "abc": "D",
+    "explanation": "A perfect 4th above D is G.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "G",
+    "answerName": "G"
+  },
+  {
+    "id": "iv-376",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 3rd above the given note.",
+    "abc": "A",
+    "explanation": "A minor 3rd above A is C.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "c",
+    "answerName": "C"
+  },
+  {
+    "id": "iv-377",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 2nd above the given note.",
+    "abc": "F",
+    "explanation": "A major 2nd above F is G.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "G",
+    "answerName": "G"
+  },
+  {
+    "id": "iv-378",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a diminished 5th above the given note.",
+    "abc": "E",
+    "explanation": "A diminished 5th above E is B♭.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "_B",
+    "answerName": "B♭"
+  },
+  {
+    "id": "iv-379",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 7th above the given note.",
+    "abc": "F",
+    "explanation": "A minor 7th above F is E♭.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "_e",
+    "answerName": "E♭"
+  },
+  {
+    "id": "iv-380",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 6th above the given note.",
+    "abc": "G",
+    "explanation": "A minor 6th above G is E♭.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "_e",
+    "answerName": "E♭"
+  },
+  {
+    "id": "iv-381",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 6th above the given note.",
+    "abc": "G",
+    "explanation": "A major 6th above G is E.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "e",
+    "answerName": "E"
+  },
+  {
+    "id": "iv-382",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 6th above the given note.",
+    "abc": "A",
+    "explanation": "A minor 6th above A is F.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "f",
+    "answerName": "F"
+  },
+  {
+    "id": "iv-383",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 2nd above the given note.",
+    "abc": "A",
+    "explanation": "A minor 2nd above A is B♭.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "_B",
+    "answerName": "B♭"
+  },
+  {
+    "id": "iv-384",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 3rd above the given note.",
+    "abc": "G",
+    "explanation": "A minor 3rd above G is B♭.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "_B",
+    "answerName": "B♭"
+  },
+  {
+    "id": "iv-385",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 7th above the given note.",
+    "abc": "D",
+    "explanation": "A minor 7th above D is C.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "c",
+    "answerName": "C"
+  },
+  {
+    "id": "iv-386",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 5th above the given note.",
+    "abc": "G",
+    "explanation": "A perfect 5th above G is D.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "d",
+    "answerName": "D"
+  },
+  {
+    "id": "iv-387",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 2nd above the given note.",
+    "abc": "E",
+    "explanation": "A minor 2nd above E is F.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "F",
+    "answerName": "F"
+  },
+  {
+    "id": "iv-388",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 7th above the given note.",
+    "abc": "A",
+    "explanation": "A major 7th above A is G♯.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "^g",
+    "answerName": "G♯"
+  },
+  {
+    "id": "iv-389",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 3rd above the given note.",
+    "abc": "D",
+    "explanation": "A minor 3rd above D is F.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "F",
+    "answerName": "F"
+  },
+  {
+    "id": "iv-390",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 5th above the given note.",
+    "abc": "A",
+    "explanation": "A perfect 5th above A is E.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "e",
+    "answerName": "E"
+  },
+  {
+    "id": "iv-391",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 4th above the given note.",
+    "abc": "E",
+    "explanation": "A perfect 4th above E is A.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "A",
+    "answerName": "A"
+  },
+  {
+    "id": "iv-392",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 2nd above the given note.",
+    "abc": "E",
+    "explanation": "A major 2nd above E is F♯.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "^F",
+    "answerName": "F♯"
+  },
+  {
+    "id": "iv-393",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a diminished 5th above the given note.",
+    "abc": "D",
+    "explanation": "A diminished 5th above D is A♭.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "_A",
+    "answerName": "A♭"
+  },
+  {
+    "id": "iv-394",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 7th above the given note.",
+    "abc": "F",
+    "explanation": "A major 7th above F is E.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "e",
+    "answerName": "E"
+  },
+  {
+    "id": "iv-395",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, F♯♯–G♯ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 2nd",
+      "Major 3rd",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-396",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, E♯–C♯ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Minor 6th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-397",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to A is a(n):",
+    "explanation": "Measured downwards, D–A is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Minor 6th",
+      "Major 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-398",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to A♭ is a(n):",
+    "explanation": "Measured downwards, F–A♭ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Minor 2nd",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-399",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 3rd above the given note.",
+    "abc": "E",
+    "explanation": "A minor 3rd above E is G (3 semitones, 3 letter names).",
+    "choicesAbc": [
+      "G",
+      "__G",
+      "_G",
+      "^G",
+      "^^G"
+    ],
+    "choices": [
+      "G",
+      "G♭♭",
+      "G♭",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-400",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 7th above the given note.",
+    "abc": "G",
+    "explanation": "A major 7th above G is F♯ (11 semitones, 7 letter names).",
+    "choicesAbc": [
+      "^f",
+      "__f",
+      "_f",
+      "f",
+      "^^f"
+    ],
+    "choices": [
+      "F♯",
+      "F♭♭",
+      "F♭",
+      "F",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-401",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 6th above the given note.",
+    "abc": "F",
+    "explanation": "A major 6th above F is D (9 semitones, 6 letter names).",
+    "choicesAbc": [
+      "d",
+      "__d",
+      "_d",
+      "^d",
+      "^^d"
+    ],
+    "choices": [
+      "D",
+      "D♭♭",
+      "D♭",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-402",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to G is a(n):",
+    "explanation": "Measured downwards, A–G is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Perfect 4th",
+      "Augmented 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-403",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to G is a(n):",
+    "explanation": "Measured downwards, E–G is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Perfect 4th",
+      "Perfect 5th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-404",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ down to D is a(n):",
+    "explanation": "Measured downwards, C♯–D is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Minor 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-405",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, D♭–A♭ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 7th",
+      "Minor 6th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-406",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♭ down to F is a(n):",
+    "explanation": "Measured downwards, G♭–F is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Perfect 5th",
+      "Perfect 4th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-407",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a diminished 5th above the given note.",
+    "abc": "D",
+    "explanation": "A diminished 5th above D is A♭ (6 semitones, 5 letter names).",
+    "choicesAbc": [
+      "_A",
+      "__A",
+      "A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A♭",
+      "A♭♭",
+      "A",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-408",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, C♯–G♯ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 2nd",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-409",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ down to G is a(n):",
+    "explanation": "Measured downwards, A♭–G is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Minor 6th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-410",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to F is a(n):",
+    "explanation": "Measured downwards, E♭–F is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Major 7th",
+      "Minor 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-411",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D♭ down to G is a(n):",
+    "explanation": "Measured downwards, D♭–G is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Minor 7th",
+      "Major 3rd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-412",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, D♭–E♭ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Minor 3rd",
+      "Diminished 5th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-413",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, E♭–D♭ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Perfect 5th",
+      "Minor 2nd",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-414",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to E is a(n):",
+    "explanation": "Measured downwards, G–E is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Minor 2nd",
+      "Augmented 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-415",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G♭ down to C is a(n):",
+    "explanation": "Measured downwards, G♭–C is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Perfect 5th",
+      "Perfect 4th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-416",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 2nd above the given note.",
+    "abc": "D",
+    "explanation": "A major 2nd above D is E (2 semitones, 2 letter names).",
+    "choicesAbc": [
+      "E",
+      "__E",
+      "_E",
+      "^E",
+      "^^E"
+    ],
+    "choices": [
+      "E",
+      "E♭♭",
+      "E♭",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-417",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♭ down to B♭ is a(n):",
+    "explanation": "Measured downwards, C♭–B♭ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Diminished 5th",
+      "Perfect 5th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-418",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G♯ down to D is a(n):",
+    "explanation": "Measured downwards, G♯–D is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 7th",
+      "Minor 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-419",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to A is a(n):",
+    "explanation": "Measured downwards, F–A is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Major 3rd",
+      "Minor 7th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-420",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 6th above the given note.",
+    "abc": "G",
+    "explanation": "A major 6th above G is E (9 semitones, 6 letter names).",
+    "choicesAbc": [
+      "e",
+      "__e",
+      "_e",
+      "^e",
+      "^^e"
+    ],
+    "choices": [
+      "E",
+      "E♭♭",
+      "E♭",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-421",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, A♭–E♭ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 3rd",
+      "Minor 7th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-422",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, E♭–A♭ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Minor 6th",
+      "Minor 3rd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-423",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 7th above the given note.",
+    "abc": "D",
+    "explanation": "A major 7th above D is C♯ (11 semitones, 7 letter names).",
+    "choicesAbc": [
+      "^c",
+      "__c",
+      "_c",
+      "c",
+      "^^c"
+    ],
+    "choices": [
+      "C♯",
+      "C♭♭",
+      "C♭",
+      "C",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-424",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 6th above the given note.",
+    "abc": "A",
+    "explanation": "A minor 6th above A is F (8 semitones, 6 letter names).",
+    "choicesAbc": [
+      "f",
+      "__f",
+      "_f",
+      "^f",
+      "^^f"
+    ],
+    "choices": [
+      "F",
+      "F♭♭",
+      "F♭",
+      "F♯",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-425",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to C♯ is a(n):",
+    "explanation": "Measured downwards, E–C♯ is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Major 6th",
+      "Minor 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-426",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to A is a(n):",
+    "explanation": "Measured downwards, B♭–A is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 3rd",
+      "Major 2nd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-427",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G down to D♭ is a(n):",
+    "explanation": "Measured downwards, G–D♭ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Minor 6th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-428",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F♭ down to B♭ is a(n):",
+    "explanation": "Measured downwards, F♭–B♭ is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Augmented 4th",
+      "Minor 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-429",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to A♭ is a(n):",
+    "explanation": "Measured downwards, G–A♭ is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Major 3rd",
+      "Perfect 4th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-430",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to B♭ is a(n):",
+    "explanation": "Measured downwards, F–B♭ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Major 2nd",
+      "Minor 2nd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-431",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 3rd above the given note.",
+    "abc": "F",
+    "explanation": "A minor 3rd above F is A♭ (3 semitones, 3 letter names).",
+    "choicesAbc": [
+      "_A",
+      "__A",
+      "A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A♭",
+      "A♭♭",
+      "A",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-432",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a diminished 5th above the given note.",
+    "abc": "F",
+    "explanation": "A diminished 5th above F is C♭ (6 semitones, 5 letter names).",
+    "choicesAbc": [
+      "_c",
+      "__c",
+      "c",
+      "^c",
+      "^^c"
+    ],
+    "choices": [
+      "C♭",
+      "C♭♭",
+      "C",
+      "C♯",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-433",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a augmented 4th above the given note.",
+    "abc": "D",
+    "explanation": "A augmented 4th above D is G♯ (6 semitones, 4 letter names).",
+    "choicesAbc": [
+      "^G",
+      "__G",
+      "_G",
+      "G",
+      "^^G"
+    ],
+    "choices": [
+      "G♯",
+      "G♭♭",
+      "G♭",
+      "G",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-434",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 5th above the given note.",
+    "abc": "E",
+    "explanation": "A perfect 5th above E is B (7 semitones, 5 letter names).",
+    "choicesAbc": [
+      "B",
+      "__B",
+      "_B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B",
+      "B♭♭",
+      "B♭",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-435",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 2nd above the given note.",
+    "abc": "A",
+    "explanation": "A major 2nd above A is B (2 semitones, 2 letter names).",
+    "choicesAbc": [
+      "B",
+      "__B",
+      "_B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B",
+      "B♭♭",
+      "B♭",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-436",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ down to B is a(n):",
+    "explanation": "Measured downwards, G♯–B is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Major 3rd",
+      "Perfect 5th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-437",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, A♯–C♯ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Minor 6th",
+      "Perfect 4th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-438",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ down to F is a(n):",
+    "explanation": "Measured downwards, A♭–F is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Diminished 5th",
+      "Major 2nd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-439",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 7th above the given note.",
+    "abc": "A",
+    "explanation": "A minor 7th above A is G (10 semitones, 7 letter names).",
+    "choicesAbc": [
+      "g",
+      "__g",
+      "_g",
+      "^g",
+      "^^g"
+    ],
+    "choices": [
+      "G",
+      "G♭♭",
+      "G♭",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-440",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, F♭–E♭ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Minor 6th",
+      "Major 3rd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-441",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a diminished 5th above the given note.",
+    "abc": "E",
+    "explanation": "A diminished 5th above E is B♭ (6 semitones, 5 letter names).",
+    "choicesAbc": [
+      "_B",
+      "__B",
+      "B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B♭",
+      "B♭♭",
+      "B",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-442",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 6th above the given note.",
+    "abc": "G",
+    "explanation": "A minor 6th above G is E♭ (8 semitones, 6 letter names).",
+    "choicesAbc": [
+      "_e",
+      "__e",
+      "e",
+      "^e",
+      "^^e"
+    ],
+    "choices": [
+      "E♭",
+      "E♭♭",
+      "E",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-443",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to C is a(n):",
+    "explanation": "Measured downwards, B–C is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 6th",
+      "Major 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-444",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 7th above the given note.",
+    "abc": "F",
+    "explanation": "A minor 7th above F is E♭ (10 semitones, 7 letter names).",
+    "choicesAbc": [
+      "_e",
+      "__e",
+      "e",
+      "^e",
+      "^^e"
+    ],
+    "choices": [
+      "E♭",
+      "E♭♭",
+      "E",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-445",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to B is a(n):",
+    "explanation": "Measured downwards, A–B is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Diminished 5th",
+      "Minor 6th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-446",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Choose the note a diminished 5th above the given note.",
+    "abc": "A",
+    "explanation": "A diminished 5th above A is E♭ (6 semitones, 5 letter names).",
+    "choicesAbc": [
+      "_e",
+      "__e",
+      "e",
+      "^e",
+      "^^e"
+    ],
+    "choices": [
+      "E♭",
+      "E♭♭",
+      "E",
+      "E♯",
+      "E♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-447",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ down to B♭ is a(n):",
+    "explanation": "Measured downwards, A♭–B♭ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Minor 2nd",
+      "Diminished 5th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-448",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A down to G♯ is a(n):",
+    "explanation": "Measured downwards, A–G♯ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Perfect 5th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-449",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to G♯ is a(n):",
+    "explanation": "Measured downwards, E–G♯ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 2nd",
+      "Perfect 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-450",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 2nd above the given note.",
+    "abc": "A",
+    "explanation": "A minor 2nd above A is B♭ (1 semitones, 2 letter names).",
+    "choicesAbc": [
+      "_B",
+      "__B",
+      "B",
+      "^B",
+      "^^B"
+    ],
+    "choices": [
+      "B♭",
+      "B♭♭",
+      "B",
+      "B♯",
+      "B♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-451",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C♭ down to F is a(n):",
+    "explanation": "Measured downwards, C♭–F is the same diminished 5th (5 letter names, 6 semitones).",
+    "choices": [
+      "Diminished 5th",
+      "Major 6th",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-452",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to B♭ is a(n):",
+    "explanation": "Measured downwards, C–B♭ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Perfect 5th",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-453",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♭ down to A♭ is a(n):",
+    "explanation": "Measured downwards, G♭–A♭ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Diminished 5th",
+      "Perfect 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-454",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to B is a(n):",
+    "explanation": "Measured downwards, D–B is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Perfect 5th",
+      "Augmented 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-455",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, B♭–D♭ is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Minor 3rd",
+      "Perfect 4th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-456",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ down to D is a(n):",
+    "explanation": "Measured downwards, E♭–D is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 6th",
+      "Minor 3rd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-457",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to G is a(n):",
+    "explanation": "Measured downwards, C–G is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Minor 7th",
+      "Minor 6th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-458",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to D is a(n):",
+    "explanation": "Measured downwards, F–D is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Major 3rd",
+      "Minor 7th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-459",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ down to A is a(n):",
+    "explanation": "Measured downwards, G♯–A is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Augmented 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-460",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 2nd above the given note.",
+    "abc": "G",
+    "explanation": "A major 2nd above G is A (2 semitones, 2 letter names).",
+    "choicesAbc": [
+      "A",
+      "__A",
+      "_A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A",
+      "A♭♭",
+      "A♭",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-461",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 3rd above the given note.",
+    "abc": "A",
+    "explanation": "A major 3rd above A is C♯ (4 semitones, 3 letter names).",
+    "choicesAbc": [
+      "^c",
+      "__c",
+      "_c",
+      "c",
+      "^^c"
+    ],
+    "choices": [
+      "C♯",
+      "C♭♭",
+      "C♭",
+      "C",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-462",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 3rd above the given note.",
+    "abc": "A",
+    "explanation": "A minor 3rd above A is C (3 semitones, 3 letter names).",
+    "choicesAbc": [
+      "c",
+      "__c",
+      "_c",
+      "^c",
+      "^^c"
+    ],
+    "choices": [
+      "C",
+      "C♭♭",
+      "C♭",
+      "C♯",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-463",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♯ down to C♯ is a(n):",
+    "explanation": "Measured downwards, D♯–C♯ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Minor 7th",
+      "Minor 6th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-464",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 6th above the given note.",
+    "abc": "F",
+    "explanation": "A minor 6th above F is D♭ (8 semitones, 6 letter names).",
+    "choicesAbc": [
+      "_d",
+      "__d",
+      "d",
+      "^d",
+      "^^d"
+    ],
+    "choices": [
+      "D♭",
+      "D♭♭",
+      "D",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-465",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to F♯ is a(n):",
+    "explanation": "Measured downwards, E–F♯ is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Major 6th",
+      "Diminished 5th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-466",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to G is a(n):",
+    "explanation": "Measured downwards, F♯–G is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Perfect 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-467",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B♯ down to F♯ is a(n):",
+    "explanation": "Measured downwards, B♯–F♯ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 3rd",
+      "Major 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-468",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to F is a(n):",
+    "explanation": "Measured downwards, D–F is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-469",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to D is a(n):",
+    "explanation": "Measured downwards, F♯–D is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Minor 7th",
+      "Perfect 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-470",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to D is a(n):",
+    "explanation": "Measured downwards, B–D is the same major 6th (6 letter names, 9 semitones).",
+    "choices": [
+      "Major 6th",
+      "Diminished 5th",
+      "Augmented 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-471",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to F is a(n):",
+    "explanation": "Measured downwards, E–F is the same major 7th (7 letter names, 11 semitones).",
+    "choices": [
+      "Major 7th",
+      "Major 6th",
+      "Major 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-472",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C down to A♭ is a(n):",
+    "explanation": "Measured downwards, C–A♭ is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Minor 2nd",
+      "Diminished 5th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-473",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 2nd above the given note.",
+    "abc": "E",
+    "explanation": "A minor 2nd above E is F (1 semitones, 2 letter names).",
+    "choicesAbc": [
+      "F",
+      "__F",
+      "_F",
+      "^F",
+      "^^F"
+    ],
+    "choices": [
+      "F",
+      "F♭♭",
+      "F♭",
+      "F♯",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-474",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♯ down to B is a(n):",
+    "explanation": "Measured downwards, D♯–B is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-475",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C♯♯ down to G♯ is a(n):",
+    "explanation": "Measured downwards, C♯♯–G♯ is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 7th",
+      "Major 2nd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-476",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to F is a(n):",
+    "explanation": "Measured downwards, G–F is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Minor 7th",
+      "Major 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-477",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ down to B is a(n):",
+    "explanation": "Measured downwards, C♯–B is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Minor 3rd",
+      "Perfect 4th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-478",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B down to F♯ is a(n):",
+    "explanation": "Measured downwards, B–F♯ is the same perfect 4th (4 letter names, 5 semitones).",
+    "choices": [
+      "Perfect 4th",
+      "Major 2nd",
+      "Perfect 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-479",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, B♭–E♭ is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Perfect 4th",
+      "Diminished 5th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-480",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 3rd above the given note.",
+    "abc": "D",
+    "explanation": "A major 3rd above D is F♯ (4 semitones, 3 letter names).",
+    "choicesAbc": [
+      "^F",
+      "__F",
+      "_F",
+      "F",
+      "^^F"
+    ],
+    "choices": [
+      "F♯",
+      "F♭♭",
+      "F♭",
+      "F",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-481",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 6th above the given note.",
+    "abc": "A",
+    "explanation": "A major 6th above A is F♯ (9 semitones, 6 letter names).",
+    "choicesAbc": [
+      "^f",
+      "__f",
+      "_f",
+      "f",
+      "^^f"
+    ],
+    "choices": [
+      "F♯",
+      "F♭♭",
+      "F♭",
+      "F",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-482",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to E is a(n):",
+    "explanation": "Measured downwards, F–E is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-483",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to B is a(n):",
+    "explanation": "Measured downwards, F♯–B is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Major 7th",
+      "Minor 2nd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-484",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 7th above the given note.",
+    "abc": "D",
+    "explanation": "A minor 7th above D is C (10 semitones, 7 letter names).",
+    "choicesAbc": [
+      "c",
+      "__c",
+      "_c",
+      "^c",
+      "^^c"
+    ],
+    "choices": [
+      "C",
+      "C♭♭",
+      "C♭",
+      "C♯",
+      "C♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-485",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭♭ down to D♭ is a(n):",
+    "explanation": "Measured downwards, B♭♭–D♭ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Minor 3rd",
+      "Major 7th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-486",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to F♯ is a(n):",
+    "explanation": "Measured downwards, G–F♯ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 2nd",
+      "Major 6th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-487",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 4th above the given note.",
+    "abc": "D",
+    "explanation": "A perfect 4th above D is G (5 semitones, 4 letter names).",
+    "choicesAbc": [
+      "G",
+      "__G",
+      "_G",
+      "^G",
+      "^^G"
+    ],
+    "choices": [
+      "G",
+      "G♭♭",
+      "G♭",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-488",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G down to C is a(n):",
+    "explanation": "Measured downwards, G–C is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Perfect 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-489",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E down to A is a(n):",
+    "explanation": "Measured downwards, E–A is the same perfect 5th (5 letter names, 7 semitones).",
+    "choices": [
+      "Perfect 5th",
+      "Minor 3rd",
+      "Major 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-490",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 7th above the given note.",
+    "abc": "E",
+    "explanation": "A major 7th above E is D♯ (11 semitones, 7 letter names).",
+    "choicesAbc": [
+      "^d",
+      "__d",
+      "_d",
+      "d",
+      "^^d"
+    ],
+    "choices": [
+      "D♯",
+      "D♭♭",
+      "D♭",
+      "D",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-491",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ down to C is a(n):",
+    "explanation": "Measured downwards, D♭–C is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 2nd",
+      "Major 3rd",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-492",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ down to G is a(n):",
+    "explanation": "Measured downwards, B♭–G is the same minor 3rd (3 letter names, 3 semitones).",
+    "choices": [
+      "Minor 3rd",
+      "Perfect 4th",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-493",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♭ down to E♭ is a(n):",
+    "explanation": "Measured downwards, C♭–E♭ is the same minor 6th (6 letter names, 8 semitones).",
+    "choices": [
+      "Minor 6th",
+      "Major 2nd",
+      "Augmented 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-494",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 2nd above the given note.",
+    "abc": "F",
+    "explanation": "A major 2nd above F is G (2 semitones, 2 letter names).",
+    "choicesAbc": [
+      "G",
+      "__G",
+      "_G",
+      "^G",
+      "^^G"
+    ],
+    "choices": [
+      "G",
+      "G♭♭",
+      "G♭",
+      "G♯",
+      "G♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-495",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E♯ down to B is a(n):",
+    "explanation": "Measured downwards, E♯–B is the same augmented 4th (4 letter names, 6 semitones).",
+    "choices": [
+      "Augmented 4th",
+      "Major 7th",
+      "Diminished 5th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-496",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ down to E is a(n):",
+    "explanation": "Measured downwards, F♯–E is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Minor 7th",
+      "Augmented 4th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-497",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ down to A is a(n):",
+    "explanation": "Measured downwards, C♯–A is the same major 3rd (3 letter names, 4 semitones).",
+    "choices": [
+      "Major 3rd",
+      "Major 6th",
+      "Diminished 5th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-498",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to G is a(n):",
+    "explanation": "Measured downwards, F–G is the same minor 7th (7 letter names, 10 semitones).",
+    "choices": [
+      "Minor 7th",
+      "Minor 6th",
+      "Augmented 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-499",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a perfect 5th above the given note.",
+    "abc": "D",
+    "explanation": "A perfect 5th above D is A (7 semitones, 5 letter names).",
+    "choicesAbc": [
+      "A",
+      "__A",
+      "_A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A",
+      "A♭♭",
+      "A♭",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-500",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D down to C♯ is a(n):",
+    "explanation": "Measured downwards, D–C♯ is the same minor 2nd (2 letter names, 1 semitones).",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Minor 7th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-501",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F down to E♭ is a(n):",
+    "explanation": "Measured downwards, F–E♭ is the same major 2nd (2 letter names, 2 semitones).",
+    "choices": [
+      "Major 2nd",
+      "Major 6th",
+      "Minor 3rd",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-502",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 2nd above the given note.",
+    "abc": "E",
+    "explanation": "A major 2nd above E is F♯ (2 semitones, 2 letter names).",
+    "choicesAbc": [
+      "^F",
+      "__F",
+      "_F",
+      "F",
+      "^^F"
+    ],
+    "choices": [
+      "F♯",
+      "F♭♭",
+      "F♭",
+      "F",
+      "F♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-503",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 6th above the given note.",
+    "abc": "D",
+    "explanation": "A minor 6th above D is B♭.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "_B",
+    "answerName": "B♭"
+  },
+  {
+    "id": "iv-504",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 3rd above the given note.",
+    "abc": "D",
+    "explanation": "A major 3rd above D is F♯.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "^F",
+    "answerName": "F♯"
+  },
+  {
+    "id": "iv-505",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 6th above the given note.",
+    "abc": "D",
+    "explanation": "A major 6th above D is B.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "B",
+    "answerName": "B"
+  },
+  {
+    "id": "iv-506",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a augmented 4th above the given note.",
+    "abc": "E",
+    "explanation": "A augmented 4th above E is A♯.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "^A",
+    "answerName": "A♯"
+  },
+  {
+    "id": "iv-507",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a augmented 4th above the given note.",
+    "abc": "G",
+    "explanation": "A augmented 4th above G is C♯.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "^c",
+    "answerName": "C♯"
+  },
+  {
+    "id": "iv-508",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 7th above the given note.",
+    "abc": "G",
+    "explanation": "A major 7th above G is F♯.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "^f",
+    "answerName": "F♯"
+  },
+  {
+    "id": "iv-509",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 6th above the given note.",
+    "abc": "A",
+    "explanation": "A major 6th above A is F♯.",
+    "type": "build",
+    "startAbc": "a",
+    "answerAbc": "^f",
+    "answerName": "F♯"
+  },
+  {
+    "id": "iv-510",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 2nd above the given note.",
+    "abc": "D",
+    "explanation": "A minor 2nd above D is E♭.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "_E",
+    "answerName": "E♭"
+  },
+  {
+    "id": "iv-511",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 6th above the given note.",
+    "abc": "E",
+    "explanation": "A major 6th above E is C♯.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "^c",
+    "answerName": "C♯"
+  },
+  {
+    "id": "iv-512",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 6th above the given note.",
+    "abc": "F",
+    "explanation": "A minor 6th above F is D♭.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "_d",
+    "answerName": "D♭"
+  },
+  {
+    "id": "iv-513",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 6th above the given note.",
+    "abc": "E",
+    "explanation": "A minor 6th above E is C.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "c",
+    "answerName": "C"
+  },
+  {
+    "id": "iv-514",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 5th above the given note.",
+    "abc": "E",
+    "explanation": "A perfect 5th above E is B.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "B",
+    "answerName": "B"
+  },
+  {
+    "id": "iv-515",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 2nd above the given note.",
+    "abc": "F",
+    "explanation": "A minor 2nd above F is G♭.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "_G",
+    "answerName": "G♭"
+  },
+  {
+    "id": "iv-516",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 6th above the given note.",
+    "abc": "F",
+    "explanation": "A major 6th above F is D.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "d",
+    "answerName": "D"
+  },
+  {
+    "id": "iv-517",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a diminished 5th above the given note.",
+    "abc": "G",
+    "explanation": "A diminished 5th above G is D♭.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "_d",
+    "answerName": "D♭"
+  },
+  {
+    "id": "iv-518",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a augmented 4th above the given note.",
+    "abc": "F",
+    "explanation": "A augmented 4th above F is B.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "B",
+    "answerName": "B"
+  },
+  {
+    "id": "iv-519",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 7th above the given note.",
+    "abc": "G",
+    "explanation": "A minor 7th above G is F.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "f",
+    "answerName": "F"
+  },
+  {
+    "id": "iv-520",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a perfect 5th above the given note.",
+    "abc": "D",
+    "explanation": "A perfect 5th above D is A.",
+    "type": "build",
+    "startAbc": "d",
+    "answerAbc": "A",
+    "answerName": "A"
+  },
+  {
+    "id": "iv-521",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 3rd above the given note.",
+    "abc": "G",
+    "explanation": "A major 3rd above G is B.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "B",
+    "answerName": "B"
+  },
+  {
+    "id": "iv-522",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 2nd above the given note.",
+    "abc": "G",
+    "explanation": "A major 2nd above G is A.",
+    "type": "build",
+    "startAbc": "g",
+    "answerAbc": "A",
+    "answerName": "A"
+  },
+  {
+    "id": "iv-523",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a minor 3rd above the given note.",
+    "abc": "E",
+    "explanation": "A minor 3rd above E is G.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "G",
+    "answerName": "G"
+  },
+  {
+    "id": "iv-524",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Drag the note up/down (and set the accidental) to form a diminished 5th above the given note.",
+    "abc": "F",
+    "explanation": "A diminished 5th above F is C♭.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "_c",
+    "answerName": "C♭"
+  },
+  {
+    "id": "iv-525",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 3rd above the given note.",
+    "abc": "F",
+    "explanation": "A major 3rd above F is A.",
+    "type": "build",
+    "startAbc": "f",
+    "answerAbc": "A",
+    "answerName": "A"
+  },
+  {
+    "id": "iv-526",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Drag the note up/down (and set the accidental) to form a major 7th above the given note.",
+    "abc": "E",
+    "explanation": "A major 7th above E is D♯.",
+    "type": "build",
+    "startAbc": "e",
+    "answerAbc": "^d",
+    "answerName": "D♯"
+  },
+  {
+    "id": "iv-527",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 2nd plus an octave is called a:",
+    "explanation": "Add 7 to the number, keep the quality: a major 2nd + an octave = a major 9th.",
+    "choices": [
+      "Major 9th",
+      "Minor 9th",
+      "Perfect 12th",
+      "Minor 10th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-528",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 3rd plus an octave is called a:",
+    "explanation": "Add 7 to the number, keep the quality: a major 3rd + an octave = a major 10th.",
+    "choices": [
+      "Major 10th",
+      "Perfect 10th",
+      "Major 11th",
+      "Minor 10th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-529",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A minor 3rd plus an octave is called a:",
+    "explanation": "Add 7 to the number, keep the quality: a minor 3rd + an octave = a minor 10th.",
+    "choices": [
+      "Minor 10th",
+      "Major 10th",
+      "Perfect 10th",
+      "Major 9th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-530",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A perfect 4th plus an octave is called a:",
+    "explanation": "Add 7 to the number, keep the quality: a perfect 4th + an octave = a perfect 11th.",
+    "choices": [
+      "Perfect 11th",
+      "Perfect 10th",
+      "Major 9th",
+      "Major 11th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-531",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A perfect 5th plus an octave is called a:",
+    "explanation": "Add 7 to the number, keep the quality: a perfect 5th + an octave = a perfect 12th.",
+    "choices": [
+      "Perfect 12th",
+      "Major 9th",
+      "Perfect 10th",
+      "Perfect 11th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-532",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 6th plus an octave is called a:",
+    "explanation": "Add 7 to the number, keep the quality: a major 6th + an octave = a major 13th.",
+    "choices": [
+      "Major 13th",
+      "Major 11th",
+      "Major 9th",
+      "Perfect 12th"
     ],
     "answer": 0
   }

@@ -22,6 +22,12 @@ UIUX/
 .env
 data/proposed/
 
+# GCP service-account JSON keys — NEVER commit (prefer storing them outside the repo)
+secrets/
+*service-account*.json
+*sa-key*.json
+gcp-*.json
+
 # Local ABRSM reference material (copyright — never publish)
 ABRSM 官网材料/
 

@@ -1638,5 +1638,2572 @@
       "poco"
     ],
     "answer": 0
+  },
+  {
+    "id": "ts-123",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"without\"?",
+    "explanation": "senza (It.) = without.",
+    "choices": [
+      "senza",
+      "fortissimo",
+      "affettuoso",
+      "lebhaft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-124",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"in an undertone\"?",
+    "explanation": "sotto voce (It.) = in an undertone.",
+    "choices": [
+      "sotto voce",
+      "a tempo",
+      "mit",
+      "energico"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-125",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"diminuendo\" mean?",
+    "explanation": "diminuendo (It.) = getting gradually softer.",
+    "choices": [
+      "getting gradually softer",
+      "slow down, yield",
+      "with the bow",
+      "little by little"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-126",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"con brio\" mean?",
+    "explanation": "con brio (It.) = with vigour.",
+    "choices": [
+      "with vigour",
+      "go straight on",
+      "in the same way",
+      "marked, emphatic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-127",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"modéré\" means \"slow\" — true or false?",
+    "explanation": "modéré (Fr.) means \"at a moderate speed\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-128",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"in a singing style\"?",
+    "explanation": "cantabile (It.) = in a singing style.",
+    "choices": [
+      "cantabile",
+      "morendo",
+      "molto",
+      "grazioso"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-129",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"andante\" means \"slow\" — true or false?",
+    "explanation": "andante (It.) means \"at a walking pace\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-130",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"ruhig\" mean?",
+    "explanation": "ruhig (Ger.) = calm, peaceful.",
+    "choices": [
+      "calm, peaceful",
+      "loud",
+      "at a moderate speed",
+      "with"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-131",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"go straight on\"?",
+    "explanation": "attacca (It.) = go straight on.",
+    "choices": [
+      "attacca",
+      "mezzo-piano",
+      "moderato",
+      "rallentando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-132",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"rather slow\"?",
+    "explanation": "larghetto (It.) = rather slow.",
+    "choices": [
+      "larghetto",
+      "allegretto",
+      "semplice",
+      "forte"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-133",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"calando\" mean?",
+    "explanation": "calando (It.) = getting softer and slower.",
+    "choices": [
+      "getting softer and slower",
+      "as fast as possible",
+      "more movement, faster",
+      "marked, emphatic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-134",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"morendo\" mean?",
+    "explanation": "morendo (It.) = dying away.",
+    "choices": [
+      "dying away",
+      "very",
+      "gradually getting faster",
+      "with the bow"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-135",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"staccatissimo\" means \"slow\" — true or false?",
+    "explanation": "staccatissimo (It.) means \"very detached\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-136",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"ritenuto\" means \"slow\" — true or false?",
+    "explanation": "ritenuto (It.) means \"held back at once\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-137",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"andantino\" means \"slow\" — true or false?",
+    "explanation": "andantino (It.) means \"slightly faster than andante\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-138",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"ma non troppo\" mean?",
+    "explanation": "ma non troppo (It.) = but not too much.",
+    "choices": [
+      "but not too much",
+      "broadening, getting slower",
+      "very loud",
+      "getting gradually louder"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-139",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"expressively\"?",
+    "explanation": "espressivo (It.) = expressively.",
+    "choices": [
+      "espressivo",
+      "bewegt",
+      "rubato",
+      "rallentando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-140",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"pizzicato\" mean?",
+    "explanation": "pizzicato (It.) = plucked.",
+    "choices": [
+      "plucked",
+      "at a walking pace",
+      "with",
+      "without the mute"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-141",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"lento\" means \"quick, lively\" — true or false?",
+    "explanation": "lento (It.) means \"slow\", not \"quick, lively\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-142",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"léger\" mean?",
+    "explanation": "léger (Fr.) = light.",
+    "choices": [
+      "light",
+      "gracefully",
+      "getting gradually softer",
+      "lightly"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-143",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"with the bow\"?",
+    "explanation": "arco (It.) = with the bow.",
+    "choices": [
+      "arco",
+      "mezzo-piano",
+      "coda",
+      "staccato"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-144",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"lent\" mean?",
+    "explanation": "lent (Fr.) = slow.",
+    "choices": [
+      "slow",
+      "gradually getting faster",
+      "held back at once",
+      "getting gradually louder"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-145",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"very soft\"?",
+    "explanation": "pianissimo (It.) = very soft.",
+    "choices": [
+      "pianissimo",
+      "forte",
+      "lent",
+      "ritenuto"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-146",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"agitato\" mean?",
+    "explanation": "agitato (It.) = agitated.",
+    "choices": [
+      "agitated",
+      "suddenly",
+      "very soft",
+      "from the beginning"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-147",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"lebhaft\" means \"slow\" — true or false?",
+    "explanation": "lebhaft (Ger.) means \"lively\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-148",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"prestissimo\" mean?",
+    "explanation": "prestissimo (It.) = as fast as possible.",
+    "choices": [
+      "as fast as possible",
+      "sweet, soft",
+      "from the beginning",
+      "energetically"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-149",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"a tempo\" means \"slow\" — true or false?",
+    "explanation": "a tempo (It.) means \"return to the original speed\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-150",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"grazioso\" mean?",
+    "explanation": "grazioso (It.) = gracefully.",
+    "choices": [
+      "gracefully",
+      "more",
+      "heavily",
+      "tender"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-151",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"pesante\" means \"slow\" — true or false?",
+    "explanation": "pesante (It.) means \"heavily\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-152",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"rubato\" means \"slow\" — true or false?",
+    "explanation": "rubato (It.) means \"with flexible time\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-153",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"accelerando\" means \"slow\" — true or false?",
+    "explanation": "accelerando (It.) means \"gradually getting faster\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-154",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"deciso\" mean?",
+    "explanation": "deciso (It.) = decisively.",
+    "choices": [
+      "decisively",
+      "moderately loud",
+      "moderately soft",
+      "suddenly"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-155",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"a little\"?",
+    "explanation": "poco (It.) = a little.",
+    "choices": [
+      "poco",
+      "quasi",
+      "scherzando",
+      "cantabile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-156",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"bewegt\" means \"slow\" — true or false?",
+    "explanation": "bewegt (Ger.) means \"with movement\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-157",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"tender\"?",
+    "explanation": "zart (Ger.) = tender.",
+    "choices": [
+      "zart",
+      "meno",
+      "andantino",
+      "vif"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-158",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"zart\" means \"slow\" — true or false?",
+    "explanation": "zart (Ger.) means \"tender\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-159",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"the end\"?",
+    "explanation": "fine (It.) = the end.",
+    "choices": [
+      "fine",
+      "ritenuto",
+      "vivace",
+      "cantabile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-160",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"piano\" mean?",
+    "explanation": "piano (It.) = soft.",
+    "choices": [
+      "soft",
+      "with flexible time",
+      "playfully",
+      "sweet, soft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-161",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"semplice\" means \"slow\" — true or false?",
+    "explanation": "semplice (It.) means \"simply\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-162",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"from the beginning\"?",
+    "explanation": "da capo (It.) = from the beginning.",
+    "choices": [
+      "da capo",
+      "retenu",
+      "calando",
+      "presto"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-163",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"léger\" means \"slow\" — true or false?",
+    "explanation": "léger (Fr.) means \"light\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-164",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"dal segno\" means \"slow\" — true or false?",
+    "explanation": "dal segno (It.) means \"from the sign\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-165",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"andantino\" mean?",
+    "explanation": "andantino (It.) = slightly faster than andante.",
+    "choices": [
+      "slightly faster than andante",
+      "sweet, soft",
+      "getting gradually louder",
+      "lively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-166",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"very detached\"?",
+    "explanation": "staccatissimo (It.) = very detached.",
+    "choices": [
+      "staccatissimo",
+      "mit",
+      "lebhaft",
+      "fine"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-167",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"poco a poco\" mean?",
+    "explanation": "poco a poco (It.) = little by little.",
+    "choices": [
+      "little by little",
+      "playfully",
+      "sweetly",
+      "decisively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-168",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"rinforzando\" mean?",
+    "explanation": "rinforzando (It.) = a sudden reinforcing accent.",
+    "choices": [
+      "a sudden reinforcing accent",
+      "soft",
+      "go straight on",
+      "getting gradually louder"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-169",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"mezzo-piano\" means \"slow\" — true or false?",
+    "explanation": "mezzo-piano (It.) means \"moderately soft\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-170",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"con\" mean?",
+    "explanation": "con (It.) = with.",
+    "choices": [
+      "with",
+      "decisively",
+      "detached, short",
+      "moderately soft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-171",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"tranquillo\" means \"slow\" — true or false?",
+    "explanation": "tranquillo (It.) means \"calmly\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-172",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"subito\" mean?",
+    "explanation": "subito (It.) = suddenly.",
+    "choices": [
+      "suddenly",
+      "moderately loud",
+      "energetically",
+      "majestically"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-173",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"getting gradually louder\"?",
+    "explanation": "crescendo (It.) = getting gradually louder.",
+    "choices": [
+      "crescendo",
+      "agitato",
+      "rubato",
+      "andante"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-174",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"presto\" means \"slow\" — true or false?",
+    "explanation": "presto (It.) means \"very fast\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-175",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"crescendo\" mean?",
+    "explanation": "crescendo (It.) = getting gradually louder.",
+    "choices": [
+      "getting gradually louder",
+      "at a moderate speed",
+      "light",
+      "at a walking pace"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-176",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"held back at once\"?",
+    "explanation": "ritenuto (It.) = held back at once.",
+    "choices": [
+      "ritenuto",
+      "animé",
+      "arco",
+      "calando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-177",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"vif\" means \"slow\" — true or false?",
+    "explanation": "vif (Fr.) means \"lively\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-178",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"gradually getting faster\"?",
+    "explanation": "accelerando (It.) = gradually getting faster.",
+    "choices": [
+      "accelerando",
+      "langsam",
+      "a tempo",
+      "fortissimo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-179",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"leggiero\" mean?",
+    "explanation": "leggiero (It.) = lightly.",
+    "choices": [
+      "lightly",
+      "rather slow",
+      "return to the original speed",
+      "light"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-180",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"very fast\"?",
+    "explanation": "presto (It.) = very fast.",
+    "choices": [
+      "presto",
+      "subito",
+      "allegro",
+      "poco"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-181",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"largo\" means \"slow\" — true or false?",
+    "explanation": "largo (It.) means \"slow and broad\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-182",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"giocoso\" mean?",
+    "explanation": "giocoso (It.) = merry, playful.",
+    "choices": [
+      "merry, playful",
+      "with",
+      "fairly quick",
+      "very, much"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-183",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"sotto voce\" mean?",
+    "explanation": "sotto voce (It.) = in an undertone.",
+    "choices": [
+      "in an undertone",
+      "soft",
+      "more movement, faster",
+      "lively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-184",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"marcato\" mean?",
+    "explanation": "marcato (It.) = marked, emphatic.",
+    "choices": [
+      "marked, emphatic",
+      "as fast as possible",
+      "playfully",
+      "held back at once"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-185",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"quasi\" mean?",
+    "explanation": "quasi (It.) = almost, as if.",
+    "choices": [
+      "almost, as if",
+      "getting softer and slower",
+      "light",
+      "a sudden reinforcing accent"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-186",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"held for full value\"?",
+    "explanation": "tenuto (It.) = held for full value.",
+    "choices": [
+      "tenuto",
+      "morendo",
+      "sforzando",
+      "lebhaft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-187",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"scherzando\" mean?",
+    "explanation": "scherzando (It.) = playfully.",
+    "choices": [
+      "playfully",
+      "calmly",
+      "expressively",
+      "getting softer and slower"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-188",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"coda\" means \"slow\" — true or false?",
+    "explanation": "coda (It.) means \"a closing section\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-189",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"simply\"?",
+    "explanation": "semplice (It.) = simply.",
+    "choices": [
+      "semplice",
+      "dal segno",
+      "senza sordino",
+      "espressivo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-190",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"moderately loud\"?",
+    "explanation": "mezzo-forte (It.) = moderately loud.",
+    "choices": [
+      "mezzo-forte",
+      "allegretto",
+      "andantino",
+      "da capo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-191",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"ma non troppo\" means \"slow\" — true or false?",
+    "explanation": "ma non troppo (It.) means \"but not too much\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-192",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"pianissimo\" means \"slow\" — true or false?",
+    "explanation": "pianissimo (It.) means \"very soft\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-193",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"little by little\"?",
+    "explanation": "poco a poco (It.) = little by little.",
+    "choices": [
+      "poco a poco",
+      "forte",
+      "giocoso",
+      "subito"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-194",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"molto\" means \"slow\" — true or false?",
+    "explanation": "molto (It.) means \"very, much\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-195",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"da capo\" mean?",
+    "explanation": "da capo (It.) = from the beginning.",
+    "choices": [
+      "from the beginning",
+      "plucked",
+      "less movement, slower",
+      "expressively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-196",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"moderato\" means \"slow\" — true or false?",
+    "explanation": "moderato (It.) means \"at a moderate speed\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-197",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"fairly quick\"?",
+    "explanation": "allegretto (It.) = fairly quick.",
+    "choices": [
+      "allegretto",
+      "leggiero",
+      "rubato",
+      "sostenuto"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-198",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"accelerando\" mean?",
+    "explanation": "accelerando (It.) = gradually getting faster.",
+    "choices": [
+      "gradually getting faster",
+      "bold, resolute",
+      "energetically",
+      "very loud"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-199",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"less movement, slower\"?",
+    "explanation": "meno mosso (It.) = less movement, slower.",
+    "choices": [
+      "meno mosso",
+      "quasi",
+      "calando",
+      "con brio"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-200",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"assai\" mean?",
+    "explanation": "assai (It.) = very.",
+    "choices": [
+      "very",
+      "very fast",
+      "agitated",
+      "calm, peaceful"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-201",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"mit\" mean?",
+    "explanation": "mit (Ger.) = with.",
+    "choices": [
+      "with",
+      "a sudden reinforcing accent",
+      "expressively",
+      "animated"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-202",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"pizzicato\" means \"slow\" — true or false?",
+    "explanation": "pizzicato (It.) means \"plucked\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-203",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"meno mosso\" mean?",
+    "explanation": "meno mosso (It.) = less movement, slower.",
+    "choices": [
+      "less movement, slower",
+      "broadening, getting slower",
+      "sweetly",
+      "animated, lively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-204",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"allegro\" means \"slow\" — true or false?",
+    "explanation": "allegro (It.) means \"quick, lively\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-205",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"ritenuto\" mean?",
+    "explanation": "ritenuto (It.) = held back at once.",
+    "choices": [
+      "held back at once",
+      "majestically",
+      "a little",
+      "slow and broad"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-206",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"quick, lively\"?",
+    "explanation": "allegro (It.) = quick, lively.",
+    "choices": [
+      "allegro",
+      "calando",
+      "animato",
+      "dolce"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-207",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"bold, resolute\"?",
+    "explanation": "risoluto (It.) = bold, resolute.",
+    "choices": [
+      "risoluto",
+      "poco a poco",
+      "simile",
+      "sempre"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-208",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"gracefully\"?",
+    "explanation": "grazioso (It.) = gracefully.",
+    "choices": [
+      "grazioso",
+      "staccato",
+      "prestissimo",
+      "lent"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-209",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"risoluto\" means \"slow\" — true or false?",
+    "explanation": "risoluto (It.) means \"bold, resolute\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-210",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"cantabile\" mean?",
+    "explanation": "cantabile (It.) = in a singing style.",
+    "choices": [
+      "in a singing style",
+      "little by little",
+      "very fast",
+      "but not too much"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-211",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"con moto\" mean?",
+    "explanation": "con moto (It.) = with movement.",
+    "choices": [
+      "with movement",
+      "detached, short",
+      "lively and fast",
+      "little by little"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-212",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"always\"?",
+    "explanation": "sempre (It.) = always.",
+    "choices": [
+      "sempre",
+      "mezzo-piano",
+      "tenuto",
+      "langsam"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-213",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"tenderly\"?",
+    "explanation": "affettuoso (It.) = tenderly.",
+    "choices": [
+      "affettuoso",
+      "crescendo",
+      "diminuendo",
+      "senza"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-214",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"almost, as if\"?",
+    "explanation": "quasi (It.) = almost, as if.",
+    "choices": [
+      "quasi",
+      "energico",
+      "forte",
+      "sotto voce"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-215",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"espressivo\" mean?",
+    "explanation": "espressivo (It.) = expressively.",
+    "choices": [
+      "expressively",
+      "but not too much",
+      "quick, lively",
+      "gradually getting faster"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-216",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"meno mosso\" means \"slow\" — true or false?",
+    "explanation": "meno mosso (It.) means \"less movement, slower\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-217",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"calando\" means \"slow\" — true or false?",
+    "explanation": "calando (It.) means \"getting softer and slower\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-218",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"mässig\" mean?",
+    "explanation": "mässig (Ger.) = at a moderate speed.",
+    "choices": [
+      "at a moderate speed",
+      "expressively",
+      "a sudden reinforcing accent",
+      "at a walking pace"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-219",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"poco\" mean?",
+    "explanation": "poco (It.) = a little.",
+    "choices": [
+      "a little",
+      "broadening, getting slower",
+      "almost, as if",
+      "loud"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-220",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"più mosso\" mean?",
+    "explanation": "più mosso (It.) = more movement, faster.",
+    "choices": [
+      "more movement, faster",
+      "in a singing style",
+      "gracefully",
+      "expressively"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-221",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"broadening, getting slower\"?",
+    "explanation": "allargando (It.) = broadening, getting slower.",
+    "choices": [
+      "allargando",
+      "pianissimo",
+      "léger",
+      "con brio"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-222",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"arco\" mean?",
+    "explanation": "arco (It.) = with the bow.",
+    "choices": [
+      "with the bow",
+      "getting gradually softer",
+      "lightly",
+      "a closing section"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-223",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"dolce\" mean?",
+    "explanation": "dolce (It.) = sweetly.",
+    "choices": [
+      "sweetly",
+      "with vigour",
+      "without the mute",
+      "but not too much"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-224",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"allegretto\" means \"slow\" — true or false?",
+    "explanation": "allegretto (It.) means \"fairly quick\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-225",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"heavily\"?",
+    "explanation": "pesante (It.) = heavily.",
+    "choices": [
+      "pesante",
+      "pianissimo",
+      "léger",
+      "a tempo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-226",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"senza\" mean?",
+    "explanation": "senza (It.) = without.",
+    "choices": [
+      "without",
+      "plucked",
+      "getting gradually softer",
+      "soft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-227",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"sustained\"?",
+    "explanation": "sostenuto (It.) = sustained.",
+    "choices": [
+      "sostenuto",
+      "allegretto",
+      "ma non troppo",
+      "senza sordino"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-228",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"simile\" means \"slow\" — true or false?",
+    "explanation": "simile (It.) means \"in the same way\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-229",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"adagio\" mean?",
+    "explanation": "adagio (It.) = slow.",
+    "choices": [
+      "slow",
+      "almost, as if",
+      "gradually getting faster",
+      "little by little"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-230",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"legato\" means \"slow\" — true or false?",
+    "explanation": "legato (It.) means \"smoothly\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-231",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"cédez\" mean?",
+    "explanation": "cédez (Fr.) = slow down, yield.",
+    "choices": [
+      "slow down, yield",
+      "gradually getting faster",
+      "always",
+      "gracefully"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-232",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"dolce\" means \"slow\" — true or false?",
+    "explanation": "dolce (It.) means \"sweetly\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-233",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"without the mute\"?",
+    "explanation": "senza sordino (It.) = without the mute.",
+    "choices": [
+      "senza sordino",
+      "simile",
+      "allargando",
+      "assai"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-234",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"mässig\" means \"slow\" — true or false?",
+    "explanation": "mässig (Ger.) means \"at a moderate speed\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-235",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"scherzando\" means \"slow\" — true or false?",
+    "explanation": "scherzando (It.) means \"playfully\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-236",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"moderato\" mean?",
+    "explanation": "moderato (It.) = at a moderate speed.",
+    "choices": [
+      "at a moderate speed",
+      "gradually getting slower",
+      "in an undertone",
+      "majestically"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-237",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"smoothly\"?",
+    "explanation": "legato (It.) = smoothly.",
+    "choices": [
+      "legato",
+      "a tempo",
+      "schnell",
+      "allargando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-238",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"schnell\" mean?",
+    "explanation": "schnell (Ger.) = fast.",
+    "choices": [
+      "fast",
+      "with the bow",
+      "fairly quick",
+      "calmly"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-239",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"energetically\"?",
+    "explanation": "energico (It.) = energetically.",
+    "choices": [
+      "energico",
+      "poco",
+      "sostenuto",
+      "mezzo-piano"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-240",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"lively and fast\"?",
+    "explanation": "vivace (It.) = lively and fast.",
+    "choices": [
+      "vivace",
+      "langsam",
+      "sempre",
+      "mezzo-forte"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-241",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"retenu\" mean?",
+    "explanation": "retenu (Fr.) = held back.",
+    "choices": [
+      "held back",
+      "at a walking pace",
+      "with the bow",
+      "smoothly"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-242",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"mezzo-forte\" mean?",
+    "explanation": "mezzo-forte (It.) = moderately loud.",
+    "choices": [
+      "moderately loud",
+      "gradually getting faster",
+      "fairly quick",
+      "almost, as if"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-243",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"coda\" mean?",
+    "explanation": "coda (It.) = a closing section.",
+    "choices": [
+      "a closing section",
+      "less",
+      "decisively",
+      "without the mute"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-244",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"sweetly\"?",
+    "explanation": "dolce (It.) = sweetly.",
+    "choices": [
+      "dolce",
+      "dal segno",
+      "staccatissimo",
+      "animato"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-245",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"larghetto\" means \"slow\" — true or false?",
+    "explanation": "larghetto (It.) means \"rather slow\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-246",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"con sordino\" means \"slow\" — true or false?",
+    "explanation": "con sordino (It.) means \"with the mute\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-247",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"rubato\" mean?",
+    "explanation": "rubato (It.) = with flexible time.",
+    "choices": [
+      "with flexible time",
+      "at a walking pace",
+      "from the beginning",
+      "gradually getting slower"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-248",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"slow and broad\"?",
+    "explanation": "largo (It.) = slow and broad.",
+    "choices": [
+      "largo",
+      "arco",
+      "morendo",
+      "più"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-249",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"bewegt\" mean?",
+    "explanation": "bewegt (Ger.) = with movement.",
+    "choices": [
+      "with movement",
+      "very, much",
+      "slow down, yield",
+      "with flexible time"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-250",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"animé\" means \"slow\" — true or false?",
+    "explanation": "animé (Fr.) means \"animated\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-251",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"grazioso\" means \"slow\" — true or false?",
+    "explanation": "grazioso (It.) means \"gracefully\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-252",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"fast\"?",
+    "explanation": "schnell (Ger.) = fast.",
+    "choices": [
+      "schnell",
+      "marcato",
+      "staccato",
+      "rallentando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-253",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"sforzando\" mean?",
+    "explanation": "sforzando (It.) = forced, strongly accented.",
+    "choices": [
+      "forced, strongly accented",
+      "gracefully",
+      "very loud",
+      "more"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-254",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"rinforzando\" means \"slow\" — true or false?",
+    "explanation": "rinforzando (It.) means \"a sudden reinforcing accent\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-255",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"assai\" means \"slow\" — true or false?",
+    "explanation": "assai (It.) means \"very\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-256",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"affettuoso\" mean?",
+    "explanation": "affettuoso (It.) = tenderly.",
+    "choices": [
+      "tenderly",
+      "slow",
+      "fairly quick",
+      "return to the original speed"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-257",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"allargando\" means \"slow\" — true or false?",
+    "explanation": "allargando (It.) means \"broadening, getting slower\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-258",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"sempre\" means \"slow\" — true or false?",
+    "explanation": "sempre (It.) means \"always\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-259",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"staccato\" means \"slow\" — true or false?",
+    "explanation": "staccato (It.) means \"detached, short\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-260",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"sempre\" mean?",
+    "explanation": "sempre (It.) = always.",
+    "choices": [
+      "always",
+      "held back at once",
+      "with",
+      "sweetly"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-261",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"più\" mean?",
+    "explanation": "più (It.) = more.",
+    "choices": [
+      "more",
+      "sweetly",
+      "very fast",
+      "held back at once"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-262",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"with vigour\"?",
+    "explanation": "con brio (It.) = with vigour.",
+    "choices": [
+      "con brio",
+      "doux",
+      "grazioso",
+      "ritenuto"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-263",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"lent\" means \"quick, lively\" — true or false?",
+    "explanation": "lent (Fr.) means \"slow\", not \"quick, lively\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-264",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"fine\" means \"slow\" — true or false?",
+    "explanation": "fine (It.) means \"the end\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-265",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"langsam\" means \"quick, lively\" — true or false?",
+    "explanation": "langsam (Ger.) means \"slow\", not \"quick, lively\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-266",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"marcato\" means \"slow\" — true or false?",
+    "explanation": "marcato (It.) means \"marked, emphatic\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-267",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"allargando\" mean?",
+    "explanation": "allargando (It.) = broadening, getting slower.",
+    "choices": [
+      "broadening, getting slower",
+      "at a walking pace",
+      "in the same way",
+      "with vigour"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-268",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"larghetto\" mean?",
+    "explanation": "larghetto (It.) = rather slow.",
+    "choices": [
+      "rather slow",
+      "slow",
+      "animated, lively",
+      "moderately soft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-269",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"piano\" means \"slow\" — true or false?",
+    "explanation": "piano (It.) means \"soft\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-270",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"with the mute\"?",
+    "explanation": "con sordino (It.) = with the mute.",
+    "choices": [
+      "con sordino",
+      "leggiero",
+      "morendo",
+      "allegretto"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-271",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"animated\"?",
+    "explanation": "animé (Fr.) = animated.",
+    "choices": [
+      "animé",
+      "presto",
+      "adagio",
+      "léger"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-272",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"fine\" mean?",
+    "explanation": "fine (It.) = the end.",
+    "choices": [
+      "the end",
+      "very detached",
+      "lively",
+      "gracefully"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-273",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"dal segno\" mean?",
+    "explanation": "dal segno (It.) = from the sign.",
+    "choices": [
+      "from the sign",
+      "gradually getting faster",
+      "loud",
+      "fast"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-274",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"simile\" mean?",
+    "explanation": "simile (It.) = in the same way.",
+    "choices": [
+      "in the same way",
+      "without",
+      "marked, emphatic",
+      "a sudden reinforcing accent"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-275",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "What does \"tenuto\" mean?",
+    "explanation": "tenuto (It.) = held for full value.",
+    "choices": [
+      "held for full value",
+      "tender",
+      "held back at once",
+      "from the beginning"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-276",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"più\" means \"slow\" — true or false?",
+    "explanation": "più (It.) means \"more\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-277",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"majestically\"?",
+    "explanation": "maestoso (It.) = majestically.",
+    "choices": [
+      "maestoso",
+      "risoluto",
+      "zart",
+      "calando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-278",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"adagio\" means \"quick, lively\" — true or false?",
+    "explanation": "adagio (It.) means \"slow\", not \"quick, lively\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-279",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"espressivo\" means \"slow\" — true or false?",
+    "explanation": "espressivo (It.) means \"expressively\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-280",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"poco\" means \"slow\" — true or false?",
+    "explanation": "poco (It.) means \"a little\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-281",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"grave\" means \"slow\" — true or false?",
+    "explanation": "grave (It.) means \"very slow and solemn\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-282",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"meno\" means \"slow\" — true or false?",
+    "explanation": "meno (It.) means \"less\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-283",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"legato\" mean?",
+    "explanation": "legato (It.) = smoothly.",
+    "choices": [
+      "smoothly",
+      "as fast as possible",
+      "with vigour",
+      "slow and broad"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-284",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"sweet, soft\"?",
+    "explanation": "doux (Fr.) = sweet, soft.",
+    "choices": [
+      "doux",
+      "pizzicato",
+      "presto",
+      "meno"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-285",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"affettuoso\" means \"slow\" — true or false?",
+    "explanation": "affettuoso (It.) means \"tenderly\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-286",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"loud\"?",
+    "explanation": "forte (It.) = loud.",
+    "choices": [
+      "forte",
+      "rallentando",
+      "mässig",
+      "lent"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-287",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"very slow and solemn\"?",
+    "explanation": "grave (It.) = very slow and solemn.",
+    "choices": [
+      "grave",
+      "forte",
+      "fine",
+      "ma non troppo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-288",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"as fast as possible\"?",
+    "explanation": "prestissimo (It.) = as fast as possible.",
+    "choices": [
+      "prestissimo",
+      "coda",
+      "animato",
+      "pianissimo"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-289",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"pesante\" mean?",
+    "explanation": "pesante (It.) = heavily.",
+    "choices": [
+      "heavily",
+      "go straight on",
+      "in a singing style",
+      "very soft"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-290",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"held back\"?",
+    "explanation": "retenu (Fr.) = held back.",
+    "choices": [
+      "retenu",
+      "leggiero",
+      "bewegt",
+      "con brio"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-291",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"energico\" mean?",
+    "explanation": "energico (It.) = energetically.",
+    "choices": [
+      "energetically",
+      "getting softer and slower",
+      "lively and fast",
+      "with"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-292",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"allegretto\" mean?",
+    "explanation": "allegretto (It.) = fairly quick.",
+    "choices": [
+      "fairly quick",
+      "moderately soft",
+      "sweetly",
+      "light"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-293",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"dying away\"?",
+    "explanation": "morendo (It.) = dying away.",
+    "choices": [
+      "morendo",
+      "crescendo",
+      "più",
+      "bewegt"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-294",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"con brio\" means \"slow\" — true or false?",
+    "explanation": "con brio (It.) means \"with vigour\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-295",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"fortissimo\" mean?",
+    "explanation": "fortissimo (It.) = very loud.",
+    "choices": [
+      "very loud",
+      "suddenly",
+      "rather slow",
+      "calm, peaceful"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-296",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"sostenuto\" mean?",
+    "explanation": "sostenuto (It.) = sustained.",
+    "choices": [
+      "sustained",
+      "tender",
+      "simply",
+      "in the same way"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-297",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"con sordino\" mean?",
+    "explanation": "con sordino (It.) = with the mute.",
+    "choices": [
+      "with the mute",
+      "in the same way",
+      "light",
+      "getting softer and slower"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-298",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"very loud\"?",
+    "explanation": "fortissimo (It.) = very loud.",
+    "choices": [
+      "fortissimo",
+      "marcato",
+      "forte",
+      "mit"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-299",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"less\"?",
+    "explanation": "meno (It.) = less.",
+    "choices": [
+      "meno",
+      "morendo",
+      "presto",
+      "adagio"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-300",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"but not too much\"?",
+    "explanation": "ma non troppo (It.) = but not too much.",
+    "choices": [
+      "ma non troppo",
+      "doux",
+      "sforzando",
+      "arco"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-301",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"rallentando\" means \"slow\" — true or false?",
+    "explanation": "rallentando (It.) means \"gradually getting slower\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-302",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"decisively\"?",
+    "explanation": "deciso (It.) = decisively.",
+    "choices": [
+      "deciso",
+      "poco a poco",
+      "scherzando",
+      "calando"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-303",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"forced, strongly accented\"?",
+    "explanation": "sforzando (It.) = forced, strongly accented.",
+    "choices": [
+      "sforzando",
+      "lent",
+      "agitato",
+      "staccato"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-304",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"attacca\" mean?",
+    "explanation": "attacca (It.) = go straight on.",
+    "choices": [
+      "go straight on",
+      "dying away",
+      "without the mute",
+      "more"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-305",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "Which term means \"in the same way\"?",
+    "explanation": "simile (It.) = in the same way.",
+    "choices": [
+      "simile",
+      "coda",
+      "pizzicato",
+      "andante"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-306",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"animé\" mean?",
+    "explanation": "animé (Fr.) = animated.",
+    "choices": [
+      "animated",
+      "soft",
+      "a closing section",
+      "with"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-307",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"morendo\" means \"slow\" — true or false?",
+    "explanation": "morendo (It.) means \"dying away\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-308",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"prestissimo\" means \"slow\" — true or false?",
+    "explanation": "prestissimo (It.) means \"as fast as possible\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-309",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"maestoso\" means \"slow\" — true or false?",
+    "explanation": "maestoso (It.) means \"majestically\", not \"slow\".",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-310",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does the sign on this note mean?",
+    "abc": "K:C\n!staccato!G2",
+    "explanation": "This is a staccato dot — it means \"detached (short)\".",
+    "choices": [
+      "detached (short)",
+      "accented (stressed)",
+      "play smoothly (legato)",
+      "paused — held longer than written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-311",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does the sign on this note mean?",
+    "abc": "K:C\n!accent!G2",
+    "explanation": "This is an accent — it means \"accented (stressed)\".",
+    "choices": [
+      "accented (stressed)",
+      "detached (short)",
+      "held for its full value",
+      "paused — held longer than written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-312",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does the sign on this note mean?",
+    "abc": "K:C\n!fermata!G2",
+    "explanation": "This is a pause (fermata) — it means \"paused — held longer than written\".",
+    "choices": [
+      "paused — held longer than written",
+      "play smoothly (legato)",
+      "accented (stressed)",
+      "detached (short)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-313",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does the sign on this note mean?",
+    "abc": "K:C\n!tenuto!G2",
+    "explanation": "This is a tenuto line — it means \"held for its full value\".",
+    "choices": [
+      "held for its full value",
+      "play smoothly (legato)",
+      "detached (short)",
+      "accented (stressed)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ts-314",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does the curved line over these two (different) notes mean?",
+    "abc": "K:C\n(G2 A2)",
+    "explanation": "A slur over different pitches means play them smoothly (legato).",
+    "choices": [
+      "play smoothly (legato)",
+      "detached (short)",
+      "held for its full value",
+      "accented (stressed)"
+    ],
+    "answer": 0
   }
 ]

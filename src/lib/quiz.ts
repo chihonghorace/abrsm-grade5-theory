@@ -28,6 +28,7 @@ export interface Prepared {
 export function prepare(q: Question): Prepared {
   switch (questionType(q)) {
     case 'fill':
+    case 'build':
       return { question: q }
     case 'multi': {
       const m = q as MultiQuestion

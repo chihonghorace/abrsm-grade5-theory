@@ -1,8 +1,11 @@
-import type { FillQuestion, MultiQuestion } from '../types'
+import { useEffect, useRef } from 'react'
+import abcjs from 'abcjs'
+import type { BuildQuestion, FillQuestion, MultiQuestion } from '../types'
 import { questionType } from '../types'
 import type { Prepared } from '../lib/quiz'
 import type { Answer } from '../lib/answer'
 import { isCorrect } from '../lib/answer'
+import { abcToken, noteName, parseToken, samePitch } from '../lib/pitch'
 import { TOPIC_BY_ID } from '../data/topics'
 import Notation from './Notation'
 
@@ -100,6 +103,8 @@ export default function QuestionView({
           revealed={revealed}
           onChange={onChange}
         />
+      ) : questionType(q) === 'build' ? (
+        <BuildBody q={q as BuildQuestion} value={answer as string} revealed={revealed} onChange={onChange} />
       ) : (
         <MCBody prepared={prepared} value={answer as number | null} revealed={revealed} onSelect={onChange} />
       )}
@@ -134,6 +139,7 @@ function MCBody({
 }) {
   const mc = prepared.mc!
   const answer = mc.answer
+  const q = prepared.question
 
   function cls(i: number): string {
     const base = 'w-full text-left rounded-2xl border px-4 py-3 font-semibold transition-all flex items-start gap-3'
@@ -150,6 +156,7 @@ function MCBody({
   }
 
   return (
+    <>
     <div className="mt-4 grid gap-2.5 stagger">
       {mc.choices.map((choice, i) => (
         <button
@@ -183,6 +190,22 @@ function MCBody({
         </button>
       ))}
     </div>
+      {mc.choicesAbc && value != null && (
+        <div className="paper mt-3 px-3 py-2">
+          <p className="mb-1 text-center text-xs font-bold uppercase tracking-wide text-ink-faint">
+            Your answer on the staff
+          </p>
+          <Notation
+            abc={q.abc ? `${q.abc} ${mc.choicesAbc[value]}` : mc.choicesAbc[value]!}
+            highlight={{
+              index: q.abc ? 1 : 0,
+              color: !revealed ? '#6b66f7' : value === answer ? '#10b981' : '#f43f5e',
+            }}
+            scale={1.4}
+          />
+        </div>
+      )}
+    </>
   )
 }
 
@@ -282,6 +305,100 @@ function MultiBody({
           </div>
         )
       })}
+    </div>
+  )
+}
+
+// ---- Build: drag a note up/down (desktop) to form the interval ------------
+function BuildBody({
+  q,
+  value,
+  revealed,
+  onChange,
+}: {
+  q: BuildQuestion
+  value: string
+  revealed: boolean
+  onChange: (a: string) => void
+}) {
+  const ref = useRef<HTMLDivElement>(null)
+  const given = q.abc ?? 'C'
+  const cur = value || q.startAbc
+  const { absIdx, acc } = parseToken(cur)
+  const ok = samePitch(cur, q.answerAbc)
+  // On reveal the staff shows the CORRECT note in green — the learner's own note
+  // if they were right, otherwise the right answer revealed in its place.
+  const shown = revealed && !ok ? q.answerAbc : cur
+  const color = revealed ? '#10b981' : '#6b66f7'
+
+  useEffect(() => {
+    if (!ref.current) return
+    abcjs.renderAbc(ref.current, `X:1\nL:1/1\nM:none\nK:C\n${given} ${shown}|`, {
+      scale: 1.7,
+      add_classes: true,
+      staffwidth: 280,
+      paddingtop: 6,
+      paddingbottom: 10,
+      paddingleft: 0,
+      paddingright: 0,
+    } as any)
+    const notes = ref.current.querySelectorAll<SVGGElement>('.abcjs-note')
+    notes[1]?.querySelectorAll<SVGElement>('path, ellipse').forEach((p) => {
+      p.style.fill = color
+      p.style.stroke = color
+    })
+  }, [given, shown, color])
+
+  const ACCS: [string, number][] = [
+    ['𝄫', -2],
+    ['♭', -1],
+    ['♮', 0],
+    ['♯', 1],
+    ['𝄪', 2],
+  ]
+
+  return (
+    <div className="mt-4 space-y-3">
+      <div className="paper flex items-center justify-center px-3 py-3" style={{ minHeight: 120 }}>
+        <div ref={ref} className="abc-notation flex justify-center" aria-label="Build the interval" />
+      </div>
+      {!revealed ? (
+        <>
+          <p className="text-center text-sm font-bold text-ink-soft">
+            Your note: <span className="text-ink">{noteName(absIdx, acc)}</span>
+            <span className="ml-2 font-normal text-ink-faint">— use the buttons to set the pitch</span>
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <button className="btn-ghost px-3 py-2" onClick={() => onChange(abcToken(absIdx + 1, acc))} aria-label="Up a step">
+              ↑
+            </button>
+            <button className="btn-ghost px-3 py-2" onClick={() => onChange(abcToken(absIdx - 1, acc))} aria-label="Down a step">
+              ↓
+            </button>
+            <div className="flex gap-1 rounded-xl bg-surface-2 p-1">
+              {ACCS.map(([lbl, a]) => (
+                <button
+                  key={a}
+                  onClick={() => onChange(abcToken(absIdx, a))}
+                  className={`rounded-lg px-3 py-1.5 text-sm font-bold transition-all ${
+                    acc === a ? 'bg-surface text-brand-600 dark:text-brand-300 shadow-clay-sm' : 'text-ink-soft'
+                  }`}
+                >
+                  {lbl}
+                </button>
+              ))}
+            </div>
+          </div>
+        </>
+      ) : ok ? (
+        <p className="text-center text-sm font-bold text-emerald-600 dark:text-emerald-300">🎉 Correct — {q.answerName}</p>
+      ) : (
+        <p className="text-center text-sm font-bold">
+          <span className="text-rose-600 dark:text-rose-300">Your note: {noteName(absIdx, acc)}</span>
+          <span className="mx-2 text-ink-faint">·</span>
+          <span className="text-emerald-600 dark:text-emerald-300">Correct: {q.answerName}</span>
+        </p>
+      )}
     </div>
   )
 }

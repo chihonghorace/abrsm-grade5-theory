@@ -3,6 +3,7 @@ import type { ProgressApi } from '../lib/storage'
 import type { PracticePool } from '../lib/nav'
 import { bookmarkedQuestions, needsWork, prepareMany } from '../lib/quiz'
 import { blankAnswer } from '../lib/answer'
+import { TOPIC_BY_ID } from '../data/topics'
 import QuestionView from '../components/QuestionView'
 
 interface Props {
@@ -17,6 +18,11 @@ export default function Review({ api, startPractice }: Props) {
   const work = needsWork(progress)
   const bookmarks = bookmarkedQuestions(progress)
   const list = tab === 'work' ? work : bookmarks
+
+  // Mistakes grouped by topic (most-missed first) — the "错题本" categorisation.
+  const byTopic = new Map<string, number>()
+  for (const q of work) byTopic.set(q.topic, (byTopic.get(q.topic) ?? 0) + 1)
+  const dist = [...byTopic.entries()].sort((a, b) => b[1] - a[1])
 
   // Prepare once per (tab, id-set) so choices don't reshuffle on every render.
   const ids = list.map((q) => q.id).join(',')
@@ -37,6 +43,22 @@ export default function Review({ api, startPractice }: Props) {
           🔖 Bookmarks ({bookmarks.length})
         </TabButton>
       </div>
+
+      {tab === 'work' && dist.length > 0 && (
+        <div className="clay-soft p-4">
+          <p className="mb-2 text-xs font-bold uppercase tracking-wide text-ink-faint">Mistakes by topic</p>
+          <div className="flex flex-wrap gap-1.5">
+            {dist.map(([t, n]) => {
+              const topic = TOPIC_BY_ID[t as keyof typeof TOPIC_BY_ID]
+              return (
+                <span key={t} className="chip bg-surface-2 text-ink-soft">
+                  {topic?.icon ?? '🎼'} {topic?.title ?? t} · {n}
+                </span>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       {list.length === 0 ? (
         <div className="clay-card p-8 text-center">

@@ -25,6 +25,7 @@ const PREFIX = {
   ornaments: 'or',
   'terms-and-signs': 'ts',
   'instruments-and-voices': 'in',
+  'score-analysis': 'sa',
 }
 
 const file = process.argv[2]
@@ -65,7 +66,10 @@ for (const [topic, items] of byTopic) {
   }
   const bank = JSON.parse(readFileSync(path, 'utf8'))
   const prefix = PREFIX[topic]
-  const existingPrompts = new Set(bank.map((q) => q.prompt.trim().toLowerCase()))
+  // De-dup on prompt + notation (so notation questions sharing a prompt but a
+  // different stave are all kept).
+  const keyOf = (q) => (q.prompt + '||' + (q.abc || '')).trim().toLowerCase()
+  const existingPrompts = new Set(bank.map(keyOf))
   let maxN = bank.reduce((m, q) => {
     const match = new RegExp(`^${prefix}-(\\d+)$`).exec(q.id)
     return match ? Math.max(m, parseInt(match[1], 10)) : m
@@ -83,14 +87,16 @@ for (const [topic, items] of byTopic) {
         ? Array.isArray(q.blanks) && q.blanks.length >= 1
         : type === 'multi'
         ? Array.isArray(q.options) && Array.isArray(q.items) && q.items.length >= 1
+        : type === 'build'
+        ? q.abc && q.startAbc && q.answerAbc && q.answerName
         : false)
     if (!okShape) {
       console.warn(`  skip (bad shape): ${JSON.stringify(q).slice(0, 60)}…`)
       skipped++
       continue
     }
-    if (existingPrompts.has(q.prompt.trim().toLowerCase())) {
-      console.warn(`  skip (duplicate prompt): "${q.prompt}"`)
+    if (existingPrompts.has(keyOf(q))) {
+      console.warn(`  skip (duplicate): "${q.prompt}"`)
       skipped++
       continue
     }
@@ -106,6 +112,8 @@ for (const [topic, items] of byTopic) {
     let merged
     if (type === 'fill') merged = { ...base, type: 'fill', blanks: q.blanks }
     else if (type === 'multi') merged = { ...base, type: 'multi', options: q.options, items: q.items }
+    else if (type === 'build')
+      merged = { ...base, type: 'build', startAbc: q.startAbc, answerAbc: q.answerAbc, answerName: q.answerName }
     else
       merged = {
         ...base,
@@ -114,7 +122,7 @@ for (const [topic, items] of byTopic) {
         answer: q.answer ?? 0,
       }
     bank.push(merged)
-    existingPrompts.add(q.prompt.trim().toLowerCase())
+    existingPrompts.add(keyOf(merged))
     added++
   }
 

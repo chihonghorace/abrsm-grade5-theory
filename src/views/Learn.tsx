@@ -2,7 +2,6 @@ import { useState } from 'react'
 import type { PracticePool } from '../lib/nav'
 import type { TopicNote } from '../types'
 import { TOPICS, TOPIC_BY_ID } from '../data/topics'
-import { QUESTIONS } from '../data/questions'
 import Notation from '../components/Notation'
 
 interface Props {
@@ -14,7 +13,6 @@ export default function Learn({ startPractice }: Props) {
 
   if (openId) {
     const topic = TOPIC_BY_ID[openId as keyof typeof TOPIC_BY_ID]
-    const count = QUESTIONS.filter((q) => q.topic === topic.id).length
     return (
       <div className="space-y-4">
         <button onClick={() => setOpenId(null)} className="btn-ghost px-4 py-2 text-sm">
@@ -37,7 +35,7 @@ export default function Learn({ startPractice }: Props) {
           className="btn-primary w-full"
           onClick={() => startPractice({ kind: 'topic', topic: topic.id, label: topic.title })}
         >
-          ✏️ Practise this topic ({count} questions)
+          ✏️ Practise this topic
         </button>
       </div>
     )
@@ -51,7 +49,6 @@ export default function Learn({ startPractice }: Props) {
       </header>
       <div className="grid gap-3 stagger">
         {TOPICS.map((t, i) => {
-          const count = QUESTIONS.filter((q) => q.topic === t.id).length
           return (
             <button
               key={t.id}
@@ -64,7 +61,6 @@ export default function Learn({ startPractice }: Props) {
                 <span className="block text-lg font-extrabold text-ink">{t.title}</span>
                 <span className="block text-sm text-ink-soft">{t.blurb}</span>
               </span>
-              <span className="chip bg-surface-2 text-ink-soft">{count} Q</span>
             </button>
           )
         })}

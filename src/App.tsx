@@ -8,14 +8,16 @@ import Practice from './views/Practice'
 import Mock from './views/Mock'
 import Papers from './views/Papers'
 import Review from './views/Review'
+import Stats from './views/Stats'
 
-const NAV: { view: View; icon: string; label: string }[] = [
-  { view: 'home', icon: '🏠', label: 'Home' },
-  { view: 'learn', icon: '📚', label: 'Learn' },
-  { view: 'practice', icon: '✏️', label: 'Practice' },
-  { view: 'mock', icon: '⏱️', label: 'Mock' },
-  { view: 'papers', icon: '📄', label: 'Papers' },
-  { view: 'review', icon: '🔁', label: 'Review' },
+const NAV: { view: View; label: string }[] = [
+  { view: 'home', label: 'Home' },
+  { view: 'learn', label: 'Learn' },
+  { view: 'practice', label: 'Practice' },
+  { view: 'mock', label: 'Mock' },
+  { view: 'review', label: 'Review' },
+  { view: 'stats', label: 'Stats' },
+  { view: 'papers', label: 'Papers' },
 ]
 
 function SunIcon() {
@@ -66,66 +68,60 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
-      <header className="mx-auto flex max-w-2xl items-center justify-between px-4 pt-4">
-        <button
-          onClick={() => goTo('home')}
-          className="flex items-center gap-2 text-lg font-black text-brand-600 dark:text-brand-300"
-        >
-          <span aria-hidden>🎼</span>
-          <span>Grade 5 Theory</span>
-        </button>
-        <div className="flex items-center gap-1">
+      <div className="sticky top-0 z-20 border-b border-line bg-app/85 backdrop-blur">
+        <header className="mx-auto flex max-w-3xl items-center justify-between px-4 pt-3">
           <button
-            onClick={toggle}
-            className="flex h-9 w-9 items-center justify-center rounded-full text-ink-soft transition-colors hover:bg-surface-2 hover:text-brand-500 active:scale-90"
-            aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-            title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+            onClick={() => goTo('home')}
+            className="flex items-center gap-2 text-base font-extrabold tracking-tight text-ink"
           >
-            {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+            <span aria-hidden className="text-brand-500">♪</span>
+            <span>ABRSM Grade 5 Theory</span>
           </button>
-          <button
-            onClick={reset}
-            className="rounded-full px-3 py-1 text-xs font-bold text-ink-faint transition-colors hover:bg-rose-500/10 hover:text-rose-500"
-          >
-            Reset
-          </button>
-        </div>
-      </header>
-
-      <main className="mx-auto max-w-2xl px-4 pb-28 pt-3">
-        {view === 'home' && <Home api={api} goTo={goTo} startPractice={startPractice} />}
-        {view === 'learn' && <Learn startPractice={startPractice} />}
-        {view === 'practice' && <Practice key={practiceKey} api={api} pool={pool} />}
-        {view === 'mock' && <Mock api={api} />}
-        {view === 'papers' && <Papers api={api} />}
-        {view === 'review' && <Review api={api} startPractice={startPractice} />}
-      </main>
-
-      <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/95 backdrop-blur">
-        <div className="mx-auto flex max-w-2xl items-stretch justify-between px-2">
+          <div className="flex items-center gap-1">
+            <button
+              onClick={toggle}
+              className="flex h-9 w-9 items-center justify-center rounded-lg text-ink-soft transition-colors hover:bg-surface-2 hover:text-brand-500 active:scale-90"
+              aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+              title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+            >
+              {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+            </button>
+            <button
+              onClick={reset}
+              className="rounded-lg px-3 py-1 text-xs font-bold text-ink-faint transition-colors hover:bg-rose-500/10 hover:text-rose-500"
+            >
+              Reset
+            </button>
+          </div>
+        </header>
+        <nav className="mx-auto flex max-w-3xl gap-0.5 overflow-x-auto px-2">
           {NAV.map((item) => {
             const active = view === item.view
             return (
               <button
                 key={item.view}
                 onClick={() => goTo(item.view)}
-                className={`flex flex-1 flex-col items-center gap-0.5 py-2.5 text-[11px] font-bold transition-colors ${
-                  active ? 'text-brand-600 dark:text-brand-300' : 'text-ink-faint'
+                className={`relative whitespace-nowrap px-3.5 py-2.5 text-sm font-bold transition-colors ${
+                  active ? 'text-brand-600 dark:text-brand-300' : 'text-ink-soft hover:text-ink'
                 }`}
               >
-                <span
-                  className={`text-xl transition-transform ${active ? 'scale-110' : ''}`}
-                  aria-hidden
-                >
-                  {item.icon}
-                </span>
                 {item.label}
+                {active && <span className="absolute inset-x-3 bottom-0 h-0.5 rounded-full bg-brand-500" />}
               </button>
             )
           })}
-        </div>
-        <div className="h-[env(safe-area-inset-bottom)]" />
-      </nav>
+        </nav>
+      </div>
+
+      <main className="mx-auto max-w-3xl px-4 pb-16 pt-5">
+        {view === 'home' && <Home api={api} goTo={goTo} startPractice={startPractice} />}
+        {view === 'learn' && <Learn startPractice={startPractice} />}
+        {view === 'practice' && <Practice key={practiceKey} api={api} pool={pool} />}
+        {view === 'mock' && <Mock api={api} />}
+        {view === 'papers' && <Papers api={api} />}
+        {view === 'review' && <Review api={api} startPractice={startPractice} />}
+        {view === 'stats' && <Stats api={api} startPractice={startPractice} />}
+      </main>
     </div>
   )
 }
