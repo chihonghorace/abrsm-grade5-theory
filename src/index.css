@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-cream text-slate-800 font-sans antialiased;
+    background-image:
+      radial-gradient(60rem 60rem at 110% -10%, rgba(107, 102, 247, 0.10), transparent 60%),
+      radial-gradient(50rem 50rem at -10% 110%, rgba(255, 176, 102, 0.10), transparent 60%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .clay-card {
+    @apply rounded-3xl bg-white shadow-clay border border-white/70;
+  }
+  .clay-soft {
+    @apply rounded-2xl bg-white shadow-clay-sm border border-slate-100;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-bold transition-all
+           active:scale-[0.97] disabled:opacity-50 disabled:pointer-events-none select-none;
+  }
+  .btn-primary {
+    @apply btn bg-brand-600 text-white shadow-clay-sm hover:bg-brand-700;
+  }
+  .btn-ghost {
+    @apply btn bg-white text-brand-700 border border-brand-100 hover:bg-brand-50;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold;
+  }
+}
+
+/* abcjs renders inline SVG; keep notation crisp and centered */
+.abc-notation svg {
+  max-width: 100%;
+  height: auto;
+}
