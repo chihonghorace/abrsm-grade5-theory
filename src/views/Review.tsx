@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react'
 import type { ProgressApi } from '../lib/storage'
 import type { PracticePool } from '../lib/nav'
 import { bookmarkedQuestions, needsWork, prepareMany } from '../lib/quiz'
-import QuestionCard from '../components/QuestionCard'
+import { blankAnswer } from '../lib/answer'
+import QuestionView from '../components/QuestionView'
 
 interface Props {
   api: ProgressApi
@@ -65,12 +66,12 @@ export default function Review({ api, startPractice }: Props) {
           </button>
           <div className="space-y-4">
             {prepared.map((p) => (
-              <QuestionCard
+              <QuestionView
                 key={p.question.id}
                 prepared={p}
-                selected={null}
+                answer={blankAnswer(p.question)}
+                onChange={() => {}}
                 revealed
-                onSelect={() => {}}
                 bookmarked={progress.bookmarks.includes(p.question.id)}
                 onToggleBookmark={() => api.toggleBookmark(p.question.id)}
               />

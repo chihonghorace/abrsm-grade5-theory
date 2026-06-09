@@ -222,5 +222,257 @@
     ],
     "answer": 0,
     "explanation": "The xylophone is a tuned percussion instrument."
+  },
+  {
+    "id": "in-17",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the clarinet belong?",
+    "explanation": "The clarinet is a woodwind instrument.",
+    "choices": [
+      "Woodwind",
+      "Brass",
+      "Strings",
+      "Percussion"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-18",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the harp belong?",
+    "explanation": "The harp is a strings instrument.",
+    "choices": [
+      "Strings",
+      "Brass",
+      "Percussion",
+      "Woodwind"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-19",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the flute belong?",
+    "explanation": "The flute is a woodwind instrument.",
+    "choices": [
+      "Woodwind",
+      "Strings",
+      "Brass",
+      "Percussion"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-20",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the viola belong?",
+    "explanation": "The viola is a strings instrument.",
+    "choices": [
+      "Strings",
+      "Percussion",
+      "Woodwind",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-21",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the piccolo belong?",
+    "explanation": "The piccolo is a woodwind instrument.",
+    "choices": [
+      "Woodwind",
+      "Percussion",
+      "Strings",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-22",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the trumpet belong?",
+    "explanation": "The trumpet is a brass instrument.",
+    "choices": [
+      "Brass",
+      "Percussion",
+      "Woodwind",
+      "Strings"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-23",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the tuba belong?",
+    "explanation": "The tuba is a brass instrument.",
+    "choices": [
+      "Brass",
+      "Woodwind",
+      "Strings",
+      "Percussion"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-24",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the cello belong?",
+    "explanation": "The cello is a strings instrument.",
+    "choices": [
+      "Strings",
+      "Woodwind",
+      "Percussion",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-25",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the trombone belong?",
+    "explanation": "The trombone is a brass instrument.",
+    "choices": [
+      "Brass",
+      "Woodwind",
+      "Strings",
+      "Percussion"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-26",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the violin belong?",
+    "explanation": "The violin is a strings instrument.",
+    "choices": [
+      "Strings",
+      "Woodwind",
+      "Percussion",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-27",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the xylophone belong?",
+    "explanation": "The xylophone is a percussion instrument.",
+    "choices": [
+      "Percussion",
+      "Woodwind",
+      "Strings",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-28",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the snare drum belong?",
+    "explanation": "The snare drum is a percussion instrument.",
+    "choices": [
+      "Percussion",
+      "Brass",
+      "Strings",
+      "Woodwind"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-29",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the double bass belong?",
+    "explanation": "The double bass is a strings instrument.",
+    "choices": [
+      "Strings",
+      "Brass",
+      "Percussion",
+      "Woodwind"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-30",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the bassoon belong?",
+    "explanation": "The bassoon is a woodwind instrument.",
+    "choices": [
+      "Woodwind",
+      "Strings",
+      "Brass",
+      "Percussion"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-31",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the cor anglais belong?",
+    "explanation": "The cor anglais is a woodwind instrument.",
+    "choices": [
+      "Woodwind",
+      "Strings",
+      "Percussion",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-32",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the horn belong?",
+    "explanation": "The horn is a brass instrument.",
+    "choices": [
+      "Brass",
+      "Percussion",
+      "Woodwind",
+      "Strings"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-33",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the cymbals belong?",
+    "explanation": "The cymbals is a percussion instrument.",
+    "choices": [
+      "Percussion",
+      "Woodwind",
+      "Brass",
+      "Strings"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "in-34",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the timpani belong?",
+    "explanation": "The timpani is a percussion instrument.",
+    "choices": [
+      "Percussion",
+      "Brass",
+      "Woodwind",
+      "Strings"
+    ],
+    "answer": 0
   }
 ]

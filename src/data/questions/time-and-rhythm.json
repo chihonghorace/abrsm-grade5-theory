@@ -320,5 +320,823 @@
     ],
     "answer": 0,
     "explanation": "A semiquaver (16th) is twice the length of a demisemiquaver (32nd)."
+  },
+  {
+    "id": "tr-24",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "2/2 time is best described as:",
+    "explanation": "2/2 is simple duple time.",
+    "choices": [
+      "simple duple",
+      "irregular time",
+      "simple triple",
+      "simple quadruple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-25",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "In 9/16 time, the beat is a:",
+    "explanation": "In 9/16 the beat is a dotted quaver.",
+    "choices": [
+      "dotted quaver",
+      "dotted minim",
+      "crotchet",
+      "quaver"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-26",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "7/8 is in compound time — true or false?",
+    "explanation": "7/8 is irregular time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-27",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 2/4 contains how many quavers?",
+    "explanation": "2/4 = 4 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "tr-28",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/8 is in compound time — true or false?",
+    "explanation": "3/8 is simple triple time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-29",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/4 time is best described as:",
+    "explanation": "6/4 is compound duple time.",
+    "choices": [
+      "compound duple",
+      "compound triple",
+      "simple triple",
+      "irregular time"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-30",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/16 time is best described as:",
+    "explanation": "6/16 is compound duple time.",
+    "choices": [
+      "compound duple",
+      "simple triple",
+      "compound triple",
+      "simple quadruple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-31",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "How many quavers equal one dotted crotchet?",
+    "explanation": "A dotted crotchet = 3 quavers.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "id": "tr-32",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 2/2 contains how many quavers?",
+    "explanation": "2/2 = 8 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "8"
+      }
+    ]
+  },
+  {
+    "id": "tr-33",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 3/8 time, the beat is a:",
+    "explanation": "In 3/8 the beat is a quaver.",
+    "choices": [
+      "quaver",
+      "dotted minim",
+      "crotchet",
+      "dotted crotchet"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-34",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "2/2 is in compound time — true or false?",
+    "explanation": "2/2 is simple duple time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-35",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "7/8 time is best described as:",
+    "explanation": "7/8 cannot be grouped into even duple/triple/quadruple beats — it is irregular.",
+    "choices": [
+      "irregular time",
+      "simple duple",
+      "simple triple",
+      "compound triple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-36",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 3/2 time, the beat is a:",
+    "explanation": "In 3/2 the beat is a minim.",
+    "choices": [
+      "minim",
+      "dotted crotchet",
+      "dotted minim",
+      "quaver"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-37",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 6/4 time, the beat is a:",
+    "explanation": "In 6/4 the beat is a dotted minim.",
+    "choices": [
+      "dotted minim",
+      "dotted crotchet",
+      "dotted quaver",
+      "quaver"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-38",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "4/4 time is best described as:",
+    "explanation": "4/4 is simple quadruple time.",
+    "choices": [
+      "simple quadruple",
+      "simple duple",
+      "irregular time",
+      "compound triple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-39",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 6/16 contains how many quavers?",
+    "explanation": "6/16 = 3 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "id": "tr-40",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "2/4 time is best described as:",
+    "explanation": "2/4 is simple duple time.",
+    "choices": [
+      "simple duple",
+      "irregular time",
+      "compound quadruple",
+      "simple quadruple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-41",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "A complete bar of 9/8 contains how many quavers?",
+    "explanation": "9/8 = 9 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "tr-42",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 3/4 time, the beat is a:",
+    "explanation": "In 3/4 the beat is a crotchet.",
+    "choices": [
+      "crotchet",
+      "dotted minim",
+      "dotted crotchet",
+      "minim"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-43",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "A complete bar of 7/4 contains how many quavers?",
+    "explanation": "7/4 = 14 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "14"
+      }
+    ]
+  },
+  {
+    "id": "tr-44",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 4/4 time, the beat is a:",
+    "explanation": "In 4/4 the beat is a crotchet.",
+    "choices": [
+      "crotchet",
+      "minim",
+      "dotted minim",
+      "dotted crotchet"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-45",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "12/8 time is best described as:",
+    "explanation": "12/8 is compound quadruple time.",
+    "choices": [
+      "compound quadruple",
+      "simple quadruple",
+      "compound duple",
+      "irregular time"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-46",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "12/8 is in compound time — true or false?",
+    "explanation": "12/8 is compound quadruple time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-47",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "5/8 time is best described as:",
+    "explanation": "5/8 cannot be grouped into even duple/triple/quadruple beats — it is irregular.",
+    "choices": [
+      "irregular time",
+      "simple duple",
+      "simple triple",
+      "compound quadruple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-48",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/16 is in compound time — true or false?",
+    "explanation": "6/16 is compound duple time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-49",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "7/4 time is best described as:",
+    "explanation": "7/4 cannot be grouped into even duple/triple/quadruple beats — it is irregular.",
+    "choices": [
+      "irregular time",
+      "simple duple",
+      "simple quadruple",
+      "simple triple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-50",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/2 is in compound time — true or false?",
+    "explanation": "3/2 is simple triple time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-51",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 6/8 time, the beat is a:",
+    "explanation": "In 6/8 the beat is a dotted crotchet.",
+    "choices": [
+      "dotted crotchet",
+      "dotted minim",
+      "quaver",
+      "minim"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-52",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "How many semiquavers equal one crotchet?",
+    "explanation": "A crotchet = 4 semiquavers.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "tr-53",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/8 time is best described as:",
+    "explanation": "3/8 is simple triple time.",
+    "choices": [
+      "simple triple",
+      "irregular time",
+      "simple quadruple",
+      "simple duple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-54",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "5/4 time is best described as:",
+    "explanation": "5/4 cannot be grouped into even duple/triple/quadruple beats — it is irregular.",
+    "choices": [
+      "irregular time",
+      "compound triple",
+      "simple duple",
+      "compound quadruple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-55",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 6/16 time, the beat is a:",
+    "explanation": "In 6/16 the beat is a dotted quaver.",
+    "choices": [
+      "dotted quaver",
+      "crotchet",
+      "quaver",
+      "minim"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-56",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "4/4 is in compound time — true or false?",
+    "explanation": "4/4 is simple quadruple time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-57",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 2/2 time, the beat is a:",
+    "explanation": "In 2/2 the beat is a minim.",
+    "choices": [
+      "minim",
+      "dotted quaver",
+      "dotted minim",
+      "dotted crotchet"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-58",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/4 time is best described as:",
+    "explanation": "3/4 is simple triple time.",
+    "choices": [
+      "simple triple",
+      "simple duple",
+      "compound quadruple",
+      "irregular time"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-59",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/8 is in compound time — true or false?",
+    "explanation": "6/8 is compound duple time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-60",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "In 9/8 time, the beat is a:",
+    "explanation": "In 9/8 the beat is a dotted crotchet.",
+    "choices": [
+      "dotted crotchet",
+      "minim",
+      "dotted quaver",
+      "dotted minim"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-61",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "A complete bar of 5/8 contains how many quavers?",
+    "explanation": "5/8 = 5 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "tr-62",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "9/8 time is best described as:",
+    "explanation": "9/8 is compound triple time.",
+    "choices": [
+      "compound triple",
+      "compound duple",
+      "compound quadruple",
+      "irregular time"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-63",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/8 time is best described as:",
+    "explanation": "6/8 is compound duple time.",
+    "choices": [
+      "compound duple",
+      "simple triple",
+      "compound triple",
+      "simple duple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-64",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "7/4 is in compound time — true or false?",
+    "explanation": "7/4 is irregular time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-65",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "2/4 is in compound time — true or false?",
+    "explanation": "2/4 is simple duple time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-66",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "9/16 is in compound time — true or false?",
+    "explanation": "9/16 is compound triple time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-67",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "5/8 is in compound time — true or false?",
+    "explanation": "5/8 is irregular time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-68",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/2 time is best described as:",
+    "explanation": "3/2 is simple triple time.",
+    "choices": [
+      "simple triple",
+      "simple duple",
+      "compound quadruple",
+      "irregular time"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-69",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/4 is in compound time — true or false?",
+    "explanation": "3/4 is simple triple time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-70",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "A double-dotted crotchet equals how many semiquavers?",
+    "explanation": "Crotchet 4 + dot 2 + dot 1 = 7 semiquavers.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "7"
+      }
+    ]
+  },
+  {
+    "id": "tr-71",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 3/8 contains how many quavers?",
+    "explanation": "3/8 = 3 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "id": "tr-72",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "9/8 is in compound time — true or false?",
+    "explanation": "9/8 is compound triple time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-73",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "A complete bar of 12/8 contains how many quavers?",
+    "explanation": "12/8 = 12 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "12"
+      }
+    ]
+  },
+  {
+    "id": "tr-74",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "A complete bar of 5/4 contains how many quavers?",
+    "explanation": "5/4 = 10 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "tr-75",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "5/4 is in compound time — true or false?",
+    "explanation": "5/4 is irregular time.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-76",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 3/4 contains how many quavers?",
+    "explanation": "3/4 = 6 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "tr-77",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 6/4 contains how many quavers?",
+    "explanation": "6/4 = 12 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "12"
+      }
+    ]
+  },
+  {
+    "id": "tr-78",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 6/8 contains how many quavers?",
+    "explanation": "6/8 = 6 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "tr-79",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "A complete bar of 7/8 contains how many quavers?",
+    "explanation": "7/8 = 7 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "7"
+      }
+    ]
+  },
+  {
+    "id": "tr-80",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 4/4 contains how many quavers?",
+    "explanation": "4/4 = 8 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "8"
+      }
+    ]
+  },
+  {
+    "id": "tr-81",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "In 12/8 time, the beat is a:",
+    "explanation": "In 12/8 the beat is a dotted crotchet.",
+    "choices": [
+      "dotted crotchet",
+      "minim",
+      "crotchet",
+      "dotted quaver"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-82",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 2/4 time, the beat is a:",
+    "explanation": "In 2/4 the beat is a crotchet.",
+    "choices": [
+      "crotchet",
+      "dotted quaver",
+      "quaver",
+      "dotted crotchet"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-83",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/4 is in compound time — true or false?",
+    "explanation": "6/4 is compound duple time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-84",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "9/16 time is best described as:",
+    "explanation": "9/16 is compound triple time.",
+    "choices": [
+      "compound triple",
+      "irregular time",
+      "simple duple",
+      "simple quadruple"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tr-85",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A complete bar of 3/2 contains how many quavers?",
+    "explanation": "3/2 = 12 quavers per bar (top × 8 ÷ bottom).",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "12"
+      }
+    ]
   }
 ]

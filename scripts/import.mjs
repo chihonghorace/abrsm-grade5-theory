@@ -72,8 +72,19 @@ for (const [topic, items] of byTopic) {
   }, 0)
 
   for (const q of items) {
-    // shape checks
-    if (!q.prompt || !Array.isArray(q.choices) || q.choices.length < 2 || !q.explanation) {
+    const type = q.type ?? 'mc'
+    // shape checks (per type)
+    const okShape =
+      q.prompt &&
+      q.explanation &&
+      (type === 'mc'
+        ? Array.isArray(q.choices) && q.choices.length >= 2
+        : type === 'fill'
+        ? Array.isArray(q.blanks) && q.blanks.length >= 1
+        : type === 'multi'
+        ? Array.isArray(q.options) && Array.isArray(q.items) && q.items.length >= 1
+        : false)
+    if (!okShape) {
       console.warn(`  skip (bad shape): ${JSON.stringify(q).slice(0, 60)}…`)
       skipped++
       continue
@@ -84,16 +95,25 @@ for (const [topic, items] of byTopic) {
       continue
     }
     const id = `${prefix}-${++maxN}`
-    bank.push({
+    const base = {
       id,
       topic,
       difficulty: q.difficulty ?? 2,
       prompt: q.prompt,
       ...(q.abc ? { abc: q.abc } : {}),
-      choices: q.choices,
-      answer: q.answer ?? 0,
       explanation: q.explanation,
-    })
+    }
+    let merged
+    if (type === 'fill') merged = { ...base, type: 'fill', blanks: q.blanks }
+    else if (type === 'multi') merged = { ...base, type: 'multi', options: q.options, items: q.items }
+    else
+      merged = {
+        ...base,
+        ...(q.choicesAbc ? { choicesAbc: q.choicesAbc } : {}),
+        choices: q.choices,
+        answer: q.answer ?? 0,
+      }
+    bank.push(merged)
     existingPrompts.add(q.prompt.trim().toLowerCase())
     added++
   }

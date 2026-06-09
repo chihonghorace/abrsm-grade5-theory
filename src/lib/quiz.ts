@@ -1,4 +1,5 @@
-import type { Progress, Question } from '../types'
+import type { MCQuestion, MultiQuestion, Progress, Question } from '../types'
+import { questionType } from '../types'
 import { QUESTIONS } from '../data/questions'
 
 /** Fisher–Yates shuffle, returns a new array. */
@@ -18,17 +19,33 @@ export function shuffle<T>(arr: readonly T[]): T[] {
  */
 export interface Prepared {
   question: Question
-  choices: string[]
-  /** Index of the correct answer within the shuffled `choices`. */
-  answer: number
+  /** Present for MC questions: choices shuffled for display + the new answer index. */
+  mc?: { choices: string[]; choicesAbc?: (string | undefined)[]; answer: number }
+  /** Present for multi questions: the shared option list, shuffled for display. */
+  multiOptions?: string[]
 }
 
 export function prepare(q: Question): Prepared {
-  const order = shuffle(q.choices.map((_, i) => i))
-  return {
-    question: q,
-    choices: order.map((i) => q.choices[i]),
-    answer: order.indexOf(q.answer),
+  switch (questionType(q)) {
+    case 'fill':
+      return { question: q }
+    case 'multi': {
+      const m = q as MultiQuestion
+      return { question: q, multiOptions: shuffle(m.options) }
+    }
+    default: {
+      // MC: every question stores the correct answer at index 0, so shuffle.
+      const mc = q as MCQuestion
+      const order = shuffle(mc.choices.map((_, i) => i))
+      return {
+        question: q,
+        mc: {
+          choices: order.map((i) => mc.choices[i]),
+          choicesAbc: mc.choicesAbc ? order.map((i) => mc.choicesAbc![i]) : undefined,
+          answer: order.indexOf(mc.answer),
+        },
+      }
+    }
   }
 }
 

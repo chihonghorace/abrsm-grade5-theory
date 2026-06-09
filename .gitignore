@@ -24,3 +24,7 @@ data/proposed/
 
 # Local ABRSM reference material (copyright — never publish)
 ABRSM 官网材料/
+
+# Past-paper images/definitions (copyright — never publish)
+data/papers/
+public/papers/

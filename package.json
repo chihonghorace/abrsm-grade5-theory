@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "questions:validate": "node scripts/validate.mjs",
     "questions:generate": "node --env-file=.env scripts/generate.mjs",
-    "questions:import": "node scripts/import.mjs"
+    "questions:import": "node scripts/import.mjs",
+    "questions:extract": "node --env-file=.env scripts/extract-paper.mjs"
   },
   "dependencies": {
     "abcjs": "^6.4.3",

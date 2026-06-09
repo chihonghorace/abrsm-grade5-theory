@@ -338,5 +338,1275 @@
     ],
     "answer": 0,
     "explanation": "C–D is a 2nd; raising D to D♯ stretches it to three semitones, giving an augmented 2nd (it sounds like a minor 3rd but is spelled as a 2nd)."
+  },
+  {
+    "id": "iv-25",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to B is a(n):",
+    "explanation": "C♯–B spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 3rd",
+      "Augmented 4th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-26",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to C♭ is a(n):",
+    "explanation": "E♭–C♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Minor 7th",
+      "Perfect 4th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-27",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a major 2nd above the given note.",
+    "abc": "=C",
+    "explanation": "A major 2nd above C is D (2 semitones, 2 letter names).",
+    "choicesAbc": [
+      "=D",
+      "__D",
+      "_D",
+      "^D",
+      "^^D"
+    ],
+    "choices": [
+      "D",
+      "D♭♭",
+      "D♭",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-28",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to C♭ is a(n):",
+    "explanation": "D♭–C♭ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 6th",
+      "Minor 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-29",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C♯ up to G is a(n):",
+    "explanation": "C♯–G spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Augmented 4th",
+      "Minor 6th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-30",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to A♯ is a(n):",
+    "explanation": "G♯–A♯ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Augmented 4th",
+      "Minor 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-31",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A augmented 4th inverts to a diminished 5th — true or false?",
+    "explanation": "Inverting a augmented 4th gives a diminished 5th (the numbers add to 9 and the quality flips).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-32",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "G up to A is a(n):",
+    "explanation": "G–A spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Minor 6th",
+      "Diminished 5th",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-33",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C up to B♭ is a(n):",
+    "explanation": "C–B♭ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 6th",
+      "Major 2nd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-34",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 2nd above the given note.",
+    "abc": "=C",
+    "explanation": "A minor 2nd above C is D♭ (1 semitones, 2 letter names).",
+    "choicesAbc": [
+      "_D",
+      "__D",
+      "=D",
+      "^D",
+      "^^D"
+    ],
+    "choices": [
+      "D♭",
+      "D♭♭",
+      "D",
+      "D♯",
+      "D♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-35",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "B up to E is a(n):",
+    "explanation": "B–E spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Minor 6th",
+      "Minor 7th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-36",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A up to C♯ is a(n):",
+    "explanation": "A–C♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Minor 6th",
+      "Minor 3rd",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-37",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to C is a(n):",
+    "explanation": "E–C spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Minor 3rd",
+      "Diminished 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-38",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C♯ up to A is a(n):",
+    "explanation": "C♯–A spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Major 6th",
+      "Minor 7th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-39",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D up to E♭ is a(n):",
+    "explanation": "D–E♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Augmented 4th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-40",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to F♭ is a(n):",
+    "explanation": "D♭–F♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Perfect 5th",
+      "Major 3rd",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-41",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to G is a(n):",
+    "explanation": "C–G spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Augmented 4th",
+      "Major 6th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-42",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to D♭ is a(n):",
+    "explanation": "E♭–D♭ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Minor 6th",
+      "Augmented 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-43",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to E♭ is a(n):",
+    "explanation": "B♭–E♭ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Minor 3rd",
+      "Augmented 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-44",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to A is a(n):",
+    "explanation": "B♭–A spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Major 2nd",
+      "Diminished 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-45",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C up to D♭ is a(n):",
+    "explanation": "C–D♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Minor 6th",
+      "Perfect 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-46",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to E♭♭ is a(n):",
+    "explanation": "D♭–E♭♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Minor 6th",
+      "Major 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-47",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E up to B♭ is a(n):",
+    "explanation": "E–B♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Major 6th",
+      "Perfect 5th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-48",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to D is a(n):",
+    "explanation": "F♯–D spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Minor 3rd",
+      "Augmented 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-49",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G up to A♭ is a(n):",
+    "explanation": "G–A♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Minor 3rd",
+      "Perfect 5th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-50",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A up to E♭ is a(n):",
+    "explanation": "A–E♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Minor 6th",
+      "Perfect 5th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-51",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to G is a(n):",
+    "explanation": "D–G spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-52",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "G up to C is a(n):",
+    "explanation": "G–C spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 3rd",
+      "Minor 2nd",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-53",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C up to A♭ is a(n):",
+    "explanation": "C–A♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Major 3rd",
+      "Perfect 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-54",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B up to E♯ is a(n):",
+    "explanation": "B–E♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Major 6th",
+      "Diminished 5th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-55",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F up to E♭ is a(n):",
+    "explanation": "F–E♭ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 3rd",
+      "Perfect 5th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-56",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a minor 6th?",
+    "explanation": "A minor 6th contains 8 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "8"
+      }
+    ]
+  },
+  {
+    "id": "iv-57",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A♭ up to D is a(n):",
+    "explanation": "A♭–D spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Diminished 5th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-58",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to G is a(n):",
+    "explanation": "E–G spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Minor 6th",
+      "Major 3rd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-59",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "B up to D is a(n):",
+    "explanation": "B–D spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Perfect 4th",
+      "Major 7th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-60",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C up to E♭ is a(n):",
+    "explanation": "C–E♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Major 2nd",
+      "Minor 7th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-61",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F♯ up to B♯ is a(n):",
+    "explanation": "F♯–B♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 6th",
+      "Perfect 5th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-62",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to A is a(n):",
+    "explanation": "C–A spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 7th",
+      "Perfect 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-63",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to C♯ is a(n):",
+    "explanation": "F♯–C♯ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Minor 6th",
+      "Minor 7th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-64",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E up to D♯ is a(n):",
+    "explanation": "E–D♯ spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Minor 3rd",
+      "Augmented 4th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-65",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to F is a(n):",
+    "explanation": "B♭–F spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 3rd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-66",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to C is a(n):",
+    "explanation": "D–C spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-67",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "F up to E is a(n):",
+    "explanation": "F–E spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Perfect 4th",
+      "Minor 3rd",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-68",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to B is a(n):",
+    "explanation": "G♯–B spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Major 7th",
+      "Minor 7th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-69",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "E♭ up to F♭ is a(n):",
+    "explanation": "E♭–F♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Major 6th",
+      "Augmented 4th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-70",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Choose the note a minor 6th above the given note.",
+    "abc": "=C",
+    "explanation": "A minor 6th above C is A♭ (8 semitones, 6 letter names).",
+    "choicesAbc": [
+      "_A",
+      "__A",
+      "=A",
+      "^A",
+      "^^A"
+    ],
+    "choices": [
+      "A♭",
+      "A♭♭",
+      "A",
+      "A♯",
+      "A♯♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-71",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to E is a(n):",
+    "explanation": "F♯–E spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Major 3rd",
+      "Perfect 4th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-72",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to C♯ is a(n):",
+    "explanation": "G♯–C♯ spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Major 3rd",
+      "Diminished 5th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-73",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C up to F♯ is a(n):",
+    "explanation": "C–F♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 3rd",
+      "Major 3rd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-74",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "A up to B is a(n):",
+    "explanation": "A–B spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Minor 7th",
+      "Major 3rd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-75",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to B♭♭ is a(n):",
+    "explanation": "D♭–B♭♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Perfect 4th",
+      "Augmented 4th",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-76",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "G up to C♯ is a(n):",
+    "explanation": "G–C♯ spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Minor 2nd",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-77",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B up to C♯ is a(n):",
+    "explanation": "B–C♯ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Augmented 4th",
+      "Minor 3rd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-78",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "D up to A♭ is a(n):",
+    "explanation": "D–A♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Perfect 4th",
+      "Augmented 4th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-79",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D♭ up to C is a(n):",
+    "explanation": "D♭–C spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Minor 2nd",
+      "Perfect 4th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-80",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B up to D♯ is a(n):",
+    "explanation": "B–D♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Major 7th",
+      "Minor 6th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-81",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E♭ up to A is a(n):",
+    "explanation": "E♭–A spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 6th",
+      "Diminished 5th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-82",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to B is a(n):",
+    "explanation": "F♯–B spans 4 letter names and 5 semitones — a perfect 4th.",
+    "choices": [
+      "Perfect 4th",
+      "Diminished 5th",
+      "Major 7th",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-83",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to A is a(n):",
+    "explanation": "F♯–A spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Major 2nd",
+      "Major 3rd",
+      "Minor 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-84",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A up to F♯ is a(n):",
+    "explanation": "A–F♯ spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Major 7th",
+      "Diminished 5th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-85",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "G up to B is a(n):",
+    "explanation": "G–B spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Diminished 5th",
+      "Major 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-86",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a major 3rd?",
+    "explanation": "A major 3rd contains 4 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "iv-87",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to E is a(n):",
+    "explanation": "G♯–E spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Minor 7th",
+      "Minor 3rd",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-88",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to D♯ is a(n):",
+    "explanation": "G♯–D♯ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Minor 2nd",
+      "Major 6th",
+      "Major 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-89",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to F♯ is a(n):",
+    "explanation": "G♯–F♯ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Minor 3rd",
+      "Perfect 4th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-90",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a perfect 5th?",
+    "explanation": "A perfect 5th contains 7 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "7"
+      }
+    ]
+  },
+  {
+    "id": "iv-91",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G♯ up to B♯ is a(n):",
+    "explanation": "G♯–B♯ spans 3 letter names and 4 semitones — a major 3rd.",
+    "choices": [
+      "Major 3rd",
+      "Major 2nd",
+      "Perfect 5th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-92",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A minor 3rd inverts to a major 6th — true or false?",
+    "explanation": "Inverting a minor 3rd gives a major 6th (the numbers add to 9 and the quality flips).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-93",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to G♭ is a(n):",
+    "explanation": "B♭–G♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Augmented 4th",
+      "Perfect 5th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-94",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C up to G♭ is a(n):",
+    "explanation": "C–G♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Minor 7th",
+      "Major 6th",
+      "Major 2nd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-95",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "E♭ up to B♭♭ is a(n):",
+    "explanation": "E♭–B♭♭ spans 5 letter names and 6 semitones — a diminished 5th.",
+    "choices": [
+      "Diminished 5th",
+      "Minor 6th",
+      "Major 6th",
+      "Minor 3rd"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-96",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "F up to C is a(n):",
+    "explanation": "F–C spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Augmented 4th",
+      "Minor 6th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-97",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 2nd inverts to a minor 7th — true or false?",
+    "explanation": "Inverting a major 2nd gives a minor 7th (the numbers add to 9 and the quality flips).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-98",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to F is a(n):",
+    "explanation": "A♭–F spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 2nd",
+      "Major 2nd",
+      "Minor 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-99",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a minor 2nd?",
+    "explanation": "A minor 2nd contains 1 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "id": "iv-100",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G up to E♭ is a(n):",
+    "explanation": "G–E♭ spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Minor 3rd",
+      "Augmented 4th",
+      "Major 7th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-101",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F♯ up to G♯ is a(n):",
+    "explanation": "F♯–G♯ spans 2 letter names and 2 semitones — a major 2nd.",
+    "choices": [
+      "Major 2nd",
+      "Minor 2nd",
+      "Perfect 4th",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-102",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A♭ up to G♭ is a(n):",
+    "explanation": "A♭–G♭ spans 7 letter names and 10 semitones — a minor 7th.",
+    "choices": [
+      "Minor 7th",
+      "Perfect 4th",
+      "Major 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-103",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B up to F♯ is a(n):",
+    "explanation": "B–F♯ spans 5 letter names and 7 semitones — a perfect 5th.",
+    "choices": [
+      "Perfect 5th",
+      "Major 6th",
+      "Minor 2nd",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-104",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "B up to C is a(n):",
+    "explanation": "B–C spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Major 7th",
+      "Major 2nd",
+      "Augmented 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-105",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "How many semitones are there in a major 7th?",
+    "explanation": "A major 7th contains 11 semitones.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "11"
+      }
+    ]
+  },
+  {
+    "id": "iv-106",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to B is a(n):",
+    "explanation": "C–B spans 7 letter names and 11 semitones — a major 7th.",
+    "choices": [
+      "Major 7th",
+      "Major 3rd",
+      "Perfect 4th",
+      "Diminished 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-107",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "F up to B is a(n):",
+    "explanation": "F–B spans 4 letter names and 6 semitones — a augmented 4th.",
+    "choices": [
+      "Augmented 4th",
+      "Minor 2nd",
+      "Major 3rd",
+      "Perfect 5th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-108",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "F up to A♭ is a(n):",
+    "explanation": "F–A♭ spans 3 letter names and 3 semitones — a minor 3rd.",
+    "choices": [
+      "Minor 3rd",
+      "Minor 2nd",
+      "Augmented 4th",
+      "Major 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-109",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A minor 3rd inverts to a minor 3rd — true or false?",
+    "explanation": "A minor 3rd inverts to a major 6th, not to itself.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-110",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "B♭ up to C♭ is a(n):",
+    "explanation": "B♭–C♭ spans 2 letter names and 1 semitones — a minor 2nd.",
+    "choices": [
+      "Minor 2nd",
+      "Perfect 4th",
+      "Minor 7th",
+      "Minor 6th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-111",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 3rd inverts to a major 3rd — true or false?",
+    "explanation": "A major 3rd inverts to a minor 6th, not to itself.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-112",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "F up to D is a(n):",
+    "explanation": "F–D spans 6 letter names and 9 semitones — a major 6th.",
+    "choices": [
+      "Major 6th",
+      "Minor 3rd",
+      "Perfect 5th",
+      "Perfect 4th"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-113",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 2nd inverts to a major 2nd — true or false?",
+    "explanation": "A major 2nd inverts to a minor 7th, not to itself.",
+    "choices": [
+      "False",
+      "True"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "iv-114",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "B up to G is a(n):",
+    "explanation": "B–G spans 6 letter names and 8 semitones — a minor 6th.",
+    "choices": [
+      "Minor 6th",
+      "Major 3rd",
+      "Minor 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0
   }
 ]

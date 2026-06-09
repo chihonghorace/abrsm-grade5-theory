@@ -3,7 +3,8 @@ import type { ProgressApi } from '../lib/storage'
 import { QUESTIONS } from '../data/questions'
 import { TOPIC_BY_ID } from '../data/topics'
 import { prepareMany, shuffle, type Prepared } from '../lib/quiz'
-import QuestionCard from '../components/QuestionCard'
+import { blankAnswer, isAnswered, isCorrect, type Answer } from '../lib/answer'
+import QuestionView from '../components/QuestionView'
 import { Grade } from './Home'
 
 interface Props {
@@ -31,7 +32,7 @@ function fmt(sec: number): string {
 export default function Mock({ api }: Props) {
   const [phase, setPhase] = useState<'setup' | 'run' | 'done'>('setup')
   const [questions, setQuestions] = useState<Prepared[]>([])
-  const [answers, setAnswers] = useState<(number | null)[]>([])
+  const [answers, setAnswers] = useState<Answer[]>([])
   const [flags, setFlags] = useState<boolean[]>([])
   const [cur, setCur] = useState(0)
   const [secondsLeft, setSecondsLeft] = useState(0)
@@ -56,7 +57,7 @@ export default function Mock({ api }: Props) {
     const count = Math.min(p.count, QUESTIONS.length)
     const qs = prepareMany(shuffle(QUESTIONS).slice(0, count))
     setQuestions(qs)
-    setAnswers(new Array(qs.length).fill(null))
+    setAnswers(qs.map((p) => blankAnswer(p.question)))
     setFlags(new Array(qs.length).fill(false))
     setCur(0)
     setSecondsLeft(p.minutes * 60)
@@ -64,10 +65,10 @@ export default function Mock({ api }: Props) {
     setPhase('run')
   }
 
-  function choose(choice: number) {
+  function onChange(a: Answer) {
     setAnswers((prev) => {
       const next = prev.slice()
-      next[cur] = choice
+      next[cur] = a
       return next
     })
   }
@@ -75,12 +76,12 @@ export default function Mock({ api }: Props) {
   function submit(auto = false) {
     if (phase !== 'run') return
     if (!auto) {
-      const blanks = answers.filter((a) => a === null).length
+      const blanks = answers.filter((a, idx) => !isAnswered(questions[idx].question, a)).length
       if (blanks > 0 && !confirm(`You have ${blanks} unanswered question(s). Submit anyway?`)) return
     }
     let score = 0
     questions.forEach((q, idx) => {
-      const correct = answers[idx] === q.answer
+      const correct = isCorrect(q, answers[idx])
       if (correct) score++
       api.recordAttempt(q.question.id, correct)
     })
@@ -127,7 +128,7 @@ export default function Mock({ api }: Props) {
 
   // ---- Done --------------------------------------------------------------
   if (phase === 'done') {
-    const score = questions.reduce((n, q, idx) => n + (answers[idx] === q.answer ? 1 : 0), 0)
+    const score = questions.reduce((n, q, idx) => n + (isCorrect(q, answers[idx]) ? 1 : 0), 0)
     const pct = Math.round((score / questions.length) * 100)
 
     // Per-topic breakdown
@@ -136,7 +137,7 @@ export default function Mock({ api }: Props) {
       const t = q.question.topic
       const e = byTopic.get(t) ?? { correct: 0, total: 0 }
       e.total++
-      if (answers[idx] === q.answer) e.correct++
+      if (isCorrect(q, answers[idx])) e.correct++
       byTopic.set(t, e)
     })
 
@@ -189,12 +190,12 @@ export default function Mock({ api }: Props) {
           </summary>
           <div className="mt-4 space-y-4">
             {questions.map((q, idx) => (
-              <QuestionCard
+              <QuestionView
                 key={q.question.id}
                 prepared={q}
-                selected={answers[idx]}
+                answer={answers[idx]}
+                onChange={() => {}}
                 revealed
-                onSelect={() => {}}
                 bookmarked={api.progress.bookmarks.includes(q.question.id)}
                 onToggleBookmark={() => api.toggleBookmark(q.question.id)}
                 index={idx}
@@ -213,7 +214,7 @@ export default function Mock({ api }: Props) {
 
   // ---- Run ---------------------------------------------------------------
   const q = questions[cur]
-  const answeredCount = answers.filter((a) => a !== null).length
+  const answeredCount = answers.filter((a, idx) => isAnswered(questions[idx].question, a)).length
   const low = secondsLeft <= 60
 
   return (
@@ -234,11 +235,11 @@ export default function Mock({ api }: Props) {
         </button>
       </div>
 
-      <QuestionCard
+      <QuestionView
         prepared={q}
-        selected={answers[cur]}
+        answer={answers[cur]}
         revealed={false}
-        onSelect={choose}
+        onChange={onChange}
         bookmarked={flags[cur]}
         onToggleBookmark={() =>
           setFlags((f) => {
@@ -275,7 +276,7 @@ export default function Mock({ api }: Props) {
         </p>
         <div className="grid grid-cols-8 gap-1.5">
           {questions.map((_, idx) => {
-            const isAnswered = answers[idx] !== null
+            const answered = isAnswered(questions[idx].question, answers[idx])
             const isFlagged = flags[idx]
             const isCur = idx === cur
             return (
@@ -285,8 +286,8 @@ export default function Mock({ api }: Props) {
                 className={`relative h-9 rounded-lg text-sm font-bold transition-all ${
                   isCur
                     ? 'bg-brand-600 text-white ring-2 ring-brand-300'
-                    : isAnswered
-                    ? 'bg-brand-100 text-brand-700'
+                    : answered
+                    ? 'bg-brand-100 text-brand-700 dark:bg-brand-500/25 dark:text-brand-200'
                     : 'bg-surface-2 text-ink-faint'
                 }`}
               >

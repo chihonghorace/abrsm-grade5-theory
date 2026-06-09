@@ -166,5 +166,297 @@
     ],
     "answer": 0,
     "explanation": "Keep the interval identical for every note — same number AND quality — then fit the new key signature."
+  },
+  {
+    "id": "tp-13",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in G major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above G is A, so the new key is A major.",
+    "choices": [
+      "A major",
+      "G♭ major",
+      "F♯ major",
+      "E♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-14",
+    "topic": "transposition",
+    "difficulty": 3,
+    "prompt": "The horn in F sounds:",
+    "explanation": "The horn in F sounds a perfect 5th lower than the written note.",
+    "choices": [
+      "a perfect 5th lower than written",
+      "a major 2nd lower than written",
+      "a minor 3rd lower than written",
+      "at the same pitch as written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-15",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The cor anglais sounds:",
+    "explanation": "The cor anglais sounds a perfect 5th lower than the written note.",
+    "choices": [
+      "a perfect 5th lower than written",
+      "at the same pitch as written",
+      "a major 2nd lower than written",
+      "an octave higher than written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-16",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in E♭ major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above E♭ is F, so the new key is F major.",
+    "choices": [
+      "F major",
+      "C major",
+      "G major",
+      "B♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-17",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The clarinet in B♭ sounds:",
+    "explanation": "The clarinet in B♭ sounds a major 2nd lower than the written note.",
+    "choices": [
+      "a major 2nd lower than written",
+      "a major 2nd higher than written",
+      "a perfect 5th lower than written",
+      "a minor 3rd higher than written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-18",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The piccolo sounds an octave higher than written — true or false?",
+    "explanation": "Correct — the piccolo sounds an octave higher.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-19",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The cor anglais sounds a perfect 5th lower than written — true or false?",
+    "explanation": "Correct — the cor anglais sounds a perfect 5th lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-20",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The guitar sounds:",
+    "explanation": "The guitar sounds an octave lower than the written note.",
+    "choices": [
+      "an octave lower than written",
+      "a major 3rd lower than written",
+      "a minor 3rd lower than written",
+      "a major 2nd higher than written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-21",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The clarinet in B♭ sounds a major 2nd lower than written — true or false?",
+    "explanation": "Correct — the clarinet in B♭ sounds a major 2nd lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-22",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in F major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above F is G, so the new key is G major.",
+    "choices": [
+      "G major",
+      "D major",
+      "D♭ major",
+      "G♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-23",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in A♭ major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above A♭ is B♭, so the new key is B♭ major.",
+    "choices": [
+      "B♭ major",
+      "A♭ major",
+      "A major",
+      "F♯ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-24",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The double bass sounds an octave lower than written — true or false?",
+    "explanation": "Correct — the double bass sounds an octave lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-25",
+    "topic": "transposition",
+    "difficulty": 3,
+    "prompt": "The clarinet in A sounds:",
+    "explanation": "The clarinet in A sounds a minor 3rd lower than the written note.",
+    "choices": [
+      "a minor 3rd lower than written",
+      "a major 3rd higher than written",
+      "a major 2nd lower than written",
+      "at the same pitch as written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-26",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in A major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above A is B, so the new key is B major.",
+    "choices": [
+      "B major",
+      "A♭ major",
+      "B♭ major",
+      "E♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-27",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The trumpet in B♭ sounds a major 2nd lower than written — true or false?",
+    "explanation": "Correct — the trumpet in B♭ sounds a major 2nd lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-28",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The guitar sounds an octave lower than written — true or false?",
+    "explanation": "Correct — the guitar sounds an octave lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-29",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The clarinet in A sounds a minor 3rd lower than written — true or false?",
+    "explanation": "Correct — the clarinet in A sounds a minor 3rd lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-30",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in B♭ major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above B♭ is C, so the new key is C major.",
+    "choices": [
+      "C major",
+      "F major",
+      "A♭ major",
+      "F♯ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-31",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The horn in F sounds a perfect 5th lower than written — true or false?",
+    "explanation": "Correct — the horn in F sounds a perfect 5th lower.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-32",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in C major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above C is D, so the new key is D major.",
+    "choices": [
+      "D major",
+      "G major",
+      "F♯ major",
+      "D♭ major"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-33",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "The trumpet in B♭ sounds:",
+    "explanation": "The trumpet in B♭ sounds a major 2nd lower than the written note.",
+    "choices": [
+      "a major 2nd lower than written",
+      "a minor 3rd lower than written",
+      "a minor 3rd higher than written",
+      "at the same pitch as written"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "tp-34",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transpose a melody in D major UP a major 2nd. The new key is:",
+    "explanation": "A major 2nd above D is E, so the new key is E major.",
+    "choices": [
+      "E major",
+      "F♯ major",
+      "D major",
+      "D♭ major"
+    ],
+    "answer": 0
   }
 ]

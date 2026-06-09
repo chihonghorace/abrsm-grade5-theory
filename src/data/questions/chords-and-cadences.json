@@ -337,5 +337,1374 @@
     ],
     "answer": 0,
     "explanation": "It is chord V plus a minor 7th above the root — a four-note chord that pulls to the tonic."
+  },
+  {
+    "id": "cc-25",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: A C♯ E.",
+    "choices": [
+      "A C♯ E",
+      "B♭ D F",
+      "C♭ E♭ G♭",
+      "E♭ G B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-26",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Key of A major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the A major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: E G♯ B",
+        "answer": "V"
+      },
+      {
+        "label": "B: C♯ E G♯",
+        "answer": "iii"
+      },
+      {
+        "label": "C: A C♯ E",
+        "answer": "I"
+      }
+    ]
+  },
+  {
+    "id": "cc-27",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: A♭ C E♭.",
+    "choices": [
+      "A♭ C E♭",
+      "C E G",
+      "D♭ F A♭",
+      "G B D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-28",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: C♯ E G♯.",
+    "choices": [
+      "C♯ E G♯",
+      "D♭ F A♭",
+      "G♭ B♭ D♭",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-29",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In A♭ major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: E♭ G B♭.",
+    "choices": [
+      "E♭ G B♭",
+      "B D♯ F♯",
+      "G B D",
+      "F♯ A♯ C♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-30",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In G major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: G B D.",
+    "choices": [
+      "G B D",
+      "G♭ B♭ D♭",
+      "C♯ E♯ G♯",
+      "E♭ G B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-31",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In E major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: B D♯ F♯.",
+    "choices": [
+      "B D♯ F♯",
+      "B♭ D F",
+      "F♯ A♯ C♯",
+      "D♭ F A♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-32",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In G major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: A C E.",
+    "choices": [
+      "A C E",
+      "D F♯ A",
+      "F A C",
+      "G B D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-33",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The dominant 7th chord in A♭ major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: E♭ G B♭ D♭.",
+    "choices": [
+      "E♭ G B♭ D♭",
+      "F A C E♭",
+      "A C♯ E G",
+      "A♭ C E♭ G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-34",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: D♭ F A♭.",
+    "choices": [
+      "D♭ F A♭",
+      "A♭ C E♭",
+      "E G♯ B",
+      "E♭ G B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-35",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: C E G.",
+    "choices": [
+      "C E G",
+      "B♭ D F",
+      "D♭ F A♭",
+      "A C♯ E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-36",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Key of F♯ major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the F♯ major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: B D♯ F♯",
+        "answer": "IV"
+      },
+      {
+        "label": "B: F♯ A♯ C♯",
+        "answer": "I"
+      },
+      {
+        "label": "C: G♯ B D♯",
+        "answer": "ii"
+      }
+    ]
+  },
+  {
+    "id": "cc-37",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The dominant 7th chord in B major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: F♯ A♯ C♯ E.",
+    "choices": [
+      "F♯ A♯ C♯ E",
+      "C E G B♭",
+      "A♭ C E♭ G♭",
+      "D♭ F A♭ C♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-38",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Key of F major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the F major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: G B♭ D",
+        "answer": "ii"
+      },
+      {
+        "label": "B: F A C",
+        "answer": "I"
+      },
+      {
+        "label": "C: B♭ D F",
+        "answer": "IV"
+      }
+    ]
+  },
+  {
+    "id": "cc-39",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: F♯ A♯ C♯.",
+    "choices": [
+      "F♯ A♯ C♯",
+      "G B D",
+      "B D♯ F♯",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-40",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In A major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: A C♯ E.",
+    "choices": [
+      "A C♯ E",
+      "D F♯ A",
+      "G B D",
+      "F♯ A♯ C♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-41",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In E major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: E G♯ B.",
+    "choices": [
+      "E G♯ B",
+      "F♯ A♯ C♯",
+      "A♭ C E♭",
+      "D F♯ A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-42",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: F A C.",
+    "choices": [
+      "F A C",
+      "E G♯ B",
+      "G B D",
+      "F♯ A♯ C♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-43",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: C E♭ G.",
+    "choices": [
+      "C E♭ G",
+      "B D♯ F♯",
+      "E♭ G B♭",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-44",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In G♭ major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: G♭ B♭ D♭.",
+    "choices": [
+      "G♭ B♭ D♭",
+      "G B D",
+      "C E G",
+      "B♭ D F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-45",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: G B♭ D.",
+    "choices": [
+      "G B♭ D",
+      "B♭ D F",
+      "G♭ B♭ D♭",
+      "A♭ C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-46",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In A major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: B D F♯.",
+    "choices": [
+      "B D F♯",
+      "B D♯ F♯",
+      "A C♯ E",
+      "A♭ C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-47",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Key of G major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the G major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: B D F♯",
+        "answer": "iii"
+      },
+      {
+        "label": "B: D F♯ A",
+        "answer": "V"
+      },
+      {
+        "label": "C: A C E",
+        "answer": "ii"
+      }
+    ]
+  },
+  {
+    "id": "cc-48",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: F A C.",
+    "choices": [
+      "F A C",
+      "D F♯ A",
+      "E G♯ B",
+      "C♯ E♯ G♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-49",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: B D♯ F♯.",
+    "choices": [
+      "B D♯ F♯",
+      "F♯ A♯ C♯",
+      "E G♯ B",
+      "C♭ E♭ G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-50",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Key of D♭ major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the D♭ major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: F A♭ C",
+        "answer": "iii"
+      },
+      {
+        "label": "B: B♭ D♭ F",
+        "answer": "vi"
+      },
+      {
+        "label": "C: D♭ F A♭",
+        "answer": "I"
+      }
+    ]
+  },
+  {
+    "id": "cc-51",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: B♭ D F.",
+    "choices": [
+      "B♭ D F",
+      "A C♯ E",
+      "C E G",
+      "C♯ E♯ G♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-52",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Key of D major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the D major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: F♯ A C♯",
+        "answer": "iii"
+      },
+      {
+        "label": "B: B D F♯",
+        "answer": "vi"
+      },
+      {
+        "label": "C: E G B",
+        "answer": "ii"
+      }
+    ]
+  },
+  {
+    "id": "cc-53",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In G major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: D F♯ A.",
+    "choices": [
+      "D F♯ A",
+      "F♯ A♯ C♯",
+      "E♭ G B♭",
+      "A♭ C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-54",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In B major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: E G♯ B.",
+    "choices": [
+      "E G♯ B",
+      "D♭ F A♭",
+      "B D♯ F♯",
+      "F♯ A♯ C♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-55",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Key of B major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the B major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: G♯ B D♯",
+        "answer": "vi"
+      },
+      {
+        "label": "B: B D♯ F♯",
+        "answer": "I"
+      },
+      {
+        "label": "C: D♯ F♯ A♯",
+        "answer": "iii"
+      }
+    ]
+  },
+  {
+    "id": "cc-56",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Which cadence is V–vi?",
+    "explanation": "V–vi is a interrupted cadence.",
+    "choices": [
+      "Interrupted",
+      "Plagal",
+      "Imperfect",
+      "Perfect"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-57",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: B♭ D F.",
+    "choices": [
+      "B♭ D F",
+      "F A C",
+      "B D♯ F♯",
+      "D♭ F A♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-58",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: G B D.",
+    "choices": [
+      "G B D",
+      "B D♯ F♯",
+      "C E G",
+      "D F♯ A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-59",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: B D♯ F♯.",
+    "choices": [
+      "B D♯ F♯",
+      "D F♯ A",
+      "F A C",
+      "B♭ D F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-60",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Which cadence is ends on V?",
+    "explanation": "ends on V is a imperfect cadence.",
+    "choices": [
+      "Imperfect",
+      "Plagal",
+      "Perfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-61",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In B♭ major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: E♭ G B♭.",
+    "choices": [
+      "E♭ G B♭",
+      "C♯ E♯ G♯",
+      "D F♯ A",
+      "C♭ E♭ G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-62",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In G♭ major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: D♭ F A♭.",
+    "choices": [
+      "D♭ F A♭",
+      "C E G",
+      "C♭ E♭ G♭",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-63",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: F A C.",
+    "choices": [
+      "F A C",
+      "C E G",
+      "G B D",
+      "D F♯ A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-64",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In E major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: F♯ A C♯.",
+    "choices": [
+      "F♯ A C♯",
+      "G♭ B♭ D♭",
+      "F♯ A♯ C♯",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-65",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "The dominant 7th chord in C major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: G B D F.",
+    "choices": [
+      "G B D F",
+      "D F♯ A C",
+      "A♭ C E♭ G♭",
+      "F A C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-66",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The dominant 7th chord in E major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: B D♯ F♯ A.",
+    "choices": [
+      "B D♯ F♯ A",
+      "F♯ A♯ C♯ E",
+      "A C♯ E G",
+      "C E G B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-67",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The dominant 7th chord in D♭ major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: A♭ C E♭ G♭.",
+    "choices": [
+      "A♭ C E♭ G♭",
+      "G B D F",
+      "B♭ D F A♭",
+      "E♭ G B♭ D♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-68",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Which cadence is V–I?",
+    "explanation": "V–I is a perfect cadence.",
+    "choices": [
+      "Perfect",
+      "Plagal",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-69",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In A major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: E G♯ B.",
+    "choices": [
+      "E G♯ B",
+      "C♭ E♭ G♭",
+      "G♭ B♭ D♭",
+      "A♭ C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-70",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In G major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: C E G.",
+    "choices": [
+      "C E G",
+      "B D♯ F♯",
+      "D F♯ A",
+      "G♭ B♭ D♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-71",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In E major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: A C♯ E.",
+    "choices": [
+      "A C♯ E",
+      "A♭ C E♭",
+      "G♭ B♭ D♭",
+      "C E G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-72",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In A♭ major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: A♭ C E♭.",
+    "choices": [
+      "A♭ C E♭",
+      "F♯ A♯ C♯",
+      "E♭ G B♭",
+      "D F♯ A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-73",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th chord in F major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: C E G B♭.",
+    "choices": [
+      "C E G B♭",
+      "F A C E♭",
+      "G B D F",
+      "E G♯ B D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-74",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: F A♭ C.",
+    "choices": [
+      "F A♭ C",
+      "B D♯ F♯",
+      "B♭ D F",
+      "C E G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-75",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th chord in D major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: A C♯ E G.",
+    "choices": [
+      "A C♯ E G",
+      "C E G B♭",
+      "A♭ C E♭ G♭",
+      "E G♯ B D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-76",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: F♯ A♯ C♯.",
+    "choices": [
+      "F♯ A♯ C♯",
+      "F A C",
+      "A C♯ E",
+      "C♭ E♭ G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-77",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: G♯ B D♯.",
+    "choices": [
+      "G♯ B D♯",
+      "F♯ A♯ C♯",
+      "D♭ F A♭",
+      "A C♯ E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-78",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th chord in B♭ major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: F A C E♭.",
+    "choices": [
+      "F A C E♭",
+      "D F♯ A C",
+      "C E G B♭",
+      "C♯ E♯ G♯ B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-79",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The dominant 7th chord in F♯ major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: C♯ E♯ G♯ B.",
+    "choices": [
+      "C♯ E♯ G♯ B",
+      "G B D F",
+      "C E G B♭",
+      "E G♯ B D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-80",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: E♭ G B♭.",
+    "choices": [
+      "E♭ G B♭",
+      "C♯ E♯ G♯",
+      "C E G",
+      "F♯ A♯ C♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-81",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Which cadence is IV–I?",
+    "explanation": "IV–I is a plagal cadence.",
+    "choices": [
+      "Plagal",
+      "Imperfect",
+      "Perfect",
+      "Interrupted"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-82",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: E G B.",
+    "choices": [
+      "E G B",
+      "A C♯ E",
+      "E♭ G B♭",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-83",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In G♭ major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: A♭ C♭ E♭.",
+    "choices": [
+      "A♭ C♭ E♭",
+      "F♯ A♯ C♯",
+      "G B D",
+      "C E G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-84",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The dominant 7th chord in G♭ major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: D♭ F A♭ C♭.",
+    "choices": [
+      "D♭ F A♭ C♭",
+      "A♭ C E♭ G♭",
+      "B♭ D F A♭",
+      "C♯ E♯ G♯ B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-85",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "Key of C major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the C major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: E G B",
+        "answer": "iii"
+      },
+      {
+        "label": "B: F A C",
+        "answer": "IV"
+      },
+      {
+        "label": "C: C E G",
+        "answer": "I"
+      }
+    ]
+  },
+  {
+    "id": "cc-86",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In F major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: C E G.",
+    "choices": [
+      "C E G",
+      "G B D",
+      "E♭ G B♭",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-87",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Key of B♭ major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the B♭ major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: C E♭ G",
+        "answer": "ii"
+      },
+      {
+        "label": "B: F A C",
+        "answer": "V"
+      },
+      {
+        "label": "C: D F A",
+        "answer": "iii"
+      }
+    ]
+  },
+  {
+    "id": "cc-88",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Key of E♭ major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the E♭ major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: F A♭ C",
+        "answer": "ii"
+      },
+      {
+        "label": "B: G B♭ D",
+        "answer": "iii"
+      },
+      {
+        "label": "C: E♭ G B♭",
+        "answer": "I"
+      }
+    ]
+  },
+  {
+    "id": "cc-89",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In G♭ major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: C♭ E♭ G♭.",
+    "choices": [
+      "C♭ E♭ G♭",
+      "C E G",
+      "B♭ D F",
+      "E G♯ B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-90",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, chord I is made of which notes?",
+    "explanation": "Chord I is the triad on degree 1: D F♯ A.",
+    "choices": [
+      "D F♯ A",
+      "C E G",
+      "C♯ E♯ G♯",
+      "G B D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-91",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Key of E major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the E major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: C♯ E G♯",
+        "answer": "vi"
+      },
+      {
+        "label": "B: E G♯ B",
+        "answer": "I"
+      },
+      {
+        "label": "C: F♯ A C♯",
+        "answer": "ii"
+      }
+    ]
+  },
+  {
+    "id": "cc-92",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: B♭ D F.",
+    "choices": [
+      "B♭ D F",
+      "C♯ E♯ G♯",
+      "C♭ E♭ G♭",
+      "D F♯ A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-93",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In A♭ major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: D♭ F A♭.",
+    "choices": [
+      "D♭ F A♭",
+      "E♭ G B♭",
+      "C♯ E♯ G♯",
+      "A♭ C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-94",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In F♯ major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: C♯ E♯ G♯.",
+    "choices": [
+      "C♯ E♯ G♯",
+      "G B D",
+      "E G♯ B",
+      "G♭ B♭ D♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-95",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Key of A♭ major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the A♭ major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: E♭ G B♭",
+        "answer": "V"
+      },
+      {
+        "label": "B: B♭ D♭ F",
+        "answer": "ii"
+      },
+      {
+        "label": "C: D♭ F A♭",
+        "answer": "IV"
+      }
+    ]
+  },
+  {
+    "id": "cc-96",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In E♭ major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: A♭ C E♭.",
+    "choices": [
+      "A♭ C E♭",
+      "D F♯ A",
+      "G♭ B♭ D♭",
+      "C E G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-97",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, chord V is made of which notes?",
+    "explanation": "Chord V is the triad on degree 5: G B D.",
+    "choices": [
+      "G B D",
+      "G♭ B♭ D♭",
+      "F♯ A♯ C♯",
+      "D F♯ A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-98",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th chord in G major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: D F♯ A C.",
+    "choices": [
+      "D F♯ A C",
+      "E G♯ B D",
+      "A♭ C E♭ G♭",
+      "F♯ A♯ C♯ E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-99",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th chord in E♭ major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: B♭ D F A♭.",
+    "choices": [
+      "B♭ D F A♭",
+      "D♭ F A♭ C♭",
+      "A C♯ E G",
+      "F A C E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-100",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th chord in A major contains:",
+    "explanation": "Chord V plus a minor 7th above the root: E G♯ B D.",
+    "choices": [
+      "E G♯ B D",
+      "C♯ E♯ G♯ B",
+      "C E G B♭",
+      "A♭ C E♭ G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-101",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In A♭ major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: B♭ D♭ F.",
+    "choices": [
+      "B♭ D♭ F",
+      "C E G",
+      "G♭ B♭ D♭",
+      "D♭ F A♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-102",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In A major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: D F♯ A.",
+    "choices": [
+      "D F♯ A",
+      "B♭ D F",
+      "C♭ E♭ G♭",
+      "A C♯ E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-103",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "Key of G♭ major — choose the Roman numeral for each chord.",
+    "explanation": "Build each triad from the G♭ major scale and match it to its degree.",
+    "type": "multi",
+    "options": [
+      "I",
+      "ii",
+      "iii",
+      "IV",
+      "V",
+      "vi",
+      "vii°"
+    ],
+    "items": [
+      {
+        "label": "A: G♭ B♭ D♭",
+        "answer": "I"
+      },
+      {
+        "label": "B: D♭ F A♭",
+        "answer": "V"
+      },
+      {
+        "label": "C: E♭ G♭ B♭",
+        "answer": "vi"
+      }
+    ]
+  },
+  {
+    "id": "cc-104",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, chord IV is made of which notes?",
+    "explanation": "Chord IV is the triad on degree 4: G♭ B♭ D♭.",
+    "choices": [
+      "G♭ B♭ D♭",
+      "G B D",
+      "C E G",
+      "F A C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-105",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: D F A.",
+    "choices": [
+      "D F A",
+      "C E G",
+      "C♭ E♭ G♭",
+      "E G♯ B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cc-106",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "In D♭ major, chord ii is made of which notes?",
+    "explanation": "Chord ii is the triad on degree 2: E♭ G♭ B♭.",
+    "choices": [
+      "E♭ G♭ B♭",
+      "C♯ E♯ G♯",
+      "G B D",
+      "C E G"
+    ],
+    "answer": 0
   }
 ]

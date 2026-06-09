@@ -64,17 +64,46 @@ for (const file of files) {
     // prompt
     if (typeof q.prompt !== 'string' || !q.prompt.trim()) errors.push(`${at}: missing "prompt"`)
 
-    // choices
-    if (!Array.isArray(q.choices) || q.choices.length < 2)
-      errors.push(`${at}: "choices" must be an array of 2+ options`)
-    else {
-      if (q.choices.some((c) => typeof c !== 'string' || !c.trim()))
-        errors.push(`${at}: every choice must be a non-empty string`)
-      if (new Set(q.choices).size !== q.choices.length)
-        errors.push(`${at}: choices contain duplicates`)
-      // answer
-      if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.choices.length)
-        errors.push(`${at}: "answer" (${q.answer}) out of range for ${q.choices.length} choices`)
+    // type-specific shape
+    const type = q.type ?? 'mc'
+    if (type === 'mc') {
+      if (!Array.isArray(q.choices) || q.choices.length < 2) {
+        errors.push(`${at}: "choices" must be an array of 2+ options`)
+      } else {
+        if (q.choices.some((c) => typeof c !== 'string' || !c.trim()))
+          errors.push(`${at}: every choice must be a non-empty string`)
+        if (new Set(q.choices).size !== q.choices.length)
+          errors.push(`${at}: choices contain duplicates`)
+        if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.choices.length)
+          errors.push(`${at}: "answer" (${q.answer}) out of range for ${q.choices.length} choices`)
+        if (q.choicesAbc !== undefined && (!Array.isArray(q.choicesAbc) || q.choicesAbc.length !== q.choices.length))
+          errors.push(`${at}: "choicesAbc" must be an array matching choices length`)
+      }
+    } else if (type === 'fill') {
+      if (!Array.isArray(q.blanks) || q.blanks.length < 1) {
+        errors.push(`${at}: "blanks" must be a non-empty array`)
+      } else {
+        q.blanks.forEach((b, j) => {
+          if (!b || typeof b.answer !== 'string' || !b.answer.trim())
+            errors.push(`${at}: blanks[${j}] needs a non-empty "answer"`)
+          if (b.alt !== undefined && !Array.isArray(b.alt))
+            errors.push(`${at}: blanks[${j}].alt must be an array`)
+        })
+      }
+    } else if (type === 'multi') {
+      const opts = Array.isArray(q.options) ? q.options : null
+      if (!opts || opts.length < 2) errors.push(`${at}: "options" must be an array of 2+`)
+      if (!Array.isArray(q.items) || q.items.length < 1) {
+        errors.push(`${at}: "items" must be a non-empty array`)
+      } else if (opts) {
+        q.items.forEach((it, j) => {
+          if (!it || typeof it.label !== 'string') errors.push(`${at}: items[${j}] needs a "label"`)
+          if (!it || typeof it.answer !== 'string' || !opts.includes(it.answer))
+            errors.push(`${at}: items[${j}].answer must be one of options`)
+        })
+      }
+    } else {
+      errors.push(`${at}: unknown type "${type}"`)
     }
 
     // explanation

@@ -320,5 +320,1239 @@
     ],
     "answer": 0,
     "explanation": "G♭ major has B♭ E♭ A♭ D♭ G♭ C♭ — six flats. (It is the enharmonic of F♯ major.)"
+  },
+  {
+    "id": "ks-24",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many flats are in the key signature of E♭ major?",
+    "explanation": "E♭ major has 3 flats.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "id": "ks-25",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "A♯ and B♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "A♯ and B♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-26",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps are in the key signature of E major?",
+    "explanation": "E major has 4 sharps.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "ks-27",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The subdominant of A♭ major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: D♭.",
+    "choices": [
+      "D♭",
+      "C",
+      "E♭",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-28",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "D♯ and E♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "D♯ and E♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-29",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The subdominant of A major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: D.",
+    "choices": [
+      "D",
+      "B♭",
+      "F♯",
+      "D♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-30",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 1 of a scale?",
+    "explanation": "Degree 1 is the tonic.",
+    "choices": [
+      "tonic",
+      "leading note",
+      "submediant",
+      "subdominant"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-31",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The subdominant of G major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: C.",
+    "choices": [
+      "C",
+      "E",
+      "B",
+      "B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-32",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The leading note of B major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: A♯.",
+    "choices": [
+      "A♯",
+      "B♭",
+      "D",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-33",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps are in the key signature of A major?",
+    "explanation": "A major has 3 sharps.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "id": "ks-34",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many flats are in the key signature of G♭ major?",
+    "explanation": "G♭ major has 6 flats.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "ks-35",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 6 of a scale?",
+    "explanation": "Degree 6 is the submediant.",
+    "choices": [
+      "submediant",
+      "tonic",
+      "subdominant",
+      "dominant"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-36",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The dominant of E♭ major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: B♭.",
+    "choices": [
+      "B♭",
+      "A♭",
+      "G♭",
+      "E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-37",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 4 of a scale?",
+    "explanation": "Degree 4 is the subdominant.",
+    "choices": [
+      "subdominant",
+      "supertonic",
+      "submediant",
+      "tonic"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-38",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 3 of a scale?",
+    "explanation": "Degree 3 is the mediant.",
+    "choices": [
+      "mediant",
+      "submediant",
+      "tonic",
+      "dominant"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-39",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The leading note of C major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: B.",
+    "choices": [
+      "B",
+      "D",
+      "F",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-40",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The subdominant of B♭ major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: E♭.",
+    "choices": [
+      "E♭",
+      "D♭",
+      "D",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-41",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The subdominant of E♭ major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: A♭.",
+    "choices": [
+      "A♭",
+      "F",
+      "D",
+      "B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-42",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The subdominant of F♯ major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: B.",
+    "choices": [
+      "B",
+      "A",
+      "D♭",
+      "F♯"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-43",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "F♯ and G♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "F♯ and G♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-44",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The relative minor of D♭ major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: B♭ minor.",
+    "choices": [
+      "B♭ minor",
+      "G minor",
+      "D minor",
+      "A minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-45",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "C♯ and D♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "C♯ and D♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-46",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many sharps or flats are in the key signature of G♭ major?",
+    "explanation": "G♭ major has 6 flats.",
+    "choices": [
+      "6 flats",
+      "none",
+      "4 sharps",
+      "1 flat"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-47",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The dominant of F major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: C.",
+    "choices": [
+      "C",
+      "D",
+      "F♯",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-48",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The relative minor of A♭ major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: F minor.",
+    "choices": [
+      "F minor",
+      "F♯ minor",
+      "E minor",
+      "G♭ minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-49",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The relative minor of D major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: B minor.",
+    "choices": [
+      "B minor",
+      "G minor",
+      "F minor",
+      "C minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-50",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps or flats are in the key signature of B♭ major?",
+    "explanation": "B♭ major has 2 flats.",
+    "choices": [
+      "2 flats",
+      "4 sharps",
+      "3 sharps",
+      "4 flats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-51",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The leading note of A major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: G♯.",
+    "choices": [
+      "G♯",
+      "E♭",
+      "G",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-52",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The dominant of G major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: D.",
+    "choices": [
+      "D",
+      "B♭",
+      "F♯",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-53",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The relative minor of G major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: E minor.",
+    "choices": [
+      "E minor",
+      "D minor",
+      "A minor",
+      "B♭ minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-54",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 2 of a scale?",
+    "explanation": "Degree 2 is the supertonic.",
+    "choices": [
+      "supertonic",
+      "leading note",
+      "dominant",
+      "submediant"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-55",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The dominant of E major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: B.",
+    "choices": [
+      "B",
+      "B♭",
+      "A♭",
+      "D♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-56",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many sharps or flats are in the key signature of B major?",
+    "explanation": "B major has 5 sharps.",
+    "choices": [
+      "5 sharps",
+      "6 sharps",
+      "2 sharps",
+      "4 flats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-57",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps or flats are in the key signature of A major?",
+    "explanation": "A major has 3 sharps.",
+    "choices": [
+      "3 sharps",
+      "2 flats",
+      "4 flats",
+      "1 sharp"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-58",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps or flats are in the key signature of C major?",
+    "explanation": "C major has none.",
+    "choices": [
+      "none",
+      "3 sharps",
+      "2 sharps",
+      "4 flats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-59",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The leading note of F major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: E.",
+    "choices": [
+      "E",
+      "A",
+      "B♭",
+      "G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-60",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The relative minor of C major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: A minor.",
+    "choices": [
+      "A minor",
+      "E minor",
+      "D♭ minor",
+      "G minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-61",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The leading note of D major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: C♯.",
+    "choices": [
+      "C♯",
+      "E",
+      "E♭",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-62",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The relative minor of B♭ major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: G minor.",
+    "choices": [
+      "G minor",
+      "A minor",
+      "B♭ minor",
+      "B minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-63",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps are in the key signature of D major?",
+    "explanation": "D major has 2 sharps.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "ks-64",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps are in the key signature of G major?",
+    "explanation": "G major has 1 sharp.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "id": "ks-65",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The dominant of A♭ major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: E♭.",
+    "choices": [
+      "E♭",
+      "A",
+      "E",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-66",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many flats are in the key signature of F major?",
+    "explanation": "F major has 1 flat.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "id": "ks-67",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The leading note of G♭ major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: F.",
+    "choices": [
+      "F",
+      "A",
+      "G♭",
+      "E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-68",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The subdominant of E major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: A.",
+    "choices": [
+      "A",
+      "F",
+      "C",
+      "B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-69",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps or flats are in the key signature of F major?",
+    "explanation": "F major has 1 flat.",
+    "choices": [
+      "1 flat",
+      "5 flats",
+      "4 sharps",
+      "6 flats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-70",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The relative minor of A major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: F♯ minor.",
+    "choices": [
+      "F♯ minor",
+      "E♭ minor",
+      "D♭ minor",
+      "G minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-71",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The dominant of A major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: E.",
+    "choices": [
+      "E",
+      "F♯",
+      "B♭",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-72",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 5 of a scale?",
+    "explanation": "Degree 5 is the dominant.",
+    "choices": [
+      "dominant",
+      "subdominant",
+      "supertonic",
+      "leading note"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-73",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The leading note of A♭ major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: G.",
+    "choices": [
+      "G",
+      "A♭",
+      "B♭",
+      "G♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-74",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "G♯ and A♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "G♯ and A♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-75",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps or flats are in the key signature of E♭ major?",
+    "explanation": "E♭ major has 3 flats.",
+    "choices": [
+      "3 flats",
+      "6 flats",
+      "2 flats",
+      "5 flats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-76",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many sharps are in the key signature of F♯ major?",
+    "explanation": "F♯ major has 6 sharps.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "ks-77",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The relative minor of E major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: C♯ minor.",
+    "choices": [
+      "C♯ minor",
+      "F minor",
+      "E♭ minor",
+      "B♭ minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-78",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "B and C♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "B and C♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-79",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The subdominant of D♭ major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: G♭.",
+    "choices": [
+      "G♭",
+      "E",
+      "E♭",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-80",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many sharps or flats are in the key signature of D♭ major?",
+    "explanation": "D♭ major has 5 flats.",
+    "choices": [
+      "5 flats",
+      "1 flat",
+      "4 sharps",
+      "none"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-81",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many sharps or flats are in the key signature of F♯ major?",
+    "explanation": "F♯ major has 6 sharps.",
+    "choices": [
+      "6 sharps",
+      "3 flats",
+      "1 sharp",
+      "4 sharps"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-82",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The leading note of G major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: F♯.",
+    "choices": [
+      "F♯",
+      "D♭",
+      "G",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-83",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The subdominant of G♭ major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: C♭.",
+    "choices": [
+      "C♭",
+      "D♭",
+      "F",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-84",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps or flats are in the key signature of D major?",
+    "explanation": "D major has 2 sharps.",
+    "choices": [
+      "2 sharps",
+      "6 flats",
+      "6 sharps",
+      "1 flat"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-85",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps are in the key signature of C major?",
+    "explanation": "C major has none.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "0"
+      }
+    ]
+  },
+  {
+    "id": "ks-86",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The leading note of D♭ major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: C.",
+    "choices": [
+      "C",
+      "B♭",
+      "F",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-87",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many sharps are in the key signature of B major?",
+    "explanation": "B major has 5 sharps.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "ks-88",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the technical name for degree 7 of a scale?",
+    "explanation": "Degree 7 is the leading note.",
+    "choices": [
+      "leading note",
+      "dominant",
+      "submediant",
+      "subdominant"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-89",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps or flats are in the key signature of E major?",
+    "explanation": "E major has 4 sharps.",
+    "choices": [
+      "4 sharps",
+      "5 sharps",
+      "5 flats",
+      "1 sharp"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-90",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The dominant of F♯ major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: C♯.",
+    "choices": [
+      "C♯",
+      "A",
+      "C",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-91",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The relative minor of F major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: D minor.",
+    "choices": [
+      "D minor",
+      "B minor",
+      "B♭ minor",
+      "A minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-92",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The relative minor of F♯ major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: D♯ minor.",
+    "choices": [
+      "D♯ minor",
+      "G minor",
+      "A♭ minor",
+      "G♭ minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-93",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many sharps or flats are in the key signature of G major?",
+    "explanation": "G major has 1 sharp.",
+    "choices": [
+      "1 sharp",
+      "1 flat",
+      "3 flats",
+      "6 sharps"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-94",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "How many flats are in the key signature of D♭ major?",
+    "explanation": "D♭ major has 5 flats.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "ks-95",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The leading note of E♭ major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: D.",
+    "choices": [
+      "D",
+      "F♯",
+      "A♭",
+      "B♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-96",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The subdominant of C major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: F.",
+    "choices": [
+      "F",
+      "E",
+      "E♭",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-97",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The subdominant of F major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: B♭.",
+    "choices": [
+      "B♭",
+      "C",
+      "E♭",
+      "D♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-98",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The relative minor of G♭ major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: E♭ minor.",
+    "choices": [
+      "E♭ minor",
+      "C minor",
+      "D♭ minor",
+      "A minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-99",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The dominant of G♭ major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: D♭.",
+    "choices": [
+      "D♭",
+      "A♭",
+      "C",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-100",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The subdominant of D major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: G.",
+    "choices": [
+      "G",
+      "C",
+      "D♭",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-101",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps or flats are in the key signature of A♭ major?",
+    "explanation": "A♭ major has 4 flats.",
+    "choices": [
+      "4 flats",
+      "none",
+      "1 flat",
+      "5 flats"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-102",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The dominant of C major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: G.",
+    "choices": [
+      "G",
+      "F",
+      "B",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-103",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The dominant of B♭ major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: F.",
+    "choices": [
+      "F",
+      "B♭",
+      "D",
+      "E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-104",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The relative minor of B major is:",
+    "explanation": "The relative minor starts a minor 3rd below the tonic: G♯ minor.",
+    "choices": [
+      "G♯ minor",
+      "C minor",
+      "G minor",
+      "D minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-105",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The dominant of D major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: A.",
+    "choices": [
+      "A",
+      "D♭",
+      "C",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-106",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The subdominant of B major is the note:",
+    "explanation": "The subdominant is degree 4 of the scale: E.",
+    "choices": [
+      "E",
+      "E♭",
+      "D♭",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-107",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The dominant of D♭ major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: A♭.",
+    "choices": [
+      "A♭",
+      "G",
+      "F♯",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-108",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "E and F♭ are enharmonic equivalents (the same pitch) — true or false?",
+    "explanation": "E and F♭ are the same pitch written differently — enharmonic equivalents.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-109",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "How many flats are in the key signature of B♭ major?",
+    "explanation": "B♭ major has 2 flats.",
+    "type": "fill",
+    "blanks": [
+      {
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "ks-110",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The leading note of B♭ major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: A.",
+    "choices": [
+      "A",
+      "C",
+      "F",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-111",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The dominant of B major is the note:",
+    "explanation": "The dominant is degree 5 of the scale: F♯.",
+    "choices": [
+      "F♯",
+      "G",
+      "B♭",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-112",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The leading note of F♯ major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: E♯.",
+    "choices": [
+      "E♯",
+      "D",
+      "F♯",
+      "E♭"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "ks-113",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The leading note of E major is the note:",
+    "explanation": "The leading note is degree 7 of the scale: D♯.",
+    "choices": [
+      "D♯",
+      "G",
+      "C",
+      "A"
+    ],
+    "answer": 0
   }
 ]

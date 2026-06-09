@@ -1,6 +1,6 @@
 import type { TopicId } from '../types'
 
-export type View = 'home' | 'learn' | 'practice' | 'mock' | 'review'
+export type View = 'home' | 'learn' | 'practice' | 'mock' | 'review' | 'papers'
 
 /**
  * Describes which questions a Practice session should draw from.

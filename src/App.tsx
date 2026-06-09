@@ -6,6 +6,7 @@ import Home from './views/Home'
 import Learn from './views/Learn'
 import Practice from './views/Practice'
 import Mock from './views/Mock'
+import Papers from './views/Papers'
 import Review from './views/Review'
 
 const NAV: { view: View; icon: string; label: string }[] = [
@@ -13,6 +14,7 @@ const NAV: { view: View; icon: string; label: string }[] = [
   { view: 'learn', icon: '📚', label: 'Learn' },
   { view: 'practice', icon: '✏️', label: 'Practice' },
   { view: 'mock', icon: '⏱️', label: 'Mock' },
+  { view: 'papers', icon: '📄', label: 'Papers' },
   { view: 'review', icon: '🔁', label: 'Review' },
 ]
 
@@ -95,6 +97,7 @@ export default function App() {
         {view === 'learn' && <Learn startPractice={startPractice} />}
         {view === 'practice' && <Practice key={practiceKey} api={api} pool={pool} />}
         {view === 'mock' && <Mock api={api} />}
+        {view === 'papers' && <Papers api={api} />}
         {view === 'review' && <Review api={api} startPractice={startPractice} />}
       </main>
 

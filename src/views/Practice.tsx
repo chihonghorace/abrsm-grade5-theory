@@ -5,7 +5,8 @@ import type { ProgressApi } from '../lib/storage'
 import { QUESTIONS } from '../data/questions'
 import { TOPICS } from '../data/topics'
 import { prepareMany, shuffle, QUESTION_BY_ID, type Prepared } from '../lib/quiz'
-import QuestionCard from '../components/QuestionCard'
+import { blankAnswer, isAnswered, isCorrect, revealsOnChange, type Answer } from '../lib/answer'
+import QuestionView from '../components/QuestionView'
 import { Grade } from './Home'
 
 interface Props {
@@ -43,37 +44,44 @@ export default function Practice({ api, pool }: Props) {
     pool ? buildSession(pool, pool.limit) : [],
   )
   const [i, setI] = useState(0)
-  const [selected, setSelected] = useState<number | null>(null)
+  const [answer, setAnswer] = useState<Answer>(() => (pool ? blankAnswer(buildQuestions(pool)[0]) : null))
   const [revealed, setRevealed] = useState(false)
   const [correct, setCorrect] = useState(0)
   const [answered, setAnswered] = useState(0)
 
   function start(p: PracticePool, limit: number) {
-    setQuestions(buildSession(p, limit))
+    const qs = buildSession(p, limit)
+    setQuestions(qs)
     setActivePool(p)
     setActiveLimit(limit)
     setI(0)
-    setSelected(null)
+    setAnswer(qs.length ? blankAnswer(qs[0].question) : null)
     setRevealed(false)
     setCorrect(0)
     setAnswered(0)
     setPhase('run')
   }
 
-  function handleSelect(choice: number) {
+  function reveal(a: Answer) {
     if (revealed) return
-    const isRight = choice === questions[i].answer
-    setSelected(choice)
+    const ok = isCorrect(questions[i], a)
     setRevealed(true)
     setAnswered((n) => n + 1)
-    if (isRight) setCorrect((n) => n + 1)
-    api.recordAttempt(questions[i].question.id, isRight)
+    if (ok) setCorrect((n) => n + 1)
+    api.recordAttempt(questions[i].question.id, ok)
+  }
+
+  function handleChange(a: Answer) {
+    if (revealed) return
+    setAnswer(a)
+    if (revealsOnChange(questions[i].question)) reveal(a)
   }
 
   function next() {
     if (i + 1 < questions.length) {
-      setI(i + 1)
-      setSelected(null)
+      const ni = i + 1
+      setI(ni)
+      setAnswer(blankAnswer(questions[ni].question))
       setRevealed(false)
     } else {
       setPhase('done')
@@ -97,7 +105,7 @@ export default function Practice({ api, pool }: Props) {
                 key={l.value}
                 onClick={() => setLenChoice(l.value)}
                 className={`rounded-lg px-4 py-1.5 text-sm font-bold transition-all ${
-                  lenChoice === l.value ? 'bg-surface text-brand-700 shadow-clay-sm' : 'text-ink-soft'
+                  lenChoice === l.value ? 'bg-surface text-brand-600 dark:text-brand-300 shadow-clay-sm' : 'text-ink-soft'
                 }`}
               >
                 {l.label}
@@ -158,7 +166,7 @@ export default function Practice({ api, pool }: Props) {
           <div className="text-5xl">{pct >= 80 ? '🌟' : pct >= 60 ? '👍' : '💪'}</div>
           <h1 className="mt-3 text-2xl font-black text-ink">Set complete!</h1>
           <p className="mt-1 text-ink-soft">{label}</p>
-          <div className="mt-4 text-5xl font-black text-brand-600">
+          <div className="mt-4 text-5xl font-black text-brand-600 dark:text-brand-300">
             {correct}
             <span className="text-2xl text-ink-faint">/{questions.length}</span>
           </div>
@@ -167,10 +175,7 @@ export default function Practice({ api, pool }: Props) {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-3">
-          <button
-            className="btn-primary"
-            onClick={() => activePool && start(activePool, activeLimit)}
-          >
+          <button className="btn-primary" onClick={() => activePool && start(activePool, activeLimit)}>
             ↻ Again
           </button>
           <button className="btn-ghost" onClick={() => setPhase('setup')}>
@@ -183,11 +188,12 @@ export default function Practice({ api, pool }: Props) {
 
   // ---- Run ---------------------------------------------------------------
   const current = questions[i]
+  const needsCheck = !revealed && !revealsOnChange(current.question)
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between pt-1">
-        <span className="chip bg-brand-50 text-brand-700">{label}</span>
-        <span className="text-sm font-bold text-ink-soft">
+        <span className="chip bg-brand-500/12 text-brand-600 dark:text-brand-300">{label}</span>
+        <span className="text-sm font-bold text-ink-soft tabular-nums">
           Score {correct}/{answered}
         </span>
       </div>
@@ -198,17 +204,26 @@ export default function Practice({ api, pool }: Props) {
         />
       </div>
 
-      <QuestionCard
+      <QuestionView
         prepared={current}
-        selected={selected}
+        answer={answer}
+        onChange={handleChange}
         revealed={revealed}
-        onSelect={handleSelect}
         bookmarked={api.progress.bookmarks.includes(current.question.id)}
         onToggleBookmark={() => api.toggleBookmark(current.question.id)}
         index={i}
         total={questions.length}
       />
 
+      {needsCheck && (
+        <button
+          className="btn-primary w-full"
+          disabled={!isAnswered(current.question, answer)}
+          onClick={() => reveal(answer)}
+        >
+          Check answer
+        </button>
+      )}
       {revealed && (
         <button className="btn-primary w-full animate-pop-in" onClick={next}>
           {i + 1 < questions.length ? 'Next question →' : 'See results'}

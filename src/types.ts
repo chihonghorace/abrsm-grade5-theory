@@ -1,9 +1,17 @@
 // ---------------------------------------------------------------------------
 // Domain model for the ABRSM Grade 5 theory app.
 //
-// The whole app is data-driven: add a Topic or a Question object and it shows
-// up across Learn / Practice / Mock Exam automatically. Keeping a clean schema
-// here is what lets the question bank grow without touching UI code.
+// Questions are a discriminated union of interaction types that mirror the real
+// online exam:
+//   - mc      : single-answer multiple choice. Choices may render as notation
+//               (`choicesAbc`) for "build the interval/identify the note" tasks,
+//               or be ['True','False'] for true/false statements.
+//   - fill    : one or more text/number blanks.
+//   - multi   : several labelled items, each chosen from a shared option list
+//               (e.g. name each chord A/B/C).
+//
+// The whole app is data-driven: drop a question object into the JSON database
+// (src/data/questions/<topic>.json) and it shows up everywhere automatically.
 // ---------------------------------------------------------------------------
 
 export type TopicId =
@@ -19,24 +27,69 @@ export type TopicId =
 
 export type Difficulty = 1 | 2 | 3
 
-export interface Question {
+export type QuestionType = 'mc' | 'fill' | 'multi'
+
+interface QuestionBase {
   id: string
   topic: TopicId
   difficulty: Difficulty
   prompt: string
-  /** Optional ABC-notation string rendered as a music stave above the choices. */
+  /** Optional ABC-notation rendered as a stave above the answer area. */
   abc?: string
-  choices: string[]
-  /** Index into `choices` of the correct answer. */
-  answer: number
+  /**
+   * Optional image rendered above the answer area (e.g. a notation excerpt
+   * cropped from a past paper). A URL served from /public, like
+   * `/papers/<paperId>/<qid>.png`. Used by local-only past papers.
+   */
+  imageSrc?: string
   explanation: string
 }
 
+export interface MCQuestion extends QuestionBase {
+  type?: 'mc'
+  choices: string[]
+  /** If present, each choice is rendered as notation instead of text. */
+  choicesAbc?: string[]
+  /** Index into `choices` of the correct answer. */
+  answer: number
+}
+
+export interface FillBlank {
+  answer: string
+  /** Other accepted spellings (case/space-insensitive match is applied too). */
+  alt?: string[]
+  prefix?: string
+  suffix?: string
+}
+
+export interface FillQuestion extends QuestionBase {
+  type: 'fill'
+  blanks: FillBlank[]
+}
+
+export interface MultiItem {
+  label: string
+  answer: string
+}
+
+export interface MultiQuestion extends QuestionBase {
+  type: 'multi'
+  options: string[]
+  items: MultiItem[]
+}
+
+export type Question = MCQuestion | FillQuestion | MultiQuestion
+
+/** Narrowing helper — JSON MC questions omit `type`, so default to 'mc'. */
+export function questionType(q: Question): QuestionType {
+  return q.type ?? 'mc'
+}
+
+// --- Study notes -----------------------------------------------------------
+
 export interface TopicNote {
   heading: string
-  /** Plain text; blank lines separate paragraphs, "- " lines become bullets. */
   body: string
-  /** Optional ABC-notation example rendered under the note. */
   abc?: string
 }
 
@@ -65,9 +118,23 @@ export interface MockResult {
 }
 
 export interface Progress {
-  /** Keyed by Question.id */
   attempts: Record<string, Attempt>
-  /** Question ids the learner flagged to revisit. */
   bookmarks: string[]
   mockHistory: MockResult[]
+}
+
+// --- Past papers (真题) -----------------------------------------------------
+// Real exam-paper practice. Paper definitions live in data/papers/*.json and
+// their cropped images in public/papers/<id>/ — BOTH gitignored, because ABRSM
+// papers are copyright and must never be bundled into the published build.
+// They exist only on the local machine that extracted them. See
+// src/data/papers.ts and scripts/extract-paper.mjs.
+
+export interface Paper {
+  /** Stable id; also the folder name under public/papers/<id>/. */
+  id: string
+  title: string
+  /** Provenance, e.g. "ABRSM Grade 5 2020 sample paper (local copy)". */
+  source?: string
+  questions: Question[]
 }

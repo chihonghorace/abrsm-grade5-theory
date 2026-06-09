@@ -167,5 +167,285 @@
     ],
     "answer": 0,
     "explanation": "The alto C-clef centres on the middle line, which is middle C."
+  },
+  {
+    "id": "cl-13",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the treble clef, the note on the 3rd line (counting up from the bottom) is:",
+    "explanation": "treble clef lines spell E G B D F from the bottom, so the 3rd line is B.",
+    "choices": [
+      "B",
+      "E",
+      "D",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-14",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the tenor clef, the note on the 4th line (counting up from the bottom) is:",
+    "explanation": "tenor clef lines spell D F A C E from the bottom, so the 4th line is C.",
+    "choices": [
+      "C",
+      "G",
+      "B",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-15",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the alto clef, the note on the 3rd line (counting up from the bottom) is:",
+    "explanation": "alto clef lines spell F A C E G from the bottom, so the 3rd line is C.",
+    "choices": [
+      "C",
+      "B",
+      "E",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-16",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the tenor clef, the note on the 3rd line (counting up from the bottom) is:",
+    "explanation": "tenor clef lines spell D F A C E from the bottom, so the 3rd line is A.",
+    "choices": [
+      "A",
+      "F",
+      "G",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-17",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the bass clef, the note on the 3rd line (counting up from the bottom) is:",
+    "explanation": "bass clef lines spell G B D F A from the bottom, so the 3rd line is D.",
+    "choices": [
+      "D",
+      "A",
+      "C",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-18",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the alto clef, the note on the 5th line (counting up from the bottom) is:",
+    "explanation": "alto clef lines spell F A C E G from the bottom, so the 5th line is G.",
+    "choices": [
+      "G",
+      "B",
+      "D",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-19",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the bass clef, the note on the 1st line (counting up from the bottom) is:",
+    "explanation": "bass clef lines spell G B D F A from the bottom, so the 1st line is G.",
+    "choices": [
+      "G",
+      "E",
+      "D",
+      "F"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-20",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the tenor clef, the note on the 5th line (counting up from the bottom) is:",
+    "explanation": "tenor clef lines spell D F A C E from the bottom, so the 5th line is E.",
+    "choices": [
+      "E",
+      "F",
+      "A",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-21",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the treble clef, the note on the 2nd line (counting up from the bottom) is:",
+    "explanation": "treble clef lines spell E G B D F from the bottom, so the 2nd line is G.",
+    "choices": [
+      "G",
+      "B",
+      "A",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-22",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the bass clef, the note on the 4th line (counting up from the bottom) is:",
+    "explanation": "bass clef lines spell G B D F A from the bottom, so the 4th line is F.",
+    "choices": [
+      "F",
+      "G",
+      "B",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-23",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the treble clef, the note on the 5th line (counting up from the bottom) is:",
+    "explanation": "treble clef lines spell E G B D F from the bottom, so the 5th line is F.",
+    "choices": [
+      "F",
+      "G",
+      "B",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-24",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the alto clef, the note on the 2nd line (counting up from the bottom) is:",
+    "explanation": "alto clef lines spell F A C E G from the bottom, so the 2nd line is A.",
+    "choices": [
+      "A",
+      "D",
+      "G",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-25",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the treble clef, the note on the 4th line (counting up from the bottom) is:",
+    "explanation": "treble clef lines spell E G B D F from the bottom, so the 4th line is D.",
+    "choices": [
+      "D",
+      "B",
+      "F",
+      "C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-26",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the alto clef, the note on the 4th line (counting up from the bottom) is:",
+    "explanation": "alto clef lines spell F A C E G from the bottom, so the 4th line is E.",
+    "choices": [
+      "E",
+      "D",
+      "A",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-27",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the alto clef, the note on the 1st line (counting up from the bottom) is:",
+    "explanation": "alto clef lines spell F A C E G from the bottom, so the 1st line is F.",
+    "choices": [
+      "F",
+      "B",
+      "D",
+      "A"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-28",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the bass clef, the note on the 5th line (counting up from the bottom) is:",
+    "explanation": "bass clef lines spell G B D F A from the bottom, so the 5th line is A.",
+    "choices": [
+      "A",
+      "B",
+      "G",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-29",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the bass clef, the note on the 2nd line (counting up from the bottom) is:",
+    "explanation": "bass clef lines spell G B D F A from the bottom, so the 2nd line is B.",
+    "choices": [
+      "B",
+      "F",
+      "A",
+      "D"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-30",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the tenor clef, the note on the 1st line (counting up from the bottom) is:",
+    "explanation": "tenor clef lines spell D F A C E from the bottom, so the 1st line is D.",
+    "choices": [
+      "D",
+      "B",
+      "A",
+      "G"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-31",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the tenor clef, the note on the 2nd line (counting up from the bottom) is:",
+    "explanation": "tenor clef lines spell D F A C E from the bottom, so the 2nd line is F.",
+    "choices": [
+      "F",
+      "A",
+      "G",
+      "B"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "cl-32",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the treble clef, the note on the 1st line (counting up from the bottom) is:",
+    "explanation": "treble clef lines spell E G B D F from the bottom, so the 1st line is E.",
+    "choices": [
+      "E",
+      "C",
+      "A",
+      "G"
+    ],
+    "answer": 0
   }
 ]
