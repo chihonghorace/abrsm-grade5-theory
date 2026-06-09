@@ -1,0 +1,324 @@
+[
+  {
+    "id": "tr-1",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "6/8 is an example of:",
+    "choices": [
+      "compound duple time",
+      "simple duple time",
+      "compound triple time",
+      "simple triple time"
+    ],
+    "answer": 0,
+    "explanation": "6/8 has two dotted-crotchet beats, each dividing into three — compound duple."
+  },
+  {
+    "id": "tr-2",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In 6/8 time, one beat is normally a:",
+    "choices": [
+      "dotted crotchet",
+      "crotchet",
+      "quaver",
+      "dotted minim"
+    ],
+    "answer": 0,
+    "explanation": "In compound time the beat is a dotted note; in 6/8 that is a dotted crotchet (three quavers)."
+  },
+  {
+    "id": "tr-3",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "3/4 is:",
+    "choices": [
+      "simple triple time",
+      "compound triple time",
+      "simple duple time",
+      "compound duple time"
+    ],
+    "answer": 0,
+    "explanation": "Three crotchet beats, each dividing into two — simple triple."
+  },
+  {
+    "id": "tr-4",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "9/8 is:",
+    "choices": [
+      "compound triple time",
+      "simple triple time",
+      "compound duple time",
+      "compound quadruple time"
+    ],
+    "answer": 0,
+    "explanation": "9/8 has three dotted-crotchet beats — compound triple."
+  },
+  {
+    "id": "tr-5",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "A breve is equal to:",
+    "choices": [
+      "two semibreves",
+      "half a semibreve",
+      "two minims",
+      "four semibreves"
+    ],
+    "answer": 0,
+    "explanation": "A breve is the longest common note value: two semibreves (eight crotchets)."
+  },
+  {
+    "id": "tr-6",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "A triplet of crotchets is played in the time of:",
+    "choices": [
+      "two crotchets",
+      "three crotchets",
+      "four crotchets",
+      "two minims"
+    ],
+    "answer": 0,
+    "explanation": "A triplet squeezes three notes into the time normally taken by two of the same value."
+  },
+  {
+    "id": "tr-7",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "Which top number indicates compound time?",
+    "choices": [
+      "6",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Top numbers 6, 9 and 12 indicate compound time (the beat divides into three)."
+  },
+  {
+    "id": "tr-8",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A dot placed after a note adds:",
+    "choices": [
+      "half its value",
+      "a quarter of its value",
+      "its own value again",
+      "one beat"
+    ],
+    "answer": 0,
+    "explanation": "A dot lengthens a note by half of its original value."
+  },
+  {
+    "id": "tr-9",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "12/8 is named:",
+    "choices": [
+      "compound quadruple",
+      "simple quadruple",
+      "compound triple",
+      "compound duple"
+    ],
+    "answer": 0,
+    "explanation": "12/8 has four dotted-crotchet beats — compound quadruple."
+  },
+  {
+    "id": "tr-10",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "In simple time, each beat divides into:",
+    "choices": [
+      "two",
+      "three",
+      "four",
+      "six"
+    ],
+    "answer": 0,
+    "explanation": "Simple time = the beat divides into two; compound time = into three."
+  },
+  {
+    "id": "tr-11",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "Cut time (2/2, ¢) is:",
+    "choices": [
+      "simple duple",
+      "compound duple",
+      "simple quadruple",
+      "simple triple"
+    ],
+    "answer": 0,
+    "explanation": "2/2 has two minim beats, each dividing into two — simple duple."
+  },
+  {
+    "id": "tr-12",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "5/4 time is an example of:",
+    "choices": [
+      "irregular time",
+      "simple duple time",
+      "compound triple time",
+      "simple quadruple time"
+    ],
+    "answer": 0,
+    "explanation": "5/4 (and 7/8 etc.) is irregular: it does not divide evenly into duple, triple or quadruple beats."
+  },
+  {
+    "id": "tr-13",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "7/8 is most often grouped into beats adding up to seven, for example:",
+    "choices": [
+      "2 + 2 + 3 quavers",
+      "3 + 3 quavers",
+      "2 + 2 + 2 quavers",
+      "4 + 4 quavers"
+    ],
+    "answer": 0,
+    "explanation": "Irregular 7/8 is commonly grouped 2+2+3 (or 3+2+2) quavers per bar."
+  },
+  {
+    "id": "tr-14",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "How many demisemiquavers equal one quaver?",
+    "choices": [
+      "4",
+      "2",
+      "8",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "A demisemiquaver is a 32nd note; four of them make one quaver (an 8th note)."
+  },
+  {
+    "id": "tr-15",
+    "topic": "time-and-rhythm",
+    "difficulty": 3,
+    "prompt": "A double-dotted crotchet is equal to how many semiquavers?",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "Crotchet = 4 semiquavers; the first dot adds 2, the second dot adds 1 → 7 semiquavers."
+  },
+  {
+    "id": "tr-16",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "Which note lasts exactly twice as long as a minim?",
+    "choices": [
+      "Semibreve",
+      "Crotchet",
+      "Quaver",
+      "Breve"
+    ],
+    "answer": 0,
+    "explanation": "A semibreve equals two minims. (A breve equals four minims.)"
+  },
+  {
+    "id": "tr-17",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "An unaccented note (or notes) before the first complete bar is called an:",
+    "choices": [
+      "anacrusis",
+      "appoggiatura",
+      "ostinato",
+      "interval"
+    ],
+    "answer": 0,
+    "explanation": "An anacrusis (or \"upbeat\") leads into the first full bar."
+  },
+  {
+    "id": "tr-18",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "How many quavers are there in one complete bar of 9/8?",
+    "choices": [
+      "9",
+      "3",
+      "6",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "The lower 8 means quavers; the upper 9 means nine of them per bar."
+  },
+  {
+    "id": "tr-19",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A curved line joining two notes of the SAME pitch, adding their values, is a:",
+    "choices": [
+      "tie",
+      "slur",
+      "phrase mark",
+      "glissando"
+    ],
+    "answer": 0,
+    "explanation": "A tie joins two notes of the same pitch into one longer sound. A slur joins different pitches."
+  },
+  {
+    "id": "tr-20",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "A pause sign (fermata) tells the performer to:",
+    "choices": [
+      "hold the note longer than its written value",
+      "play it short",
+      "repeat it",
+      "play it quietly"
+    ],
+    "answer": 0,
+    "explanation": "A fermata (𝄐) means hold the note or rest longer than written."
+  },
+  {
+    "id": "tr-21",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "How many quavers make up one dotted-crotchet beat?",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "A dotted crotchet = a crotchet (2 quavers) plus a dot (1 quaver) = 3 quavers — the beat in compound time."
+  },
+  {
+    "id": "tr-22",
+    "topic": "time-and-rhythm",
+    "difficulty": 1,
+    "prompt": "2/4, 3/4 and 4/4 are all examples of:",
+    "choices": [
+      "simple time",
+      "compound time",
+      "irregular time",
+      "free time"
+    ],
+    "answer": 0,
+    "explanation": "Their beats each divide into two, so they are all simple time."
+  },
+  {
+    "id": "tr-23",
+    "topic": "time-and-rhythm",
+    "difficulty": 2,
+    "prompt": "A semiquaver is equal to how many demisemiquavers?",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "A semiquaver (16th) is twice the length of a demisemiquaver (32nd)."
+  }
+]

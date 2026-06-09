@@ -56,24 +56,35 @@ config needed.
 
 ## ➕ Adding or editing questions
 
-The whole app is data-driven. See [`docs/QUESTIONS.md`](docs/QUESTIONS.md) for the
-full authoring guide, the Grade 5 coverage checklist, the "举一反三" recipe, and an
-important **copyright note** (we reference ABRSM's public syllabus/format, never
-their actual questions). To add questions, append to
-[`src/data/questions.ts`](src/data/questions.ts):
+The question bank is a **JSON database**: one file per topic under
+[`src/data/questions/`](src/data/questions/). The app loads them at build time;
+validate any change with `npm run questions:validate`.
 
-```ts
-{
-  id: 'iv-13',                 // unique id
-  topic: 'intervals',          // must match a TopicId
-  difficulty: 2,               // 1–3
-  prompt: 'C up to D is a:',
-  abc: '[CD]',                 // optional — renders a stave (ABC notation)
-  choices: ['Major 2nd', 'Minor 2nd', 'Major 3rd', 'Perfect 4th'],
-  answer: 0,                   // index of the CORRECT choice
-  explanation: 'C–D is two semitones — a major 2nd.',
-}
-```
+Two ways to add questions:
+
+1. **By hand** — append an object to the relevant `src/data/questions/<topic>.json`:
+
+   ```json
+   {
+     "id": "iv-25",
+     "topic": "intervals",
+     "difficulty": 2,
+     "prompt": "C up to D is a:",
+     "abc": "[CD]",
+     "choices": ["Major 2nd", "Minor 2nd", "Major 3rd", "Perfect 4th"],
+     "answer": 0,
+     "explanation": "C–D is two semitones — a major 2nd."
+   }
+   ```
+
+2. **With the local AI generator** — `npm run questions:generate` drafts new
+   "举一反三" questions with Claude, you review them, then `questions:import`
+   merges them in. The API key stays on your machine and never reaches the
+   hosted site. Full flow + the safe-key architecture: [`docs/AI-PIPELINE.md`](docs/AI-PIPELINE.md).
+
+See [`docs/QUESTIONS.md`](docs/QUESTIONS.md) for the authoring guide, Grade 5
+coverage checklist, and the **copyright note** (we reference ABRSM's public
+syllabus/format, never their actual questions).
 
 Notes:
 

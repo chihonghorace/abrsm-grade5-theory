@@ -1,0 +1,226 @@
+[
+  {
+    "id": "in-1",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "To which family does the oboe belong?",
+    "choices": [
+      "Woodwind",
+      "Brass",
+      "Strings",
+      "Percussion"
+    ],
+    "answer": 0,
+    "explanation": "The oboe is a double-reed woodwind instrument."
+  },
+  {
+    "id": "in-2",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "\"pizzicato\" tells a string player to:",
+    "choices": [
+      "pluck the strings",
+      "use the bow",
+      "mute the strings",
+      "play loudly"
+    ],
+    "answer": 0,
+    "explanation": "Pizzicato (pizz.) = pluck the strings with the finger."
+  },
+  {
+    "id": "in-3",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "\"arco\" means:",
+    "choices": [
+      "with the bow",
+      "plucked",
+      "with mute",
+      "very fast"
+    ],
+    "answer": 0,
+    "explanation": "Arco = play with the bow (cancels a previous pizzicato)."
+  },
+  {
+    "id": "in-4",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "From highest to lowest, the four standard voices are:",
+    "choices": [
+      "soprano, alto, tenor, bass",
+      "bass, tenor, alto, soprano",
+      "soprano, tenor, alto, bass",
+      "alto, soprano, bass, tenor"
+    ],
+    "answer": 0,
+    "explanation": "SATB, highest to lowest: soprano, alto, tenor, bass."
+  },
+  {
+    "id": "in-5",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "The timpani belong to which family?",
+    "choices": [
+      "Percussion",
+      "Brass",
+      "Strings",
+      "Woodwind"
+    ],
+    "answer": 0,
+    "explanation": "Timpani (kettledrums) are tuned percussion instruments."
+  },
+  {
+    "id": "in-6",
+    "topic": "instruments-and-voices",
+    "difficulty": 2,
+    "prompt": "\"con sordino\" asks a player to use a:",
+    "choices": [
+      "mute",
+      "bow",
+      "plectrum",
+      "faster tempo"
+    ],
+    "answer": 0,
+    "explanation": "Con sordino = with the mute; senza sordino = without (remove the mute)."
+  },
+  {
+    "id": "in-7",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "Which of these is a brass instrument?",
+    "choices": [
+      "Trombone",
+      "Clarinet",
+      "Cello",
+      "Oboe"
+    ],
+    "answer": 0,
+    "explanation": "The trombone is brass; clarinet and oboe are woodwind; the cello is a string instrument."
+  },
+  {
+    "id": "in-8",
+    "topic": "instruments-and-voices",
+    "difficulty": 2,
+    "prompt": "The cor anglais belongs to which family?",
+    "choices": [
+      "Woodwind",
+      "Brass",
+      "Strings",
+      "Percussion"
+    ],
+    "answer": 0,
+    "explanation": "The cor anglais (English horn) is a larger, lower double-reed woodwind relative of the oboe."
+  },
+  {
+    "id": "in-9",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "Which of these is NOT a member of the string family?",
+    "choices": [
+      "Flute",
+      "Viola",
+      "Cello",
+      "Double bass"
+    ],
+    "answer": 0,
+    "explanation": "The flute is woodwind; viola, cello and double bass are strings."
+  },
+  {
+    "id": "in-10",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "The bassoon belongs to which family?",
+    "choices": [
+      "Woodwind",
+      "Brass",
+      "Strings",
+      "Percussion"
+    ],
+    "answer": 0,
+    "explanation": "The bassoon is the lowest standard double-reed woodwind instrument."
+  },
+  {
+    "id": "in-11",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "Which is the LOWEST of the four standard voices?",
+    "choices": [
+      "Bass",
+      "Tenor",
+      "Alto",
+      "Soprano"
+    ],
+    "answer": 0,
+    "explanation": "From low to high: bass, tenor, alto, soprano."
+  },
+  {
+    "id": "in-12",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "The harp belongs to which family?",
+    "choices": [
+      "Strings",
+      "Percussion",
+      "Woodwind",
+      "Brass"
+    ],
+    "answer": 0,
+    "explanation": "The harp is a (plucked) string instrument."
+  },
+  {
+    "id": "in-13",
+    "topic": "instruments-and-voices",
+    "difficulty": 2,
+    "prompt": "\"senza sordino\" tells a player to:",
+    "choices": [
+      "remove the mute",
+      "put on the mute",
+      "put down the bow",
+      "play silently"
+    ],
+    "answer": 0,
+    "explanation": "Senza sordino = without the mute (i.e. take it off); con sordino = with the mute."
+  },
+  {
+    "id": "in-14",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "Which of these is a brass instrument?",
+    "choices": [
+      "Tuba",
+      "Bassoon",
+      "Harp",
+      "Clarinet"
+    ],
+    "answer": 0,
+    "explanation": "The tuba is the lowest brass instrument; the others are woodwind or strings."
+  },
+  {
+    "id": "in-15",
+    "topic": "instruments-and-voices",
+    "difficulty": 3,
+    "prompt": "In a standard orchestral score, which family is written at the TOP of the page?",
+    "choices": [
+      "Woodwind",
+      "Strings",
+      "Brass",
+      "Percussion"
+    ],
+    "answer": 0,
+    "explanation": "Score order top-to-bottom is woodwind, brass, percussion, then strings."
+  },
+  {
+    "id": "in-16",
+    "topic": "instruments-and-voices",
+    "difficulty": 1,
+    "prompt": "The xylophone belongs to which family?",
+    "choices": [
+      "Percussion",
+      "Brass",
+      "Strings",
+      "Woodwind"
+    ],
+    "answer": 0,
+    "explanation": "The xylophone is a tuned percussion instrument."
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "cl-1",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the alto clef, middle C sits on the:",
+    "choices": [
+      "middle line",
+      "bottom line",
+      "top line",
+      "second space"
+    ],
+    "answer": 0,
+    "explanation": "The alto C-clef is centred on the middle line, so the middle line is middle C."
+  },
+  {
+    "id": "cl-2",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Which instrument normally reads the alto clef?",
+    "choices": [
+      "Viola",
+      "Cello",
+      "Flute",
+      "Trumpet"
+    ],
+    "answer": 0,
+    "explanation": "The viola is the standard alto-clef instrument."
+  },
+  {
+    "id": "cl-3",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "The tenor clef places middle C on the:",
+    "choices": [
+      "second line from the top",
+      "middle line",
+      "bottom line",
+      "top line"
+    ],
+    "answer": 0,
+    "explanation": "The tenor C-clef sits on the second line from the top, marking middle C."
+  },
+  {
+    "id": "cl-4",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Middle C in the treble clef is written:",
+    "choices": [
+      "one ledger line below the staff",
+      "one ledger line above the staff",
+      "on the bottom line",
+      "in the bottom space"
+    ],
+    "answer": 0,
+    "explanation": "Middle C sits on the first ledger line below the treble staff."
+  },
+  {
+    "id": "cl-5",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "The alto and tenor clefs are both types of:",
+    "choices": [
+      "C clef",
+      "G clef",
+      "F clef",
+      "percussion clef"
+    ],
+    "answer": 0,
+    "explanation": "Both are C-clefs; their centre marks the position of middle C."
+  },
+  {
+    "id": "cl-6",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "Middle C in the bass clef is:",
+    "choices": [
+      "one ledger line above the staff",
+      "one ledger line below the staff",
+      "on the top line",
+      "on the middle line"
+    ],
+    "answer": 0,
+    "explanation": "Middle C sits on the first ledger line above the bass staff."
+  },
+  {
+    "id": "cl-7",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "On the alto clef, the note on the bottom line is:",
+    "choices": [
+      "F",
+      "E",
+      "G",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "Alto-clef lines from the bottom up are F A C E G."
+  },
+  {
+    "id": "cl-8",
+    "topic": "clefs",
+    "difficulty": 3,
+    "prompt": "On the tenor clef, the note on the top line is:",
+    "choices": [
+      "E",
+      "F",
+      "C",
+      "A"
+    ],
+    "answer": 0,
+    "explanation": "Tenor-clef lines from the bottom up are D F A C E, so the top line is E."
+  },
+  {
+    "id": "cl-9",
+    "topic": "clefs",
+    "difficulty": 2,
+    "prompt": "Which clef is used for the higher notes of the cello and bassoon?",
+    "choices": [
+      "Tenor clef",
+      "Alto clef",
+      "Treble clef",
+      "Bass clef"
+    ],
+    "answer": 0,
+    "explanation": "The tenor clef keeps high cello/bassoon/trombone passages near the staff, avoiding ledger lines."
+  },
+  {
+    "id": "cl-10",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the treble clef, the note on the bottom line is:",
+    "choices": [
+      "E",
+      "G",
+      "F",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "Treble-clef lines spell E G B D F (from the bottom): \"Every Good Boy Deserves Favour\"."
+  },
+  {
+    "id": "cl-11",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the bass clef, the note on the top line is:",
+    "choices": [
+      "A",
+      "G",
+      "F",
+      "C"
+    ],
+    "answer": 0,
+    "explanation": "Bass-clef lines spell G B D F A (from the bottom), so the top line is A."
+  },
+  {
+    "id": "cl-12",
+    "topic": "clefs",
+    "difficulty": 1,
+    "prompt": "On the alto clef shown, which note is this?",
+    "abc": "X:1\nL:1/1\nM:none\nK:C clef=alto\nC",
+    "choices": [
+      "Middle C",
+      "The C an octave below middle C",
+      "G",
+      "E"
+    ],
+    "answer": 0,
+    "explanation": "The alto C-clef centres on the middle line, which is middle C."
+  }
+]

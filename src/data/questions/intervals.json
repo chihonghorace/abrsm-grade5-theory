@@ -1,0 +1,342 @@
+[
+  {
+    "id": "iv-1",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "Name this harmonic interval (lower note C).",
+    "abc": "[CE]",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Perfect 4th",
+      "Major 2nd"
+    ],
+    "answer": 0,
+    "explanation": "C–E spans three letter names (a 3rd) and four semitones, making it a major 3rd."
+  },
+  {
+    "id": "iv-2",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to G is a:",
+    "choices": [
+      "Perfect 5th",
+      "Perfect 4th",
+      "Major 6th",
+      "Augmented 5th"
+    ],
+    "answer": 0,
+    "explanation": "C–G is five letter names and seven semitones — a perfect 5th."
+  },
+  {
+    "id": "iv-3",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C up to A is a:",
+    "choices": [
+      "Major 6th",
+      "Minor 6th",
+      "Major 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0,
+    "explanation": "A is the 6th note of the C major scale, so C–A is a major 6th."
+  },
+  {
+    "id": "iv-4",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "C up to B♭ is a:",
+    "choices": [
+      "Minor 7th",
+      "Major 7th",
+      "Major 6th",
+      "Diminished 7th"
+    ],
+    "answer": 0,
+    "explanation": "C–B would be a major 7th; lowering the top note a semitone to B♭ makes it a minor 7th."
+  },
+  {
+    "id": "iv-5",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "Name this interval (F up to B).",
+    "abc": "[FB]",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Diminished 5th",
+      "Perfect 5th"
+    ],
+    "answer": 0,
+    "explanation": "F–B is four letter names (a 4th) but six semitones — one more than a perfect 4th — so it is an augmented 4th (the tritone)."
+  },
+  {
+    "id": "iv-6",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A major 3rd, when inverted, becomes a:",
+    "choices": [
+      "Minor 6th",
+      "Major 6th",
+      "Minor 3rd",
+      "Perfect 5th"
+    ],
+    "answer": 0,
+    "explanation": "On inversion the numbers add to 9 (3 → 6) and the quality flips (major → minor): a minor 6th."
+  },
+  {
+    "id": "iv-7",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A perfect 5th, when inverted, becomes a:",
+    "choices": [
+      "Perfect 4th",
+      "Perfect 5th",
+      "Major 4th",
+      "Augmented 4th"
+    ],
+    "answer": 0,
+    "explanation": "5 + 4 = 9, and perfect stays perfect, so a perfect 5th inverts to a perfect 4th."
+  },
+  {
+    "id": "iv-8",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "An octave plus a third is correctly named a:",
+    "choices": [
+      "10th",
+      "11th",
+      "9th",
+      "compound 5th"
+    ],
+    "answer": 0,
+    "explanation": "Compound intervals keep counting past the octave: octave (8) + a 3rd = a 10th."
+  },
+  {
+    "id": "iv-9",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "C up to E♭ is a:",
+    "choices": [
+      "Minor 3rd",
+      "Major 3rd",
+      "Augmented 2nd",
+      "Diminished 3rd"
+    ],
+    "answer": 0,
+    "explanation": "C–E is a major 3rd; lowering the top note to E♭ makes it a minor 3rd (three semitones)."
+  },
+  {
+    "id": "iv-10",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "Another name for the augmented 4th / diminished 5th is the:",
+    "choices": [
+      "tritone",
+      "semitone",
+      "whole tone",
+      "comma"
+    ],
+    "answer": 0,
+    "explanation": "Both span three whole tones, hence the name tritone."
+  },
+  {
+    "id": "iv-11",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C up to F♯ is a:",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Diminished 5th",
+      "Major 3rd"
+    ],
+    "answer": 0,
+    "explanation": "C–F is a perfect 4th; raising the top note to F♯ adds a semitone, giving an augmented 4th."
+  },
+  {
+    "id": "iv-12",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "D up to the D an octave higher is a:",
+    "choices": [
+      "Perfect octave",
+      "Perfect unison",
+      "Major 7th",
+      "Compound 2nd"
+    ],
+    "answer": 0,
+    "explanation": "The same letter name eight notes apart is a perfect octave."
+  },
+  {
+    "id": "iv-13",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "E up to G is a:",
+    "choices": [
+      "Minor 3rd",
+      "Major 3rd",
+      "Perfect 4th",
+      "Major 2nd"
+    ],
+    "answer": 0,
+    "explanation": "E–G is three letter names and three semitones — a minor 3rd."
+  },
+  {
+    "id": "iv-14",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "F up to A is a:",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Perfect 4th",
+      "Augmented 3rd"
+    ],
+    "answer": 0,
+    "explanation": "F–A is three letter names and four semitones — a major 3rd."
+  },
+  {
+    "id": "iv-15",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "G up to F is a:",
+    "choices": [
+      "Minor 7th",
+      "Major 7th",
+      "Major 6th",
+      "Perfect 5th"
+    ],
+    "answer": 0,
+    "explanation": "G–F spans seven letter names and ten semitones — a minor 7th."
+  },
+  {
+    "id": "iv-16",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "D up to B is a:",
+    "choices": [
+      "Major 6th",
+      "Minor 6th",
+      "Major 7th",
+      "Perfect 5th"
+    ],
+    "answer": 0,
+    "explanation": "B is the 6th note of the D major scale, so D–B is a major 6th."
+  },
+  {
+    "id": "iv-17",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "B up to F is a:",
+    "choices": [
+      "Diminished 5th",
+      "Perfect 5th",
+      "Augmented 4th",
+      "Minor 6th"
+    ],
+    "answer": 0,
+    "explanation": "B–F is five letter names but only six semitones (a perfect 5th is seven), so it is a diminished 5th."
+  },
+  {
+    "id": "iv-18",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "An octave plus a 2nd is correctly called a:",
+    "choices": [
+      "9th",
+      "10th",
+      "7th",
+      "compound 3rd"
+    ],
+    "answer": 0,
+    "explanation": "Counting past the octave: 8 + a 2nd = a 9th."
+  },
+  {
+    "id": "iv-19",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "An octave plus a 5th is correctly called a:",
+    "choices": [
+      "12th",
+      "13th",
+      "11th",
+      "10th"
+    ],
+    "answer": 0,
+    "explanation": "An octave (8) plus a 5th = a 12th."
+  },
+  {
+    "id": "iv-20",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "A minor 6th, when inverted, becomes a:",
+    "choices": [
+      "Major 3rd",
+      "Minor 3rd",
+      "Major 6th",
+      "Perfect 4th"
+    ],
+    "answer": 0,
+    "explanation": "6 + 3 = 9 and minor flips to major, so a minor 6th inverts to a major 3rd."
+  },
+  {
+    "id": "iv-21",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "A diminished 5th, when inverted, becomes a(n):",
+    "choices": [
+      "Augmented 4th",
+      "Perfect 4th",
+      "Diminished 4th",
+      "Major 5th"
+    ],
+    "answer": 0,
+    "explanation": "5 + 4 = 9 and diminished flips to augmented, so a diminished 5th inverts to an augmented 4th."
+  },
+  {
+    "id": "iv-22",
+    "topic": "intervals",
+    "difficulty": 1,
+    "prompt": "Name this interval (G up to D).",
+    "abc": "[Gd]",
+    "choices": [
+      "Perfect 5th",
+      "Perfect 4th",
+      "Major 6th",
+      "Diminished 5th"
+    ],
+    "answer": 0,
+    "explanation": "G–D is five letter names and seven semitones — a perfect 5th."
+  },
+  {
+    "id": "iv-23",
+    "topic": "intervals",
+    "difficulty": 2,
+    "prompt": "Name this interval (D up to F).",
+    "abc": "[DF]",
+    "choices": [
+      "Minor 3rd",
+      "Major 3rd",
+      "Perfect 4th",
+      "Diminished 3rd"
+    ],
+    "answer": 0,
+    "explanation": "D–F is three letter names and three semitones — a minor 3rd."
+  },
+  {
+    "id": "iv-24",
+    "topic": "intervals",
+    "difficulty": 3,
+    "prompt": "C up to D♯ is a(n):",
+    "choices": [
+      "Augmented 2nd",
+      "Minor 3rd",
+      "Major 2nd",
+      "Diminished 3rd"
+    ],
+    "answer": 0,
+    "explanation": "C–D is a 2nd; raising D to D♯ stretches it to three semitones, giving an augmented 2nd (it sounds like a minor 3rd but is spelled as a 2nd)."
+  }
+]

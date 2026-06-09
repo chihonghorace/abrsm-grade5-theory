@@ -17,3 +17,10 @@ vite.config.d.ts
 # Local design-reference copy (use the ui-ux-pro-max skill instead)
 UIUX/
 .DS_Store
+
+# Local AI pipeline
+.env
+data/proposed/
+
+# Local ABRSM reference material (copyright — never publish)
+ABRSM 官网材料/

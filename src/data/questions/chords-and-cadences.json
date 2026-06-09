@@ -1,0 +1,341 @@
+[
+  {
+    "id": "cc-1",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "Chord V in C major is built from which notes?",
+    "choices": [
+      "G B D",
+      "C E G",
+      "F A C",
+      "G B♭ D"
+    ],
+    "answer": 0,
+    "explanation": "Chord V is the triad on the dominant (G): G–B–D."
+  },
+  {
+    "id": "cc-2",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "A perfect cadence is formed by the chords:",
+    "choices": [
+      "V – I",
+      "IV – I",
+      "I – V",
+      "V – vi"
+    ],
+    "answer": 0,
+    "explanation": "A perfect (authentic) cadence moves from the dominant to the tonic, V → I, and sounds finished."
+  },
+  {
+    "id": "cc-3",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "A plagal cadence is:",
+    "choices": [
+      "IV – I",
+      "V – I",
+      "ii – V",
+      "V – vi"
+    ],
+    "answer": 0,
+    "explanation": "The plagal (\"Amen\") cadence is subdominant to tonic, IV → I."
+  },
+  {
+    "id": "cc-4",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "A cadence that ends on chord V is called:",
+    "choices": [
+      "imperfect",
+      "perfect",
+      "plagal",
+      "interrupted"
+    ],
+    "answer": 0,
+    "explanation": "An imperfect cadence finishes on chord V (often I–V or IV–V) and sounds unfinished."
+  },
+  {
+    "id": "cc-5",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "An interrupted cadence usually moves:",
+    "choices": [
+      "V – vi",
+      "V – I",
+      "IV – I",
+      "I – IV"
+    ],
+    "answer": 0,
+    "explanation": "The interrupted cadence sets up V → I but surprises us by going to vi instead."
+  },
+  {
+    "id": "cc-6",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The dominant 7th in C major contains the notes:",
+    "choices": [
+      "G B D F",
+      "G B D",
+      "C E G B♭",
+      "G B♭ D F"
+    ],
+    "answer": 0,
+    "explanation": "Take chord V (G B D) and add a minor 7th above the root (F): G–B–D–F."
+  },
+  {
+    "id": "cc-7",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "Which position of the C major triad is shown (C in the bass)?",
+    "abc": "[CEG]",
+    "choices": [
+      "Root position",
+      "First inversion",
+      "Second inversion",
+      "Dominant 7th"
+    ],
+    "answer": 0,
+    "explanation": "The root (C) is the lowest note, so the triad is in root position."
+  },
+  {
+    "id": "cc-8",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The C major triad with E in the bass is in:",
+    "abc": "[EGc]",
+    "choices": [
+      "First inversion",
+      "Root position",
+      "Second inversion",
+      "An incomplete chord"
+    ],
+    "answer": 0,
+    "explanation": "When the 3rd (E) is in the bass, the triad is in first inversion (labelled \"b\")."
+  },
+  {
+    "id": "cc-9",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The triad built on the subdominant of G major is:",
+    "choices": [
+      "C E G",
+      "G B D",
+      "D F♯ A",
+      "C E♭ G"
+    ],
+    "answer": 0,
+    "explanation": "The subdominant (4th degree) of G major is C, so the triad is C–E–G."
+  },
+  {
+    "id": "cc-10",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "Roman numeral IV represents the triad on which degree?",
+    "choices": [
+      "Subdominant",
+      "Dominant",
+      "Supertonic",
+      "Submediant"
+    ],
+    "answer": 0,
+    "explanation": "IV is built on the 4th degree, the subdominant."
+  },
+  {
+    "id": "cc-11",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In a first-inversion triad, which note is in the bass?",
+    "choices": [
+      "The 3rd",
+      "The root",
+      "The 5th",
+      "The 7th"
+    ],
+    "answer": 0,
+    "explanation": "First inversion puts the 3rd of the chord in the bass."
+  },
+  {
+    "id": "cc-12",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "The \"Amen\" cadence sung at the end of hymns is which cadence?",
+    "choices": [
+      "Plagal",
+      "Perfect",
+      "Imperfect",
+      "Interrupted"
+    ],
+    "answer": 0,
+    "explanation": "The plagal cadence (IV–I) is traditionally sung to \"A-men\"."
+  },
+  {
+    "id": "cc-13",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The supertonic triad (chord ii) in C major is:",
+    "choices": [
+      "D F A",
+      "C E G",
+      "G B D",
+      "D F♯ A"
+    ],
+    "answer": 0,
+    "explanation": "Chord ii is built on the 2nd degree (D): D–F–A, a minor triad. Chord ii is new at Grade 5."
+  },
+  {
+    "id": "cc-14",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "Chord ii is built on which degree of the scale?",
+    "choices": [
+      "Supertonic",
+      "Subdominant",
+      "Submediant",
+      "Mediant"
+    ],
+    "answer": 0,
+    "explanation": "ii is the triad on the 2nd degree, the supertonic."
+  },
+  {
+    "id": "cc-15",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In C major, chord IV is built from:",
+    "choices": [
+      "F A C",
+      "G B D",
+      "C E G",
+      "D F A"
+    ],
+    "answer": 0,
+    "explanation": "Chord IV is the triad on the subdominant (F): F–A–C."
+  },
+  {
+    "id": "cc-16",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "The tonic triad of G minor is:",
+    "choices": [
+      "G B♭ D",
+      "G B D",
+      "G B♭ D♯",
+      "D F♯ A"
+    ],
+    "answer": 0,
+    "explanation": "A minor tonic triad has a minor 3rd: G–B♭–D."
+  },
+  {
+    "id": "cc-17",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "In D major, chord V is:",
+    "choices": [
+      "A C♯ E",
+      "D F♯ A",
+      "G B D",
+      "A C E"
+    ],
+    "answer": 0,
+    "explanation": "The dominant of D is A; its triad is A–C♯–E."
+  },
+  {
+    "id": "cc-18",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "A second-inversion triad has which note in the bass?",
+    "choices": [
+      "The 5th",
+      "The 3rd",
+      "The root",
+      "The 7th"
+    ],
+    "answer": 0,
+    "explanation": "Second inversion (labelled \"c\") puts the 5th of the chord in the bass."
+  },
+  {
+    "id": "cc-19",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "In ABRSM labelling, a root-position chord is marked:",
+    "choices": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": 0,
+    "explanation": "Root position = a, first inversion = b, second inversion = c."
+  },
+  {
+    "id": "cc-20",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "A first-inversion chord is labelled:",
+    "choices": [
+      "b",
+      "a",
+      "c",
+      "i"
+    ],
+    "answer": 0,
+    "explanation": "First inversion (3rd in the bass) is labelled \"b\" — e.g. Vb."
+  },
+  {
+    "id": "cc-21",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "A phrase ending I–V makes which cadence?",
+    "choices": [
+      "Imperfect",
+      "Perfect",
+      "Plagal",
+      "Interrupted"
+    ],
+    "answer": 0,
+    "explanation": "Any progression finishing on chord V is an imperfect cadence — it sounds unfinished."
+  },
+  {
+    "id": "cc-22",
+    "topic": "chords-and-cadences",
+    "difficulty": 2,
+    "prompt": "Which position is this C major triad in (G in the bass)?",
+    "abc": "[Gce]",
+    "choices": [
+      "Second inversion",
+      "First inversion",
+      "Root position",
+      "Dominant 7th"
+    ],
+    "answer": 0,
+    "explanation": "With the 5th (G) in the bass, the triad is in second inversion (\"c\")."
+  },
+  {
+    "id": "cc-23",
+    "topic": "chords-and-cadences",
+    "difficulty": 3,
+    "prompt": "The supertonic triad in G major is:",
+    "choices": [
+      "A C E",
+      "D F♯ A",
+      "G B D",
+      "A C♯ E"
+    ],
+    "answer": 0,
+    "explanation": "The supertonic of G is A; the triad A–C–E is a minor triad."
+  },
+  {
+    "id": "cc-24",
+    "topic": "chords-and-cadences",
+    "difficulty": 1,
+    "prompt": "A dominant 7th chord is built on the dominant with what added?",
+    "choices": [
+      "A minor 7th above the root",
+      "A major 7th above the root",
+      "A 6th",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "It is chord V plus a minor 7th above the root — a four-note chord that pulls to the tonic."
+  }
+]

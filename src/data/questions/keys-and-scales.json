@@ -1,0 +1,324 @@
+[
+  {
+    "id": "ks-1",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "A major key signature of four sharps belongs to which key?",
+    "choices": [
+      "E major",
+      "A major",
+      "D major",
+      "B major"
+    ],
+    "answer": 0,
+    "explanation": "Four sharps are F♯ C♯ G♯ D♯. The last sharp (D♯) is the leading note, so the key is a semitone above it: E major."
+  },
+  {
+    "id": "ks-2",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "What is the relative minor of A major?",
+    "choices": [
+      "F♯ minor",
+      "D minor",
+      "A minor",
+      "C♯ minor"
+    ],
+    "answer": 0,
+    "explanation": "The relative minor starts on the 6th degree of the major scale — a minor 3rd below the tonic. A minor 3rd below A is F♯, so F♯ minor."
+  },
+  {
+    "id": "ks-3",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "In a harmonic minor scale, which degree is raised compared with the key signature?",
+    "choices": [
+      "7th",
+      "6th",
+      "2nd",
+      "5th"
+    ],
+    "answer": 0,
+    "explanation": "The harmonic minor raises only the 7th degree (both ascending and descending)."
+  },
+  {
+    "id": "ks-4",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many flats are in the key signature of A♭ major?",
+    "choices": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "A♭ major has B♭ E♭ A♭ D♭ — four flats. (The second-to-last flat, A♭, names the key.)"
+  },
+  {
+    "id": "ks-5",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "A major key’s relative minor begins on which note, relative to the tonic?",
+    "choices": [
+      "A minor 3rd below",
+      "A major 2nd below",
+      "A perfect 4th below",
+      "A minor 3rd above"
+    ],
+    "answer": 0,
+    "explanation": "The relative minor is a minor 3rd below the major tonic (the 6th degree of the major scale)."
+  },
+  {
+    "id": "ks-6",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The note a chromatic semitone above C is:",
+    "choices": [
+      "C♯",
+      "D♭",
+      "B",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "A chromatic semitone keeps the same letter name, so C → C♯ (C → D♭ would be a diatonic semitone)."
+  },
+  {
+    "id": "ks-7",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "C up to D♭ is an example of a:",
+    "choices": [
+      "diatonic semitone",
+      "chromatic semitone",
+      "whole tone",
+      "unison"
+    ],
+    "answer": 0,
+    "explanation": "Two different letter names a semitone apart (C and D♭) form a diatonic semitone."
+  },
+  {
+    "id": "ks-8",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The 6th degree of a major or minor scale is called the:",
+    "choices": [
+      "submediant",
+      "mediant",
+      "subdominant",
+      "supertonic"
+    ],
+    "answer": 0,
+    "explanation": "Degrees: 1 tonic, 2 supertonic, 3 mediant, 4 subdominant, 5 dominant, 6 submediant, 7 leading note."
+  },
+  {
+    "id": "ks-9",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "Which major key has six sharps?",
+    "choices": [
+      "F♯ major",
+      "B major",
+      "D♭ major",
+      "C♯ major"
+    ],
+    "answer": 0,
+    "explanation": "F♯ major has F♯ C♯ G♯ D♯ A♯ E♯ — six sharps. (C♯ major has all seven.)"
+  },
+  {
+    "id": "ks-10",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "Ascending, the melodic minor scale raises which degrees?",
+    "choices": [
+      "6th and 7th",
+      "7th only",
+      "6th only",
+      "2nd and 7th"
+    ],
+    "answer": 0,
+    "explanation": "Melodic minor raises the 6th and 7th going up, then cancels both (back to the key signature) coming down."
+  },
+  {
+    "id": "ks-11",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "Which major key has just one flat?",
+    "choices": [
+      "F major",
+      "B♭ major",
+      "D major",
+      "G major"
+    ],
+    "answer": 0,
+    "explanation": "F major has one flat (B♭). B♭ major has two flats; G major has one sharp."
+  },
+  {
+    "id": "ks-12",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The 5th degree of the scale is called the:",
+    "choices": [
+      "dominant",
+      "mediant",
+      "leading note",
+      "subdominant"
+    ],
+    "answer": 0,
+    "explanation": "The 5th degree is the dominant — the second most important note after the tonic."
+  },
+  {
+    "id": "ks-13",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "The enharmonic equivalent of G♭ major is:",
+    "choices": [
+      "F♯ major",
+      "E♯ major",
+      "A♭ major",
+      "F major"
+    ],
+    "answer": 0,
+    "explanation": "G♭ and F♯ are the same pitch, so G♭ major (6 flats) sounds identical to F♯ major (6 sharps)."
+  },
+  {
+    "id": "ks-14",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The technical name for the 7th degree of a major scale is the:",
+    "choices": [
+      "leading note",
+      "subdominant",
+      "submediant",
+      "mediant"
+    ],
+    "answer": 0,
+    "explanation": "The 7th degree is the leading note — it \"leads\" up to the tonic."
+  },
+  {
+    "id": "ks-15",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "How many sharps does B major have?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "B major: F♯ C♯ G♯ D♯ A♯ — five sharps."
+  },
+  {
+    "id": "ks-16",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The relative minor of E♭ major is:",
+    "choices": [
+      "C minor",
+      "G minor",
+      "E♭ minor",
+      "A minor"
+    ],
+    "answer": 0,
+    "explanation": "A minor 3rd below E♭ is C, so the relative minor is C minor (same three flats)."
+  },
+  {
+    "id": "ks-17",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "Which major key has three flats?",
+    "choices": [
+      "E♭ major",
+      "A♭ major",
+      "B♭ major",
+      "F major"
+    ],
+    "answer": 0,
+    "explanation": "E♭ major has B♭ E♭ A♭ — three flats. (C minor shares these but is a minor key.)"
+  },
+  {
+    "id": "ks-18",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "C♯ major is enharmonically equivalent to:",
+    "choices": [
+      "D♭ major",
+      "B major",
+      "C major",
+      "D major"
+    ],
+    "answer": 0,
+    "explanation": "C♯ (7 sharps) and D♭ (5 flats) are the same pitch, so the keys sound identical."
+  },
+  {
+    "id": "ks-19",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "In G♯ harmonic minor, the raised 7th degree is written as:",
+    "choices": [
+      "F double sharp",
+      "F♯",
+      "G natural",
+      "F natural"
+    ],
+    "answer": 0,
+    "explanation": "The 7th degree of G♯ minor is F♯; raising it a semitone for the harmonic minor gives F double sharp (F𝄪)."
+  },
+  {
+    "id": "ks-20",
+    "topic": "keys-and-scales",
+    "difficulty": 1,
+    "prompt": "The chromatic scale is made up entirely of:",
+    "choices": [
+      "semitones",
+      "tones",
+      "tones and semitones",
+      "major 2nds"
+    ],
+    "answer": 0,
+    "explanation": "A chromatic scale moves by semitone throughout, using every note."
+  },
+  {
+    "id": "ks-21",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "The submediant of A major is the note:",
+    "choices": [
+      "F♯",
+      "D",
+      "E",
+      "C♯"
+    ],
+    "answer": 0,
+    "explanation": "The submediant is the 6th degree; the 6th note of A major is F♯."
+  },
+  {
+    "id": "ks-22",
+    "topic": "keys-and-scales",
+    "difficulty": 2,
+    "prompt": "Which minor key has just one sharp in its key signature?",
+    "choices": [
+      "E minor",
+      "B minor",
+      "D minor",
+      "A minor"
+    ],
+    "answer": 0,
+    "explanation": "E minor is the relative minor of G major, which has one sharp (F♯)."
+  },
+  {
+    "id": "ks-23",
+    "topic": "keys-and-scales",
+    "difficulty": 3,
+    "prompt": "Which major key has six flats?",
+    "choices": [
+      "G♭ major",
+      "C♭ major",
+      "D♭ major",
+      "F major"
+    ],
+    "answer": 0,
+    "explanation": "G♭ major has B♭ E♭ A♭ D♭ G♭ C♭ — six flats. (It is the enharmonic of F♯ major.)"
+  }
+]

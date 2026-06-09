@@ -1,0 +1,128 @@
+[
+  {
+    "id": "or-1",
+    "topic": "ornaments",
+    "difficulty": 2,
+    "prompt": "A grace note with a stroke through its tail, played as quickly as possible, is an:",
+    "choices": [
+      "acciaccatura",
+      "appoggiatura",
+      "trill",
+      "mordent"
+    ],
+    "answer": 0,
+    "explanation": "The acciaccatura (\"crushed\" note) has a stroke through it and is played as fast as possible before the main note."
+  },
+  {
+    "id": "or-2",
+    "topic": "ornaments",
+    "difficulty": 1,
+    "prompt": "The sign \"tr\" indicates a:",
+    "choices": [
+      "trill",
+      "turn",
+      "mordent",
+      "slur"
+    ],
+    "answer": 0,
+    "explanation": "\"tr\" marks a trill — a rapid alternation between the written note and the note above."
+  },
+  {
+    "id": "or-3",
+    "topic": "ornaments",
+    "difficulty": 2,
+    "prompt": "An upper mordent plays:",
+    "choices": [
+      "note, note above, note",
+      "note, note below, note",
+      "note above, note, note below",
+      "two notes above"
+    ],
+    "answer": 0,
+    "explanation": "An upper mordent is a quick flip up: the written note, the note above, then back to the written note."
+  },
+  {
+    "id": "or-4",
+    "topic": "ornaments",
+    "difficulty": 2,
+    "prompt": "An appoggiatura usually takes its time:",
+    "choices": [
+      "from the main note",
+      "from nowhere — it is instant",
+      "from the previous note",
+      "a whole bar"
+    ],
+    "answer": 0,
+    "explanation": "The appoggiatura \"leans\" on the beat and borrows time (often half the value) from the main note."
+  },
+  {
+    "id": "or-5",
+    "topic": "ornaments",
+    "difficulty": 3,
+    "prompt": "A turn (∿) plays the notes:",
+    "choices": [
+      "above, written, below, written",
+      "below, written, above",
+      "written, above, written",
+      "above, below, written"
+    ],
+    "answer": 0,
+    "explanation": "A standard turn goes: the note above, the written note, the note below, then back to the written note."
+  },
+  {
+    "id": "or-6",
+    "topic": "ornaments",
+    "difficulty": 2,
+    "prompt": "A lower mordent is shown by the mordent sign with:",
+    "choices": [
+      "a vertical line through it",
+      "no line",
+      "a dot above",
+      "a sharp"
+    ],
+    "answer": 0,
+    "explanation": "A short vertical line through the mordent sign turns the upper mordent into a lower mordent."
+  },
+  {
+    "id": "or-7",
+    "topic": "ornaments",
+    "difficulty": 2,
+    "prompt": "A lower mordent plays:",
+    "choices": [
+      "note, note below, note",
+      "note, note above, note",
+      "note below, note above, note",
+      "two notes below"
+    ],
+    "answer": 0,
+    "explanation": "A lower mordent is a quick flip down: the written note, the note below, then back."
+  },
+  {
+    "id": "or-8",
+    "topic": "ornaments",
+    "difficulty": 1,
+    "prompt": "Which ornament is a single, rapid flip up to the note above and straight back?",
+    "choices": [
+      "Upper mordent",
+      "Turn",
+      "Trill",
+      "Acciaccatura"
+    ],
+    "answer": 0,
+    "explanation": "An upper mordent flips once to the note above and returns; a trill alternates many times."
+  },
+  {
+    "id": "or-9",
+    "topic": "ornaments",
+    "difficulty": 2,
+    "prompt": "An appoggiatura is written as a grace note that has:",
+    "choices": [
+      "no stroke through its tail",
+      "a stroke through its tail",
+      "a wavy line above",
+      "a dot beside it"
+    ],
+    "answer": 0,
+    "explanation": "The appoggiatura is a normal-looking grace note with NO stroke; the acciaccatura has the stroke."
+  }
+]

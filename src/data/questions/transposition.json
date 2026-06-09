@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tp-1",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "A clarinet in B♭ sounds how far from the written note?",
+    "choices": [
+      "a major 2nd lower",
+      "a major 2nd higher",
+      "a perfect 5th lower",
+      "the same"
+    ],
+    "answer": 0,
+    "explanation": "A B♭ clarinet sounds a major 2nd lower than written, so its written part is a major 2nd higher than concert pitch."
+  },
+  {
+    "id": "tp-2",
+    "topic": "transposition",
+    "difficulty": 1,
+    "prompt": "To transpose music up an octave you usually:",
+    "choices": [
+      "change clef or add 8va",
+      "change the key signature",
+      "add accidentals",
+      "do nothing"
+    ],
+    "answer": 0,
+    "explanation": "Octave transposition keeps every letter name and the key signature; you change clef or add 8va to avoid ledger lines."
+  },
+  {
+    "id": "tp-3",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "When transposing a melody by interval, the key signature:",
+    "choices": [
+      "usually changes to the new key",
+      "always stays the same",
+      "is removed",
+      "doubles"
+    ],
+    "answer": 0,
+    "explanation": "Transposing by an interval moves into a new key, so you write the new key’s signature."
+  },
+  {
+    "id": "tp-4",
+    "topic": "transposition",
+    "difficulty": 3,
+    "prompt": "A horn in F sounds:",
+    "choices": [
+      "a perfect 5th lower than written",
+      "a perfect 5th higher",
+      "a major 2nd lower",
+      "an octave lower"
+    ],
+    "answer": 0,
+    "explanation": "A horn in F sounds a perfect 5th below the written pitch."
+  },
+  {
+    "id": "tp-5",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transposing a C major melody up a major 2nd puts it in:",
+    "choices": [
+      "D major",
+      "B♭ major",
+      "E major",
+      "C major"
+    ],
+    "answer": 0,
+    "explanation": "A major 2nd above C is D, so the new key is D major."
+  },
+  {
+    "id": "tp-6",
+    "topic": "transposition",
+    "difficulty": 1,
+    "prompt": "The double bass sounds:",
+    "choices": [
+      "an octave lower than written",
+      "an octave higher",
+      "a 5th lower",
+      "as written"
+    ],
+    "answer": 0,
+    "explanation": "Double bass parts sound an octave lower than written to avoid excessive ledger lines."
+  },
+  {
+    "id": "tp-7",
+    "topic": "transposition",
+    "difficulty": 3,
+    "prompt": "A clarinet in A sounds how far from the written note?",
+    "choices": [
+      "a minor 3rd lower",
+      "a major 2nd lower",
+      "a minor 3rd higher",
+      "a perfect 4th lower"
+    ],
+    "answer": 0,
+    "explanation": "An A clarinet sounds a minor 3rd below the written pitch."
+  },
+  {
+    "id": "tp-8",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "A trumpet in B♭ sounds:",
+    "choices": [
+      "a major 2nd lower than written",
+      "a major 2nd higher",
+      "a perfect 5th lower",
+      "the same as written"
+    ],
+    "answer": 0,
+    "explanation": "Like the B♭ clarinet, the B♭ trumpet sounds a major 2nd lower than written."
+  },
+  {
+    "id": "tp-9",
+    "topic": "transposition",
+    "difficulty": 3,
+    "prompt": "To make a B♭ clarinet sound music in C major, the written part must be in:",
+    "choices": [
+      "D major",
+      "B♭ major",
+      "C major",
+      "A major"
+    ],
+    "answer": 0,
+    "explanation": "Because it sounds a major 2nd lower, you write a major 2nd higher than concert pitch: C → D major."
+  },
+  {
+    "id": "tp-10",
+    "topic": "transposition",
+    "difficulty": 2,
+    "prompt": "Transposing a melody DOWN a major 2nd from C major puts it in:",
+    "choices": [
+      "B♭ major",
+      "D major",
+      "A major",
+      "C major"
+    ],
+    "answer": 0,
+    "explanation": "A major 2nd below C is B♭, so the new key is B♭ major."
+  },
+  {
+    "id": "tp-11",
+    "topic": "transposition",
+    "difficulty": 1,
+    "prompt": "The piccolo sounds:",
+    "choices": [
+      "an octave higher than written",
+      "an octave lower",
+      "a 5th higher",
+      "as written"
+    ],
+    "answer": 0,
+    "explanation": "Piccolo parts sound an octave higher than written."
+  },
+  {
+    "id": "tp-12",
+    "topic": "transposition",
+    "difficulty": 1,
+    "prompt": "When transposing by interval, every note must move by:",
+    "choices": [
+      "the same interval (number and quality)",
+      "a different interval each",
+      "the same number of letters only",
+      "a semitone"
+    ],
+    "answer": 0,
+    "explanation": "Keep the interval identical for every note — same number AND quality — then fit the new key signature."
+  }
+]

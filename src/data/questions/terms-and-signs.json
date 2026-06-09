@@ -1,0 +1,450 @@
+[
+  {
+    "id": "ts-1",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "What does \"allegro\" mean?",
+    "choices": [
+      "quick and lively",
+      "slow",
+      "very fast",
+      "moderate"
+    ],
+    "answer": 0,
+    "explanation": "Allegro = quick and lively (faster than moderato, slower than presto)."
+  },
+  {
+    "id": "ts-2",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"Ritardando\" (rit.) means:",
+    "choices": [
+      "gradually getting slower",
+      "gradually getting faster",
+      "getting louder",
+      "in strict time"
+    ],
+    "answer": 0,
+    "explanation": "Ritardando (like rallentando) means gradually slowing down."
+  },
+  {
+    "id": "ts-3",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"Dolce\" means:",
+    "choices": [
+      "sweetly",
+      "loudly",
+      "detached",
+      "held"
+    ],
+    "answer": 0,
+    "explanation": "Dolce = sweetly."
+  },
+  {
+    "id": "ts-4",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "\"sf\" (sforzando) means:",
+    "choices": [
+      "a sudden strong accent",
+      "very soft",
+      "gradually louder",
+      "smoothly"
+    ],
+    "answer": 0,
+    "explanation": "Sforzando (sf, sfz) = a sudden, forced accent on a single note or chord."
+  },
+  {
+    "id": "ts-5",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"Cantabile\" means:",
+    "choices": [
+      "in a singing style",
+      "quickly",
+      "detached",
+      "very loud"
+    ],
+    "answer": 0,
+    "explanation": "Cantabile = in a singing style."
+  },
+  {
+    "id": "ts-6",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "The German word \"langsam\" means:",
+    "choices": [
+      "slow",
+      "fast",
+      "loud",
+      "lively"
+    ],
+    "answer": 0,
+    "explanation": "Langsam (German) = slow."
+  },
+  {
+    "id": "ts-7",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"poco\" means:",
+    "choices": [
+      "a little",
+      "very",
+      "less",
+      "always"
+    ],
+    "answer": 0,
+    "explanation": "Poco = a little (e.g. poco rit. = slow down a little)."
+  },
+  {
+    "id": "ts-8",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "The French word \"doux\" means:",
+    "choices": [
+      "sweet / soft",
+      "slow",
+      "fast",
+      "loud"
+    ],
+    "answer": 0,
+    "explanation": "Doux (French) = sweet or soft."
+  },
+  {
+    "id": "ts-9",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"a tempo\" means:",
+    "choices": [
+      "return to the original speed",
+      "gradually slower",
+      "at a walking pace",
+      "very fast"
+    ],
+    "answer": 0,
+    "explanation": "A tempo = go back to the original speed (often after a rit. or rubato)."
+  },
+  {
+    "id": "ts-10",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "\"rubato\" indicates:",
+    "choices": [
+      "flexible, expressive timing",
+      "strict timing",
+      "very loud",
+      "staccato"
+    ],
+    "answer": 0,
+    "explanation": "Tempo rubato = a flexible, expressive give-and-take with the time."
+  },
+  {
+    "id": "ts-11",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "\"ma non troppo\" means:",
+    "choices": [
+      "but not too much",
+      "always",
+      "with feeling",
+      "very fast"
+    ],
+    "answer": 0,
+    "explanation": "Ma non troppo = but not too much (e.g. allegro ma non troppo)."
+  },
+  {
+    "id": "ts-12",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"diminuendo\" (dim.) means:",
+    "choices": [
+      "getting gradually softer",
+      "getting gradually louder",
+      "getting faster",
+      "detached"
+    ],
+    "answer": 0,
+    "explanation": "Diminuendo (decrescendo) = getting gradually softer."
+  },
+  {
+    "id": "ts-13",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"adagio\" means:",
+    "choices": [
+      "slow",
+      "quick",
+      "moderate",
+      "very fast"
+    ],
+    "answer": 0,
+    "explanation": "Adagio = slow (slower than andante)."
+  },
+  {
+    "id": "ts-14",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"andante\" means:",
+    "choices": [
+      "at a walking pace",
+      "very fast",
+      "very slow",
+      "getting slower"
+    ],
+    "answer": 0,
+    "explanation": "Andante = at a walking pace."
+  },
+  {
+    "id": "ts-15",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"presto\" means:",
+    "choices": [
+      "very fast",
+      "slow",
+      "moderate",
+      "at a walking pace"
+    ],
+    "answer": 0,
+    "explanation": "Presto = very fast (faster than allegro)."
+  },
+  {
+    "id": "ts-16",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"accelerando\" (accel.) means:",
+    "choices": [
+      "getting gradually faster",
+      "getting gradually slower",
+      "getting louder",
+      "in strict time"
+    ],
+    "answer": 0,
+    "explanation": "Accelerando = gradually speeding up."
+  },
+  {
+    "id": "ts-17",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"legato\" means:",
+    "choices": [
+      "smoothly",
+      "detached",
+      "loudly",
+      "quickly"
+    ],
+    "answer": 0,
+    "explanation": "Legato = smoothly, with notes connected."
+  },
+  {
+    "id": "ts-18",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"staccato\" means:",
+    "choices": [
+      "detached (short)",
+      "smooth",
+      "loud",
+      "slow"
+    ],
+    "answer": 0,
+    "explanation": "Staccato = detached, each note shortened."
+  },
+  {
+    "id": "ts-19",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"crescendo\" (cresc.) means:",
+    "choices": [
+      "getting gradually louder",
+      "getting softer",
+      "getting faster",
+      "smoothly"
+    ],
+    "answer": 0,
+    "explanation": "Crescendo = gradually getting louder."
+  },
+  {
+    "id": "ts-20",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"mezzo-forte\" (mf) means:",
+    "choices": [
+      "moderately loud",
+      "very loud",
+      "moderately soft",
+      "very soft"
+    ],
+    "answer": 0,
+    "explanation": "Mezzo = half/moderately; mf = moderately loud."
+  },
+  {
+    "id": "ts-21",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "\"da capo\" (D.C.) means:",
+    "choices": [
+      "from the beginning",
+      "from the sign",
+      "the end",
+      "a little"
+    ],
+    "answer": 0,
+    "explanation": "Da capo = (go back to and repeat) from the beginning."
+  },
+  {
+    "id": "ts-22",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "\"dal segno\" (D.S.) means:",
+    "choices": [
+      "from the sign",
+      "from the beginning",
+      "to the end",
+      "gradually"
+    ],
+    "answer": 0,
+    "explanation": "Dal segno = repeat from the sign (𝄋)."
+  },
+  {
+    "id": "ts-23",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"fine\" means:",
+    "choices": [
+      "the end",
+      "the beginning",
+      "a little",
+      "always"
+    ],
+    "answer": 0,
+    "explanation": "Fine = the end (where the piece finishes, often after a D.C.)."
+  },
+  {
+    "id": "ts-24",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"molto\" means:",
+    "choices": [
+      "very / much",
+      "a little",
+      "less",
+      "smoothly"
+    ],
+    "answer": 0,
+    "explanation": "Molto = very/much (e.g. molto allegro = very fast)."
+  },
+  {
+    "id": "ts-25",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "\"meno mosso\" means:",
+    "choices": [
+      "less movement (slower)",
+      "more movement (faster)",
+      "very fast",
+      "smoothly"
+    ],
+    "answer": 0,
+    "explanation": "Meno mosso = less motion, i.e. slower."
+  },
+  {
+    "id": "ts-26",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"più\" means:",
+    "choices": [
+      "more",
+      "less",
+      "a little",
+      "always"
+    ],
+    "answer": 0,
+    "explanation": "Più = more (e.g. più mosso = more movement, faster)."
+  },
+  {
+    "id": "ts-27",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"sempre\" means:",
+    "choices": [
+      "always",
+      "sometimes",
+      "never",
+      "a little"
+    ],
+    "answer": 0,
+    "explanation": "Sempre = always (e.g. sempre staccato)."
+  },
+  {
+    "id": "ts-28",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "The German word \"schnell\" means:",
+    "choices": [
+      "fast",
+      "slow",
+      "loud",
+      "soft"
+    ],
+    "answer": 0,
+    "explanation": "Schnell (German) = fast."
+  },
+  {
+    "id": "ts-29",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "The German word \"mässig\" means:",
+    "choices": [
+      "moderate(ly)",
+      "fast",
+      "slow",
+      "loud"
+    ],
+    "answer": 0,
+    "explanation": "Mässig (German) = moderate, at a moderate speed."
+  },
+  {
+    "id": "ts-30",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "The French word \"lent\" means:",
+    "choices": [
+      "slow",
+      "fast",
+      "sweet",
+      "lively"
+    ],
+    "answer": 0,
+    "explanation": "Lent (French) = slow."
+  },
+  {
+    "id": "ts-31",
+    "topic": "terms-and-signs",
+    "difficulty": 2,
+    "prompt": "The French word \"vif\" means:",
+    "choices": [
+      "lively",
+      "slow",
+      "soft",
+      "heavy"
+    ],
+    "answer": 0,
+    "explanation": "Vif (French) = lively, brisk."
+  },
+  {
+    "id": "ts-32",
+    "topic": "terms-and-signs",
+    "difficulty": 1,
+    "prompt": "\"con moto\" means:",
+    "choices": [
+      "with movement",
+      "without movement",
+      "with mute",
+      "very slow"
+    ],
+    "answer": 0,
+    "explanation": "Con moto = with movement (a flowing, moving feel)."
+  }
+]

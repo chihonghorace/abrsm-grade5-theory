@@ -1,0 +1,22 @@
+name: CI
+
+# Validates the question database and the build on pull requests.
+# No API key is used here — the AI generator runs only on the author's machine.
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validate question bank
+        run: npm run questions:validate
+      - name: Type-check & build
+        run: npm run build
